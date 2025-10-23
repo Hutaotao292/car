@@ -1,0 +1,664 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc18912a --dep-file=servo.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/servo.src ../code/servo.c"
+	.compiler_name		"ctc"
+	;source	'../code/servo.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.servo.servo_init',code,cluster('servo_init')
+	.sect	'.text.servo.servo_init'
+	.align	2
+	
+	.global	servo_init
+; Function servo_init
+.L6:
+servo_init:	.type	func
+	mov	d4,#63
+.L42:
+	mov	d5,#50
+.L43:
+	mov	d6,#0
+	call	pwm_init
+.L44:
+	ret
+.L29:
+	
+__servo_init_function_end:
+	.size	servo_init,__servo_init_function_end-servo_init
+.L17:
+	; End of function
+	
+	.sdecl	'.text.servo.servo_set_angle',code,cluster('servo_set_angle')
+	.sect	'.text.servo.servo_set_angle'
+	.align	2
+	
+	.global	servo_set_angle
+; Function servo_set_angle
+.L8:
+servo_set_angle:	.type	func
+	movh.a	a15,#@his(SERVO_MOTOR_R_MAX)
+	lea	a15,[a15]@los(SERVO_MOTOR_R_MAX)
+	ld.w	d15,[a15]
+.L49:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L50:
+	jeq	d15,#0,.L2
+.L51:
+	movh.a	a15,#@his(SERVO_MOTOR_R_MAX)
+	lea	a15,[a15]@los(SERVO_MOTOR_R_MAX)
+	ld.w	d4,[a15]
+.L52:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(SERVO_MOTOR_L_MAX)
+	lea	a15,[a15]@los(SERVO_MOTOR_L_MAX)
+	ld.w	d15,[a15]
+.L53:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L54:
+	jeq	d15,#0,.L4
+.L55:
+	movh.a	a15,#@his(SERVO_MOTOR_L_MAX)
+	lea	a15,[a15]@los(SERVO_MOTOR_L_MAX)
+	ld.w	d4,[a15]
+.L4:
+.L3:
+	mov	d15,#63
+.L56:
+	movh	d0,#17076
+	div.f	d0,d4,d0
+	movh	d1,#16128
+	add.f	d0,d0,d1
+	movh	d1,#17402
+	mul.f	d0,d0,d1
+.L57:
+	ftouz	d5,d0
+	mov	d4,d15
+.L33:
+	call	pwm_set_duty
+.L58:
+	ret
+.L30:
+	
+__servo_set_angle_function_end:
+	.size	servo_set_angle,__servo_set_angle_function_end-servo_set_angle
+.L22:
+	; End of function
+	
+	.sdecl	'.data.servo.SERVO_MOTOR_L_MAX',data,cluster('SERVO_MOTOR_L_MAX')
+	.sect	'.data.servo.SERVO_MOTOR_L_MAX'
+	.global	SERVO_MOTOR_L_MAX
+	.align	2
+SERVO_MOTOR_L_MAX:	.type	object
+	.size	SERVO_MOTOR_L_MAX,4
+	.word	1118437376
+	.sdecl	'.data.servo.SERVO_MOTOR_R_MAX',data,cluster('SERVO_MOTOR_R_MAX')
+	.sect	'.data.servo.SERVO_MOTOR_R_MAX'
+	.global	SERVO_MOTOR_R_MAX
+	.align	2
+SERVO_MOTOR_R_MAX:	.type	object
+	.size	SERVO_MOTOR_R_MAX,4
+	.word	1121714176
+	.sdecl	'.data.servo.SERVO_MOTOR_MID',data,cluster('SERVO_MOTOR_MID')
+	.sect	'.data.servo.SERVO_MOTOR_MID'
+	.global	SERVO_MOTOR_MID
+	.align	2
+SERVO_MOTOR_MID:	.type	object
+	.size	SERVO_MOTOR_MID,4
+	.word	1120010240
+	.calls	'servo_init','pwm_init'
+	.calls	'servo_set_angle','pwm_set_duty'
+	.calls	'servo_init','',0
+	.extern	pwm_init
+	.extern	pwm_set_duty
+	.calls	'servo_set_angle','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L10:
+	.word	4168
+	.half	3
+	.word	.L11
+	.byte	4
+.L9:
+	.byte	1
+	.byte	'../code/servo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L12
+	.byte	2,1,44,9,1,3
+	.byte	'ATOM0_CH0_P00_0',0,0,3
+	.byte	'ATOM0_CH0_P02_0',0,1,3
+	.byte	'ATOM0_CH0_P02_8',0,2,3
+	.byte	'ATOM0_CH0_P14_5',0,3,3
+	.byte	'ATOM0_CH0_P21_2',0,4,3
+	.byte	'ATOM0_CH0_P22_1',0,5,3
+	.byte	'ATOM0_CH1_P00_1',0,6,3
+	.byte	'ATOM0_CH1_P00_2',0,7,3
+	.byte	'ATOM0_CH1_P02_1',0,8,3
+	.byte	'ATOM0_CH1_P10_1',0,9,3
+	.byte	'ATOM0_CH1_P14_4',0,10,3
+	.byte	'ATOM0_CH1_P21_3',0,11,3
+	.byte	'ATOM0_CH1_P22_0',0,12,3
+	.byte	'ATOM0_CH1_P33_9',0,13,3
+	.byte	'ATOM0_CH2_P00_3',0,14,3
+	.byte	'ATOM0_CH2_P02_2',0,15,3
+	.byte	'ATOM0_CH2_P10_2',0,16,3
+	.byte	'ATOM0_CH2_P10_5',0,17,3
+	.byte	'ATOM0_CH2_P14_3',0,18,3
+	.byte	'ATOM0_CH2_P21_4',0,19,3
+	.byte	'ATOM0_CH2_P33_11',0,20,3
+	.byte	'ATOM0_CH3_P00_4',0,21,3
+	.byte	'ATOM0_CH3_P02_3',0,22,3
+	.byte	'ATOM0_CH3_P10_3',0,23,3
+	.byte	'ATOM0_CH3_P10_6',0,24,3
+	.byte	'ATOM0_CH3_P14_2',0,25,3
+	.byte	'ATOM0_CH3_P21_5',0,26,3
+	.byte	'ATOM0_CH3_P22_2',0,27,3
+	.byte	'ATOM0_CH4_P00_5',0,28,3
+	.byte	'ATOM0_CH4_P02_4',0,29,3
+	.byte	'ATOM0_CH4_P14_1',0,30,3
+	.byte	'ATOM0_CH4_P20_3',0,31,3
+	.byte	'ATOM0_CH4_P21_6',0,32,3
+	.byte	'ATOM0_CH4_P22_3',0,33,3
+	.byte	'ATOM0_CH5_P00_6',0,34,3
+	.byte	'ATOM0_CH5_P02_5',0,35,3
+	.byte	'ATOM0_CH5_P21_7',0,36,3
+	.byte	'ATOM0_CH5_P32_4',0,37,3
+	.byte	'ATOM0_CH6_P00_7',0,38,3
+	.byte	'ATOM0_CH6_P02_6',0,39,3
+	.byte	'ATOM0_CH6_P20_0',0,40,3
+	.byte	'ATOM0_CH6_P23_1',0,41,3
+	.byte	'ATOM0_CH7_P00_8',0,42,3
+	.byte	'ATOM0_CH7_P02_7',0,43,3
+	.byte	'ATOM0_CH7_P20_8',0,44,3
+	.byte	'ATOM1_CH0_P00_0',0,45,3
+	.byte	'ATOM1_CH0_P02_0',0,46,3
+	.byte	'ATOM1_CH0_P02_8',0,47,3
+	.byte	'ATOM1_CH0_P15_5',0,48,3
+	.byte	'ATOM1_CH0_P15_6',0,49,3
+	.byte	'ATOM1_CH0_P20_12',0,50,3
+	.byte	'ATOM1_CH0_P21_2',0,51,3
+	.byte	'ATOM1_CH0_P22_1',0,52,3
+	.byte	'ATOM1_CH1_P00_1',0,53,3
+	.byte	'ATOM1_CH1_P00_2',0,54,3
+	.byte	'ATOM1_CH1_P02_1',0,55,3
+	.byte	'ATOM1_CH1_P10_1',0,56,3
+	.byte	'ATOM1_CH1_P14_6',0,57,3
+	.byte	'ATOM1_CH1_P15_7',0,58,3
+	.byte	'ATOM1_CH1_P15_8',0,59,3
+	.byte	'ATOM1_CH1_P20_13',0,60,3
+	.byte	'ATOM1_CH1_P21_3',0,61,3
+	.byte	'ATOM1_CH1_P22_0',0,62,3
+	.byte	'ATOM1_CH1_P33_9',0,63,3
+	.byte	'ATOM1_CH2_P00_3',0,192,0,3
+	.byte	'ATOM1_CH2_P02_2',0,193,0,3
+	.byte	'ATOM1_CH2_P10_2',0,194,0,3
+	.byte	'ATOM1_CH2_P10_5',0,195,0,3
+	.byte	'ATOM1_CH2_P14_0',0,196,0,3
+	.byte	'ATOM1_CH2_P20_14',0,197,0,3
+	.byte	'ATOM1_CH2_P21_4',0,198,0,3
+	.byte	'ATOM1_CH2_P33_11',0,199,0,3
+	.byte	'ATOM1_CH3_P00_4',0,200,0,3
+	.byte	'ATOM1_CH3_P02_3',0,201,0,3
+	.byte	'ATOM1_CH3_P10_3',0,202,0,3
+	.byte	'ATOM1_CH3_P10_6',0,203,0,3
+	.byte	'ATOM1_CH3_P15_0',0,204,0,3
+	.byte	'ATOM1_CH3_P21_5',0,205,0,3
+	.byte	'ATOM1_CH3_P22_2',0,206,0,3
+	.byte	'ATOM1_CH4_P00_5',0,207,0,3
+	.byte	'ATOM1_CH4_P02_4',0,208,0,3
+	.byte	'ATOM1_CH4_P15_1',0,209,0,3
+	.byte	'ATOM1_CH4_P20_3',0,210,0,3
+	.byte	'ATOM1_CH4_P21_6',0,211,0,3
+	.byte	'ATOM1_CH4_P22_3',0,212,0,3
+	.byte	'ATOM1_CH5_P00_6',0,213,0,3
+	.byte	'ATOM1_CH5_P02_5',0,214,0,3
+	.byte	'ATOM1_CH5_P15_2',0,215,0,3
+	.byte	'ATOM1_CH5_P20_9',0,216,0,3
+	.byte	'ATOM1_CH5_P21_7',0,217,0,3
+	.byte	'ATOM1_CH5_P32_4',0,218,0,3
+	.byte	'ATOM1_CH6_P00_7',0,219,0,3
+	.byte	'ATOM1_CH6_P02_6',0,220,0,3
+	.byte	'ATOM1_CH6_P15_3',0,221,0,3
+	.byte	'ATOM1_CH6_P20_0',0,222,0,3
+	.byte	'ATOM1_CH6_P20_10',0,223,0,3
+	.byte	'ATOM1_CH6_P23_1',0,224,0,3
+	.byte	'ATOM1_CH7_P00_8',0,225,0,3
+	.byte	'ATOM1_CH7_P02_7',0,226,0,3
+	.byte	'ATOM1_CH7_P15_4',0,227,0,3
+	.byte	'ATOM1_CH7_P20_11',0,228,0,3
+	.byte	'ATOM2_CH0_P00_9',0,229,0,3
+	.byte	'ATOM2_CH0_P13_3',0,230,0,3
+	.byte	'ATOM2_CH0_P20_12',0,231,0,3
+	.byte	'ATOM2_CH0_P33_4',0,232,0,3
+	.byte	'ATOM2_CH0_P33_10',0,233,0,3
+	.byte	'ATOM2_CH1_P11_2',0,234,0,3
+	.byte	'ATOM2_CH1_P20_13',0,235,0,3
+	.byte	'ATOM2_CH1_P33_5',0,236,0,3
+	.byte	'ATOM2_CH2_P11_3',0,237,0,3
+	.byte	'ATOM2_CH2_P20_14',0,238,0,3
+	.byte	'ATOM2_CH2_P33_6',0,239,0,3
+	.byte	'ATOM2_CH3_P00_12',0,240,0,3
+	.byte	'ATOM2_CH3_P11_6',0,241,0,3
+	.byte	'ATOM2_CH3_P15_0',0,242,0,3
+	.byte	'ATOM2_CH3_P33_7',0,243,0,3
+	.byte	'ATOM2_CH4_P11_9',0,244,0,3
+	.byte	'ATOM2_CH4_P15_1',0,245,0,3
+	.byte	'ATOM2_CH4_P33_8',0,246,0,3
+	.byte	'ATOM2_CH4_P33_12',0,247,0,3
+	.byte	'ATOM2_CH5_P11_10',0,248,0,3
+	.byte	'ATOM2_CH5_P13_0',0,249,0,3
+	.byte	'ATOM2_CH5_P15_2',0,250,0,3
+	.byte	'ATOM2_CH5_P20_9',0,251,0,3
+	.byte	'ATOM2_CH5_P33_13',0,252,0,3
+	.byte	'ATOM2_CH6_P11_11',0,253,0,3
+	.byte	'ATOM2_CH6_P13_1',0,254,0,3
+	.byte	'ATOM2_CH6_P15_3',0,255,0,3
+	.byte	'ATOM2_CH6_P20_6',0,128,1,3
+	.byte	'ATOM2_CH6_P20_10',0,129,1,3
+	.byte	'ATOM2_CH6_P32_0',0,130,1,3
+	.byte	'ATOM2_CH7_P11_12',0,131,1,3
+	.byte	'ATOM2_CH7_P13_2',0,132,1,3
+	.byte	'ATOM2_CH7_P15_4',0,133,1,3
+	.byte	'ATOM2_CH7_P20_7',0,134,1,3
+	.byte	'ATOM2_CH7_P20_8',0,135,1,3
+	.byte	'ATOM2_CH7_P20_11',0,136,1,3
+	.byte	'ATOM3_CH0_P00_9',0,137,1,3
+	.byte	'ATOM3_CH0_P13_3',0,138,1,3
+	.byte	'ATOM3_CH0_P14_5',0,139,1,3
+	.byte	'ATOM3_CH0_P15_5',0,140,1,3
+	.byte	'ATOM3_CH0_P15_6',0,141,1,3
+	.byte	'ATOM3_CH0_P33_4',0,142,1,3
+	.byte	'ATOM3_CH0_P33_10',0,143,1,3
+	.byte	'ATOM3_CH1_P11_2',0,144,1,3
+	.byte	'ATOM3_CH1_P14_4',0,145,1,3
+	.byte	'ATOM3_CH1_P14_6',0,146,1,3
+	.byte	'ATOM3_CH1_P15_7',0,147,1,3
+	.byte	'ATOM3_CH1_P15_8',0,148,1,3
+	.byte	'ATOM3_CH1_P33_5',0,149,1,3
+	.byte	'ATOM3_CH2_P11_3',0,150,1,3
+	.byte	'ATOM3_CH2_P14_0',0,151,1,3
+	.byte	'ATOM3_CH2_P14_3',0,152,1,3
+	.byte	'ATOM3_CH2_P33_6',0,153,1,3
+	.byte	'ATOM3_CH3_P00_12',0,154,1,3
+	.byte	'ATOM3_CH3_P11_6',0,155,1,3
+	.byte	'ATOM3_CH3_P14_2',0,156,1,3
+	.byte	'ATOM3_CH3_P33_7',0,157,1,3
+	.byte	'ATOM3_CH4_P11_9',0,158,1,3
+	.byte	'ATOM3_CH4_P14_1',0,159,1,3
+	.byte	'ATOM3_CH4_P33_8',0,160,1,3
+	.byte	'ATOM3_CH4_P33_12',0,161,1,3
+	.byte	'ATOM3_CH5_P11_10',0,162,1,3
+	.byte	'ATOM3_CH5_P13_0',0,163,1,3
+	.byte	'ATOM3_CH5_P33_13',0,164,1,3
+	.byte	'ATOM3_CH6_P11_11',0,165,1,3
+	.byte	'ATOM3_CH6_P13_1',0,166,1,3
+	.byte	'ATOM3_CH6_P20_6',0,167,1,3
+	.byte	'ATOM3_CH6_P32_0',0,168,1,3
+	.byte	'ATOM3_CH7_P11_12',0,169,1,3
+	.byte	'ATOM3_CH7_P13_2',0,170,1,3
+	.byte	'ATOM3_CH7_P20_7',0,171,1,0,4
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'pwm_init',0,1,85,6,1,1,1,1,6
+	.byte	'pwmch',0,1,85,51
+	.word	272
+	.byte	6
+	.byte	'freq',0,1,85,65
+	.word	3508
+	.byte	6
+	.byte	'duty',0,1,85,78
+	.word	3508
+	.byte	0,5
+	.byte	'pwm_set_duty',0,1,86,6,1,1,1,1,6
+	.byte	'pwmch',0,1,86,51
+	.word	272
+	.byte	6
+	.byte	'duty',0,1,86,65
+	.word	3508
+	.byte	0
+.L31:
+	.byte	4
+	.byte	'float',0,4,4,4
+	.byte	'short int',0,2,5,7
+	.byte	'__wchar_t',0,2,1,1
+	.word	3645
+	.byte	4
+	.byte	'unsigned int',0,4,7,7
+	.byte	'__size_t',0,2,1,1
+	.word	3676
+	.byte	4
+	.byte	'int',0,4,5,7
+	.byte	'__ptrdiff_t',0,2,1,1
+	.word	3709
+	.byte	8,1,9
+	.word	3736
+	.byte	7
+	.byte	'__codeptr',0,2,1,1
+	.word	3738
+	.byte	7
+	.byte	'__intptr_t',0,2,1,1
+	.word	3709
+	.byte	7
+	.byte	'__uintptr_t',0,2,1,1
+	.word	3676
+	.byte	4
+	.byte	'unsigned short int',0,2,7,7
+	.byte	'_iob_flag_t',0,3,82,25
+	.word	3800
+	.byte	4
+	.byte	'unsigned char',0,1,8,7
+	.byte	'uint8',0,4,105,29
+	.word	3842
+	.byte	7
+	.byte	'uint16',0,4,109,29
+	.word	3800
+	.byte	7
+	.byte	'uint32',0,4,113,29
+	.word	3508
+	.byte	4
+	.byte	'unsigned long long int',0,8,7,7
+	.byte	'uint64',0,4,118,29
+	.word	3903
+	.byte	7
+	.byte	'sint16',0,4,126,29
+	.word	3645
+	.byte	4
+	.byte	'long int',0,4,5,7
+	.byte	'sint32',0,4,131,1,29
+	.word	3959
+	.byte	4
+	.byte	'long long int',0,8,5,7
+	.byte	'sint64',0,4,138,1,29
+	.word	3987
+	.byte	7
+	.byte	'float32',0,4,167,1,29
+	.word	3636
+	.byte	10
+	.byte	'void',0,9
+	.word	4037
+	.byte	7
+	.byte	'pvoid',0,5,57,28
+	.word	4043
+	.byte	7
+	.byte	'Ifx_TickTime',0,5,79,28
+	.word	3987
+	.byte	4
+	.byte	'char',0,1,6,7
+	.byte	'int8',0,6,54,29
+	.word	4083
+	.byte	7
+	.byte	'int16',0,6,55,29
+	.word	3645
+	.byte	7
+	.byte	'int32',0,6,56,29
+	.word	3709
+	.byte	7
+	.byte	'int64',0,6,57,29
+	.word	3987
+	.byte	7
+	.byte	'pwm_channel_enum',0,1,81,2
+	.word	272
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,4,1,58,15,59,15,57,15,11,15,0,0,3,40,0,3,8,28,13,0,0,4
+	.byte	36,0,3,8,11,15,62,15,0,0,5,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,7,22,0,3,8,58,15,59,15,57,15,73,19,0,0,8,21,0,54,15,0,0,9,15,0,73,19,0,0,10,59,0,3,8,0
+	.byte	0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L12:
+	.word	.L35-.L34
+.L34:
+	.half	3
+	.word	.L37-.L36
+.L36:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver',0
+	.byte	'D:\\carwork\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common',0
+	.byte	0
+	.byte	'zf_driver_pwm.h',0,1,0,0
+	.byte	'../code/servo.c',0,0,0,0
+	.byte	'stdio.h',0,2,0,0
+	.byte	'Platform_Types.h',0,3,0,0
+	.byte	'ifx_types.h',0,3,0,0
+	.byte	'zf_common_typedef.h',0,4,0,0,0
+.L37:
+.L35:
+	.sdecl	'.debug_info',debug,cluster('servo_init')
+	.sect	'.debug_info'
+.L13:
+	.word	317
+	.half	3
+	.word	.L14
+	.byte	4,1
+	.byte	'../code/servo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L16,.L15
+	.byte	2
+	.word	.L9
+	.byte	3
+	.byte	'servo_init',0,1,8,6,1,1
+	.word	.L6,.L29,.L5
+	.byte	4
+	.word	.L6,.L29
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('servo_init')
+	.sect	'.debug_abbrev'
+.L14:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('servo_init')
+	.sect	'.debug_line'
+.L15:
+	.word	.L39-.L38
+.L38:
+	.half	3
+	.word	.L41-.L40
+.L40:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/servo.c',0,0,0,0,0
+.L41:
+	.byte	5,14,7,0,5,2
+	.word	.L6
+	.byte	3,9,1,5,24,9
+	.half	.L42-.L6
+	.byte	1,5,39,9
+	.half	.L43-.L42
+	.byte	1,5,1,9
+	.half	.L44-.L43
+	.byte	3,1,1,7,9
+	.half	.L17-.L44
+	.byte	0,1,1
+.L39:
+	.sdecl	'.debug_ranges',debug,cluster('servo_init')
+	.sect	'.debug_ranges'
+.L16:
+	.word	-1,.L6,0,.L17-.L6,0,0
+	.sdecl	'.debug_info',debug,cluster('servo_set_angle')
+	.sect	'.debug_info'
+.L18:
+	.word	341
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'../code/servo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L21,.L20
+	.byte	2
+	.word	.L9
+	.byte	3
+	.byte	'servo_set_angle',0,1,13,6,1,1,1
+	.word	.L8,.L30,.L7
+	.byte	4
+	.byte	'angle',0,1,13,29
+	.word	.L31,.L32
+	.byte	5
+	.word	.L8,.L30
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('servo_set_angle')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('servo_set_angle')
+	.sect	'.debug_line'
+.L20:
+	.word	.L46-.L45
+.L45:
+	.half	3
+	.word	.L48-.L47
+.L47:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/servo.c',0,0,0,0,0
+.L48:
+	.byte	5,16,7,0,5,2
+	.word	.L8
+	.byte	3,13,1,5,14,9
+	.half	.L49-.L8
+	.byte	1,5,5,9
+	.half	.L50-.L49
+	.byte	1,5,17,7,9
+	.half	.L51-.L50
+	.byte	3,1,1,5,34,9
+	.half	.L52-.L51
+	.byte	1,5,23,9
+	.half	.L2-.L52
+	.byte	3,1,1,5,21,9
+	.half	.L53-.L2
+	.byte	1,5,12,9
+	.half	.L54-.L53
+	.byte	1,5,17,7,9
+	.half	.L55-.L54
+	.byte	3,1,1,5,18,9
+	.half	.L3-.L55
+	.byte	3,2,1,5,39,9
+	.half	.L56-.L3
+	.byte	1,5,29,9
+	.half	.L57-.L56
+	.byte	1,5,1,9
+	.half	.L58-.L57
+	.byte	3,1,1,7,9
+	.half	.L22-.L58
+	.byte	0,1,1
+.L46:
+	.sdecl	'.debug_ranges',debug,cluster('servo_set_angle')
+	.sect	'.debug_ranges'
+.L21:
+	.word	-1,.L8,0,.L22-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('SERVO_MOTOR_L_MAX')
+	.sect	'.debug_info'
+.L23:
+	.word	303
+	.half	3
+	.word	.L24
+	.byte	4,1
+	.byte	'../code/servo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L9
+	.byte	3
+	.byte	'SERVO_MOTOR_L_MAX',0,2,3,7
+	.word	.L31
+	.byte	1,5,3
+	.word	SERVO_MOTOR_L_MAX
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SERVO_MOTOR_L_MAX')
+	.sect	'.debug_abbrev'
+.L24:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('SERVO_MOTOR_R_MAX')
+	.sect	'.debug_info'
+.L25:
+	.word	303
+	.half	3
+	.word	.L26
+	.byte	4,1
+	.byte	'../code/servo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L9
+	.byte	3
+	.byte	'SERVO_MOTOR_R_MAX',0,2,4,7
+	.word	.L31
+	.byte	1,5,3
+	.word	SERVO_MOTOR_R_MAX
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SERVO_MOTOR_R_MAX')
+	.sect	'.debug_abbrev'
+.L26:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('SERVO_MOTOR_MID')
+	.sect	'.debug_info'
+.L27:
+	.word	301
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'../code/servo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L9
+	.byte	3
+	.byte	'SERVO_MOTOR_MID',0,2,5,7
+	.word	.L31
+	.byte	1,5,3
+	.word	SERVO_MOTOR_MID
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SERVO_MOTOR_MID')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('servo_init')
+	.sect	'.debug_loc'
+.L5:
+	.word	-1,.L6,0,.L29-.L6
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('servo_set_angle')
+	.sect	'.debug_loc'
+.L32:
+	.word	-1,.L8,0,.L33-.L8
+	.half	1
+	.byte	84
+	.word	0,0
+.L7:
+	.word	-1,.L8,0,.L30-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L59:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('servo_init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L59,.L6,.L29-.L6
+	.sdecl	'.debug_frame',debug,cluster('servo_set_angle')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L59,.L8,.L30-.L8
+	; Module end
