@@ -55,7 +55,7 @@ int core0_main(void)
     // 此处编写用户代码 例如外设初始化代码
     cpu_wait_event_ready();
     // 等待所有核心初始化完毕
-    tft180_show_int(5,10,750,4);
+    tft180_show_int(5,10,750,4);//111222
     while (TRUE)
     {
         // 此处编写需要循环执行的代码
