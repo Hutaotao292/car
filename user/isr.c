@@ -36,6 +36,37 @@
 #include "isr_config.h"
 #include "isr.h"
 
+
+int fastest_speed = 0;
+float turn_pidout;
+float turn_angle;
+float last_angle;
+float left_speed_setpoint;
+float right_speed_setpoint;
+float speed_rate = 0;
+int running_start_time = 0;
+int running_end_time = 0;
+int running_time = 0;
+int advance_avoid_obstacle_time = 0;
+int set1 = 0;
+int set2 = 0;
+int protect = 1;
+int ramp_speed = 180;
+int left_bldc_speed = 500;
+int right_bldc_speed = 500;
+int speed_base = 225;
+float Kp_max = 0.017f;
+float Kd_max = 0.25f;
+float boost_ratio = 0.25f;
+float turn_max = 15;
+float spdx = 5;
+double ramp_angle = 0;
+#define max_white_column_height 42
+#define min_white_column_height 30
+#define dmax_middle_line_height 27
+#define dmin_middle_line_height 5
+uint8 current_white_column_height = 0;
+uint8 compare_white_column_height = max_white_column_height - min_white_column_height;
 // 对于TC系列默认是不支持中断嵌套的，希望支持中断嵌套需要在中断内使用 interrupt_global_enable(0); 来开启中断嵌套
 // 简单点说实际上进入中断后TC系列的硬件自动调用了 interrupt_global_disable(); 来拒绝响应任何的中断，因此需要我们自己手动调用 interrupt_global_enable(0); 来开启中断的响应。
 
