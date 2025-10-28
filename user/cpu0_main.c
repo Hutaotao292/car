@@ -35,6 +35,7 @@
 #include "motor.h"
 #include "zf_common_headfile.h"
 #include "switch.h"
+#include "UI.h"
 #pragma section all "cpu0_dsram"
 // 将本语句与#pragma section all restore语句之间的全局变量都放在CPU0的RAM中
 
@@ -56,16 +57,22 @@ int core0_main(void)
     cpu_wait_event_ready();
     // 等待所有核心初始化完毕
     tft180_show_int(5,10,750,4);
+    UI_init();
+    UI_show(0);
+
+    int anglemin=85,anglemax=110,midangle=97;
     while (TRUE)
     {
+        //UI_update();                // 如果UI_update未实现，可以暂时注释掉
+        system_delay_ms(50);
         // 此处编写需要循环执行的代码
-        servo_set_angle(97);//85~110,MIN=97
-        pwm_set_duty(PWM_RIGHT_1,5000);
-        pwm_set_duty(PWM_LEFT_1,5000);
-        pwm_set_duty(PWM_RIGHT_2,0);
-        pwm_set_duty(PWM_LEFT_2,0);
+        //servo_set_angle(97);//85~110,MIN=97
+        //pwm_set_duty(PWM_RIGHT_1,5000);
+        //pwm_set_duty(PWM_LEFT_1,5000);
+        //pwm_set_duty(PWM_RIGHT_2,0);
+        //pwm_set_duty(PWM_LEFT_2,0);
 
-        system_delay_us(200);
+        //system_delay_us(200);
 
         // 此处编写需要循环执行的代码
     }
