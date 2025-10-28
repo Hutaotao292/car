@@ -62,7 +62,12 @@
 #include "zf_device_mt9v03x.h"
 
 vuint8  mt9v03x_finish_flag = 0;                            // 一场图像采集完成标志位
-IFX_ALIGN(4) uint8  mt9v03x_image[MT9V03X_H][MT9V03X_W];    // 必须4字节对齐
+IFX_ALIGN(4) uint8  mt9v03x_image[MT9V03X_HS][MT9V03X_WS];    // 必须4字节对齐
+IFX_ALIGN(4) uint8  gray_image[45][94];
+IFX_ALIGN(4) uint8  binary_image[45][94];
+IFX_ALIGN(4) uint8  binary_image_bak[45][94];
+IFX_ALIGN(4) uint8  contrast_image[45][94];
+IFX_ALIGN(4) uint8  gray_binary_image[45][94];
 
 static  m9v03x_type_enum mt9v03x_type;                      // 定义摄像头类型
 static  uint16    mt9v03x_version = 0x00;                   // 定义摄像头版本号

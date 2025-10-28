@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc7792a --dep-file=zf_device_mt9v03x.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/zf_device/zf_device_mt9v03x.src ../libraries/zf_device/zf_device_mt9v03x.c"
+	.compiler_invocation	"ctc -f cc37312a --dep-file=zf_device_mt9v03x.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/zf_device/zf_device_mt9v03x.src ../libraries/zf_device/zf_device_mt9v03x.c"
 	.compiler_name		"ctc"
 	;source	'../libraries/zf_device/zf_device_mt9v03x.c'
 
@@ -15,130 +15,130 @@ $TC16X
 .L68:
 mt9v03x_set_config:	.type	func
 	sub.a	a10,#8
-.L261:
+.L272:
 	mov.aa	a12,a4
-.L262:
+.L273:
 	mov	d9,#1
-.L263:
+.L274:
 	mov	d8,#0
-.L264:
+.L275:
 	mov	d15,#0
-.L501:
+.L512:
 	st.w	[a10]4,d15
-.L502:
+.L513:
 	movh.a	a15,#@his(mt9v03x_version)
 	lea	a15,[a15]@los(mt9v03x_version)
 	ld.hu	d15,[a15]0
-.L503:
+.L514:
 	mov	d0,#560
 	jeq	d15,d0,.L2
 	j	.L3
 .L2:
 	mov	d10,#9
-.L266:
+.L277:
 	j	.L4
 .L3:
 	mov	d10,#8
-.L267:
+.L278:
 	j	.L5
 .L5:
 .L4:
 	j	.L6
 .L7:
 	mov	d15,#165
-.L504:
+.L515:
 	st.b	[a10],d15
-.L505:
+.L516:
 	mul	d15,d10,#4
 	addsc.a	a15,a12,d15,#0
-.L506:
+.L517:
 	ld.h	d15,[a15]
-.L507:
+.L518:
 	st.b	[a10]1,d15
-.L508:
+.L519:
 	mul	d15,d10,#4
 	addsc.a	a15,a12,d15,#0
-.L509:
+.L520:
 	ld.h	d15,[a15]2
 	extr.u	d0,d15,#0,#16
-.L268:
+.L279:
 	sha	d15,d0,#-8
-.L510:
+.L521:
 	st.b	[a10]2,d15
-.L511:
+.L522:
 	st.b	[a10]3,d0
-.L512:
+.L523:
 	mov	d4,#1
-.L513:
+.L524:
 	lea	a4,[a10]0
-.L514:
+.L525:
 	mov	d5,#4
 	call	uart_write_buffer
-.L269:
+.L280:
 	mov	d4,#2
 	call	system_delay_ms
-.L515:
+.L526:
 	add	d10,#-1
 .L6:
 	mov	d15,#255
-.L516:
+.L527:
 	jlt.u	d10,d15,.L7
 .L8:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
 	call	fifo_used
-.L517:
+.L528:
 	jlt.u	d2,#3,.L9
-.L518:
+.L529:
 	mov	d15,#3
-.L519:
+.L530:
 	st.w	[a10]4,d15
-.L520:
+.L531:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
-.L521:
+.L532:
 	lea	a5,[a10]0
-.L522:
+.L533:
 	lea	a6,[a10]4
-.L523:
+.L534:
 	mov	d4,#0
 	call	fifo_read_buffer
-.L524:
+.L535:
 	ld.bu	d15,[a10]1
-.L525:
+.L536:
 	mov	d0,#255
-.L526:
+.L537:
 	jeq	d15,d0,.L10
-.L527:
+.L538:
 	ld.bu	d15,[a10]2
-.L528:
+.L539:
 	mov	d0,#255
-.L529:
+.L540:
 	jne	d15,d0,.L11
 .L10:
 	mov	d9,#0
-.L530:
+.L541:
 	j	.L12
 .L11:
 .L9:
 	mov	d4,#1
 	call	system_delay_ms
-.L531:
+.L542:
 	mov	d0,d8
 	add	d8,#1
-.L265:
+.L276:
 	extr.u	d8,d8,#0,#16
-.L270:
+.L281:
 	mov	d15,#128
-.L532:
+.L543:
 	jlt.u	d0,d15,.L8
 .L12:
 	mov	d2,d9
-.L271:
+.L282:
 	j	.L13
 .L13:
 	ret
-.L189:
+.L199:
 	
 __mt9v03x_set_config_function_end:
 	.size	mt9v03x_set_config,__mt9v03x_set_config_function_end-mt9v03x_set_config
@@ -153,138 +153,138 @@ __mt9v03x_set_config_function_end:
 .L70:
 mt9v03x_get_config:	.type	func
 	sub.a	a10,#8
-.L272:
+.L283:
 	mov.aa	a12,a4
-.L273:
+.L284:
 	mov	d8,#0
-.L274:
+.L285:
 	mov	d15,#0
-.L537:
+.L548:
 	st.w	[a10]4,d15
-.L538:
+.L549:
 	movh.a	a15,#@his(mt9v03x_version)
 	lea	a15,[a15]@los(mt9v03x_version)
 	ld.hu	d15,[a15]0
-.L539:
+.L550:
 	mov	d0,#560
 	jeq	d15,d0,.L14
 	j	.L15
 .L14:
 	mov	d15,#9
-.L275:
+.L286:
 	j	.L16
 .L15:
 	mov	d15,#8
-.L276:
+.L287:
 	j	.L17
 .L17:
 .L16:
 	add	d9,d15,#-1
-.L277:
+.L288:
 	j	.L18
 .L19:
 	movh.a	a15,#@his(mt9v03x_version)
 	lea	a15,[a15]@los(mt9v03x_version)
 	ld.hu	d0,[a15]0
-.L540:
+.L551:
 	mov	d1,#560
-.L541:
+.L552:
 	jge.u	d0,d1,.L20
-.L542:
+.L553:
 	mul	d15,d9,#4
 	addsc.a	a15,a12,d15,#0
-.L543:
+.L554:
 	ld.h	d0,[a15]
-.L544:
+.L555:
 	mov	d15,#9
-.L545:
+.L556:
 	jne	d15,d0,.L21
-.L546:
+.L557:
 	j	.L22
 .L21:
 .L20:
 	mov	d15,#165
-.L547:
+.L558:
 	st.b	[a10],d15
-.L548:
+.L559:
 	mov	d15,#241
-.L549:
+.L560:
 	st.b	[a10]1,d15
-.L550:
+.L561:
 	mul	d15,d9,#4
 	addsc.a	a15,a12,d15,#0
-.L551:
+.L562:
 	ld.h	d15,[a15]
 	extr.u	d15,d15,#0,#16
-.L278:
+.L289:
 	sha	d0,d15,#-8
-.L552:
+.L563:
 	st.b	[a10]2,d0
-.L553:
+.L564:
 	st.b	[a10]3,d15
-.L554:
+.L565:
 	mov	d4,#1
-.L555:
+.L566:
 	lea	a4,[a10]0
-.L556:
+.L567:
 	mov	d5,#4
 	call	uart_write_buffer
-.L557:
+.L568:
 	mov	d10,#0
 .L23:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
 	call	fifo_used
-.L558:
+.L569:
 	jlt.u	d2,#3,.L24
-.L559:
+.L570:
 	mov	d15,#3
-.L560:
+.L571:
 	st.w	[a10]4,d15
-.L561:
+.L572:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
-.L562:
+.L573:
 	lea	a5,[a10]0
-.L563:
+.L574:
 	lea	a6,[a10]4
-.L564:
+.L575:
 	mov	d4,#0
 	call	fifo_read_buffer
-.L565:
+.L576:
 	mul	d15,d9,#4
 	addsc.a	a15,a12,d15,#0
-.L566:
+.L577:
 	ld.bu	d15,[a10]1
-.L567:
+.L578:
 	sha	d0,d15,#8
-.L568:
+.L579:
 	ld.bu	d15,[a10]2
-.L569:
+.L580:
 	or	d0,d15
-.L570:
+.L581:
 	st.h	[a15]2,d0
-.L571:
+.L582:
 	j	.L25
 .L24:
 	mov	d4,#1
 	call	system_delay_ms
-.L572:
+.L583:
 	mov	d0,d10
 	add	d10,#1
-.L279:
+.L290:
 	extr.u	d10,d10,#0,#16
-.L280:
+.L291:
 	mov	d15,#128
-.L573:
+.L584:
 	jlt.u	d0,d15,.L23
 .L25:
 	mov	d15,#128
-.L574:
+.L585:
 	jge.u	d15,d10,.L26
-.L575:
+.L586:
 	mov	d8,#1
-.L576:
+.L587:
 	j	.L27
 .L26:
 .L22:
@@ -293,11 +293,11 @@ mt9v03x_get_config:	.type	func
 	jge.u	d9,#1,.L19
 .L27:
 	mov	d2,d8
-.L281:
+.L292:
 	j	.L28
 .L28:
 	ret
-.L198:
+.L208:
 	
 __mt9v03x_get_config_function_end:
 	.size	mt9v03x_get_config,__mt9v03x_get_config_function_end-mt9v03x_get_config
@@ -312,34 +312,34 @@ __mt9v03x_get_config_function_end:
 .L72:
 mt9v03x_uart_handler:	.type	func
 	sub.a	a10,#8
-.L282:
+.L293:
 	mov	d15,#0
-.L581:
+.L592:
 	st.b	[a10],d15
-.L582:
+.L593:
 	mov	d4,#1
-.L583:
+.L594:
 	lea	a4,[a10]0
 	call	uart_query_byte
-.L584:
+.L595:
 	ld.bu	d0,[a10]
-.L585:
+.L596:
 	mov	d15,#165
-.L586:
+.L597:
 	jne	d15,d0,.L29
-.L587:
+.L598:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
 	call	fifo_clear
 .L29:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
-.L588:
+.L599:
 	ld.bu	d4,[a10]
 	call	fifo_write_element
-.L589:
+.L600:
 	ret
-.L206:
+.L216:
 	
 __mt9v03x_uart_handler_function_end:
 	.size	mt9v03x_uart_handler,__mt9v03x_uart_handler_function_end-mt9v03x_uart_handler
@@ -355,84 +355,84 @@ __mt9v03x_uart_handler_function_end:
 mt9v03x_vsync_handler:	.type	func
 	mov	d4,#3
 	call	IfxScuEru_clearEventFlag
-.L594:
+.L605:
 	movh.a	a15,#@his(mt9v03x_dma_int_num)
 	lea	a15,[a15]@los(mt9v03x_dma_int_num)
-.L595:
+.L606:
 	mov	d15,#0
-.L596:
+.L607:
 	st.b	[a15],d15
-.L597:
+.L608:
 	movh.a	a15,#@his(mt9v03x_dma_init_flag)
 	lea	a15,[a15]@los(mt9v03x_dma_init_flag)
 	ld.bu	d15,[a15]
-.L598:
+.L609:
 	jeq	d15,#0,.L30
-.L599:
+.L610:
 	movh.a	a15,#@his(mt9v03x_dma_init_flag)
 	lea	a15,[a15]@los(mt9v03x_dma_init_flag)
-.L600:
+.L611:
 	mov	d15,#0
-.L601:
+.L612:
 	st.b	[a15],d15
-.L602:
+.L613:
 	movh.a	a15,#61441
-.L603:
+.L614:
 	mov	d0,#5
-.L210:
+.L220:
 	mul	d15,d0,#4
 	addsc.a	a2,a15,d15,#0
 	mul	d15,d0,#4
 	addsc.a	a15,a15,d15,#0
-.L604:
+.L615:
 	ld.bu	d15,[a15]7680
-.L605:
+.L616:
 	or	d15,#1
 	st.b	[a2]7680,d15
-.L211:
+.L221:
 	mov	d4,#0
 	call	IfxPort_getAddress
 	lea	a4,[a2]36
-.L606:
+.L617:
 	movh.a	a15,#@his(mt9v03x_link_list_num)
 	lea	a15,[a15]@los(mt9v03x_link_list_num)
-.L607:
+.L618:
 	mov	d4,#5
-.L608:
+.L619:
 	movh.a	a5,#@his(mt9v03x_image)
 	lea	a5,[a5]@los(mt9v03x_image)
-.L609:
+.L620:
 	mov	d5,#7
-.L610:
+.L621:
 	mov	d6,#0
-.L611:
-	mov	d7,#22560
+.L622:
+	mov	d7,#16920
 	call	dma_init
-.L612:
+.L623:
 	st.b	[a15],d2
-.L613:
+.L624:
 	mov	d4,#5
 	call	dma_enable
-.L614:
+.L625:
 	j	.L31
 .L30:
 	movh.a	a15,#@his(mt9v03x_link_list_num)
 	lea	a15,[a15]@los(mt9v03x_link_list_num)
 	ld.bu	d15,[a15]
-.L615:
+.L626:
 	jne	d15,#1,.L32
-.L616:
+.L627:
 	movh.a	a15,#@his(mt9v03x_image)
 	lea	a15,[a15]@los(mt9v03x_image)
 	mov.d	d15,a15
 	insert	d15,d15,#0,#0,#28
 	movh	d0,#53248
 	jne	d15,d0,.L33
-.L218:
+.L228:
 	mfcr	d15,#65052
-.L283:
+.L294:
 	and	d15,#7
-.L284:
+.L295:
 	j	.L34
 .L34:
 	movh.a	a15,#@his(mt9v03x_image)
@@ -451,10 +451,10 @@ mt9v03x_vsync_handler:	.type	func
 .L35:
 	movh.a	a15,#61441
 	mov	d15,#5
-.L223:
+.L233:
 	mul	d15,d15,#32
 	addsc.a	a15,a15,d15,#0
-.L617:
+.L628:
 	st.w	[a15]8204,d0
 .L32:
 	mov	d4,#5
@@ -462,13 +462,13 @@ mt9v03x_vsync_handler:	.type	func
 .L31:
 	movh.a	a15,#@his(mt9v03x_lost_flag)
 	lea	a15,[a15]@los(mt9v03x_lost_flag)
-.L618:
+.L629:
 	mov	d15,#1
-.L619:
+.L630:
 	st.b	[a15],d15
-.L620:
+.L631:
 	ret
-.L208:
+.L218:
 	
 __mt9v03x_vsync_handler_function_end:
 	.size	mt9v03x_vsync_handler,__mt9v03x_vsync_handler_function_end-mt9v03x_vsync_handler
@@ -484,64 +484,64 @@ __mt9v03x_vsync_handler_function_end:
 mt9v03x_dma_handler:	.type	func
 	movh.a	a15,#61441
 	mov	d0,#5
-.L233:
+.L243:
 	mul	d15,d0,#32
 	addsc.a	a2,a15,d15,#0
 	mul	d15,d0,#32
 	addsc.a	a15,a15,d15,#0
-.L625:
+.L636:
 	ld.bu	d15,[a15]8223
-.L626:
+.L637:
 	or	d15,#4
 	st.b	[a2]8223,d15
-.L234:
+.L244:
 	movh.a	a15,#61441
-.L627:
+.L638:
 	mov	d15,#5
-.L241:
+.L251:
 	mul	d15,d15,#4
 	addsc.a	a15,a15,d15,#0
-.L628:
+.L639:
 	ld.bu	d15,[a15]7680
 	extr.u	d15,d15,#2,#1
-.L629:
+.L640:
 	ne	d15,d15,#0
-.L630:
+.L641:
 	j	.L36
 .L36:
 	jeq	d15,#0,.L37
-.L631:
+.L642:
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
-.L632:
+.L643:
 	mov	d15,#0
-.L633:
+.L644:
 	st.b	[a15],d15
-.L634:
+.L645:
 	mov	d4,#5
 	call	dma_disable
-.L635:
+.L646:
 	movh.a	a15,#61441
-.L636:
+.L647:
 	mov	d0,#5
-.L248:
+.L258:
 	mul	d15,d0,#4
 	addsc.a	a2,a15,d15,#0
 	mul	d15,d0,#4
 	addsc.a	a15,a15,d15,#0
-.L637:
+.L648:
 	ld.bu	d15,[a15]7682
-.L638:
+.L649:
 	or	d15,#4
 	st.b	[a2]7682,d15
-.L249:
+.L259:
 	movh.a	a15,#@his(mt9v03x_dma_init_flag)
 	lea	a15,[a15]@los(mt9v03x_dma_init_flag)
-.L639:
+.L650:
 	mov	d15,#1
-.L640:
+.L651:
 	st.b	[a15],d15
-.L641:
+.L652:
 	j	.L38
 .L37:
 	movh.a	a15,#@his(mt9v03x_dma_int_num)
@@ -549,47 +549,47 @@ mt9v03x_dma_handler:	.type	func
 	movh.a	a2,#@his(mt9v03x_dma_int_num)
 	lea	a2,[a2]@los(mt9v03x_dma_int_num)
 	ld.bu	d15,[a2]
-.L642:
+.L653:
 	add	d15,#1
 	st.b	[a15],d15
-.L643:
+.L654:
 	movh.a	a15,#@his(mt9v03x_dma_int_num)
 	lea	a15,[a15]@los(mt9v03x_dma_int_num)
 	ld.bu	d15,[a15]
-.L644:
+.L655:
 	movh.a	a15,#@his(mt9v03x_link_list_num)
 	lea	a15,[a15]@los(mt9v03x_link_list_num)
 	ld.bu	d0,[a15]
-.L645:
+.L656:
 	jlt.u	d15,d0,.L39
-.L646:
+.L657:
 	movh.a	a15,#@his(mt9v03x_dma_int_num)
 	lea	a15,[a15]@los(mt9v03x_dma_int_num)
-.L647:
+.L658:
 	mov	d15,#0
-.L648:
+.L659:
 	st.b	[a15],d15
-.L649:
+.L660:
 	movh.a	a15,#@his(mt9v03x_lost_flag)
 	lea	a15,[a15]@los(mt9v03x_lost_flag)
-.L650:
+.L661:
 	mov	d15,#0
-.L651:
+.L662:
 	st.b	[a15],d15
-.L652:
+.L663:
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
-.L653:
+.L664:
 	mov	d15,#1
-.L654:
+.L665:
 	st.b	[a15],d15
-.L655:
+.L666:
 	mov	d4,#5
 	call	dma_disable
 .L39:
 .L38:
 	ret
-.L231:
+.L241:
 	
 __mt9v03x_dma_handler_function_end:
 	.size	mt9v03x_dma_handler,__mt9v03x_dma_handler_function_end-mt9v03x_dma_handler
@@ -605,86 +605,86 @@ __mt9v03x_dma_handler_function_end:
 .L78:
 mt9v03x_get_version:	.type	func
 	sub.a	a10,#8
-.L285:
+.L296:
 	mov	d9,#0
-.L286:
+.L297:
 	mov	d8,#0
-.L288:
+.L299:
 	mov	d15,#0
-.L337:
+.L348:
 	st.w	[a10]4,d15
-.L338:
+.L349:
 	mov	d15,#165
-.L339:
+.L350:
 	st.b	[a10],d15
-.L340:
+.L351:
 	mov	d15,#241
-.L341:
+.L352:
 	st.b	[a10]1,d15
-.L342:
+.L353:
 	mov	d15,#242
-.L290:
+.L301:
 	sha	d0,d15,#-8
-.L343:
+.L354:
 	st.b	[a10]2,d0
-.L344:
+.L355:
 	st.b	[a10]3,d15
-.L345:
+.L356:
 	mov	d4,#1
-.L346:
+.L357:
 	lea	a4,[a10]0
-.L347:
+.L358:
 	mov	d5,#4
 	call	uart_write_buffer
 .L40:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
 	call	fifo_used
-.L348:
+.L359:
 	jlt.u	d2,#3,.L41
-.L349:
+.L360:
 	mov	d15,#3
-.L350:
+.L361:
 	st.w	[a10]4,d15
-.L351:
+.L362:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
-.L352:
+.L363:
 	lea	a5,[a10]0
-.L353:
+.L364:
 	lea	a6,[a10]4
-.L354:
+.L365:
 	mov	d4,#0
 	call	fifo_read_buffer
-.L355:
+.L366:
 	ld.bu	d15,[a10]1
-.L356:
+.L367:
 	sha	d8,d15,#8
-.L289:
+.L300:
 	ld.bu	d15,[a10]2
-.L291:
+.L302:
 	or	d8,d15
-.L357:
+.L368:
 	j	.L42
 .L41:
 	mov	d4,#1
 	call	system_delay_ms
-.L358:
+.L369:
 	mov	d0,d9
 	add	d9,#1
-.L287:
+.L298:
 	extr.u	d9,d9,#0,#16
-.L292:
+.L303:
 	mov	d15,#128
-.L359:
+.L370:
 	jlt.u	d0,d15,.L40
 .L42:
 	mov	d2,d8
-.L293:
+.L304:
 	j	.L43
 .L43:
 	ret
-.L157:
+.L167:
 	
 __mt9v03x_get_version_function_end:
 	.size	mt9v03x_get_version,__mt9v03x_get_version_function_end-mt9v03x_get_version
@@ -700,132 +700,132 @@ __mt9v03x_get_version_function_end:
 .L80:
 mt9v03x_set_exposure_time:	.type	func
 	sub.a	a10,#8
-.L294:
+.L305:
 	mov	d9,d4
-.L296:
+.L307:
 	mov	d11,#0
-.L297:
+.L308:
 	movh.a	a15,#@his(mt9v03x_type)
 	lea	a15,[a15]@los(mt9v03x_type)
 	ld.bu	d15,[a15]
-.L364:
+.L375:
 	jne	d15,#0,.L44
-.L365:
+.L376:
 	mov	d4,#3
-.L295:
+.L306:
 	movh.a	a4,#@his(mt9v03x_vsync_handler)
 	lea	a4,[a4]@los(mt9v03x_vsync_handler)
-.L366:
+.L377:
 	movh.a	a5,#@his(mt9v03x_dma_handler)
 	lea	a5,[a5]@los(mt9v03x_dma_handler)
-.L367:
+.L378:
 	movh.a	a6,#@his(mt9v03x_uart_handler)
 	lea	a6,[a6]@los(mt9v03x_uart_handler)
 	call	set_camera_type
-.L169:
+.L179:
 	mov	d10,#0
-.L299:
+.L310:
 	mov	d15,#0
-.L368:
+.L379:
 	st.w	[a10]4,d15
-.L369:
+.L380:
 	mov	d15,#165
-.L370:
+.L381:
 	st.b	[a10],d15
-.L371:
+.L382:
 	mov	d15,#240
-.L372:
+.L383:
 	st.b	[a10]1,d15
-.L373:
+.L384:
 	mov	d8,d9
-.L301:
+.L312:
 	sha	d15,d9,#-8
-.L374:
+.L385:
 	st.b	[a10]2,d15
-.L375:
+.L386:
 	st.b	[a10]3,d9
-.L376:
+.L387:
 	mov	d4,#1
-.L377:
+.L388:
 	lea	a4,[a10]0
-.L378:
+.L389:
 	mov	d5,#4
 	call	uart_write_buffer
 .L45:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
 	call	fifo_used
-.L379:
+.L390:
 	jlt.u	d2,#3,.L46
-.L380:
+.L391:
 	mov	d15,#3
-.L381:
+.L392:
 	st.w	[a10]4,d15
-.L382:
+.L393:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
-.L383:
+.L394:
 	lea	a5,[a10]0
-.L384:
+.L395:
 	lea	a6,[a10]4
-.L385:
+.L396:
 	mov	d4,#0
 	call	fifo_read_buffer
-.L386:
+.L397:
 	ld.bu	d15,[a10]1
-.L387:
+.L398:
 	sha	d8,d15,#8
-.L302:
+.L313:
 	ld.bu	d15,[a10]2
-.L303:
+.L314:
 	or	d8,d15
-.L388:
+.L399:
 	j	.L47
 .L46:
 	mov	d4,#1
 	call	system_delay_ms
-.L389:
+.L400:
 	mov	d0,d10
 	add	d10,#1
-.L300:
+.L311:
 	extr.u	d10,d10,#0,#16
-.L304:
+.L315:
 	mov	d15,#128
-.L390:
+.L401:
 	jlt.u	d0,d15,.L45
 .L47:
 	jne	d8,d9,.L48
-.L391:
+.L402:
 	mov	d15,#128
-.L392:
+.L403:
 	jlt.u	d10,d15,.L49
 .L48:
 	mov	d11,#1
 .L49:
 	mov	d4,#3
-.L393:
+.L404:
 	movh.a	a4,#@his(mt9v03x_vsync_handler)
 	lea	a4,[a4]@los(mt9v03x_vsync_handler)
-.L394:
+.L405:
 	movh.a	a5,#@his(mt9v03x_dma_handler)
 	lea	a5,[a5]@los(mt9v03x_dma_handler)
-.L395:
+.L406:
 	mov.a	a6,#0
 	call	set_camera_type
-.L170:
+.L180:
 	j	.L50
 .L44:
 	mov	d4,d9
 	call	mt9v03x_set_exposure_time_sccb
-.L298:
+.L309:
 	mov	d11,d2
 .L50:
 	mov	d2,d11
-.L305:
+.L316:
 	j	.L51
 .L51:
 	ret
-.L166:
+.L176:
 	
 __mt9v03x_set_exposure_time_function_end:
 	.size	mt9v03x_set_exposure_time,__mt9v03x_set_exposure_time_function_end-mt9v03x_set_exposure_time
@@ -841,157 +841,157 @@ __mt9v03x_set_exposure_time_function_end:
 .L82:
 mt9v03x_set_reg:	.type	func
 	sub.a	a10,#8
-.L306:
+.L317:
 	mov	e8,d5,d4
-.L400:
+.L411:
 	mov	d11,#0
-.L308:
+.L319:
 	movh.a	a15,#@his(mt9v03x_type)
 	lea	a15,[a15]@los(mt9v03x_type)
 	ld.bu	d0,[a15]
-.L401:
+.L412:
 	jne	d0,#0,.L52
-.L402:
+.L413:
 	mov	d4,#3
-.L307:
+.L318:
 	movh.a	a4,#@his(mt9v03x_vsync_handler)
 	lea	a4,[a4]@los(mt9v03x_vsync_handler)
-.L403:
+.L414:
 	movh.a	a5,#@his(mt9v03x_dma_handler)
 	lea	a5,[a5]@los(mt9v03x_dma_handler)
-.L404:
+.L415:
 	movh.a	a6,#@his(mt9v03x_uart_handler)
 	lea	a6,[a6]@los(mt9v03x_uart_handler)
 	call	set_camera_type
-.L179:
+.L189:
 	mov	d10,#0
-.L310:
+.L321:
 	mov	d15,#0
-.L405:
+.L416:
 	st.w	[a10]4,d15
-.L406:
+.L417:
 	mov	d15,#165
-.L407:
+.L418:
 	st.b	[a10],d15
-.L408:
+.L419:
 	mov	d15,#254
-.L409:
+.L420:
 	st.b	[a10]1,d15
-.L312:
+.L323:
 	sha	d15,d8,#-8
-.L313:
+.L324:
 	st.b	[a10]2,d15
-.L314:
+.L325:
 	st.b	[a10]3,d8
-.L315:
+.L326:
 	mov	d4,#1
-.L410:
+.L421:
 	lea	a4,[a10]0
-.L411:
+.L422:
 	mov	d5,#4
 	call	uart_write_buffer
-.L412:
+.L423:
 	mov	d4,#10
 	call	system_delay_ms
-.L413:
+.L424:
 	mov	d15,#165
-.L414:
+.L425:
 	st.b	[a10],d15
-.L415:
+.L426:
 	mov	d15,#255
-.L416:
+.L427:
 	st.b	[a10]1,d15
-.L316:
+.L327:
 	mov	d8,d9
-.L318:
+.L329:
 	sha	d15,d9,#-8
-.L317:
+.L328:
 	st.b	[a10]2,d15
-.L320:
+.L331:
 	st.b	[a10]3,d9
-.L321:
+.L332:
 	mov	d4,#1
-.L417:
+.L428:
 	lea	a4,[a10]0
-.L418:
+.L429:
 	mov	d5,#4
 	call	uart_write_buffer
 .L53:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
 	call	fifo_used
-.L419:
+.L430:
 	jlt.u	d2,#3,.L54
-.L420:
+.L431:
 	mov	d15,#3
-.L421:
+.L432:
 	st.w	[a10]4,d15
-.L422:
+.L433:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
-.L423:
+.L434:
 	lea	a5,[a10]0
-.L424:
+.L435:
 	lea	a6,[a10]4
-.L425:
+.L436:
 	mov	d4,#0
 	call	fifo_read_buffer
-.L426:
+.L437:
 	ld.bu	d15,[a10]1
-.L427:
+.L438:
 	sha	d8,d15,#8
-.L319:
+.L330:
 	ld.bu	d15,[a10]2
-.L322:
+.L333:
 	or	d8,d15
-.L428:
+.L439:
 	j	.L55
 .L54:
 	mov	d4,#1
 	call	system_delay_ms
-.L429:
+.L440:
 	mov	d0,d10
 	add	d10,#1
-.L311:
+.L322:
 	extr.u	d10,d10,#0,#16
-.L323:
+.L334:
 	mov	d15,#128
-.L430:
+.L441:
 	jlt.u	d0,d15,.L53
 .L55:
 	jne	d8,d9,.L56
-.L324:
+.L335:
 	mov	d15,#128
-.L431:
+.L442:
 	jlt.u	d10,d15,.L57
 .L56:
 	mov	d11,#1
 .L57:
 	mov	d4,#3
-.L432:
+.L443:
 	movh.a	a4,#@his(mt9v03x_vsync_handler)
 	lea	a4,[a4]@los(mt9v03x_vsync_handler)
-.L433:
+.L444:
 	movh.a	a5,#@his(mt9v03x_dma_handler)
 	lea	a5,[a5]@los(mt9v03x_dma_handler)
-.L434:
+.L445:
 	mov.a	a6,#0
 	call	set_camera_type
-.L180:
+.L190:
 	j	.L58
 .L52:
 	mov	e4,d9,d8
-.L325:
+.L336:
 	call	mt9v03x_set_reg_sccb
-.L309:
+.L320:
 	mov	d11,d2
 .L58:
 	mov	d2,d11
-.L326:
+.L337:
 	j	.L59
 .L59:
 	ret
-.L175:
+.L185:
 	
 __mt9v03x_set_reg_function_end:
 	.size	mt9v03x_set_reg,__mt9v03x_set_reg_function_end-mt9v03x_set_reg
@@ -1007,182 +1007,182 @@ __mt9v03x_set_reg_function_end:
 .L84:
 mt9v03x_init:	.type	func
 	sub.a	a10,#16
-.L327:
+.L338:
 	mov	d15,#0
 .L60:
 	mov	d4,#200
 	call	system_delay_ms
-.L439:
+.L450:
 	movh.a	a15,#@his(mt9v03x_type)
 	lea	a15,[a15]@los(mt9v03x_type)
-.L440:
+.L451:
 	mov	d0,#1
-.L441:
+.L452:
 	st.b	[a15],d0
-.L442:
+.L453:
 	mov	d4,#3
-.L443:
+.L454:
 	movh.a	a4,#@his(mt9v03x_vsync_handler)
 	lea	a4,[a4]@los(mt9v03x_vsync_handler)
-.L444:
+.L455:
 	movh.a	a5,#@his(mt9v03x_dma_handler)
 	lea	a5,[a5]@los(mt9v03x_dma_handler)
-.L445:
+.L456:
 	mov.a	a6,#0
 	call	set_camera_type
-.L446:
+.L457:
 	lea	a4,[a10]0
-.L447:
+.L458:
 	mov	d4,#0
-.L448:
+.L459:
 	mov	d5,#800
-.L449:
+.L460:
 	mov	d6,#67
-.L450:
+.L461:
 	mov	d7,#66
 	call	soft_iic_init
-.L451:
+.L462:
 	lea	a4,[a10]0
-.L452:
+.L463:
 	movh.a	a5,#@his(mt9v03x_set_confing_buffer)
 	lea	a5,[a5]@los(mt9v03x_set_confing_buffer)
 	call	mt9v03x_set_config_sccb
-.L453:
+.L464:
 	jeq	d2,#0,.L61
-.L454:
+.L465:
 	movh.a	a15,#@his(mt9v03x_type)
 	lea	a15,[a15]@los(mt9v03x_type)
-.L455:
+.L466:
 	mov	d0,#0
-.L456:
+.L467:
 	st.b	[a15],d0
-.L457:
+.L468:
 	mov	d4,#3
-.L458:
+.L469:
 	movh.a	a4,#@his(mt9v03x_vsync_handler)
 	lea	a4,[a4]@los(mt9v03x_vsync_handler)
-.L459:
+.L470:
 	movh.a	a5,#@his(mt9v03x_dma_handler)
 	lea	a5,[a5]@los(mt9v03x_dma_handler)
-.L460:
+.L471:
 	movh.a	a6,#@his(mt9v03x_uart_handler)
 	lea	a6,[a6]@los(mt9v03x_uart_handler)
 	call	set_camera_type
-.L461:
+.L472:
 	call	camera_fifo_init
-.L462:
+.L473:
 	mov	d4,#1
-.L463:
+.L474:
 	mov	d5,#9600
-.L464:
+.L475:
 	mov	d6,#4
-.L465:
+.L476:
 	mov	d7,#2
 	call	uart_init
-.L466:
+.L477:
 	mov	d4,#1
-.L467:
+.L478:
 	mov	d5,#1
 	call	uart_rx_interrupt
-.L468:
+.L479:
 	movh.a	a4,#@his(camera_receiver_fifo)
 	lea	a4,[a4]@los(camera_receiver_fifo)
 	call	fifo_clear
-.L469:
+.L480:
 	movh.a	a15,#@his(mt9v03x_version)
 	lea	a15,[a15]@los(mt9v03x_version)
-.L470:
+.L481:
 	call	mt9v03x_get_version
-.L471:
+.L482:
 	st.h	[a15],d2
-.L472:
+.L483:
 	movh.a	a4,#@his(mt9v03x_set_confing_buffer)
 	lea	a4,[a4]@los(mt9v03x_set_confing_buffer)
 	call	mt9v03x_set_config
-.L473:
+.L484:
 	jeq	d2,#0,.L62
-.L474:
+.L485:
 	mov	d4,#0
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	movh.a	a5,#@his(.2.str)
 	lea	a5,[a5]@los(.2.str)
-	mov	d5,#494
+	mov	d5,#499
 	call	debug_log_handler
-.L475:
+.L486:
 	mov	d4,#1
-.L476:
+.L487:
 	mov	d5,#0
 	call	uart_rx_interrupt
-.L477:
+.L488:
 	mov	d4,#0
-.L478:
+.L489:
 	mov.a	a4,#0
-.L479:
+.L490:
 	mov.a	a5,#0
-.L480:
+.L491:
 	mov.a	a6,#0
 	call	set_camera_type
-.L481:
+.L492:
 	mov	d15,#1
-.L482:
+.L493:
 	j	.L63
 .L62:
 	movh.a	a4,#@his(mt9v03x_get_confing_buffer)
 	lea	a4,[a4]@los(mt9v03x_get_confing_buffer)
 	call	mt9v03x_get_config
-.L483:
+.L494:
 	jeq	d2,#0,.L64
-.L484:
+.L495:
 	mov	d4,#0
 	movh.a	a4,#@his(.3.str)
 	lea	a4,[a4]@los(.3.str)
 	movh.a	a5,#@his(.2.str)
 	lea	a5,[a5]@los(.2.str)
-	mov	d5,#507
+	mov	d5,#512
 	call	debug_log_handler
-.L485:
+.L496:
 	mov	d4,#1
-.L486:
+.L497:
 	mov	d5,#0
 	call	uart_rx_interrupt
-.L487:
+.L498:
 	mov	d4,#0
-.L488:
+.L499:
 	mov.a	a4,#0
-.L489:
+.L500:
 	mov.a	a5,#0
-.L490:
+.L501:
 	mov.a	a6,#0
 	call	set_camera_type
-.L491:
+.L502:
 	mov	d15,#1
-.L492:
+.L503:
 	j	.L65
 .L64:
 .L61:
 	mov	d4,#0
 	call	IfxPort_getAddress
 	lea	a4,[a2]36
-.L493:
+.L504:
 	movh.a	a15,#@his(mt9v03x_link_list_num)
 	lea	a15,[a15]@los(mt9v03x_link_list_num)
-.L494:
+.L505:
 	movh.a	a5,#@his(mt9v03x_image)
 	lea	a5,[a5]@los(mt9v03x_image)
-.L495:
-	mov	d4,#22560
+.L506:
+	mov	d4,#16920
 	call	camera_init
-.L496:
+.L507:
 	st.b	[a15],d2
 .L65:
 .L63:
 	mov	d2,d15
-.L328:
+.L339:
 	j	.L66
 .L66:
 	ret
-.L185:
+.L195:
 	
 __mt9v03x_init_function_end:
 	.size	mt9v03x_init,__mt9v03x_init_function_end-mt9v03x_init
@@ -1200,8 +1200,43 @@ mt9v03x_finish_flag:	.type	object
 	.global	mt9v03x_image
 	.align	4
 mt9v03x_image:	.type	object
-	.size	mt9v03x_image,22560
-	.space	22560
+	.size	mt9v03x_image,16920
+	.space	16920
+	.sdecl	'.bss.zf_device_mt9v03x.gray_image',data,cluster('gray_image')
+	.sect	'.bss.zf_device_mt9v03x.gray_image'
+	.global	gray_image
+	.align	4
+gray_image:	.type	object
+	.size	gray_image,4230
+	.space	4230
+	.sdecl	'.bss.zf_device_mt9v03x.binary_image',data,cluster('binary_image')
+	.sect	'.bss.zf_device_mt9v03x.binary_image'
+	.global	binary_image
+	.align	4
+binary_image:	.type	object
+	.size	binary_image,4230
+	.space	4230
+	.sdecl	'.bss.zf_device_mt9v03x.binary_image_bak',data,cluster('binary_image_bak')
+	.sect	'.bss.zf_device_mt9v03x.binary_image_bak'
+	.global	binary_image_bak
+	.align	4
+binary_image_bak:	.type	object
+	.size	binary_image_bak,4230
+	.space	4230
+	.sdecl	'.bss.zf_device_mt9v03x.contrast_image',data,cluster('contrast_image')
+	.sect	'.bss.zf_device_mt9v03x.contrast_image'
+	.global	contrast_image
+	.align	4
+contrast_image:	.type	object
+	.size	contrast_image,4230
+	.space	4230
+	.sdecl	'.bss.zf_device_mt9v03x.gray_binary_image',data,cluster('gray_binary_image')
+	.sect	'.bss.zf_device_mt9v03x.gray_binary_image'
+	.global	gray_binary_image
+	.align	4
+gray_binary_image:	.type	object
+	.size	gray_binary_image,4230
+	.space	4230
 	.sdecl	'.bss.zf_device_mt9v03x.mt9v03x_type',data,cluster('mt9v03x_type')
 	.sect	'.bss.zf_device_mt9v03x.mt9v03x_type'
 mt9v03x_type:	.type	object
@@ -1252,12 +1287,12 @@ mt9v03x_set_confing_buffer:	.type	object
 	.space	4
 	.half	1
 	.space	2
-	.half	2,512,3,50,4,188,5,120
+	.half	2,200,3,200,4,188,5,90
 	.half	6
 	.space	2
 	.half	7
 	.space	2
-	.half	8,32,9
+	.half	8,16,9
 	.space	2
 	.sdecl	'.data.zf_device_mt9v03x.mt9v03x_get_confing_buffer',data,cluster('mt9v03x_get_confing_buffer')
 	.sect	'.data.zf_device_mt9v03x.mt9v03x_get_confing_buffer'
@@ -1396,7 +1431,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L86:
-	.word	124092
+	.word	124112
 	.half	3
 	.word	.L87
 	.byte	4
@@ -1465,10 +1500,10 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'B',0
 	.word	602
 	.byte	4,2,35,0,0
-.L165:
+.L175:
 	.byte	7
 	.byte	'unsigned char',0,1,8
-.L156:
+.L166:
 	.byte	7
 	.byte	'unsigned short int',0,2,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,4,250,8,16,4,11
@@ -3062,12 +3097,12 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'IfxCpu_Id_0',0,0,18
 	.byte	'IfxCpu_Id_1',0,1,18
 	.byte	'IfxCpu_Id_none',0,2,0
-.L217:
+.L227:
 	.byte	8
 	.byte	'IfxCpu_getCoreId',0,3,9,133,6,22
 	.word	10639
 	.byte	1,1
-.L219:
+.L229:
 	.byte	6,0,17,10,156,1,9,1,18
 	.byte	'IfxCpu_ResourceCpu_0',0,0,18
 	.byte	'IfxCpu_ResourceCpu_1',0,1,18
@@ -3087,7 +3122,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'enabled',0,9,168,7,50
 	.word	738
 	.byte	6,0
-.L163:
+.L173:
 	.byte	7
 	.byte	'unsigned long int',0,4,7,8
 	.byte	'IfxCpu_getPerformanceCounter',0,3,9,161,6,19
@@ -4941,76 +4976,76 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'IfxDma_ChannelId_45',0,45,18
 	.byte	'IfxDma_ChannelId_46',0,46,18
 	.byte	'IfxDma_ChannelId_47',0,47,0
-.L209:
+.L219:
 	.byte	4
 	.byte	'IfxDma_resetChannel',0,3,12,160,12,17,1,1
-.L212:
+.L222:
 	.byte	5
 	.byte	'dma',0,12,160,12,46
 	.word	21998
-.L214:
+.L224:
 	.byte	5
 	.byte	'channelId',0,12,160,12,68
 	.word	22003
-.L216:
+.L226:
 	.byte	6,0
-.L247:
+.L257:
 	.byte	4
 	.byte	'IfxDma_clearChannelTransactionRequestLost',0,3,12,247,9,17,1,1
-.L250:
+.L260:
 	.byte	5
 	.byte	'dma',0,12,247,9,68
 	.word	21998
-.L252:
+.L262:
 	.byte	5
 	.byte	'channelId',0,12,247,9,90
 	.word	22003
-.L254:
+.L264:
 	.byte	6,0
-.L240:
+.L250:
 	.byte	8
 	.byte	'IfxDma_getChannelTransactionRequestLost',0,3,12,198,11,20
 	.word	738
 	.byte	1,1
-.L242:
+.L252:
 	.byte	5
 	.byte	'dma',0,12,198,11,69
 	.word	21998
-.L244:
+.L254:
 	.byte	5
 	.byte	'channelId',0,12,198,11,91
 	.word	22003
-.L246:
-	.byte	6,0
-.L222:
-	.byte	4
-	.byte	'IfxDma_setChannelDestinationAddress',0,3,12,178,12,17,1,1
-.L224:
-	.byte	5
-	.byte	'dma',0,12,178,12,62
-	.word	21998
-.L226:
-	.byte	5
-	.byte	'channelId',0,12,178,12,84
-	.word	22003
-.L228:
-	.byte	5
-	.byte	'address',0,12,178,12,101
-	.word	477
-.L230:
+.L256:
 	.byte	6,0
 .L232:
 	.byte	4
+	.byte	'IfxDma_setChannelDestinationAddress',0,3,12,178,12,17,1,1
+.L234:
+	.byte	5
+	.byte	'dma',0,12,178,12,62
+	.word	21998
+.L236:
+	.byte	5
+	.byte	'channelId',0,12,178,12,84
+	.word	22003
+.L238:
+	.byte	5
+	.byte	'address',0,12,178,12,101
+	.word	477
+.L240:
+	.byte	6,0
+.L242:
+	.byte	4
 	.byte	'IfxDma_clearChannelInterrupt',0,3,12,241,9,17,1,1
-.L235:
+.L245:
 	.byte	5
 	.byte	'dma',0,12,241,9,55
 	.word	21998
-.L237:
+.L247:
 	.byte	5
 	.byte	'channelId',0,12,241,9,77
 	.word	22003
-.L239:
+.L249:
 	.byte	6,0,10
 	.byte	'_Ifx_ASCLIN_CLC_Bits',0,16,118,16,4,11
 	.byte	'DISR',0,1
@@ -6126,7 +6161,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'alti',0,15,191,18,82
 	.word	30260
 	.byte	6,0
-.L258:
+.L269:
 	.byte	7
 	.byte	'short int',0,2,5,7
 	.byte	'long int',0,4,5,20,17,60,9,12,13
@@ -6974,7 +7009,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'port',0,5,187,3,52
 	.word	35614
 	.byte	0
-.L187:
+.L197:
 	.byte	20,24,40,9,16,13
 	.byte	'scl_pin',0
 	.word	11043
@@ -7711,13 +7746,13 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'data',0,33,45,89
 	.word	755
 	.byte	0
-.L159:
+.L169:
 	.byte	15,4
 	.word	738
 	.byte	16,3,0,15,4
 	.word	30552
 	.byte	16,1,0
-.L190:
+.L200:
 	.byte	3
 	.word	41407
 	.byte	10
@@ -7728,7 +7763,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'reserved_3',0,4
 	.word	586
 	.byte	29,0,2,35,0,0
-.L220:
+.L230:
 	.byte	12,34,223,5,9,4,13
 	.byte	'U',0
 	.word	563
@@ -18590,27 +18625,33 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'camera_receiver_fifo',0,32,47,20
 	.word	35029
 	.byte	1,1
-.L257:
-	.byte	17,48,127,9,1,18
+.L268:
+	.byte	17,48,129,1,9,1,18
 	.byte	'MT9V03X_UART',0,0,18
 	.byte	'MT9V03X_SCCB',0,1,0,31
-	.byte	'm9v03x_type_enum',0,48,131,1,2
+	.byte	'm9v03x_type_enum',0,48,133,1,2
 	.word	123988
-.L255:
+.L265:
 	.byte	14
 	.word	738
 	.byte	15,188,1
 	.word	738
 	.byte	16,187,1,0
-.L256:
-	.byte	15,160,176,1
-	.word	124055
-	.byte	16,119,0
-.L259:
+.L266:
+	.byte	15,152,132,1
+	.word	124056
+	.byte	16,89,0,15,94
+	.word	738
+	.byte	16,93,0
+.L267:
+	.byte	15,134,33
+	.word	124078
+	.byte	16,44,0
+.L270:
 	.byte	15,40
 	.word	41407
 	.byte	16,9,0
-.L260:
+.L271:
 	.byte	15,36
 	.word	41407
 	.byte	16,8,0,0
@@ -18632,11 +18673,11 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L88:
-	.word	.L330-.L329
-.L329:
+	.word	.L341-.L340
+.L340:
 	.half	3
-	.word	.L332-.L331
-.L331:
+	.word	.L343-.L342
+.L342:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg',0
 	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std',0
@@ -18715,8 +18756,8 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	0,0,0
 	.byte	'ifxAsclin_Asc.h',0,9,0,0
 	.byte	'..\\libraries\\zf_device\\zf_device_mt9v03x.h',0,0,0,0,0
-.L332:
-.L330:
+.L343:
+.L341:
 	.sdecl	'.debug_info',debug,cluster('mt9v03x_get_version')
 	.sect	'.debug_info'
 .L89:
@@ -18732,27 +18773,27 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_get_version',0,1,179,2,8
-	.word	.L156
+	.byte	'mt9v03x_get_version',0,1,184,2,8
+	.word	.L166
 	.byte	1,1,1
-	.word	.L78,.L157,.L77
+	.word	.L78,.L167,.L77
 	.byte	4
-	.word	.L78,.L157
+	.word	.L78,.L167
 	.byte	5
-	.byte	'temp',0,1,181,2,12
-	.word	.L156,.L158
+	.byte	'temp',0,1,186,2,12
+	.word	.L166,.L168
 	.byte	5
-	.byte	'uart_buffer',0,1,182,2,12
-	.word	.L159,.L160
+	.byte	'uart_buffer',0,1,187,2,12
+	.word	.L169,.L170
 	.byte	5
-	.byte	'timeout_count',0,1,183,2,12
-	.word	.L156,.L161
+	.byte	'timeout_count',0,1,188,2,12
+	.word	.L166,.L171
 	.byte	5
-	.byte	'return_value',0,1,184,2,12
-	.word	.L156,.L162
+	.byte	'return_value',0,1,189,2,12
+	.word	.L166,.L172
 	.byte	5
-	.byte	'uart_buffer_index',0,1,185,2,12
-	.word	.L163,.L164
+	.byte	'uart_buffer_index',0,1,190,2,12
+	.word	.L173,.L174
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_get_version')
 	.sect	'.debug_abbrev'
@@ -18762,88 +18803,88 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_get_version')
 	.sect	'.debug_line'
 .L91:
-	.word	.L334-.L333
-.L333:
+	.word	.L345-.L344
+.L344:
 	.half	3
-	.word	.L336-.L335
-.L335:
+	.word	.L347-.L346
+.L346:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0,0
-.L336:
+.L347:
 	.byte	5,8,7,0,5,2
 	.word	.L78
-	.byte	3,178,2,1,5,26,9
-	.half	.L285-.L78
+	.byte	3,183,2,1,5,26,9
+	.half	.L296-.L78
 	.byte	3,4,1,5,25,9
-	.half	.L286-.L285
+	.half	.L297-.L296
 	.byte	3,1,1,5,32,9
-	.half	.L288-.L286
+	.half	.L299-.L297
 	.byte	3,1,1,5,30,9
-	.half	.L337-.L288
+	.half	.L348-.L299
 	.byte	1,5,22,9
-	.half	.L338-.L337
-	.byte	3,2,1,5,20,9
-	.half	.L339-.L338
-	.byte	1,5,22,9
-	.half	.L340-.L339
-	.byte	3,1,1,5,20,9
-	.half	.L341-.L340
-	.byte	1,5,10,9
-	.half	.L342-.L341
-	.byte	3,1,1,5,27,9
-	.half	.L290-.L342
-	.byte	3,1,1,5,20,9
-	.half	.L343-.L290
-	.byte	1,9
-	.half	.L344-.L343
-	.byte	3,1,1,5,23,9
-	.half	.L345-.L344
-	.byte	3,1,1,5,41,9
-	.half	.L346-.L345
-	.byte	1,5,54,9
-	.half	.L347-.L346
-	.byte	1,5,28,9
-	.half	.L40-.L347
-	.byte	3,4,1,5,9,9
-	.half	.L348-.L40
-	.byte	1,5,33,7,9
 	.half	.L349-.L348
-	.byte	3,2,1,5,31,9
+	.byte	3,2,1,5,20,9
 	.half	.L350-.L349
-	.byte	1,9
+	.byte	1,5,22,9
 	.half	.L351-.L350
-	.byte	3,1,1,5,53,9
+	.byte	3,1,1,5,20,9
 	.half	.L352-.L351
-	.byte	1,5,67,9
+	.byte	1,5,10,9
 	.half	.L353-.L352
-	.byte	1,5,86,9
-	.half	.L354-.L353
-	.byte	1,5,39,9
+	.byte	3,1,1,5,27,9
+	.half	.L301-.L353
+	.byte	3,1,1,5,20,9
+	.half	.L354-.L301
+	.byte	1,9
 	.half	.L355-.L354
-	.byte	3,1,1,5,43,9
+	.byte	3,1,1,5,23,9
 	.half	.L356-.L355
+	.byte	3,1,1,5,41,9
+	.half	.L357-.L356
+	.byte	1,5,54,9
+	.half	.L358-.L357
+	.byte	1,5,28,9
+	.half	.L40-.L358
+	.byte	3,4,1,5,9,9
+	.half	.L359-.L40
+	.byte	1,5,33,7,9
+	.half	.L360-.L359
+	.byte	3,2,1,5,31,9
+	.half	.L361-.L360
+	.byte	1,9
+	.half	.L362-.L361
+	.byte	3,1,1,5,53,9
+	.half	.L363-.L362
+	.byte	1,5,67,9
+	.half	.L364-.L363
+	.byte	1,5,86,9
+	.half	.L365-.L364
+	.byte	1,5,39,9
+	.half	.L366-.L365
+	.byte	3,1,1,5,43,9
+	.half	.L367-.L366
 	.byte	1,5,61,9
-	.half	.L289-.L356
+	.half	.L300-.L367
 	.byte	1,5,48,9
-	.half	.L291-.L289
+	.half	.L302-.L300
 	.byte	1,5,13,9
-	.half	.L357-.L291
+	.half	.L368-.L302
 	.byte	3,1,1,5,25,9
-	.half	.L41-.L357
+	.half	.L41-.L368
 	.byte	3,2,1,5,49,9
-	.half	.L358-.L41
+	.half	.L369-.L41
 	.byte	3,1,1,5,12,9
-	.half	.L292-.L358
+	.half	.L303-.L369
 	.byte	1,5,52,9
-	.half	.L359-.L292
+	.half	.L370-.L303
 	.byte	1,5,5,7,9
-	.half	.L42-.L359
+	.half	.L42-.L370
 	.byte	3,1,1,5,1,9
 	.half	.L43-.L42
 	.byte	3,1,1,7,9
 	.half	.L93-.L43
 	.byte	0,1,1
-.L334:
+.L345:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_get_version')
 	.sect	'.debug_ranges'
 .L92:
@@ -18863,32 +18904,32 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_set_exposure_time',0,1,217,2,7
-	.word	.L165
+	.byte	'mt9v03x_set_exposure_time',0,1,222,2,7
+	.word	.L175
 	.byte	1,1,1
-	.word	.L80,.L166,.L79
+	.word	.L80,.L176,.L79
 	.byte	4
-	.byte	'light',0,1,217,2,41
-	.word	.L156,.L167
+	.byte	'light',0,1,222,2,41
+	.word	.L166,.L177
 	.byte	5
-	.word	.L80,.L166
+	.word	.L80,.L176
 	.byte	6
-	.byte	'return_state',0,1,219,2,11
-	.word	.L165,.L168
+	.byte	'return_state',0,1,224,2,11
+	.word	.L175,.L178
 	.byte	5
-	.word	.L169,.L170
+	.word	.L179,.L180
 	.byte	6
-	.byte	'uart_buffer',0,1,223,2,16
-	.word	.L159,.L171
+	.byte	'uart_buffer',0,1,228,2,16
+	.word	.L169,.L181
 	.byte	6
-	.byte	'temp',0,1,224,2,16
-	.word	.L156,.L172
+	.byte	'temp',0,1,229,2,16
+	.word	.L166,.L182
 	.byte	6
-	.byte	'timeout_count',0,1,225,2,16
-	.word	.L156,.L173
+	.byte	'timeout_count',0,1,230,2,16
+	.word	.L166,.L183
 	.byte	6
-	.byte	'uart_buffer_index',0,1,226,2,16
-	.word	.L163,.L174
+	.byte	'uart_buffer_index',0,1,231,2,16
+	.word	.L173,.L184
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_set_exposure_time')
 	.sect	'.debug_abbrev'
@@ -18899,122 +18940,122 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_set_exposure_time')
 	.sect	'.debug_line'
 .L96:
-	.word	.L361-.L360
-.L360:
+	.word	.L372-.L371
+.L371:
 	.half	3
-	.word	.L363-.L362
-.L362:
+	.word	.L374-.L373
+.L373:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0,0
-.L363:
+.L374:
 	.byte	5,7,7,0,5,2
 	.word	.L80
-	.byte	3,216,2,1,5,24,9
-	.half	.L296-.L80
+	.byte	3,221,2,1,5,24,9
+	.half	.L307-.L80
 	.byte	3,2,1,9
-	.half	.L297-.L296
+	.half	.L308-.L307
 	.byte	3,1,1,5,5,9
-	.half	.L364-.L297
+	.half	.L375-.L308
 	.byte	1,5,25,7,9
-	.half	.L365-.L364
-	.byte	3,2,1,5,43,9
-	.half	.L295-.L365
-	.byte	1,5,66,9
-	.half	.L366-.L295
-	.byte	1,5,87,9
-	.half	.L367-.L366
-	.byte	1,5,30,9
-	.half	.L169-.L367
-	.byte	3,3,1,5,36,9
-	.half	.L299-.L169
-	.byte	3,1,1,5,34,9
-	.half	.L368-.L299
-	.byte	1,5,26,9
-	.half	.L369-.L368
-	.byte	3,2,1,5,24,9
-	.half	.L370-.L369
-	.byte	1,5,26,9
-	.half	.L371-.L370
-	.byte	3,1,1,5,24,9
-	.half	.L372-.L371
-	.byte	1,5,14,9
-	.half	.L373-.L372
-	.byte	3,1,1,5,31,9
-	.half	.L301-.L373
-	.byte	3,1,1,5,24,9
-	.half	.L374-.L301
-	.byte	1,9
-	.half	.L375-.L374
-	.byte	3,1,1,5,27,9
 	.half	.L376-.L375
-	.byte	3,1,1,5,45,9
-	.half	.L377-.L376
-	.byte	1,5,58,9
+	.byte	3,2,1,5,43,9
+	.half	.L306-.L376
+	.byte	1,5,66,9
+	.half	.L377-.L306
+	.byte	1,5,87,9
 	.half	.L378-.L377
-	.byte	1,5,32,9
-	.half	.L45-.L378
-	.byte	3,4,1,5,13,9
-	.half	.L379-.L45
-	.byte	1,5,37,7,9
+	.byte	1,5,30,9
+	.half	.L179-.L378
+	.byte	3,3,1,5,36,9
+	.half	.L310-.L179
+	.byte	3,1,1,5,34,9
+	.half	.L379-.L310
+	.byte	1,5,26,9
 	.half	.L380-.L379
-	.byte	3,2,1,5,35,9
+	.byte	3,2,1,5,24,9
 	.half	.L381-.L380
-	.byte	1,9
+	.byte	1,5,26,9
 	.half	.L382-.L381
-	.byte	3,1,1,5,57,9
+	.byte	3,1,1,5,24,9
 	.half	.L383-.L382
-	.byte	1,5,71,9
+	.byte	1,5,14,9
 	.half	.L384-.L383
-	.byte	1,5,90,9
-	.half	.L385-.L384
-	.byte	1,5,35,9
+	.byte	3,1,1,5,31,9
+	.half	.L312-.L384
+	.byte	3,1,1,5,24,9
+	.half	.L385-.L312
+	.byte	1,9
 	.half	.L386-.L385
-	.byte	3,1,1,5,39,9
+	.byte	3,1,1,5,27,9
 	.half	.L387-.L386
-	.byte	1,5,57,9
-	.half	.L302-.L387
-	.byte	1,5,44,9
-	.half	.L303-.L302
-	.byte	1,5,17,9
-	.half	.L388-.L303
-	.byte	3,1,1,5,29,9
-	.half	.L46-.L388
-	.byte	3,2,1,5,53,9
-	.half	.L389-.L46
-	.byte	3,1,1,5,16,9
-	.half	.L304-.L389
-	.byte	1,5,56,9
-	.half	.L390-.L304
-	.byte	1,5,12,7,9
-	.half	.L47-.L390
-	.byte	3,1,1,5,32,7,9
-	.half	.L391-.L47
-	.byte	1,5,53,9
+	.byte	3,1,1,5,45,9
+	.half	.L388-.L387
+	.byte	1,5,58,9
+	.half	.L389-.L388
+	.byte	1,5,32,9
+	.half	.L45-.L389
+	.byte	3,4,1,5,13,9
+	.half	.L390-.L45
+	.byte	1,5,37,7,9
+	.half	.L391-.L390
+	.byte	3,2,1,5,35,9
 	.half	.L392-.L391
+	.byte	1,9
+	.half	.L393-.L392
+	.byte	3,1,1,5,57,9
+	.half	.L394-.L393
+	.byte	1,5,71,9
+	.half	.L395-.L394
+	.byte	1,5,90,9
+	.half	.L396-.L395
+	.byte	1,5,35,9
+	.half	.L397-.L396
+	.byte	3,1,1,5,39,9
+	.half	.L398-.L397
+	.byte	1,5,57,9
+	.half	.L313-.L398
+	.byte	1,5,44,9
+	.half	.L314-.L313
+	.byte	1,5,17,9
+	.half	.L399-.L314
+	.byte	3,1,1,5,29,9
+	.half	.L46-.L399
+	.byte	3,2,1,5,53,9
+	.half	.L400-.L46
+	.byte	3,1,1,5,16,9
+	.half	.L315-.L400
+	.byte	1,5,56,9
+	.half	.L401-.L315
+	.byte	1,5,12,7,9
+	.half	.L47-.L401
+	.byte	3,1,1,5,32,7,9
+	.half	.L402-.L47
+	.byte	1,5,53,9
+	.half	.L403-.L402
 	.byte	1,5,26,7,9
-	.half	.L48-.L392
+	.half	.L48-.L403
 	.byte	3,2,1,5,25,9
 	.half	.L49-.L48
 	.byte	3,2,1,5,43,9
-	.half	.L393-.L49
+	.half	.L404-.L49
 	.byte	1,5,66,9
-	.half	.L394-.L393
+	.half	.L405-.L404
 	.byte	1,5,87,9
-	.half	.L395-.L394
+	.half	.L406-.L405
 	.byte	1,5,92,9
-	.half	.L170-.L395
+	.half	.L180-.L406
 	.byte	1,5,55,9
-	.half	.L44-.L170
+	.half	.L44-.L180
 	.byte	3,4,1,5,22,9
-	.half	.L298-.L44
+	.half	.L309-.L44
 	.byte	1,5,5,9
-	.half	.L50-.L298
+	.half	.L50-.L309
 	.byte	3,2,1,5,1,9
 	.half	.L51-.L50
 	.byte	3,1,1,7,9
 	.half	.L98-.L51
 	.byte	0,1,1
-.L361:
+.L372:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_set_exposure_time')
 	.sect	'.debug_ranges'
 .L97:
@@ -19034,35 +19075,35 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_set_reg',0,1,139,3,7
-	.word	.L165
+	.byte	'mt9v03x_set_reg',0,1,144,3,7
+	.word	.L175
 	.byte	1,1,1
-	.word	.L82,.L175,.L81
+	.word	.L82,.L185,.L81
 	.byte	4
-	.byte	'addr',0,1,139,3,30
-	.word	.L165,.L176
+	.byte	'addr',0,1,144,3,30
+	.word	.L175,.L186
 	.byte	4
-	.byte	'data',0,1,139,3,43
-	.word	.L156,.L177
+	.byte	'data',0,1,144,3,43
+	.word	.L166,.L187
 	.byte	5
-	.word	.L82,.L175
+	.word	.L82,.L185
 	.byte	6
-	.byte	'return_state',0,1,141,3,11
-	.word	.L165,.L178
+	.byte	'return_state',0,1,146,3,11
+	.word	.L175,.L188
 	.byte	5
-	.word	.L179,.L180
+	.word	.L189,.L190
 	.byte	6
-	.byte	'uart_buffer',0,1,145,3,16
-	.word	.L159,.L181
+	.byte	'uart_buffer',0,1,150,3,16
+	.word	.L169,.L191
 	.byte	6
-	.byte	'temp',0,1,146,3,16
-	.word	.L156,.L182
+	.byte	'temp',0,1,151,3,16
+	.word	.L166,.L192
 	.byte	6
-	.byte	'timeout_count',0,1,147,3,16
-	.word	.L156,.L183
+	.byte	'timeout_count',0,1,152,3,16
+	.word	.L166,.L193
 	.byte	6
-	.byte	'uart_buffer_index',0,1,148,3,16
-	.word	.L163,.L184
+	.byte	'uart_buffer_index',0,1,153,3,16
+	.word	.L173,.L194
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_set_reg')
 	.sect	'.debug_abbrev'
@@ -19073,144 +19114,144 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_set_reg')
 	.sect	'.debug_line'
 .L101:
-	.word	.L397-.L396
-.L396:
+	.word	.L408-.L407
+.L407:
 	.half	3
-	.word	.L399-.L398
-.L398:
+	.word	.L410-.L409
+.L409:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0,0
-.L399:
+.L410:
 	.byte	5,7,7,0,5,2
 	.word	.L82
-	.byte	3,138,3,1,5,24,9
-	.half	.L400-.L82
+	.byte	3,143,3,1,5,24,9
+	.half	.L411-.L82
 	.byte	3,2,1,9
-	.half	.L308-.L400
+	.half	.L319-.L411
 	.byte	3,1,1,5,5,9
-	.half	.L401-.L308
+	.half	.L412-.L319
 	.byte	1,5,25,7,9
-	.half	.L402-.L401
-	.byte	3,2,1,5,43,9
-	.half	.L307-.L402
-	.byte	1,5,66,9
-	.half	.L403-.L307
-	.byte	1,5,87,9
-	.half	.L404-.L403
-	.byte	1,5,30,9
-	.half	.L179-.L404
-	.byte	3,3,1,5,36,9
-	.half	.L310-.L179
-	.byte	3,1,1,5,34,9
-	.half	.L405-.L310
-	.byte	1,5,26,9
-	.half	.L406-.L405
-	.byte	3,2,1,5,24,9
-	.half	.L407-.L406
-	.byte	1,5,26,9
-	.half	.L408-.L407
-	.byte	3,1,1,5,24,9
-	.half	.L409-.L408
-	.byte	1,5,31,9
-	.half	.L312-.L409
-	.byte	3,2,1,5,24,9
-	.half	.L313-.L312
-	.byte	1,9
-	.half	.L314-.L313
-	.byte	3,1,1,5,27,9
-	.half	.L315-.L314
-	.byte	3,1,1,5,45,9
-	.half	.L410-.L315
-	.byte	1,5,58,9
-	.half	.L411-.L410
-	.byte	1,5,25,9
-	.half	.L412-.L411
-	.byte	3,2,1,5,26,9
 	.half	.L413-.L412
-	.byte	3,1,1,5,24,9
-	.half	.L414-.L413
-	.byte	1,5,26,9
+	.byte	3,2,1,5,43,9
+	.half	.L318-.L413
+	.byte	1,5,66,9
+	.half	.L414-.L318
+	.byte	1,5,87,9
 	.half	.L415-.L414
-	.byte	3,1,1,5,24,9
-	.half	.L416-.L415
-	.byte	1,5,14,9
-	.half	.L316-.L416
-	.byte	3,1,1,5,31,9
-	.half	.L318-.L316
-	.byte	3,1,1,5,24,9
-	.half	.L317-.L318
-	.byte	1,9
-	.half	.L320-.L317
-	.byte	3,1,1,5,27,9
-	.half	.L321-.L320
-	.byte	3,1,1,5,45,9
-	.half	.L417-.L321
-	.byte	1,5,58,9
+	.byte	1,5,30,9
+	.half	.L189-.L415
+	.byte	3,3,1,5,36,9
+	.half	.L321-.L189
+	.byte	3,1,1,5,34,9
+	.half	.L416-.L321
+	.byte	1,5,26,9
+	.half	.L417-.L416
+	.byte	3,2,1,5,24,9
 	.half	.L418-.L417
-	.byte	1,5,32,9
-	.half	.L53-.L418
-	.byte	3,4,1,5,13,9
-	.half	.L419-.L53
-	.byte	1,5,37,7,9
+	.byte	1,5,26,9
+	.half	.L419-.L418
+	.byte	3,1,1,5,24,9
 	.half	.L420-.L419
-	.byte	3,2,1,5,35,9
-	.half	.L421-.L420
+	.byte	1,5,31,9
+	.half	.L323-.L420
+	.byte	3,2,1,5,24,9
+	.half	.L324-.L323
 	.byte	1,9
+	.half	.L325-.L324
+	.byte	3,1,1,5,27,9
+	.half	.L326-.L325
+	.byte	3,1,1,5,45,9
+	.half	.L421-.L326
+	.byte	1,5,58,9
 	.half	.L422-.L421
-	.byte	3,1,1,5,57,9
+	.byte	1,5,25,9
 	.half	.L423-.L422
-	.byte	1,5,71,9
+	.byte	3,2,1,5,26,9
 	.half	.L424-.L423
-	.byte	1,5,90,9
+	.byte	3,1,1,5,24,9
 	.half	.L425-.L424
-	.byte	1,5,35,9
+	.byte	1,5,26,9
 	.half	.L426-.L425
-	.byte	3,1,1,5,39,9
+	.byte	3,1,1,5,24,9
 	.half	.L427-.L426
+	.byte	1,5,14,9
+	.half	.L327-.L427
+	.byte	3,1,1,5,31,9
+	.half	.L329-.L327
+	.byte	3,1,1,5,24,9
+	.half	.L328-.L329
+	.byte	1,9
+	.half	.L331-.L328
+	.byte	3,1,1,5,27,9
+	.half	.L332-.L331
+	.byte	3,1,1,5,45,9
+	.half	.L428-.L332
+	.byte	1,5,58,9
+	.half	.L429-.L428
+	.byte	1,5,32,9
+	.half	.L53-.L429
+	.byte	3,4,1,5,13,9
+	.half	.L430-.L53
+	.byte	1,5,37,7,9
+	.half	.L431-.L430
+	.byte	3,2,1,5,35,9
+	.half	.L432-.L431
+	.byte	1,9
+	.half	.L433-.L432
+	.byte	3,1,1,5,57,9
+	.half	.L434-.L433
+	.byte	1,5,71,9
+	.half	.L435-.L434
+	.byte	1,5,90,9
+	.half	.L436-.L435
+	.byte	1,5,35,9
+	.half	.L437-.L436
+	.byte	3,1,1,5,39,9
+	.half	.L438-.L437
 	.byte	1,5,57,9
-	.half	.L319-.L427
+	.half	.L330-.L438
 	.byte	1,5,44,9
-	.half	.L322-.L319
+	.half	.L333-.L330
 	.byte	1,5,17,9
-	.half	.L428-.L322
+	.half	.L439-.L333
 	.byte	3,1,1,5,29,9
-	.half	.L54-.L428
+	.half	.L54-.L439
 	.byte	3,2,1,5,53,9
-	.half	.L429-.L54
+	.half	.L440-.L54
 	.byte	3,1,1,5,16,9
-	.half	.L323-.L429
+	.half	.L334-.L440
 	.byte	1,5,56,9
-	.half	.L430-.L323
+	.half	.L441-.L334
 	.byte	1,5,12,7,9
-	.half	.L55-.L430
+	.half	.L55-.L441
 	.byte	3,1,1,5,31,7,9
-	.half	.L324-.L55
+	.half	.L335-.L55
 	.byte	1,5,52,9
-	.half	.L431-.L324
+	.half	.L442-.L335
 	.byte	1,5,26,7,9
-	.half	.L56-.L431
+	.half	.L56-.L442
 	.byte	3,2,1,5,25,9
 	.half	.L57-.L56
 	.byte	3,2,1,5,43,9
-	.half	.L432-.L57
+	.half	.L443-.L57
 	.byte	1,5,66,9
-	.half	.L433-.L432
+	.half	.L444-.L443
 	.byte	1,5,87,9
-	.half	.L434-.L433
+	.half	.L445-.L444
 	.byte	1,5,92,9
-	.half	.L180-.L434
+	.half	.L190-.L445
 	.byte	1,5,51,9
-	.half	.L52-.L180
+	.half	.L52-.L190
 	.byte	3,4,1,5,22,9
-	.half	.L309-.L52
+	.half	.L320-.L52
 	.byte	1,5,5,9
-	.half	.L58-.L309
+	.half	.L58-.L320
 	.byte	3,2,1,5,1,9
 	.half	.L59-.L58
 	.byte	3,1,1,7,9
 	.half	.L103-.L59
 	.byte	0,1,1
-.L397:
+.L408:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_set_reg')
 	.sect	'.debug_ranges'
 .L102:
@@ -19230,18 +19271,18 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_init',0,1,196,3,7
-	.word	.L165
+	.byte	'mt9v03x_init',0,1,201,3,7
+	.word	.L175
 	.byte	1,1,1
-	.word	.L84,.L185,.L83
+	.word	.L84,.L195,.L83
 	.byte	4
-	.word	.L84,.L185
+	.word	.L84,.L195
 	.byte	5
-	.byte	'return_state',0,1,198,3,11
-	.word	.L165,.L186
+	.byte	'return_state',0,1,203,3,11
+	.word	.L175,.L196
 	.byte	5
-	.byte	'mt9v03x_iic_struct',0,1,199,3,26
-	.word	.L187,.L188
+	.byte	'mt9v03x_iic_struct',0,1,204,3,26
+	.word	.L197,.L198
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_init')
 	.sect	'.debug_abbrev'
@@ -19251,148 +19292,148 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_init')
 	.sect	'.debug_line'
 .L106:
-	.word	.L436-.L435
-.L435:
+	.word	.L447-.L446
+.L446:
 	.half	3
-	.word	.L438-.L437
-.L437:
+	.word	.L449-.L448
+.L448:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0,0
-.L438:
+.L449:
 	.byte	5,7,7,0,5,2
 	.word	.L84
-	.byte	3,195,3,1,5,24,9
-	.half	.L327-.L84
+	.byte	3,200,3,1,5,24,9
+	.half	.L338-.L84
 	.byte	3,2,1,5,25,9
-	.half	.L60-.L327
+	.half	.L60-.L338
 	.byte	3,4,1,5,9,9
-	.half	.L439-.L60
+	.half	.L450-.L60
 	.byte	3,2,1,5,24,9
-	.half	.L440-.L439
-	.byte	1,5,22,9
-	.half	.L441-.L440
-	.byte	1,5,25,9
-	.half	.L442-.L441
-	.byte	3,1,1,5,43,9
-	.half	.L443-.L442
-	.byte	1,5,66,9
-	.half	.L444-.L443
-	.byte	1,5,87,9
-	.half	.L445-.L444
-	.byte	1,5,24,9
-	.half	.L446-.L445
-	.byte	3,1,1,5,44,9
-	.half	.L447-.L446
-	.byte	1,5,47,9
-	.half	.L448-.L447
-	.byte	1,5,70,9
-	.half	.L449-.L448
-	.byte	1,5,91,9
-	.half	.L450-.L449
-	.byte	1,5,37,9
 	.half	.L451-.L450
-	.byte	3,1,1,5,57,9
+	.byte	1,5,22,9
 	.half	.L452-.L451
-	.byte	1,5,9,9
-	.half	.L453-.L452
-	.byte	1,5,13,7,9
-	.half	.L454-.L453
-	.byte	3,3,1,5,28,9
-	.half	.L455-.L454
-	.byte	1,5,26,9
-	.half	.L456-.L455
-	.byte	1,5,29,9
-	.half	.L457-.L456
-	.byte	3,1,1,5,47,9
-	.half	.L458-.L457
-	.byte	1,5,70,9
-	.half	.L459-.L458
-	.byte	1,5,91,9
-	.half	.L460-.L459
-	.byte	1,5,29,9
-	.half	.L461-.L460
-	.byte	3,1,1,5,23,9
-	.half	.L462-.L461
-	.byte	3,3,1,5,41,9
-	.half	.L463-.L462
-	.byte	1,5,59,9
-	.half	.L464-.L463
-	.byte	1,5,80,9
-	.half	.L465-.L464
-	.byte	1,5,31,9
-	.half	.L466-.L465
-	.byte	3,1,1,5,49,9
-	.half	.L467-.L466
 	.byte	1,5,25,9
-	.half	.L468-.L467
-	.byte	3,1,1,5,13,9
-	.half	.L469-.L468
-	.byte	3,14,1,5,50,9
-	.half	.L470-.L469
+	.half	.L453-.L452
+	.byte	3,1,1,5,43,9
+	.half	.L454-.L453
+	.byte	1,5,66,9
+	.half	.L455-.L454
+	.byte	1,5,87,9
+	.half	.L456-.L455
+	.byte	1,5,24,9
+	.half	.L457-.L456
+	.byte	3,1,1,5,44,9
+	.half	.L458-.L457
+	.byte	1,5,47,9
+	.half	.L459-.L458
+	.byte	1,5,70,9
+	.half	.L460-.L459
+	.byte	1,5,91,9
+	.half	.L461-.L460
+	.byte	1,5,37,9
+	.half	.L462-.L461
+	.byte	3,1,1,5,57,9
+	.half	.L463-.L462
+	.byte	1,5,9,9
+	.half	.L464-.L463
+	.byte	1,5,13,7,9
+	.half	.L465-.L464
+	.byte	3,3,1,5,28,9
+	.half	.L466-.L465
+	.byte	1,5,26,9
+	.half	.L467-.L466
 	.byte	1,5,29,9
+	.half	.L468-.L467
+	.byte	3,1,1,5,47,9
+	.half	.L469-.L468
+	.byte	1,5,70,9
+	.half	.L470-.L469
+	.byte	1,5,91,9
 	.half	.L471-.L470
-	.byte	1,5,35,9
+	.byte	1,5,29,9
 	.half	.L472-.L471
-	.byte	3,2,1,5,13,9
+	.byte	3,1,1,5,23,9
 	.half	.L473-.L472
-	.byte	1,5,17,7,9
+	.byte	3,3,1,5,41,9
 	.half	.L474-.L473
-	.byte	3,5,1,5,35,9
+	.byte	1,5,59,9
 	.half	.L475-.L474
-	.byte	3,1,1,5,53,9
+	.byte	1,5,80,9
 	.half	.L476-.L475
-	.byte	1,5,33,9
-	.half	.L477-.L476
-	.byte	3,1,1,5,44,9
-	.half	.L478-.L477
-	.byte	1,5,50,9
-	.half	.L479-.L478
-	.byte	1,5,56,9
-	.half	.L480-.L479
-	.byte	1,5,30,9
-	.half	.L481-.L480
-	.byte	3,1,1,5,17,9
-	.half	.L482-.L481
-	.byte	3,1,1,5,35,9
-	.half	.L62-.L482
-	.byte	3,4,1,5,13,9
-	.half	.L483-.L62
-	.byte	1,5,17,7,9
-	.half	.L484-.L483
-	.byte	3,5,1,5,35,9
-	.half	.L485-.L484
-	.byte	3,1,1,5,53,9
-	.half	.L486-.L485
-	.byte	1,5,33,9
-	.half	.L487-.L486
-	.byte	3,1,1,5,44,9
-	.half	.L488-.L487
-	.byte	1,5,50,9
-	.half	.L489-.L488
-	.byte	1,5,56,9
-	.half	.L490-.L489
-	.byte	1,5,30,9
-	.half	.L491-.L490
-	.byte	3,1,1,5,17,9
-	.half	.L492-.L491
-	.byte	3,1,1,5,45,9
-	.half	.L61-.L492
-	.byte	3,3,1,5,9,9
-	.half	.L493-.L61
-	.byte	1,5,63,9
-	.half	.L494-.L493
-	.byte	1,5,81,9
-	.half	.L495-.L494
 	.byte	1,5,31,9
+	.half	.L477-.L476
+	.byte	3,1,1,5,49,9
+	.half	.L478-.L477
+	.byte	1,5,25,9
+	.half	.L479-.L478
+	.byte	3,1,1,5,13,9
+	.half	.L480-.L479
+	.byte	3,14,1,5,50,9
+	.half	.L481-.L480
+	.byte	1,5,29,9
+	.half	.L482-.L481
+	.byte	1,5,35,9
+	.half	.L483-.L482
+	.byte	3,2,1,5,13,9
+	.half	.L484-.L483
+	.byte	1,5,17,7,9
+	.half	.L485-.L484
+	.byte	3,5,1,5,35,9
+	.half	.L486-.L485
+	.byte	3,1,1,5,53,9
+	.half	.L487-.L486
+	.byte	1,5,33,9
+	.half	.L488-.L487
+	.byte	3,1,1,5,44,9
+	.half	.L489-.L488
+	.byte	1,5,50,9
+	.half	.L490-.L489
+	.byte	1,5,56,9
+	.half	.L491-.L490
+	.byte	1,5,30,9
+	.half	.L492-.L491
+	.byte	3,1,1,5,17,9
+	.half	.L493-.L492
+	.byte	3,1,1,5,35,9
+	.half	.L62-.L493
+	.byte	3,4,1,5,13,9
+	.half	.L494-.L62
+	.byte	1,5,17,7,9
+	.half	.L495-.L494
+	.byte	3,5,1,5,35,9
 	.half	.L496-.L495
+	.byte	3,1,1,5,53,9
+	.half	.L497-.L496
+	.byte	1,5,33,9
+	.half	.L498-.L497
+	.byte	3,1,1,5,44,9
+	.half	.L499-.L498
+	.byte	1,5,50,9
+	.half	.L500-.L499
+	.byte	1,5,56,9
+	.half	.L501-.L500
+	.byte	1,5,30,9
+	.half	.L502-.L501
+	.byte	3,1,1,5,17,9
+	.half	.L503-.L502
+	.byte	3,1,1,5,45,9
+	.half	.L61-.L503
+	.byte	3,3,1,5,9,9
+	.half	.L504-.L61
+	.byte	1,5,63,9
+	.half	.L505-.L504
+	.byte	1,5,81,9
+	.half	.L506-.L505
+	.byte	1,5,31,9
+	.half	.L507-.L506
 	.byte	1,5,5,9
-	.half	.L63-.L496
+	.half	.L63-.L507
 	.byte	3,2,1,5,1,9
 	.half	.L66-.L63
 	.byte	3,1,1,7,9
 	.half	.L108-.L66
 	.byte	0,1,1
-.L436:
+.L447:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_init')
 	.sect	'.debug_ranges'
 .L107:
@@ -19412,33 +19453,33 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_set_config',0,1,114,14
-	.word	.L165
+	.byte	'mt9v03x_set_config',0,1,119,14
+	.word	.L175
 	.byte	1,1
-	.word	.L68,.L189,.L67
+	.word	.L68,.L199,.L67
 	.byte	4
-	.byte	'buff',0,1,114,40
-	.word	.L190,.L191
+	.byte	'buff',0,1,119,40
+	.word	.L200,.L201
 	.byte	5
-	.word	.L68,.L189
+	.word	.L68,.L199
 	.byte	6
-	.byte	'return_state',0,1,116,11
-	.word	.L165,.L192
+	.byte	'return_state',0,1,121,11
+	.word	.L175,.L202
 	.byte	6
-	.byte	'uart_buffer',0,1,117,12
-	.word	.L159,.L193
+	.byte	'uart_buffer',0,1,122,12
+	.word	.L169,.L203
 	.byte	6
-	.byte	'temp',0,1,118,12
-	.word	.L156,.L194
+	.byte	'temp',0,1,123,12
+	.word	.L166,.L204
 	.byte	6
-	.byte	'timeout_count',0,1,119,12
-	.word	.L156,.L195
+	.byte	'timeout_count',0,1,124,12
+	.word	.L166,.L205
 	.byte	6
-	.byte	'loop_count',0,1,120,12
-	.word	.L163,.L196
+	.byte	'loop_count',0,1,125,12
+	.word	.L173,.L206
 	.byte	6
-	.byte	'uart_buffer_index',0,1,121,12
-	.word	.L163,.L197
+	.byte	'uart_buffer_index',0,1,126,12
+	.word	.L173,.L207
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_set_config')
 	.sect	'.debug_abbrev'
@@ -19449,120 +19490,120 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_set_config')
 	.sect	'.debug_line'
 .L111:
-	.word	.L498-.L497
-.L497:
+	.word	.L509-.L508
+.L508:
 	.half	3
-	.word	.L500-.L499
-.L499:
+	.word	.L511-.L510
+.L510:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0,0
-.L500:
+.L511:
 	.byte	5,14,7,0,5,2
 	.word	.L68
-	.byte	3,241,0,1,5,24,9
-	.half	.L262-.L68
+	.byte	3,246,0,1,5,24,9
+	.half	.L273-.L68
 	.byte	3,2,1,5,26,9
-	.half	.L263-.L262
+	.half	.L274-.L273
 	.byte	3,3,1,5,32,9
-	.half	.L264-.L263
+	.half	.L275-.L274
 	.byte	3,2,1,5,30,9
-	.half	.L501-.L264
+	.half	.L512-.L275
 	.byte	1,5,12,9
-	.half	.L502-.L501
+	.half	.L513-.L512
 	.byte	3,2,1,5,14,9
-	.half	.L503-.L502
+	.half	.L514-.L513
 	.byte	3,2,1,5,36,9
-	.half	.L2-.L503
+	.half	.L2-.L514
 	.byte	1,5,58,9
-	.half	.L266-.L2
+	.half	.L277-.L2
 	.byte	1,5,36,9
-	.half	.L3-.L266
+	.half	.L3-.L277
 	.byte	3,1,1,5,58,9
-	.half	.L267-.L3
+	.half	.L278-.L3
 	.byte	1,5,40,9
-	.half	.L4-.L267
+	.half	.L4-.L278
 	.byte	3,4,1,5,26,9
 	.half	.L7-.L4
 	.byte	3,2,1,5,24,9
-	.half	.L504-.L7
+	.half	.L515-.L7
 	.byte	1,5,37,9
-	.half	.L505-.L504
+	.half	.L516-.L515
 	.byte	3,1,1,5,49,9
-	.half	.L506-.L505
+	.half	.L517-.L516
 	.byte	1,5,24,9
-	.half	.L507-.L506
-	.byte	1,5,20,9
-	.half	.L508-.L507
-	.byte	3,1,1,5,32,9
-	.half	.L509-.L508
-	.byte	1,5,31,9
-	.half	.L268-.L509
-	.byte	3,1,1,5,24,9
-	.half	.L510-.L268
-	.byte	1,9
-	.half	.L511-.L510
-	.byte	3,1,1,5,27,9
-	.half	.L512-.L511
-	.byte	3,1,1,5,45,9
-	.half	.L513-.L512
-	.byte	1,5,58,9
-	.half	.L514-.L513
-	.byte	1,5,25,9
-	.half	.L269-.L514
-	.byte	3,2,1,5,53,9
-	.half	.L515-.L269
-	.byte	3,119,1,5,11,9
-	.half	.L6-.L515
-	.byte	1,5,40,9
-	.half	.L516-.L6
-	.byte	1,5,28,7,9
-	.half	.L8-.L516
-	.byte	3,14,1,5,9,9
-	.half	.L517-.L8
-	.byte	1,5,33,7,9
 	.half	.L518-.L517
-	.byte	3,2,1,5,31,9
+	.byte	1,5,20,9
 	.half	.L519-.L518
-	.byte	1,9
+	.byte	3,1,1,5,32,9
 	.half	.L520-.L519
-	.byte	3,1,1,5,53,9
-	.half	.L521-.L520
-	.byte	1,5,67,9
+	.byte	1,5,31,9
+	.half	.L279-.L520
+	.byte	3,1,1,5,24,9
+	.half	.L521-.L279
+	.byte	1,9
 	.half	.L522-.L521
-	.byte	1,5,86,9
+	.byte	3,1,1,5,27,9
 	.half	.L523-.L522
-	.byte	1,5,36,9
+	.byte	3,1,1,5,45,9
 	.half	.L524-.L523
-	.byte	3,1,1,5,17,9
+	.byte	1,5,58,9
 	.half	.L525-.L524
-	.byte	1,5,16,9
-	.half	.L526-.L525
-	.byte	1,5,64,7,9
-	.half	.L527-.L526
-	.byte	1,5,45,9
-	.half	.L528-.L527
-	.byte	1,5,50,9
+	.byte	1,5,25,9
+	.half	.L280-.L525
+	.byte	3,2,1,5,53,9
+	.half	.L526-.L280
+	.byte	3,119,1,5,11,9
+	.half	.L6-.L526
+	.byte	1,5,40,9
+	.half	.L527-.L6
+	.byte	1,5,28,7,9
+	.half	.L8-.L527
+	.byte	3,14,1,5,9,9
+	.half	.L528-.L8
+	.byte	1,5,33,7,9
 	.half	.L529-.L528
+	.byte	3,2,1,5,31,9
+	.half	.L530-.L529
+	.byte	1,9
+	.half	.L531-.L530
+	.byte	3,1,1,5,53,9
+	.half	.L532-.L531
+	.byte	1,5,67,9
+	.half	.L533-.L532
+	.byte	1,5,86,9
+	.half	.L534-.L533
+	.byte	1,5,36,9
+	.half	.L535-.L534
+	.byte	3,1,1,5,17,9
+	.half	.L536-.L535
+	.byte	1,5,16,9
+	.half	.L537-.L536
+	.byte	1,5,64,7,9
+	.half	.L538-.L537
+	.byte	1,5,45,9
+	.half	.L539-.L538
+	.byte	1,5,50,9
+	.half	.L540-.L539
 	.byte	1,5,30,7,9
-	.half	.L10-.L529
+	.half	.L10-.L540
 	.byte	3,2,1,5,17,9
-	.half	.L530-.L10
+	.half	.L541-.L10
 	.byte	3,1,1,5,25,9
-	.half	.L9-.L530
+	.half	.L9-.L541
 	.byte	3,3,1,5,49,9
-	.half	.L531-.L9
+	.half	.L542-.L9
 	.byte	3,1,1,5,12,9
-	.half	.L270-.L531
+	.half	.L281-.L542
 	.byte	1,5,52,9
-	.half	.L532-.L270
+	.half	.L543-.L281
 	.byte	1,5,5,7,9
-	.half	.L12-.L532
+	.half	.L12-.L543
 	.byte	3,3,1,5,1,9
 	.half	.L13-.L12
 	.byte	3,1,1,7,9
 	.half	.L113-.L13
 	.byte	0,1,1
-.L498:
+.L509:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_set_config')
 	.sect	'.debug_ranges'
 .L112:
@@ -19582,33 +19623,33 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_get_config',0,1,168,1,14
-	.word	.L165
+	.byte	'mt9v03x_get_config',0,1,173,1,14
+	.word	.L175
 	.byte	1,1
-	.word	.L70,.L198,.L69
+	.word	.L70,.L208,.L69
 	.byte	4
-	.byte	'buff',0,1,168,1,40
-	.word	.L190,.L199
+	.byte	'buff',0,1,173,1,40
+	.word	.L200,.L209
 	.byte	5
-	.word	.L70,.L198
+	.word	.L70,.L208
 	.byte	6
-	.byte	'return_state',0,1,170,1,11
-	.word	.L165,.L200
+	.byte	'return_state',0,1,175,1,11
+	.word	.L175,.L210
 	.byte	6
-	.byte	'uart_buffer',0,1,171,1,12
-	.word	.L159,.L201
+	.byte	'uart_buffer',0,1,176,1,12
+	.word	.L169,.L211
 	.byte	6
-	.byte	'temp',0,1,172,1,12
-	.word	.L156,.L202
+	.byte	'temp',0,1,177,1,12
+	.word	.L166,.L212
 	.byte	6
-	.byte	'timeout_count',0,1,173,1,12
-	.word	.L156,.L203
+	.byte	'timeout_count',0,1,178,1,12
+	.word	.L166,.L213
 	.byte	6
-	.byte	'loop_count',0,1,174,1,12
-	.word	.L163,.L204
+	.byte	'loop_count',0,1,179,1,12
+	.word	.L173,.L214
 	.byte	6
-	.byte	'uart_buffer_index',0,1,175,1,12
-	.word	.L163,.L205
+	.byte	'uart_buffer_index',0,1,180,1,12
+	.word	.L173,.L215
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_get_config')
 	.sect	'.debug_abbrev'
@@ -19619,128 +19660,128 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_get_config')
 	.sect	'.debug_line'
 .L116:
-	.word	.L534-.L533
-.L533:
+	.word	.L545-.L544
+.L544:
 	.half	3
-	.word	.L536-.L535
-.L535:
+	.word	.L547-.L546
+.L546:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0,0
-.L536:
+.L547:
 	.byte	5,14,7,0,5,2
 	.word	.L70
-	.byte	3,167,1,1,5,24,9
-	.half	.L273-.L70
+	.byte	3,172,1,1,5,24,9
+	.half	.L284-.L70
 	.byte	3,2,1,5,32,9
-	.half	.L274-.L273
+	.half	.L285-.L284
 	.byte	3,5,1,5,30,9
-	.half	.L537-.L274
+	.half	.L548-.L285
 	.byte	1,5,12,9
-	.half	.L538-.L537
-	.byte	3,2,1,5,14,9
-	.half	.L539-.L538
-	.byte	3,2,1,5,36,9
-	.half	.L14-.L539
-	.byte	1,5,58,9
-	.half	.L275-.L14
-	.byte	1,5,36,9
-	.half	.L15-.L275
-	.byte	3,1,1,5,58,9
-	.half	.L276-.L15
-	.byte	1,5,33,9
-	.half	.L16-.L276
-	.byte	3,3,1,5,53,9
-	.half	.L277-.L16
-	.byte	1,5,22,9
-	.half	.L19-.L277
-	.byte	3,2,1,5,13,9
-	.half	.L540-.L19
-	.byte	1,5,12,9
-	.half	.L541-.L540
-	.byte	1,5,68,7,9
-	.half	.L542-.L541
-	.byte	1,5,80,9
-	.half	.L543-.L542
-	.byte	1,5,43,9
-	.half	.L544-.L543
-	.byte	1,5,61,9
-	.half	.L545-.L544
-	.byte	1,5,13,7,9
-	.half	.L546-.L545
-	.byte	3,2,1,5,26,9
-	.half	.L20-.L546
-	.byte	3,2,1,5,24,9
-	.half	.L547-.L20
-	.byte	1,5,26,9
-	.half	.L548-.L547
-	.byte	3,1,1,5,24,9
 	.half	.L549-.L548
-	.byte	1,5,20,9
+	.byte	3,2,1,5,14,9
 	.half	.L550-.L549
-	.byte	3,1,1,5,32,9
-	.half	.L551-.L550
-	.byte	1,5,31,9
-	.half	.L278-.L551
-	.byte	3,1,1,5,24,9
-	.half	.L552-.L278
-	.byte	1,9
-	.half	.L553-.L552
-	.byte	3,1,1,5,27,9
-	.half	.L554-.L553
-	.byte	3,1,1,5,45,9
-	.half	.L555-.L554
+	.byte	3,2,1,5,36,9
+	.half	.L14-.L550
 	.byte	1,5,58,9
-	.half	.L556-.L555
-	.byte	1,5,23,9
-	.half	.L557-.L556
-	.byte	3,2,1,5,32,9
-	.half	.L23-.L557
-	.byte	3,3,1,5,13,9
-	.half	.L558-.L23
-	.byte	1,5,37,7,9
-	.half	.L559-.L558
-	.byte	3,2,1,5,35,9
-	.half	.L560-.L559
-	.byte	1,9
-	.half	.L561-.L560
-	.byte	3,1,1,5,57,9
-	.half	.L562-.L561
-	.byte	1,5,71,9
-	.half	.L563-.L562
-	.byte	1,5,90,9
-	.half	.L564-.L563
-	.byte	1,5,21,9
-	.half	.L565-.L564
-	.byte	3,1,1,5,50,9
-	.half	.L566-.L565
-	.byte	1,5,54,9
-	.half	.L567-.L566
-	.byte	1,5,72,9
-	.half	.L568-.L567
-	.byte	1,5,59,9
-	.half	.L569-.L568
-	.byte	1,5,37,9
-	.half	.L570-.L569
-	.byte	1,5,17,9
-	.half	.L571-.L570
-	.byte	3,1,1,5,29,9
-	.half	.L24-.L571
-	.byte	3,2,1,5,53,9
-	.half	.L572-.L24
-	.byte	3,1,1,5,16,9
-	.half	.L280-.L572
-	.byte	1,5,56,9
-	.half	.L573-.L280
-	.byte	1,5,12,7,9
-	.half	.L25-.L573
-	.byte	3,1,1,5,9,9
-	.half	.L574-.L25
-	.byte	1,5,26,7,9
-	.half	.L575-.L574
+	.half	.L286-.L14
+	.byte	1,5,36,9
+	.half	.L15-.L286
+	.byte	3,1,1,5,58,9
+	.half	.L287-.L15
+	.byte	1,5,33,9
+	.half	.L16-.L287
+	.byte	3,3,1,5,53,9
+	.half	.L288-.L16
+	.byte	1,5,22,9
+	.half	.L19-.L288
 	.byte	3,2,1,5,13,9
+	.half	.L551-.L19
+	.byte	1,5,12,9
+	.half	.L552-.L551
+	.byte	1,5,68,7,9
+	.half	.L553-.L552
+	.byte	1,5,80,9
+	.half	.L554-.L553
+	.byte	1,5,43,9
+	.half	.L555-.L554
+	.byte	1,5,61,9
+	.half	.L556-.L555
+	.byte	1,5,13,7,9
+	.half	.L557-.L556
+	.byte	3,2,1,5,26,9
+	.half	.L20-.L557
+	.byte	3,2,1,5,24,9
+	.half	.L558-.L20
+	.byte	1,5,26,9
+	.half	.L559-.L558
+	.byte	3,1,1,5,24,9
+	.half	.L560-.L559
+	.byte	1,5,20,9
+	.half	.L561-.L560
+	.byte	3,1,1,5,32,9
+	.half	.L562-.L561
+	.byte	1,5,31,9
+	.half	.L289-.L562
+	.byte	3,1,1,5,24,9
+	.half	.L563-.L289
+	.byte	1,9
+	.half	.L564-.L563
+	.byte	3,1,1,5,27,9
+	.half	.L565-.L564
+	.byte	3,1,1,5,45,9
+	.half	.L566-.L565
+	.byte	1,5,58,9
+	.half	.L567-.L566
+	.byte	1,5,23,9
+	.half	.L568-.L567
+	.byte	3,2,1,5,32,9
+	.half	.L23-.L568
+	.byte	3,3,1,5,13,9
+	.half	.L569-.L23
+	.byte	1,5,37,7,9
+	.half	.L570-.L569
+	.byte	3,2,1,5,35,9
+	.half	.L571-.L570
+	.byte	1,9
+	.half	.L572-.L571
+	.byte	3,1,1,5,57,9
+	.half	.L573-.L572
+	.byte	1,5,71,9
+	.half	.L574-.L573
+	.byte	1,5,90,9
+	.half	.L575-.L574
+	.byte	1,5,21,9
 	.half	.L576-.L575
+	.byte	3,1,1,5,50,9
+	.half	.L577-.L576
+	.byte	1,5,54,9
+	.half	.L578-.L577
+	.byte	1,5,72,9
+	.half	.L579-.L578
+	.byte	1,5,59,9
+	.half	.L580-.L579
+	.byte	1,5,37,9
+	.half	.L581-.L580
+	.byte	1,5,17,9
+	.half	.L582-.L581
+	.byte	3,1,1,5,29,9
+	.half	.L24-.L582
+	.byte	3,2,1,5,53,9
+	.half	.L583-.L24
+	.byte	3,1,1,5,16,9
+	.half	.L291-.L583
+	.byte	1,5,56,9
+	.half	.L584-.L291
+	.byte	1,5,12,7,9
+	.half	.L25-.L584
+	.byte	3,1,1,5,9,9
+	.half	.L585-.L25
+	.byte	1,5,26,7,9
+	.half	.L586-.L585
+	.byte	3,2,1,5,13,9
+	.half	.L587-.L586
 	.byte	3,1,1,5,66,9
-	.half	.L22-.L576
+	.half	.L22-.L587
 	.byte	3,100,1,5,53,9
 	.half	.L18-.L22
 	.byte	1,5,5,7,9
@@ -19750,7 +19791,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	3,1,1,7,9
 	.half	.L118-.L28
 	.byte	0,1,1
-.L534:
+.L545:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_get_config')
 	.sect	'.debug_ranges'
 .L117:
@@ -19770,13 +19811,13 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_uart_handler',0,1,224,1,13,1,1
-	.word	.L72,.L206,.L71
+	.byte	'mt9v03x_uart_handler',0,1,229,1,13,1,1
+	.word	.L72,.L216,.L71
 	.byte	4
-	.word	.L72,.L206
+	.word	.L72,.L216
 	.byte	5
-	.byte	'data',0,1,226,1,11
-	.word	.L165,.L207
+	.byte	'data',0,1,231,1,11
+	.word	.L175,.L217
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_uart_handler')
 	.sect	'.debug_abbrev'
@@ -19786,42 +19827,42 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_uart_handler')
 	.sect	'.debug_line'
 .L121:
-	.word	.L578-.L577
-.L577:
+	.word	.L589-.L588
+.L588:
 	.half	3
-	.word	.L580-.L579
-.L579:
+	.word	.L591-.L590
+.L590:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0,0
-.L580:
+.L591:
 	.byte	5,13,7,0,5,2
 	.word	.L72
-	.byte	3,223,1,1,5,18,9
-	.half	.L282-.L72
+	.byte	3,228,1,1,5,18,9
+	.half	.L293-.L72
 	.byte	3,2,1,5,16,9
-	.half	.L581-.L282
+	.half	.L592-.L293
 	.byte	1,5,21,9
-	.half	.L582-.L581
+	.half	.L593-.L592
 	.byte	3,1,1,5,40,9
-	.half	.L583-.L582
+	.half	.L594-.L593
 	.byte	1,5,16,9
-	.half	.L584-.L583
+	.half	.L595-.L594
 	.byte	3,1,1,5,8,9
-	.half	.L585-.L584
+	.half	.L596-.L595
 	.byte	1,5,5,9
-	.half	.L586-.L585
+	.half	.L597-.L596
 	.byte	1,5,21,7,9
-	.half	.L587-.L586
+	.half	.L598-.L597
 	.byte	3,2,1,5,25,9
-	.half	.L29-.L587
+	.half	.L29-.L598
 	.byte	3,2,1,5,47,9
-	.half	.L588-.L29
+	.half	.L599-.L29
 	.byte	1,5,1,9
-	.half	.L589-.L588
+	.half	.L600-.L599
 	.byte	3,1,1,7,9
-	.half	.L123-.L589
+	.half	.L123-.L600
 	.byte	0,1,1
-.L578:
+.L589:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_uart_handler')
 	.sect	'.debug_ranges'
 .L122:
@@ -19841,35 +19882,35 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_vsync_handler',0,1,241,1,13,1,1
-	.word	.L74,.L208,.L73
+	.byte	'mt9v03x_vsync_handler',0,1,246,1,13,1,1
+	.word	.L74,.L218,.L73
 	.byte	4
-	.word	.L74,.L208
+	.word	.L74,.L218
 	.byte	5
-	.word	.L209,.L210,.L211
+	.word	.L219,.L220,.L221
 	.byte	6
-	.word	.L212,.L213
-	.byte	6
-	.word	.L214,.L215
-	.byte	7
-	.word	.L216,.L210,.L211
-	.byte	0,5
-	.word	.L217,.L218,.L34
-	.byte	8
-	.word	.L219,.L218,.L34
-	.byte	9
-	.byte	'reg',0,2,135,6,21
-	.word	.L220,.L221
-	.byte	0,0,5
-	.word	.L222,.L223,.L32
+	.word	.L222,.L223
 	.byte	6
 	.word	.L224,.L225
-	.byte	6
-	.word	.L226,.L227
-	.byte	6
-	.word	.L228,.L229
 	.byte	7
-	.word	.L230,.L223,.L32
+	.word	.L226,.L220,.L221
+	.byte	0,5
+	.word	.L227,.L228,.L34
+	.byte	8
+	.word	.L229,.L228,.L34
+	.byte	9
+	.byte	'reg',0,2,135,6,21
+	.word	.L230,.L231
+	.byte	0,0,5
+	.word	.L232,.L233,.L32
+	.byte	6
+	.word	.L234,.L235
+	.byte	6
+	.word	.L236,.L237
+	.byte	6
+	.word	.L238,.L239
+	.byte	7
+	.word	.L240,.L233,.L32
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_vsync_handler')
 	.sect	'.debug_abbrev'
@@ -19880,11 +19921,11 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_vsync_handler')
 	.sect	'.debug_line'
 .L126:
-	.word	.L591-.L590
-.L590:
+	.word	.L602-.L601
+.L601:
 	.half	3
-	.word	.L593-.L592
-.L592:
+	.word	.L604-.L603
+.L603:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std',0
 	.byte	0
@@ -19892,87 +19933,87 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\Cpu\\Std\\IfxCpu.h',0
 	.byte	0,0,0
 	.byte	'IfxDma.h',0,1,0,0,0
-.L593:
+.L604:
 	.byte	5,5,7,0,5,2
 	.word	.L74
-	.byte	3,242,1,1,9
-	.half	.L594-.L74
+	.byte	3,247,1,1,9
+	.half	.L605-.L74
 	.byte	3,1,1,5,27,9
-	.half	.L595-.L594
+	.half	.L606-.L605
 	.byte	1,5,25,9
-	.half	.L596-.L595
-	.byte	1,5,8,9
-	.half	.L597-.L596
-	.byte	3,1,1,5,5,9
-	.half	.L598-.L597
-	.byte	1,5,9,7,9
-	.half	.L599-.L598
-	.byte	3,2,1,5,33,9
-	.half	.L600-.L599
-	.byte	1,5,31,9
-	.half	.L601-.L600
-	.byte	1,5,30,9
-	.half	.L602-.L601
-	.byte	3,1,1,5,42,9
-	.half	.L603-.L602
-	.byte	1,4,3,5,13,9
-	.half	.L210-.L603
-	.byte	3,170,10,1,5,26,9
-	.half	.L604-.L210
-	.byte	1,5,31,9
-	.half	.L605-.L604
-	.byte	1,4,1,5,42,9
-	.half	.L211-.L605
-	.byte	3,216,117,1,5,9,9
-	.half	.L606-.L211
-	.byte	3,127,1,5,42,9
 	.half	.L607-.L606
-	.byte	1,9
+	.byte	1,5,8,9
 	.half	.L608-.L607
-	.byte	3,2,1,9
-	.half	.L609-.L608
-	.byte	3,1,1,9
-	.half	.L610-.L609
-	.byte	3,1,1,9
-	.half	.L611-.L610
-	.byte	3,1,1,5,31,9
-	.half	.L612-.L611
-	.byte	3,123,1,5,20,9
-	.half	.L613-.L612
-	.byte	3,6,1,5,34,9
-	.half	.L614-.L613
-	.byte	3,120,1,5,17,9
-	.half	.L30-.L614
-	.byte	3,12,1,5,9,9
-	.half	.L615-.L30
-	.byte	1,5,13,7,9
-	.half	.L616-.L615
-	.byte	3,2,1,4,2,5,19,9
-	.half	.L218-.L616
-	.byte	3,131,4,1,5,28,9
-	.half	.L283-.L218
 	.byte	3,1,1,5,5,9
-	.half	.L284-.L283
+	.half	.L609-.L608
+	.byte	1,5,9,7,9
+	.half	.L610-.L609
+	.byte	3,2,1,5,33,9
+	.half	.L611-.L610
+	.byte	1,5,31,9
+	.half	.L612-.L611
+	.byte	1,5,30,9
+	.half	.L613-.L612
+	.byte	3,1,1,5,42,9
+	.half	.L614-.L613
+	.byte	1,4,3,5,13,9
+	.half	.L220-.L614
+	.byte	3,165,10,1,5,26,9
+	.half	.L615-.L220
+	.byte	1,5,31,9
+	.half	.L616-.L615
+	.byte	1,4,1,5,42,9
+	.half	.L221-.L616
+	.byte	3,221,117,1,5,9,9
+	.half	.L617-.L221
+	.byte	3,127,1,5,42,9
+	.half	.L618-.L617
+	.byte	1,9
+	.half	.L619-.L618
+	.byte	3,2,1,9
+	.half	.L620-.L619
+	.byte	3,1,1,9
+	.half	.L621-.L620
+	.byte	3,1,1,9
+	.half	.L622-.L621
+	.byte	3,1,1,5,31,9
+	.half	.L623-.L622
+	.byte	3,123,1,5,20,9
+	.half	.L624-.L623
+	.byte	3,6,1,5,34,9
+	.half	.L625-.L624
+	.byte	3,120,1,5,17,9
+	.half	.L30-.L625
+	.byte	3,12,1,5,9,9
+	.half	.L626-.L30
+	.byte	1,5,13,7,9
+	.half	.L627-.L626
+	.byte	3,2,1,4,2,5,19,9
+	.half	.L228-.L627
+	.byte	3,254,3,1,5,28,9
+	.half	.L294-.L228
+	.byte	3,1,1,5,5,9
+	.half	.L295-.L294
 	.byte	1,4,1,5,13,9
-	.half	.L34-.L284
-	.byte	3,252,123,1,4,3,5,12,9
-	.half	.L223-.L34
-	.byte	3,175,10,1,5,31,9
-	.half	.L617-.L223
+	.half	.L34-.L295
+	.byte	3,129,124,1,4,3,5,12,9
+	.half	.L233-.L34
+	.byte	3,170,10,1,5,31,9
+	.half	.L628-.L233
 	.byte	1,4,1,5,20,9
-	.half	.L32-.L617
-	.byte	3,211,117,1,5,5,9
+	.half	.L32-.L628
+	.byte	3,216,117,1,5,5,9
 	.half	.L31-.L32
 	.byte	3,2,1,5,25,9
-	.half	.L618-.L31
+	.half	.L629-.L31
 	.byte	1,5,23,9
-	.half	.L619-.L618
+	.half	.L630-.L629
 	.byte	1,5,1,9
-	.half	.L620-.L619
+	.half	.L631-.L630
 	.byte	3,1,1,7,9
-	.half	.L128-.L620
+	.half	.L128-.L631
 	.byte	0,1,1
-.L591:
+.L602:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_vsync_handler')
 	.sect	'.debug_ranges'
 .L127:
@@ -19992,34 +20033,34 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_dma_handler',0,1,146,2,13,1,1
-	.word	.L76,.L231,.L75
+	.byte	'mt9v03x_dma_handler',0,1,151,2,13,1,1
+	.word	.L76,.L241,.L75
 	.byte	4
-	.word	.L76,.L231
+	.word	.L76,.L241
 	.byte	5
-	.word	.L232,.L233,.L234
+	.word	.L242,.L243,.L244
 	.byte	6
-	.word	.L235,.L236
+	.word	.L245,.L246
 	.byte	6
-	.word	.L237,.L238
+	.word	.L247,.L248
 	.byte	7
-	.word	.L239,.L233,.L234
+	.word	.L249,.L243,.L244
 	.byte	0,5
-	.word	.L240,.L241,.L36
-	.byte	6
-	.word	.L242,.L243
-	.byte	6
-	.word	.L244,.L245
-	.byte	7
-	.word	.L246,.L241,.L36
-	.byte	0,5
-	.word	.L247,.L248,.L249
-	.byte	6
-	.word	.L250,.L251
+	.word	.L250,.L251,.L36
 	.byte	6
 	.word	.L252,.L253
+	.byte	6
+	.word	.L254,.L255
 	.byte	7
-	.word	.L254,.L248,.L249
+	.word	.L256,.L251,.L36
+	.byte	0,5
+	.word	.L257,.L258,.L259
+	.byte	6
+	.word	.L260,.L261
+	.byte	6
+	.word	.L262,.L263
+	.byte	7
+	.word	.L264,.L258,.L259
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_dma_handler')
 	.sect	'.debug_abbrev'
@@ -20030,101 +20071,101 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_line',debug,cluster('mt9v03x_dma_handler')
 	.sect	'.debug_line'
 .L131:
-	.word	.L622-.L621
-.L621:
+	.word	.L633-.L632
+.L632:
 	.half	3
-	.word	.L624-.L623
-.L623:
+	.word	.L635-.L634
+.L634:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std',0
 	.byte	0
 	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0,0,0,0
 	.byte	'IfxDma.h',0,1,0,0,0
-.L624:
+.L635:
 	.byte	5,5,7,0,5,2
 	.word	.L76
-	.byte	3,147,2,1,4,2,5,12,9
-	.half	.L233-.L76
-	.byte	3,223,7,1,5,31,9
-	.half	.L625-.L233
+	.byte	3,152,2,1,4,2,5,12,9
+	.half	.L243-.L76
+	.byte	3,218,7,1,5,31,9
+	.half	.L636-.L243
 	.byte	1,5,37,9
-	.half	.L626-.L625
+	.half	.L637-.L636
 	.byte	1,4,1,5,49,9
-	.half	.L234-.L626
-	.byte	3,163,120,1,5,61,9
-	.half	.L627-.L234
+	.half	.L244-.L637
+	.byte	3,168,120,1,5,61,9
+	.half	.L638-.L244
 	.byte	1,4,2,5,20,9
-	.half	.L241-.L627
-	.byte	3,178,9,1,5,33,9
-	.half	.L628-.L241
+	.half	.L251-.L638
+	.byte	3,173,9,1,5,33,9
+	.half	.L639-.L251
 	.byte	1,5,38,9
-	.half	.L629-.L628
-	.byte	1,5,5,9
-	.half	.L630-.L629
-	.byte	1,4,1,9
-	.half	.L36-.L630
-	.byte	3,206,118,1,5,9,7,9
-	.half	.L631-.L36
-	.byte	3,2,1,5,31,9
-	.half	.L632-.L631
-	.byte	1,5,29,9
-	.half	.L633-.L632
-	.byte	1,5,21,9
-	.half	.L634-.L633
-	.byte	3,1,1,5,52,9
-	.half	.L635-.L634
-	.byte	3,1,1,5,64,9
-	.half	.L636-.L635
-	.byte	1,4,2,5,13,9
-	.half	.L248-.L636
-	.byte	3,223,7,1,5,26,9
-	.half	.L637-.L248
-	.byte	1,5,31,9
-	.half	.L638-.L637
-	.byte	1,4,1,5,9,9
-	.half	.L249-.L638
-	.byte	3,162,120,1,5,33,9
-	.half	.L639-.L249
-	.byte	1,5,31,9
 	.half	.L640-.L639
-	.byte	1,5,32,9
+	.byte	1,5,5,9
 	.half	.L641-.L640
-	.byte	3,125,1,5,9,9
-	.half	.L37-.L641
-	.byte	3,7,1,5,28,9
-	.half	.L642-.L37
-	.byte	1,5,12,9
+	.byte	1,4,1,9
+	.half	.L36-.L641
+	.byte	3,211,118,1,5,9,7,9
+	.half	.L642-.L36
+	.byte	3,2,1,5,31,9
 	.half	.L643-.L642
-	.byte	3,1,1,5,35,9
+	.byte	1,5,29,9
 	.half	.L644-.L643
-	.byte	1,5,9,9
+	.byte	1,5,21,9
 	.half	.L645-.L644
-	.byte	1,5,13,7,9
+	.byte	3,1,1,5,52,9
 	.half	.L646-.L645
-	.byte	3,4,1,5,35,9
+	.byte	3,1,1,5,64,9
 	.half	.L647-.L646
-	.byte	1,5,33,9
-	.half	.L648-.L647
-	.byte	1,5,13,9
+	.byte	1,4,2,5,13,9
+	.half	.L258-.L647
+	.byte	3,218,7,1,5,26,9
+	.half	.L648-.L258
+	.byte	1,5,31,9
 	.half	.L649-.L648
-	.byte	3,1,1,5,35,9
-	.half	.L650-.L649
-	.byte	1,5,33,9
+	.byte	1,4,1,5,9,9
+	.half	.L259-.L649
+	.byte	3,167,120,1,5,33,9
+	.half	.L650-.L259
+	.byte	1,5,31,9
 	.half	.L651-.L650
-	.byte	1,5,13,9
+	.byte	1,5,32,9
 	.half	.L652-.L651
-	.byte	3,1,1,5,35,9
-	.half	.L653-.L652
-	.byte	1,5,33,9
+	.byte	3,125,1,5,9,9
+	.half	.L37-.L652
+	.byte	3,7,1,5,28,9
+	.half	.L653-.L37
+	.byte	1,5,12,9
 	.half	.L654-.L653
-	.byte	1,5,25,9
+	.byte	3,1,1,5,35,9
 	.half	.L655-.L654
+	.byte	1,5,9,9
+	.half	.L656-.L655
+	.byte	1,5,13,7,9
+	.half	.L657-.L656
+	.byte	3,4,1,5,35,9
+	.half	.L658-.L657
+	.byte	1,5,33,9
+	.half	.L659-.L658
+	.byte	1,5,13,9
+	.half	.L660-.L659
+	.byte	3,1,1,5,35,9
+	.half	.L661-.L660
+	.byte	1,5,33,9
+	.half	.L662-.L661
+	.byte	1,5,13,9
+	.half	.L663-.L662
+	.byte	3,1,1,5,35,9
+	.half	.L664-.L663
+	.byte	1,5,33,9
+	.half	.L665-.L664
+	.byte	1,5,25,9
+	.half	.L666-.L665
 	.byte	3,1,1,5,1,9
-	.half	.L38-.L655
+	.half	.L38-.L666
 	.byte	3,3,1,7,9
 	.half	.L133-.L38
 	.byte	0,1,1
-.L622:
+.L633:
 	.sdecl	'.debug_ranges',debug,cluster('mt9v03x_dma_handler')
 	.sect	'.debug_ranges'
 .L132:
@@ -20143,7 +20184,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.word	.L85
 	.byte	3
 	.byte	'mt9v03x_finish_flag',0,35,64,9
-	.word	.L255
+	.word	.L265
 	.byte	1,5,3
 	.word	mt9v03x_finish_flag
 	.byte	0
@@ -20166,7 +20207,7 @@ mt9v03x_get_confing_buffer:	.type	object
 	.word	.L85
 	.byte	3
 	.byte	'mt9v03x_image',0,35,65,21
-	.word	.L256
+	.word	.L266
 	.byte	1,5,3
 	.word	mt9v03x_image
 	.byte	0
@@ -20175,10 +20216,10 @@ mt9v03x_get_confing_buffer:	.type	object
 .L137:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_type')
+	.sdecl	'.debug_info',debug,cluster('gray_image')
 	.sect	'.debug_info'
 .L138:
-	.word	324
+	.word	323
 	.half	3
 	.word	.L139
 	.byte	4,1
@@ -20188,19 +20229,20 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_type',0,35,67,26
-	.word	.L257
-	.byte	5,3
-	.word	mt9v03x_type
+	.byte	'gray_image',0,35,66,21
+	.word	.L267
+	.byte	1,5,3
+	.word	gray_image
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_type')
+	.sdecl	'.debug_abbrev',debug,cluster('gray_image')
 	.sect	'.debug_abbrev'
 .L139:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_version')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('binary_image')
 	.sect	'.debug_info'
 .L140:
-	.word	327
+	.word	325
 	.half	3
 	.word	.L141
 	.byte	4,1
@@ -20210,19 +20252,20 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_version',0,35,68,19
-	.word	.L156
-	.byte	5,3
-	.word	mt9v03x_version
+	.byte	'binary_image',0,35,67,21
+	.word	.L267
+	.byte	1,5,3
+	.word	binary_image
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_version')
+	.sdecl	'.debug_abbrev',debug,cluster('binary_image')
 	.sect	'.debug_abbrev'
 .L141:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('timeout')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('binary_image_bak')
 	.sect	'.debug_info'
 .L142:
-	.word	320
+	.word	329
 	.half	3
 	.word	.L143
 	.byte	4,1
@@ -20232,20 +20275,20 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'timeout',0,35,71,9
-	.word	.L258
+	.byte	'binary_image_bak',0,35,68,21
+	.word	.L267
 	.byte	1,5,3
-	.word	timeout
+	.word	binary_image_bak
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('timeout')
+	.sdecl	'.debug_abbrev',debug,cluster('binary_image_bak')
 	.sect	'.debug_abbrev'
 .L143:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_lost_flag')
+	.sdecl	'.debug_info',debug,cluster('contrast_image')
 	.sect	'.debug_info'
 .L144:
-	.word	330
+	.word	327
 	.half	3
 	.word	.L145
 	.byte	4,1
@@ -20255,20 +20298,20 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_lost_flag',0,35,73,9
-	.word	.L165
+	.byte	'contrast_image',0,35,69,21
+	.word	.L267
 	.byte	1,5,3
-	.word	mt9v03x_lost_flag
+	.word	contrast_image
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_lost_flag')
+	.sdecl	'.debug_abbrev',debug,cluster('contrast_image')
 	.sect	'.debug_abbrev'
 .L145:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_dma_int_num')
+	.sdecl	'.debug_info',debug,cluster('gray_binary_image')
 	.sect	'.debug_info'
 .L146:
-	.word	332
+	.word	330
 	.half	3
 	.word	.L147
 	.byte	4,1
@@ -20278,20 +20321,20 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_dma_int_num',0,35,74,9
-	.word	.L165
+	.byte	'gray_binary_image',0,35,70,21
+	.word	.L267
 	.byte	1,5,3
-	.word	mt9v03x_dma_int_num
+	.word	gray_binary_image
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_dma_int_num')
+	.sdecl	'.debug_abbrev',debug,cluster('gray_binary_image')
 	.sect	'.debug_abbrev'
 .L147:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_dma_init_flag')
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_type')
 	.sect	'.debug_info'
 .L148:
-	.word	334
+	.word	324
 	.half	3
 	.word	.L149
 	.byte	4,1
@@ -20301,20 +20344,19 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_dma_init_flag',0,35,75,9
-	.word	.L165
-	.byte	1,5,3
-	.word	mt9v03x_dma_init_flag
+	.byte	'mt9v03x_type',0,35,72,26
+	.word	.L268
+	.byte	5,3
+	.word	mt9v03x_type
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_dma_init_flag')
+	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_type')
 	.sect	'.debug_abbrev'
 .L149:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_link_list_num')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_version')
 	.sect	'.debug_info'
 .L150:
-	.word	334
+	.word	327
 	.half	3
 	.word	.L151
 	.byte	4,1
@@ -20324,20 +20366,19 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_link_list_num',0,35,76,9
-	.word	.L165
-	.byte	1,5,3
-	.word	mt9v03x_link_list_num
+	.byte	'mt9v03x_version',0,35,73,19
+	.word	.L166
+	.byte	5,3
+	.word	mt9v03x_version
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_link_list_num')
+	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_version')
 	.sect	'.debug_abbrev'
 .L151:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_set_confing_buffer')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('timeout')
 	.sect	'.debug_info'
 .L152:
-	.word	338
+	.word	320
 	.half	3
 	.word	.L153
 	.byte	4,1
@@ -20347,19 +20388,20 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_set_confing_buffer',0,35,79,14
-	.word	.L259
-	.byte	5,3
-	.word	mt9v03x_set_confing_buffer
+	.byte	'timeout',0,35,76,9
+	.word	.L269
+	.byte	1,5,3
+	.word	timeout
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_set_confing_buffer')
+	.sdecl	'.debug_abbrev',debug,cluster('timeout')
 	.sect	'.debug_abbrev'
 .L153:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('mt9v03x_get_confing_buffer')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_lost_flag')
 	.sect	'.debug_info'
 .L154:
-	.word	338
+	.word	330
 	.half	3
 	.word	.L155
 	.byte	4,1
@@ -20369,427 +20411,541 @@ mt9v03x_get_confing_buffer:	.type	object
 	.byte	12,1,2
 	.word	.L85
 	.byte	3
-	.byte	'mt9v03x_get_confing_buffer',0,35,94,14
-	.word	.L260
+	.byte	'mt9v03x_lost_flag',0,35,78,9
+	.word	.L175
+	.byte	1,5,3
+	.word	mt9v03x_lost_flag
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_lost_flag')
+	.sect	'.debug_abbrev'
+.L155:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_dma_int_num')
+	.sect	'.debug_info'
+.L156:
+	.word	332
+	.half	3
+	.word	.L157
+	.byte	4,1
+	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L85
+	.byte	3
+	.byte	'mt9v03x_dma_int_num',0,35,79,9
+	.word	.L175
+	.byte	1,5,3
+	.word	mt9v03x_dma_int_num
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_dma_int_num')
+	.sect	'.debug_abbrev'
+.L157:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_dma_init_flag')
+	.sect	'.debug_info'
+.L158:
+	.word	334
+	.half	3
+	.word	.L159
+	.byte	4,1
+	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L85
+	.byte	3
+	.byte	'mt9v03x_dma_init_flag',0,35,80,9
+	.word	.L175
+	.byte	1,5,3
+	.word	mt9v03x_dma_init_flag
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_dma_init_flag')
+	.sect	'.debug_abbrev'
+.L159:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_link_list_num')
+	.sect	'.debug_info'
+.L160:
+	.word	334
+	.half	3
+	.word	.L161
+	.byte	4,1
+	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L85
+	.byte	3
+	.byte	'mt9v03x_link_list_num',0,35,81,9
+	.word	.L175
+	.byte	1,5,3
+	.word	mt9v03x_link_list_num
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_link_list_num')
+	.sect	'.debug_abbrev'
+.L161:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_set_confing_buffer')
+	.sect	'.debug_info'
+.L162:
+	.word	338
+	.half	3
+	.word	.L163
+	.byte	4,1
+	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L85
+	.byte	3
+	.byte	'mt9v03x_set_confing_buffer',0,35,84,14
+	.word	.L270
+	.byte	5,3
+	.word	mt9v03x_set_confing_buffer
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_set_confing_buffer')
+	.sect	'.debug_abbrev'
+.L163:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('mt9v03x_get_confing_buffer')
+	.sect	'.debug_info'
+.L164:
+	.word	338
+	.half	3
+	.word	.L165
+	.byte	4,1
+	.byte	'../libraries/zf_device/zf_device_mt9v03x.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L85
+	.byte	3
+	.byte	'mt9v03x_get_confing_buffer',0,35,99,14
+	.word	.L271
 	.byte	5,3
 	.word	mt9v03x_get_confing_buffer
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('mt9v03x_get_confing_buffer')
 	.sect	'.debug_abbrev'
-.L155:
+.L165:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_dma_handler')
 	.sect	'.debug_loc'
-.L238:
+.L248:
+	.word	0,0
+.L263:
+	.word	0,0
+.L255:
+	.word	0,0
+.L246:
+	.word	0,0
+.L261:
 	.word	0,0
 .L253:
 	.word	0,0
-.L245:
-	.word	0,0
-.L236:
-	.word	0,0
-.L251:
-	.word	0,0
-.L243:
-	.word	0,0
 .L75:
-	.word	-1,.L76,0,.L231-.L76
+	.word	-1,.L76,0,.L241-.L76
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_get_config')
 	.sect	'.debug_loc'
-.L199:
+.L209:
 	.word	-1,.L70,0,.L19-.L70
 	.half	1
 	.byte	100
-	.word	.L273-.L70,.L198-.L70
+	.word	.L284-.L70,.L208-.L70
 	.half	1
 	.byte	108
 	.word	0,0
-.L204:
-	.word	-1,.L70,.L275-.L70,.L15-.L70
+.L214:
+	.word	-1,.L70,.L286-.L70,.L15-.L70
 	.half	1
 	.byte	95
-	.word	.L276-.L70,.L277-.L70
+	.word	.L287-.L70,.L288-.L70
 	.half	1
 	.byte	95
-	.word	.L277-.L70,.L198-.L70
+	.word	.L288-.L70,.L208-.L70
 	.half	1
 	.byte	89
 	.word	0,0
 .L69:
-	.word	-1,.L70,0,.L272-.L70
+	.word	-1,.L70,0,.L283-.L70
 	.half	2
 	.byte	138,0
-	.word	.L272-.L70,.L198-.L70
+	.word	.L283-.L70,.L208-.L70
 	.half	2
 	.byte	138,8
-	.word	.L198-.L70,.L198-.L70
+	.word	.L208-.L70,.L208-.L70
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L200:
-	.word	-1,.L70,.L274-.L70,.L198-.L70
+.L210:
+	.word	-1,.L70,.L285-.L70,.L208-.L70
 	.half	1
 	.byte	88
-	.word	.L281-.L70,.L198-.L70
+	.word	.L292-.L70,.L208-.L70
 	.half	1
 	.byte	82
 	.word	0,0
-.L202:
-	.word	-1,.L70,.L278-.L70,.L23-.L70
+.L212:
+	.word	-1,.L70,.L289-.L70,.L23-.L70
 	.half	1
 	.byte	95
 	.word	0,0
-.L203:
-	.word	-1,.L70,.L23-.L70,.L279-.L70
+.L213:
+	.word	-1,.L70,.L23-.L70,.L290-.L70
 	.half	1
 	.byte	90
-	.word	.L280-.L70,.L22-.L70
+	.word	.L291-.L70,.L22-.L70
 	.half	1
 	.byte	90
 	.word	0,0
-.L201:
-	.word	-1,.L70,0,.L198-.L70
+.L211:
+	.word	-1,.L70,0,.L208-.L70
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L205:
-	.word	-1,.L70,0,.L198-.L70
+.L215:
+	.word	-1,.L70,0,.L208-.L70
 	.half	2
 	.byte	145,124
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_get_version')
 	.sect	'.debug_loc'
 .L77:
-	.word	-1,.L78,0,.L285-.L78
+	.word	-1,.L78,0,.L296-.L78
 	.half	2
 	.byte	138,0
-	.word	.L285-.L78,.L157-.L78
+	.word	.L296-.L78,.L167-.L78
 	.half	2
 	.byte	138,8
-	.word	.L157-.L78,.L157-.L78
+	.word	.L167-.L78,.L167-.L78
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L162:
-	.word	-1,.L78,.L288-.L78,.L289-.L78
+.L172:
+	.word	-1,.L78,.L299-.L78,.L300-.L78
 	.half	1
 	.byte	88
-	.word	.L291-.L78,.L157-.L78
+	.word	.L302-.L78,.L167-.L78
 	.half	1
 	.byte	88
-	.word	.L293-.L78,.L157-.L78
+	.word	.L304-.L78,.L167-.L78
 	.half	1
 	.byte	82
 	.word	0,0
-.L158:
-	.word	-1,.L78,.L290-.L78,.L40-.L78
+.L168:
+	.word	-1,.L78,.L301-.L78,.L40-.L78
 	.half	1
 	.byte	95
 	.word	0,0
-.L161:
-	.word	-1,.L78,.L286-.L78,.L287-.L78
+.L171:
+	.word	-1,.L78,.L297-.L78,.L298-.L78
 	.half	1
 	.byte	89
-	.word	.L292-.L78,.L157-.L78
+	.word	.L303-.L78,.L167-.L78
 	.half	1
 	.byte	89
 	.word	0,0
-.L160:
-	.word	-1,.L78,0,.L157-.L78
+.L170:
+	.word	-1,.L78,0,.L167-.L78
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L164:
-	.word	-1,.L78,0,.L157-.L78
+.L174:
+	.word	-1,.L78,0,.L167-.L78
 	.half	2
 	.byte	145,124
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_init')
 	.sect	'.debug_loc'
-.L188:
-	.word	-1,.L84,0,.L185-.L84
+.L198:
+	.word	-1,.L84,0,.L195-.L84
 	.half	2
 	.byte	145,112
 	.word	0,0
 .L83:
-	.word	-1,.L84,0,.L327-.L84
+	.word	-1,.L84,0,.L338-.L84
 	.half	2
 	.byte	138,0
-	.word	.L327-.L84,.L185-.L84
+	.word	.L338-.L84,.L195-.L84
 	.half	2
 	.byte	138,16
-	.word	.L185-.L84,.L185-.L84
+	.word	.L195-.L84,.L195-.L84
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L186:
-	.word	-1,.L84,.L60-.L84,.L185-.L84
+.L196:
+	.word	-1,.L84,.L60-.L84,.L195-.L84
 	.half	1
 	.byte	95
-	.word	.L328-.L84,.L185-.L84
+	.word	.L339-.L84,.L195-.L84
 	.half	1
 	.byte	82
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_set_config')
 	.sect	'.debug_loc'
-.L191:
+.L201:
 	.word	-1,.L68,0,.L7-.L68
 	.half	1
 	.byte	100
-	.word	.L262-.L68,.L189-.L68
+	.word	.L273-.L68,.L199-.L68
 	.half	1
 	.byte	108
 	.word	0,0
-.L196:
-	.word	-1,.L68,.L266-.L68,.L3-.L68
+.L206:
+	.word	-1,.L68,.L277-.L68,.L3-.L68
 	.half	1
 	.byte	90
-	.word	.L267-.L68,.L189-.L68
+	.word	.L278-.L68,.L199-.L68
 	.half	1
 	.byte	90
 	.word	0,0
 .L67:
-	.word	-1,.L68,0,.L261-.L68
+	.word	-1,.L68,0,.L272-.L68
 	.half	2
 	.byte	138,0
-	.word	.L261-.L68,.L189-.L68
+	.word	.L272-.L68,.L199-.L68
 	.half	2
 	.byte	138,8
-	.word	.L189-.L68,.L189-.L68
+	.word	.L199-.L68,.L199-.L68
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L192:
-	.word	-1,.L68,.L263-.L68,.L189-.L68
+.L202:
+	.word	-1,.L68,.L274-.L68,.L199-.L68
 	.half	1
 	.byte	89
-	.word	.L271-.L68,.L189-.L68
+	.word	.L282-.L68,.L199-.L68
 	.half	1
 	.byte	82
 	.word	0,0
-.L194:
-	.word	-1,.L68,.L268-.L68,.L269-.L68
+.L204:
+	.word	-1,.L68,.L279-.L68,.L280-.L68
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L195:
-	.word	-1,.L68,.L264-.L68,.L265-.L68
+.L205:
+	.word	-1,.L68,.L275-.L68,.L276-.L68
 	.half	1
 	.byte	88
-	.word	.L270-.L68,.L189-.L68
+	.word	.L281-.L68,.L199-.L68
 	.half	1
 	.byte	88
 	.word	0,0
-.L193:
-	.word	-1,.L68,0,.L189-.L68
+.L203:
+	.word	-1,.L68,0,.L199-.L68
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L197:
-	.word	-1,.L68,0,.L189-.L68
+.L207:
+	.word	-1,.L68,0,.L199-.L68
 	.half	2
 	.byte	145,124
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_set_exposure_time')
 	.sect	'.debug_loc'
-.L167:
-	.word	-1,.L80,0,.L295-.L80
+.L177:
+	.word	-1,.L80,0,.L306-.L80
 	.half	1
 	.byte	84
-	.word	.L296-.L80,.L166-.L80
+	.word	.L307-.L80,.L176-.L80
 	.half	1
 	.byte	89
-	.word	.L44-.L80,.L298-.L80
+	.word	.L44-.L80,.L309-.L80
 	.half	1
 	.byte	84
 	.word	0,0
 .L79:
-	.word	-1,.L80,0,.L294-.L80
+	.word	-1,.L80,0,.L305-.L80
 	.half	2
 	.byte	138,0
-	.word	.L294-.L80,.L166-.L80
+	.word	.L305-.L80,.L176-.L80
 	.half	2
 	.byte	138,8
-	.word	.L166-.L80,.L166-.L80
+	.word	.L176-.L80,.L176-.L80
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L168:
-	.word	-1,.L80,.L297-.L80,.L298-.L80
+.L178:
+	.word	-1,.L80,.L308-.L80,.L309-.L80
 	.half	1
 	.byte	91
-	.word	.L298-.L80,.L50-.L80
+	.word	.L309-.L80,.L50-.L80
 	.half	1
 	.byte	82
-	.word	.L50-.L80,.L166-.L80
+	.word	.L50-.L80,.L176-.L80
 	.half	1
 	.byte	91
-	.word	.L305-.L80,.L166-.L80
+	.word	.L316-.L80,.L176-.L80
 	.half	1
 	.byte	82
 	.word	0,0
-.L172:
-	.word	-1,.L80,.L301-.L80,.L302-.L80
+.L182:
+	.word	-1,.L80,.L312-.L80,.L313-.L80
 	.half	1
 	.byte	88
-	.word	.L303-.L80,.L44-.L80
+	.word	.L314-.L80,.L44-.L80
 	.half	1
 	.byte	88
 	.word	0,0
-.L173:
-	.word	-1,.L80,.L299-.L80,.L300-.L80
+.L183:
+	.word	-1,.L80,.L310-.L80,.L311-.L80
 	.half	1
 	.byte	90
-	.word	.L304-.L80,.L44-.L80
+	.word	.L315-.L80,.L44-.L80
 	.half	1
 	.byte	90
 	.word	0,0
-.L171:
-	.word	-1,.L80,0,.L166-.L80
+.L181:
+	.word	-1,.L80,0,.L176-.L80
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L174:
-	.word	-1,.L80,0,.L166-.L80
+.L184:
+	.word	-1,.L80,0,.L176-.L80
 	.half	2
 	.byte	145,124
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_set_reg')
 	.sect	'.debug_loc'
-.L176:
-	.word	-1,.L82,0,.L307-.L82
+.L186:
+	.word	-1,.L82,0,.L318-.L82
 	.half	1
 	.byte	84
-	.word	.L312-.L82,.L313-.L82
+	.word	.L323-.L82,.L324-.L82
 	.half	1
 	.byte	88
-	.word	.L314-.L82,.L315-.L82
+	.word	.L325-.L82,.L326-.L82
 	.half	1
 	.byte	88
-	.word	.L52-.L82,.L325-.L82
+	.word	.L52-.L82,.L336-.L82
 	.half	1
 	.byte	88
-	.word	.L52-.L82,.L325-.L82
+	.word	.L52-.L82,.L336-.L82
 	.half	1
 	.byte	84
 	.word	0,0
-.L177:
-	.word	-1,.L82,0,.L179-.L82
+.L187:
+	.word	-1,.L82,0,.L189-.L82
 	.half	1
 	.byte	85
-	.word	.L316-.L82,.L317-.L82
+	.word	.L327-.L82,.L328-.L82
 	.half	1
 	.byte	89
-	.word	.L320-.L82,.L321-.L82
+	.word	.L331-.L82,.L332-.L82
 	.half	1
 	.byte	89
-	.word	.L55-.L82,.L324-.L82
+	.word	.L55-.L82,.L335-.L82
 	.half	1
 	.byte	89
-	.word	.L52-.L82,.L325-.L82
+	.word	.L52-.L82,.L336-.L82
 	.half	1
 	.byte	89
-	.word	.L52-.L82,.L325-.L82
+	.word	.L52-.L82,.L336-.L82
 	.half	1
 	.byte	85
 	.word	0,0
 .L81:
-	.word	-1,.L82,0,.L306-.L82
+	.word	-1,.L82,0,.L317-.L82
 	.half	2
 	.byte	138,0
-	.word	.L306-.L82,.L175-.L82
+	.word	.L317-.L82,.L185-.L82
 	.half	2
 	.byte	138,8
-	.word	.L175-.L82,.L175-.L82
+	.word	.L185-.L82,.L185-.L82
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L178:
-	.word	-1,.L82,.L308-.L82,.L309-.L82
+.L188:
+	.word	-1,.L82,.L319-.L82,.L320-.L82
 	.half	1
 	.byte	91
-	.word	.L309-.L82,.L58-.L82
+	.word	.L320-.L82,.L58-.L82
 	.half	1
 	.byte	82
-	.word	.L58-.L82,.L175-.L82
+	.word	.L58-.L82,.L185-.L82
 	.half	1
 	.byte	91
-	.word	.L326-.L82,.L175-.L82
+	.word	.L337-.L82,.L185-.L82
 	.half	1
 	.byte	82
 	.word	0,0
-.L182:
-	.word	-1,.L82,.L318-.L82,.L319-.L82
+.L192:
+	.word	-1,.L82,.L329-.L82,.L330-.L82
 	.half	1
 	.byte	88
-	.word	.L322-.L82,.L52-.L82
+	.word	.L333-.L82,.L52-.L82
 	.half	1
 	.byte	88
 	.word	0,0
-.L183:
-	.word	-1,.L82,.L310-.L82,.L311-.L82
+.L193:
+	.word	-1,.L82,.L321-.L82,.L322-.L82
 	.half	1
 	.byte	90
-	.word	.L323-.L82,.L52-.L82
+	.word	.L334-.L82,.L52-.L82
 	.half	1
 	.byte	90
 	.word	0,0
-.L181:
-	.word	-1,.L82,0,.L175-.L82
+.L191:
+	.word	-1,.L82,0,.L185-.L82
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L184:
-	.word	-1,.L82,0,.L175-.L82
+.L194:
+	.word	-1,.L82,0,.L185-.L82
 	.half	2
 	.byte	145,124
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_uart_handler')
 	.sect	'.debug_loc'
-.L207:
-	.word	-1,.L72,0,.L206-.L72
+.L217:
+	.word	-1,.L72,0,.L216-.L72
 	.half	2
 	.byte	145,120
 	.word	0,0
 .L71:
-	.word	-1,.L72,0,.L282-.L72
+	.word	-1,.L72,0,.L293-.L72
 	.half	2
 	.byte	138,0
-	.word	.L282-.L72,.L206-.L72
+	.word	.L293-.L72,.L216-.L72
 	.half	2
 	.byte	138,8
-	.word	.L206-.L72,.L206-.L72
+	.word	.L216-.L72,.L216-.L72
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('mt9v03x_vsync_handler')
 	.sect	'.debug_loc'
-.L229:
-	.word	0,0
-.L215:
-	.word	0,0
-.L227:
-	.word	0,0
-.L213:
+.L239:
 	.word	0,0
 .L225:
 	.word	0,0
+.L237:
+	.word	0,0
+.L223:
+	.word	0,0
+.L235:
+	.word	0,0
 .L73:
-	.word	-1,.L74,0,.L208-.L74
+	.word	-1,.L74,0,.L218-.L74
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L221:
-	.word	-1,.L74,.L283-.L74,.L284-.L74
+.L231:
+	.word	-1,.L74,.L294-.L74,.L295-.L74
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L656:
+.L667:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -20797,72 +20953,72 @@ mt9v03x_get_confing_buffer:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_set_config')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L656,.L68,.L189-.L68
+	.word	.L667,.L68,.L199-.L68
 	.byte	4
-	.word	(.L261-.L68)/2
+	.word	(.L272-.L68)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L189-.L261)/2
+	.word	(.L199-.L272)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_get_config')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L656,.L70,.L198-.L70
+	.word	.L667,.L70,.L208-.L70
 	.byte	4
-	.word	(.L272-.L70)/2
+	.word	(.L283-.L70)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L198-.L272)/2
+	.word	(.L208-.L283)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_uart_handler')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L656,.L72,.L206-.L72
+	.word	.L667,.L72,.L216-.L72
 	.byte	4
-	.word	(.L282-.L72)/2
+	.word	(.L293-.L72)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L206-.L282)/2
+	.word	(.L216-.L293)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_vsync_handler')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L656,.L74,.L208-.L74
+	.word	.L667,.L74,.L218-.L74
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_dma_handler')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L656,.L76,.L231-.L76
+	.word	.L667,.L76,.L241-.L76
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_get_version')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L656,.L78,.L157-.L78
+	.word	.L667,.L78,.L167-.L78
 	.byte	4
-	.word	(.L285-.L78)/2
+	.word	(.L296-.L78)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L157-.L285)/2
+	.word	(.L167-.L296)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_set_exposure_time')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L656,.L80,.L166-.L80
+	.word	.L667,.L80,.L176-.L80
 	.byte	4
-	.word	(.L294-.L80)/2
+	.word	(.L305-.L80)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L166-.L294)/2
+	.word	(.L176-.L305)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_set_reg')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L656,.L82,.L175-.L82
+	.word	.L667,.L82,.L185-.L82
 	.byte	4
-	.word	(.L306-.L82)/2
+	.word	(.L317-.L82)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L175-.L306)/2
+	.word	(.L185-.L317)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('mt9v03x_init')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L656,.L84,.L185-.L84
+	.word	.L667,.L84,.L195-.L84
 	.byte	4
-	.word	(.L327-.L84)/2
+	.word	(.L338-.L84)/2
 	.byte	19,16,22,26,3,19,138,16,4
-	.word	(.L185-.L327)/2
+	.word	(.L195-.L338)/2
 	.byte	19,0,8,26,0,0
 	; Module end

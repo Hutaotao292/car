@@ -11,6 +11,7 @@ extern float SERVO_MOTOR_L_MAX;                                                /
 extern float SERVO_MOTOR_R_MAX;                                                // 定义主板上舵机活动范围 角度
 extern float SERVO_MOTOR_MID;                                                  // 定义主板上舵机中间位置 角度
 
+
 void servo_init();
 
 void servo_set_angle(double angle);

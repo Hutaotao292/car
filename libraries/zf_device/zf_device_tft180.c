@@ -694,7 +694,7 @@ void tft180_show_float (uint16 x, uint16 y, const double dat, uint8 num, uint8 p
 //              这个函数不可以用来直接显示总钻风的未压缩的二值化图像
 //              这个函数不可以用来直接显示总钻风的未压缩的二值化图像
 //-------------------------------------------------------------------------------------------------------------------
-void tft180_show_binary_image (uint16 x, uint16 y, const uint8 *image, uint16 width, uint16 height, uint16 dis_width, uint16 dis_height)
+void tft180_show_binary_image (uint16 x, uint16 y, const uint8 *image, uint16 width, uint16 height)
 {
     // 如果程序在输出了断言信息 并且提示出错位置在这里
     // 那么一般是屏幕显示的时候超过屏幕分辨率范围了
@@ -702,32 +702,15 @@ void tft180_show_binary_image (uint16 x, uint16 y, const uint8 *image, uint16 wi
     zf_assert(y < tft180_height_max);
     zf_assert(NULL != image);
 
-    uint32 i = 0, j = 0;
-    uint8 temp = 0;
-    uint32 width_index = 0;
-    uint16 data_buffer[dis_width];
-    const uint8 *image_temp;
+    uint16 i, j;
 
     TFT180_CS(0);
-    tft180_set_region(x, y, x + dis_width - 1, y + dis_height - 1);             // 设置显示区域
+    tft180_set_region(x, y, x + width - 1, y + height - 1);             // 设置显示区域
 
-    for(j = 0; j < dis_height; j ++)
-    {
-        image_temp = image + j * height / dis_height * width / 8;               // 直接对 image 操作会 Hardfault 暂时不知道为什么
-        for(i = 0; i < dis_width; i ++)
-        {
-            width_index = i * width / dis_width;
-            temp = *(image_temp + width_index / 8);                             // 读取像素点
-            if(0x80 & (temp << (width_index % 8)))
-            {
-                data_buffer[i] = (RGB565_WHITE);
-            }
-            else
-            {
-                data_buffer[i] = (RGB565_BLACK);
-            }
+    for (j = 0; j < height; j++) {
+        for (i = 0; i < width; i++) {
+            tft180_write_16bit_data(*(image + j * width + i) ? RGB565_WHITE : RGB565_BLACK);
         }
-        tft180_write_16bit_data_array(data_buffer, dis_width);
     }
     TFT180_CS(1);
 }

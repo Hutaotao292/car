@@ -35,7 +35,13 @@
 #include "motor.h"
 #include "zf_common_headfile.h"
 #include "switch.h"
+#include "servo.h"
+#include "rev_perspective.h"
+#include "image_process.h"
+#include "cv2.h"
 #pragma section all "cpu0_dsram"
+int offset = sizeof(uint8) * MT9V03X_W * ((MT9V03X_HS - MT9V03X_H) / 2);
+uint8 bottom_threshold;
 // 将本语句与#pragma section all restore语句之间的全局变量都放在CPU0的RAM中
 
 // 本例程是开源库空工程 可用作移植或者测试各类内外设
@@ -52,19 +58,41 @@ int core0_main(void)
     motor_init();
     //switch_init();
     tft180_init();
+    tft180_set_dir(TFT180_PORTAIT);
+    mt9v03x_init();
+//    InitLookupTable();
     // 此处编写用户代码 例如外设初始化代码
     cpu_wait_event_ready();
     // 等待所有核心初始化完毕
-    tft180_show_int(5,10,750,4);//111222
     while (TRUE)
     {
+
+        ImagePerspective();
+        compress_image((uint8 *) gray_image, (const uint8 *)mt9v03x_image + offset);  // 压缩图像，将188*90压缩到94*45，存入gray_image
+        mt9v03x_finish_flag = 0;  // 原始图像复制完毕，清除标志位
+        cover_car_head();
+
         // 此处编写需要循环执行的代码
         servo_set_angle(97);//85~110,MIN=97
-        pwm_set_duty(PWM_RIGHT_1,5000);
-        pwm_set_duty(PWM_LEFT_1,5000);
-        pwm_set_duty(PWM_RIGHT_2,0);
-        pwm_set_duty(PWM_LEFT_2,0);
+        //图像初始化
+        calculate_contrast_x8((uint8 *)contrast_image, (const uint8 *)gray_image, 94, 45);  // 计算对比度
+        memcpy((uint8 *) binary_image, (const uint8 *) contrast_image, 94 * 45);  // 复制对比度图像到待二值化图像
+        my_cv2_doubleThreshold((uint8 *) binary_image, 94, 0, 0, 94, 45, 16, 30);
+        my_cv2_checkConnectivity((uint8 *) binary_image, 94, 0, 0, 94, 45);  // 检查连通性
+        my_cv2_threshold((uint8 *) binary_image, 94, 0, 0, 94, 45, 127, 1);
+        memcpy(gray_binary_image, (const uint8 *) gray_image, 94 * 45);
+        bottom_threshold = get_otsu_threshold(0, 30, 94, 45, (const uint8 *) gray_image);
+        my_cv2_threshold((uint8 *) gray_binary_image, 94, 0, 0, 94, 45, bottom_threshold, 1);
+        //巡线
+        bottom_start_end_x_get();
+        get_border_line(80);
 
+        tft180_show_gray_image(15, 0, (const uint8 *) contrast_image, 94, 45, 94, 45,0);
+        tft180_show_gray_image(15, 46, (const uint8 *) gray_image, 94, 45, 94, 45,0);
+        tft180_show_binary_image(16, 91, (const uint8 *) binary_image, 94, 45);
+        tft180_draw_border_line(16, 91, left_border, RGB565_RED);
+        tft180_draw_border_line(16, 91, right_border, RGB565_RED);
+        tft180_draw_border_line(16, 91, middle_line_single, RGB565_BLUE);
         system_delay_us(200);
 
         // 此处编写需要循环执行的代码
