@@ -324,3 +324,5 @@ cpu1_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_O
 "C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\libraries\\zf_components\seekfree_assistant.h" :
 cpu1_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\libraries\\zf_components\seekfree_assistant_interface.h"
 "C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\libraries\\zf_components\seekfree_assistant_interface.h" :
+cpu1_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\servo.h"
+"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\servo.h" :

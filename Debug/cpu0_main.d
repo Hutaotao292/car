@@ -330,3 +330,9 @@ cpu0_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_O
 "C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\libraries\\zf_components\seekfree_assistant_interface.h" :
 cpu0_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\switch.h"
 "C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\switch.h" :
+cpu0_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\rev_perspective.h"
+"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\rev_perspective.h" :
+cpu0_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\image_process.h"
+"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\image_process.h" :
+cpu0_main.o :	"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\cv2.h"
+"C:\\Users\\buiml\\Desktop\\TC264_Library-master\\Seekfree_TC264_Opensource_Library\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\code\cv2.h" :

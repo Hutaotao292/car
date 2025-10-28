@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc17176a --dep-file=zf_device_tft180.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/zf_device/zf_device_tft180.src ../libraries/zf_device/zf_device_tft180.c"
+	.compiler_invocation	"ctc -f cc49300a --dep-file=zf_device_tft180.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/zf_device/zf_device_tft180.src ../libraries/zf_device/zf_device_tft180.c"
 	.compiler_name		"ctc"
 	;source	'../libraries/zf_device/zf_device_tft180.c'
 
@@ -15,11 +15,11 @@ $TC16X
 .L185:
 tft180_write_index:	.type	func
 	mov	d8,d4
-.L540:
+.L534:
 	mov	d15,#0
 	jeq	d15,#0,.L2
 	mov	d4,#480
-.L539:
+.L533:
 	call	get_port
 	add.a	a2,#4
 	mov	d15,#1
@@ -27,7 +27,7 @@ tft180_write_index:	.type	func
 	j	.L3
 .L2:
 	mov	d4,#480
-.L541:
+.L535:
 	call	get_port
 	add.a	a2,#4
 	movh	d15,#1
@@ -35,9 +35,9 @@ tft180_write_index:	.type	func
 .L3:
 	mov	d4,#2
 	mov	d5,d8
-.L542:
+.L536:
 	call	spi_write_8bit
-.L543:
+.L537:
 	mov	d15,#1
 	jeq	d15,#0,.L4
 	mov	d4,#480
@@ -54,7 +54,7 @@ tft180_write_index:	.type	func
 	st.w	[a2],d15
 .L5:
 	ret
-.L528:
+.L522:
 	
 __tft180_write_index_function_end:
 	.size	tft180_write_index,__tft180_write_index_function_end-tft180_write_index
@@ -70,65 +70,65 @@ __tft180_write_index_function_end:
 tft180_set_region:	.type	func
 	mov	e8,d5,d4
 	mov	e10,d7,d6
-.L1371:
+.L1337:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L547:
+.L541:
 	lt.u	d4,d8,d0
-.L544:
+.L538:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#176
-.L546:
+.L540:
 	call	debug_assert_handler
-.L545:
+.L539:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L548:
+.L542:
 	lt.u	d4,d9,d0
-.L549:
+.L543:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#177
 	call	debug_assert_handler
-.L1372:
+.L1338:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L550:
+.L544:
 	lt.u	d4,d10,d0
-.L551:
+.L545:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#178
 	call	debug_assert_handler
-.L1373:
+.L1339:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L552:
+.L546:
 	lt.u	d4,d11,d0
-.L553:
+.L547:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#179
 	call	debug_assert_handler
-.L1374:
+.L1340:
 	movh.a	a15,#@his(tft180_display_dir)
 	lea	a15,[a15]@los(tft180_display_dir)
 	ld.bu	d0,[a15]
-.L1375:
+.L1341:
 	mov	d15,#0
 	jeq	d15,d0,.L6
-.L1376:
+.L1342:
 	mov	d15,#1
 	jeq	d15,d0,.L7
-.L1377:
+.L1343:
 	mov	d15,#2
 	jeq	d15,d0,.L8
-.L1378:
+.L1344:
 	mov	d15,#3
 	jeq	d15,d0,.L9
 	j	.L10
@@ -136,100 +136,100 @@ tft180_set_region:	.type	func
 .L7:
 	mov	d4,#42
 	call	tft180_write_index
-.L1379:
+.L1345:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1380:
+.L1346:
 	mov	d4,#2
 	add	d8,#2
 	extr.u	d5,d8,#0,#8
 	call	spi_write_8bit
-.L1381:
+.L1347:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1382:
+.L1348:
 	mov	d4,#2
 	add	d10,#2
 	extr.u	d5,d10,#0,#8
 	call	spi_write_8bit
-.L1383:
+.L1349:
 	mov	d4,#43
 	call	tft180_write_index
-.L1384:
+.L1350:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1385:
+.L1351:
 	mov	d4,#2
 	add	d9,#1
 	extr.u	d5,d9,#0,#8
 	call	spi_write_8bit
-.L1386:
+.L1352:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1387:
+.L1353:
 	mov	d4,#2
 	add	d11,#1
 	extr.u	d5,d11,#0,#8
 	call	spi_write_8bit
-.L1388:
+.L1354:
 	j	.L11
 .L8:
 .L9:
 	mov	d4,#42
 	call	tft180_write_index
-.L1389:
+.L1355:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1390:
+.L1356:
 	mov	d4,#2
 	add	d8,#1
 	extr.u	d5,d8,#0,#8
 	call	spi_write_8bit
-.L1391:
+.L1357:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1392:
+.L1358:
 	mov	d4,#2
 	add	d10,#1
 	extr.u	d5,d10,#0,#8
 	call	spi_write_8bit
-.L1393:
+.L1359:
 	mov	d4,#43
 	call	tft180_write_index
-.L1394:
+.L1360:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1395:
+.L1361:
 	mov	d4,#2
 	add	d9,#2
 	extr.u	d5,d9,#0,#8
 	call	spi_write_8bit
-.L1396:
+.L1362:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1397:
+.L1363:
 	mov	d4,#2
 	add	d11,#2
 	extr.u	d5,d11,#0,#8
 	call	spi_write_8bit
-.L1398:
+.L1364:
 	j	.L12
 .L10:
 .L12:
 .L11:
 	mov	d4,#44
 	call	tft180_write_index
-.L1399:
+.L1365:
 	ret
-.L531:
+.L525:
 	
 __tft180_set_region_function_end:
 	.size	tft180_set_region,__tft180_set_region_function_end-tft180_set_region
@@ -244,58 +244,58 @@ __tft180_set_region_function_end:
 .L189:
 tft180_debug_init:	.type	func
 	sub.a	a10,#24
-.L554:
+.L548:
 	lea	a4,[a10]0
 	call	debug_output_struct_init
-.L1404:
+.L1370:
 	mov	d15,#1
-.L1405:
+.L1371:
 	st.h	[a10],d15
-.L1406:
+.L1372:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L1407:
+.L1373:
 	st.h	[a10]2,d15
-.L1408:
+.L1374:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L1409:
+.L1375:
 	st.h	[a10]4,d15
-.L1410:
+.L1376:
 	movh.a	a15,#@his(tft180_display_font)
 	lea	a15,[a15]@los(tft180_display_font)
 	ld.bu	d15,[a15]
-.L1411:
+.L1377:
 	mov	d0,#0
 	jeq	d15,d0,.L13
-.L1412:
+.L1378:
 	mov	d0,#1
 	jeq	d15,d0,.L14
-.L1413:
+.L1379:
 	mov	d0,#2
 	jeq	d15,d0,.L15
 	j	.L16
 .L13:
 	mov	d15,#6
-.L1414:
+.L1380:
 	st.b	[a10]6,d15
-.L1415:
+.L1381:
 	mov	d15,#8
-.L1416:
+.L1382:
 	st.b	[a10]7,d15
-.L1417:
+.L1383:
 	j	.L17
 .L14:
 	mov	d15,#8
-.L1418:
+.L1384:
 	st.b	[a10]6,d15
-.L1419:
+.L1385:
 	mov	d15,#16
-.L1420:
+.L1386:
 	st.b	[a10]7,d15
-.L1421:
+.L1387:
 	j	.L18
 .L15:
 	j	.L19
@@ -305,19 +305,19 @@ tft180_debug_init:	.type	func
 .L17:
 	movh.a	a15,#@his(tft180_show_string)
 	lea	a15,[a15]@los(tft180_show_string)
-.L1422:
+.L1388:
 	st.a	[a10]12,a15
-.L1423:
+.L1389:
 	movh.a	a15,#@his(tft180_clear)
 	lea	a15,[a15]@los(tft180_clear)
-.L1424:
+.L1390:
 	st.a	[a10]16,a15
-.L1425:
+.L1391:
 	lea	a4,[a10]0
 	call	debug_output_init
-.L1426:
+.L1392:
 	ret
-.L536:
+.L530:
 	
 __tft180_debug_init_function_end:
 	.size	tft180_debug_init,__tft180_debug_init_function_end-tft180_debug_init
@@ -335,17 +335,17 @@ tft180_clear:	.type	func
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L934:
+.L912:
 	mul	d4,d15,#2
 	call	malloc
-.L555:
+.L549:
 	mov.aa	a12,a2
-.L557:
+.L551:
 	mov	d15,#0
 	jeq	d15,#0,.L20
 	mov	d4,#482
 	call	get_port
-.L556:
+.L550:
 	add.a	a2,#4
 	mov	d15,#4
 	st.w	[a2],d15
@@ -353,55 +353,55 @@ tft180_clear:	.type	func
 .L20:
 	mov	d4,#482
 	call	get_port
-.L558:
+.L552:
 	add.a	a2,#4
 	movh	d15,#4
 	st.w	[a2],d15
 .L21:
 	mov	d4,#0
-.L935:
+.L913:
 	mov	d5,#0
-.L936:
+.L914:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L937:
+.L915:
 	add	d15,#-1
 	extr.u	d6,d15,#0,#16
-.L938:
+.L916:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L939:
+.L917:
 	add	d15,#-1
 	extr.u	d7,d15,#0,#16
 	call	tft180_set_region
-.L940:
+.L918:
 	mov	d0,#0
-.L559:
+.L553:
 	j	.L22
 .L23:
 	mul	d15,d0,#2
 	addsc.a	a15,a12,d15,#0
-.L941:
+.L919:
 	movh.a	a2,#@his(tft180_bgcolor)
 	lea	a2,[a2]@los(tft180_bgcolor)
 	ld.hu	d15,[a2]0
-.L942:
+.L920:
 	st.h	[a15],d15
-.L943:
+.L921:
 	add	d0,#1
-.L560:
+.L554:
 	extr.u	d0,d0,#0,#16
 .L22:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L944:
+.L922:
 	jlt.u	d0,d15,.L23
-.L945:
+.L923:
 	mov	d15,#0
-.L561:
+.L555:
 	j	.L24
 .L25:
 	mov	d4,#2
@@ -409,21 +409,21 @@ tft180_clear:	.type	func
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d5,[a15]0
 	mov.aa	a4,a12
-.L563:
+.L557:
 	call	spi_write_16bit_array
-.L564:
+.L558:
 	add	d15,#1
-.L562:
+.L556:
 	extr.u	d15,d15,#0,#16
 .L24:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L946:
+.L924:
 	jlt.u	d15,d0,.L25
-.L947:
+.L925:
 	mov	d15,#1
-.L565:
+.L559:
 	jeq	d15,#0,.L26
 	mov	d4,#482
 	call	get_port
@@ -439,9 +439,9 @@ tft180_clear:	.type	func
 	st.w	[a2],d15
 .L27:
 	mov.aa	a4,a12
-.L566:
+.L560:
 	call	free
-.L567:
+.L561:
 	ret
 .L347:
 	
@@ -459,22 +459,22 @@ __tft180_clear_function_end:
 .L193:
 tft180_full:	.type	func
 	mov	d8,d4
-.L569:
+.L563:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L952:
+.L930:
 	mul	d4,d15,#2
-.L568:
+.L562:
 	call	malloc
-.L570:
+.L564:
 	mov.aa	a12,a2
-.L572:
+.L566:
 	mov	d15,#0
 	jeq	d15,#0,.L28
 	mov	d4,#482
 	call	get_port
-.L571:
+.L565:
 	add.a	a2,#4
 	mov	d15,#4
 	st.w	[a2],d15
@@ -482,51 +482,51 @@ tft180_full:	.type	func
 .L28:
 	mov	d4,#482
 	call	get_port
-.L573:
+.L567:
 	add.a	a2,#4
 	movh	d15,#4
 	st.w	[a2],d15
 .L29:
 	mov	d4,#0
-.L953:
+.L931:
 	mov	d5,#0
-.L954:
+.L932:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L955:
+.L933:
 	add	d15,#-1
 	extr.u	d6,d15,#0,#16
-.L956:
+.L934:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L957:
+.L935:
 	add	d15,#-1
 	extr.u	d7,d15,#0,#16
 	call	tft180_set_region
-.L958:
+.L936:
 	mov	d0,#0
-.L574:
+.L568:
 	j	.L30
 .L31:
 	mul	d15,d0,#2
 	addsc.a	a15,a12,d15,#0
-.L959:
+.L937:
 	st.h	[a15],d8
-.L960:
+.L938:
 	add	d0,#1
-.L575:
+.L569:
 	extr.u	d0,d0,#0,#16
 .L30:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L961:
+.L939:
 	jlt.u	d0,d15,.L31
-.L962:
+.L940:
 	mov	d15,#0
-.L576:
+.L570:
 	j	.L32
 .L33:
 	mov	d4,#2
@@ -534,21 +534,21 @@ tft180_full:	.type	func
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d5,[a15]0
 	mov.aa	a4,a12
-.L578:
+.L572:
 	call	spi_write_16bit_array
-.L579:
+.L573:
 	add	d15,#1
-.L577:
+.L571:
 	extr.u	d15,d15,#0,#16
 .L32:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L963:
+.L941:
 	jlt.u	d15,d0,.L33
-.L964:
+.L942:
 	mov	d15,#1
-.L580:
+.L574:
 	jeq	d15,#0,.L34
 	mov	d4,#482
 	call	get_port
@@ -564,9 +564,9 @@ tft180_full:	.type	func
 	st.w	[a2],d15
 .L35:
 	mov.aa	a4,a12
-.L581:
+.L575:
 	call	free
-.L582:
+.L576:
 	ret
 .L353:
 	
@@ -585,18 +585,18 @@ __tft180_full_function_end:
 tft180_set_dir:	.type	func
 	movh.a	a15,#@his(tft180_display_dir)
 	lea	a15,[a15]@los(tft180_display_dir)
-.L969:
+.L947:
 	st.b	[a15],d4
-.L970:
+.L948:
 	mov	d15,#0
 	jeq	d15,d4,.L36
-.L971:
+.L949:
 	mov	d15,#1
 	jeq	d15,d4,.L37
-.L972:
+.L950:
 	mov	d15,#2
 	jeq	d15,d4,.L38
-.L973:
+.L951:
 	mov	d15,#3
 	jeq	d15,d4,.L39
 	j	.L40
@@ -604,35 +604,35 @@ tft180_set_dir:	.type	func
 .L37:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
-.L974:
+.L952:
 	mov	d15,#128
-.L975:
+.L953:
 	st.h	[a15],d15
-.L976:
+.L954:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
-.L977:
+.L955:
 	mov	d15,#160
-.L978:
+.L956:
 	st.h	[a15],d15
-.L979:
+.L957:
 	j	.L41
 .L38:
 .L39:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
-.L980:
+.L958:
 	mov	d15,#160
-.L981:
+.L959:
 	st.h	[a15],d15
-.L982:
+.L960:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
-.L983:
+.L961:
 	mov	d15,#128
-.L984:
+.L962:
 	st.h	[a15],d15
-.L985:
+.L963:
 	j	.L42
 .L40:
 .L42:
@@ -655,9 +655,9 @@ __tft180_set_dir_function_end:
 tft180_set_font:	.type	func
 	movh.a	a15,#@his(tft180_display_font)
 	lea	a15,[a15]@los(tft180_display_font)
-.L990:
+.L968:
 	st.b	[a15],d4
-.L991:
+.L969:
 	ret
 .L362:
 	
@@ -676,14 +676,14 @@ __tft180_set_font_function_end:
 tft180_set_color:	.type	func
 	movh.a	a15,#@his(tft180_pencolor)
 	lea	a15,[a15]@los(tft180_pencolor)
-.L996:
+.L974:
 	st.h	[a15],d4
-.L997:
+.L975:
 	movh.a	a15,#@his(tft180_bgcolor)
 	lea	a15,[a15]@los(tft180_bgcolor)
-.L998:
+.L976:
 	st.h	[a15],d5
-.L999:
+.L977:
 	ret
 .L365:
 	
@@ -702,30 +702,30 @@ __tft180_set_color_function_end:
 tft180_draw_point:	.type	func
 	mov	e8,d5,d4
 	mov	d10,d6
-.L586:
+.L580:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L587:
+.L581:
 	lt.u	d4,d8,d15
-.L584:
+.L578:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#372
-.L585:
+.L579:
 	call	debug_assert_handler
-.L583:
+.L577:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L588:
+.L582:
 	lt.u	d4,d9,d15
-.L589:
+.L583:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#373
 	call	debug_assert_handler
-.L1004:
+.L982:
 	mov	d15,#0
 	jeq	d15,#0,.L43
 	mov	d4,#482
@@ -743,14 +743,14 @@ tft180_draw_point:	.type	func
 .L44:
 	mov	e4,d9,d8
 	mov	e6,d9,d8
-.L590:
+.L584:
 	call	tft180_set_region
-.L1005:
+.L983:
 	mov	d4,#2
 	mov	d5,d10
-.L591:
+.L585:
 	call	spi_write_16bit
-.L592:
+.L586:
 	mov	d15,#1
 	jeq	d15,#0,.L45
 	mov	d4,#482
@@ -783,47 +783,47 @@ __tft180_draw_point_function_end:
 .L203:
 tft180_draw_line:	.type	func
 	sub.a	a10,#8
-.L593:
+.L587:
 	mov	d15,d4
-.L597:
+.L591:
 	mov	e8,d6,d5
 	mov	d10,d7
-.L599:
+.L593:
 	ld.hu	d11,[a10]8
-.L600:
+.L594:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
 	lt.u	d4,d15,d0
-.L595:
+.L589:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#396
-.L596:
+.L590:
 	call	debug_assert_handler
-.L594:
+.L588:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L601:
+.L595:
 	lt.u	d4,d8,d0
-.L602:
+.L596:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#397
 	call	debug_assert_handler
-.L1010:
+.L988:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L603:
+.L597:
 	lt.u	d4,d9,d0
-.L604:
+.L598:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#398
 	call	debug_assert_handler
-.L1011:
+.L989:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
@@ -834,147 +834,147 @@ tft180_draw_line:	.type	func
 	call	debug_assert_handler
 .L381:
 	jge.u	d15,d9,.L47
-.L605:
+.L599:
 	mov	d0,#1
 	st.w	[a10],d0
-.L1012:
+.L990:
 	j	.L48
 .L47:
 	mov	d0,#-1
 	st.w	[a10],d0
 .L48:
 	jge.u	d8,d10,.L49
-.L606:
+.L600:
 	mov	d14,#1
-.L607:
+.L601:
 	j	.L50
 .L49:
 	mov	d14,#-1
 .L50:
 .L51:
 	jeq	d15,d9,.L52
-.L608:
+.L602:
 	sub	d0,d8,d10
-.L609:
+.L603:
 	itof	d0,d0
-.L610:
+.L604:
 	sub	d1,d15,d9
-.L611:
+.L605:
 	itof	d1,d1
-.L1013:
+.L991:
 	div.f	d13,d0,d1
-.L612:
+.L606:
 	utof	d0,d8
-.L613:
+.L607:
 	utof	d1,d15
-.L1014:
+.L992:
 	msub.f	d12,d0,d1,d13
-.L614:
+.L608:
 	j	.L53
 .L52:
 	j	.L54
 .L55:
 	mov	e4,d8,d9
-.L615:
+.L609:
 	mov	d6,d11
-.L616:
+.L610:
 	call	tft180_draw_point
-.L617:
+.L611:
 	add	d8,d14
 	extr.u	d8,d8,#0,#16
 .L54:
 	jne	d8,d10,.L55
-.L618:
+.L612:
 	mov	e4,d10,d9
-.L619:
+.L613:
 	mov	d6,d11
-.L620:
+.L614:
 	call	tft180_draw_point
-.L621:
+.L615:
 	j	.L56
 .L53:
 	sub	d0,d8,d10
-.L622:
+.L616:
 	jlt	d0,#0,.L57
-.L623:
+.L617:
 	sub	d0,d8,d10
-.L624:
+.L618:
 	j	.L58
 .L57:
 	sub	d0,d8,d10
-.L625:
+.L619:
 	rsub	d0,#0
 .L58:
 	sub	d1,d15,d9
-.L626:
+.L620:
 	jlt	d1,#0,.L59
-.L627:
+.L621:
 	sub	d1,d15,d9
-.L628:
+.L622:
 	j	.L60
 .L59:
 	sub	d1,d15,d9
-.L629:
+.L623:
 	rsub	d1,#0
 .L60:
 	jge	d1,d0,.L61
-.L1015:
+.L993:
 	j	.L62
 .L63:
 	mov	e4,d8,d15
-.L630:
+.L624:
 	mov	d6,d11
-.L631:
+.L625:
 	call	tft180_draw_point
-.L632:
+.L626:
 	add	d8,d14
 	extr.u	d8,d8,#0,#16
-.L633:
+.L627:
 	utof	d15,d8
-.L598:
+.L592:
 	sub.f	d15,d15,d12
-.L1016:
+.L994:
 	div.f	d4,d15,d13
-.L1017:
+.L995:
 	call	__f_ftos
 	extr.u	d15,d2,#0,#16
 .L62:
 	jne	d8,d10,.L63
-.L634:
+.L628:
 	mov	e4,d10,d15
 	mov	d6,d11
-.L636:
+.L630:
 	call	tft180_draw_point
-.L637:
+.L631:
 	j	.L64
 .L61:
 	j	.L65
 .L66:
 	mov	e4,d8,d15
-.L638:
+.L632:
 	mov	d6,d11
-.L639:
+.L633:
 	call	tft180_draw_point
-.L640:
+.L634:
 	ld.w	d0,[a10]
-.L641:
-	add	d15,d0
 .L635:
+	add	d15,d0
+.L629:
 	extr.u	d15,d15,#0,#16
-.L643:
+.L637:
 	utof	d0,d15
-.L642:
+.L636:
 	madd.f	d4,d12,d0,d13
-.L1018:
+.L996:
 	call	__f_ftos
 	extr.u	d8,d2,#0,#16
 .L65:
 	jne	d15,d9,.L66
-.L645:
+.L639:
 	mov	e4,d8,d9
-.L644:
+.L638:
 	mov	d6,d11
-.L646:
+.L640:
 	call	tft180_draw_point
 .L64:
 .L56:
@@ -995,28 +995,28 @@ __tft180_draw_line_function_end:
 .L205:
 tft180_show_char:	.type	func
 	lea	a10,[a10]-256
-.L647:
+.L641:
 	mov	e8,d5,d4
 	mov	d10,d6
-.L651:
+.L645:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L652:
+.L646:
 	lt.u	d4,d8,d0
-.L649:
+.L643:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#460
-.L650:
+.L644:
 	call	debug_assert_handler
-.L648:
+.L642:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L653:
+.L647:
 	lt.u	d4,d9,d0
-.L654:
+.L648:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#461
@@ -1040,81 +1040,81 @@ tft180_show_char:	.type	func
 	movh.a	a15,#@his(tft180_display_font)
 	lea	a15,[a15]@los(tft180_display_font)
 	ld.bu	d0,[a15]
-.L1023:
+.L1001:
 	mov	d15,#0
 	jeq	d15,d0,.L69
-.L1024:
+.L1002:
 	mov	d15,#1
 	jeq	d15,d0,.L70
-.L1025:
+.L1003:
 	mov	d15,#2
 	jeq	d15,d0,.L71
 	j	.L72
 .L69:
 	add	d15,d8,#5
-.L655:
+.L649:
 	extr.u	d6,d15,#0,#16
-.L656:
+.L650:
 	add	d15,d9,#7
-.L657:
+.L651:
 	extr.u	d7,d15,#0,#16
-.L658:
+.L652:
 	mov	e4,d9,d8
-.L659:
+.L653:
 	call	tft180_set_region
-.L1026:
+.L1004:
 	mov	d0,#0
-.L660:
+.L654:
 	j	.L73
 .L74:
 	add	d15,d10,#-32
-.L1027:
+.L1005:
 	mul	d15,d15,#6
-.L1028:
+.L1006:
 	movh.a	a15,#@his(ascii_font_6x8)
 	lea	a15,[a15]@los(ascii_font_6x8)
-.L1029:
+.L1007:
 	addsc.a	a15,a15,d15,#0
-.L1030:
+.L1008:
 	addsc.a	a15,a15,d0,#0
 	ld.bu	d1,[a15]
-.L661:
+.L655:
 	mov	d2,#0
-.L662:
+.L656:
 	j	.L75
 .L76:
 	jz.t	d1:0,.L77
-.L1031:
+.L1009:
 	mov	d15,#6
-.L1032:
+.L1010:
 	madd	d15,d0,d2,d15
-.L1033:
+.L1011:
 	mul	d15,d15,#2
 	addsc.a	a15,a10,d15,#0
-.L1034:
+.L1012:
 	movh.a	a2,#@his(tft180_pencolor)
 	lea	a2,[a2]@los(tft180_pencolor)
 	ld.hu	d15,[a2]0
-.L1035:
+.L1013:
 	st.h	[a15],d15
-.L1036:
+.L1014:
 	j	.L78
 .L77:
 	mov	d15,#6
-.L1037:
+.L1015:
 	madd	d15,d0,d2,d15
-.L1038:
+.L1016:
 	mul	d15,d15,#2
 	addsc.a	a15,a10,d15,#0
-.L1039:
+.L1017:
 	movh.a	a2,#@his(tft180_bgcolor)
 	lea	a2,[a2]@los(tft180_bgcolor)
 	ld.hu	d15,[a2]0
-.L1040:
+.L1018:
 	st.h	[a15],d15
 .L78:
 	sha	d1,#-1
-.L1041:
+.L1019:
 	add	d2,#1
 .L75:
 	jlt.u	d2,#8,.L76
@@ -1122,7 +1122,7 @@ tft180_show_char:	.type	func
 	add	d0,#1
 .L73:
 	jlt.u	d0,#6,.L74
-.L1042:
+.L1020:
 	mov	d4,#2
 	lea	a4,[a10]0
 	mov	d5,#48
@@ -1131,125 +1131,125 @@ tft180_show_char:	.type	func
 	j	.L79
 .L70:
 	add	d15,d8,#7
-.L663:
+.L657:
 	extr.u	d6,d15,#0,#16
-.L664:
+.L658:
 	add	d15,d9,#15
-.L665:
+.L659:
 	extr.u	d7,d15,#0,#16
-.L666:
+.L660:
 	mov	e4,d9,d8
-.L667:
+.L661:
 	call	tft180_set_region
-.L1043:
+.L1021:
 	mov	d3,#0
-.L668:
+.L662:
 	j	.L80
 .L81:
 	add	d0,d10,#-32
-.L1044:
+.L1022:
 	mul	d15,d0,#16
-.L1045:
+.L1023:
 	movh.a	a15,#@his(ascii_font_8x16)
 	lea	a15,[a15]@los(ascii_font_8x16)
-.L1046:
+.L1024:
 	addsc.a	a15,a15,d15,#0
-.L1047:
+.L1025:
 	addsc.a	a15,a15,d3,#0
 	ld.bu	d0,[a15]
-.L669:
+.L663:
 	add	d1,d10,#-32
-.L1048:
+.L1026:
 	mul	d15,d1,#16
-.L1049:
+.L1027:
 	movh.a	a15,#@his(ascii_font_8x16)
 	lea	a15,[a15]@los(ascii_font_8x16)
-.L1050:
+.L1028:
 	addsc.a	a15,a15,d15,#0
-.L1051:
+.L1029:
 	addsc.a	a15,a15,d3,#0
 	ld.bu	d4,[a15]8
-.L671:
+.L665:
 	mov	d1,#0
-.L672:
+.L666:
 	j	.L82
 .L83:
 	jz.t	d0:0,.L84
-.L1052:
+.L1030:
 	mov	d15,#8
-.L1053:
+.L1031:
 	madd	d2,d3,d1,d15
-.L1054:
+.L1032:
 	mul	d15,d2,#2
 	addsc.a	a15,a10,d15,#0
-.L1055:
+.L1033:
 	movh.a	a2,#@his(tft180_pencolor)
 	lea	a2,[a2]@los(tft180_pencolor)
 	ld.hu	d2,[a2]0
-.L1056:
+.L1034:
 	st.h	[a15],d2
-.L1057:
+.L1035:
 	j	.L85
 .L84:
 	mov	d15,#8
-.L1058:
+.L1036:
 	madd	d2,d3,d1,d15
-.L1059:
+.L1037:
 	mul	d15,d2,#2
 	addsc.a	a15,a10,d15,#0
-.L1060:
+.L1038:
 	movh.a	a2,#@his(tft180_bgcolor)
 	lea	a2,[a2]@los(tft180_bgcolor)
 	ld.hu	d2,[a2]0
-.L1061:
+.L1039:
 	st.h	[a15],d2
 .L85:
 	sha	d0,#-1
-.L1062:
+.L1040:
 	add	d1,#1
 .L82:
 	jlt.u	d1,#8,.L83
-.L1063:
+.L1041:
 	mov	d0,#0
-.L670:
+.L664:
 	j	.L86
 .L87:
 	jz.t	d4:0,.L88
-.L1064:
+.L1042:
 	mov	d15,#8
-.L1065:
+.L1043:
 	madd	d1,d3,d0,d15
-.L1066:
+.L1044:
 	add	d15,d1,#64
-.L1067:
+.L1045:
 	mul	d15,d15,#2
 	addsc.a	a15,a10,d15,#0
-.L1068:
+.L1046:
 	movh.a	a2,#@his(tft180_pencolor)
 	lea	a2,[a2]@los(tft180_pencolor)
 	ld.hu	d15,[a2]0
-.L1069:
+.L1047:
 	st.h	[a15],d15
-.L1070:
+.L1048:
 	j	.L89
 .L88:
 	mov	d15,#8
-.L1071:
+.L1049:
 	madd	d15,d3,d0,d15
-.L1072:
+.L1050:
 	add	d15,d15,#64
-.L1073:
+.L1051:
 	mul	d15,d15,#2
 	addsc.a	a15,a10,d15,#0
-.L1074:
+.L1052:
 	movh.a	a2,#@his(tft180_bgcolor)
 	lea	a2,[a2]@los(tft180_bgcolor)
 	ld.hu	d15,[a2]0
-.L1075:
+.L1053:
 	st.h	[a15],d15
 .L89:
 	sha	d4,#-1
-.L1076:
+.L1054:
 	add	d0,#1
 .L86:
 	jlt.u	d0,#8,.L87
@@ -1257,7 +1257,7 @@ tft180_show_char:	.type	func
 	add	d3,#1
 .L80:
 	jlt.u	d3,#8,.L81
-.L1077:
+.L1055:
 	mov	d4,#2
 	lea	a4,[a10]0
 	mov	d5,#128
@@ -1303,77 +1303,77 @@ __tft180_show_char_function_end:
 tft180_show_string:	.type	func
 	mov	e8,d5,d4
 	mov.aa	a12,a4
-.L676:
+.L670:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L677:
+.L671:
 	lt.u	d4,d8,d15
-.L674:
+.L668:
 	movh.a	a4,#@his(.1.str)
-.L673:
+.L667:
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#547
-.L675:
+.L669:
 	call	debug_assert_handler
-.L1082:
+.L1060:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L678:
+.L672:
 	lt.u	d4,d9,d15
-.L679:
+.L673:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#548
 	call	debug_assert_handler
 .L413:
 	mov	d10,#0
-.L680:
+.L674:
 	j	.L94
 .L95:
 	movh.a	a15,#@his(tft180_display_font)
 	lea	a15,[a15]@los(tft180_display_font)
 	ld.bu	d0,[a15]
-.L1083:
+.L1061:
 	mov	d15,#0
 	jeq	d15,d0,.L96
-.L1084:
+.L1062:
 	mov	d15,#1
 	jeq	d15,d0,.L97
-.L1085:
+.L1063:
 	mov	d1,#2
 	jeq	d1,d0,.L98
 	j	.L99
 .L96:
 	mov	d0,#6
-.L682:
+.L676:
 	madd	d15,d8,d10,d0
-.L683:
+.L677:
 	extr.u	d4,d15,#0,#16
-.L1086:
+.L1064:
 	addsc.a	a15,a12,d10,#0
 	ld.b	d6,[a15]0
-.L684:
+.L678:
 	mov	d5,d9
-.L685:
+.L679:
 	call	tft180_show_char
-.L686:
+.L680:
 	j	.L100
 .L97:
 	mov	d15,#8
-.L687:
+.L681:
 	madd	d15,d8,d10,d15
-.L688:
+.L682:
 	extr.u	d4,d15,#0,#16
-.L1087:
+.L1065:
 	addsc.a	a15,a12,d10,#0
 	ld.b	d6,[a15]0
-.L689:
+.L683:
 	mov	d5,d9
-.L690:
+.L684:
 	call	tft180_show_char
-.L691:
+.L685:
 	j	.L101
 .L98:
 	j	.L102
@@ -1382,14 +1382,14 @@ tft180_show_string:	.type	func
 .L101:
 .L100:
 	add	d10,#1
-.L681:
+.L675:
 	extr.u	d10,d10,#0,#16
 .L94:
 	addsc.a	a15,a12,d10,#0
 	ld.b	d15,[a15]0
-.L1088:
+.L1066:
 	jne	d15,#0,.L95
-.L1089:
+.L1067:
 	ret
 .L408:
 	
@@ -1407,42 +1407,42 @@ __tft180_show_string_function_end:
 .L209:
 tft180_show_int:	.type	func
 	sub.a	a10,#16
-.L692:
+.L686:
 	mov	e10,d5,d4
 	mov	d9,d6
-.L696:
+.L690:
 	mov	d12,d7
-.L697:
+.L691:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L698:
+.L692:
 	lt.u	d4,d10,d0
-.L694:
+.L688:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#577
-.L695:
+.L689:
 	call	debug_assert_handler
-.L693:
+.L687:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L699:
+.L693:
 	lt.u	d4,d11,d0
-.L700:
+.L694:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#578
 	call	debug_assert_handler
-.L1094:
+.L1072:
 	mov	d0,#0
 	lt.u	d4,d0,d12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#579
 	call	debug_assert_handler
-.L1095:
+.L1073:
 	mov	d15,#10
 	ge.u	d4,d15,d12
 	movh.a	a4,#@his(.1.str)
@@ -1451,45 +1451,45 @@ tft180_show_int:	.type	func
 	call	debug_assert_handler
 .L421:
 	mov	d15,#1
-.L701:
+.L695:
 	lea	a4,[a10]0
-.L1096:
+.L1074:
 	mov	d4,#0
-.L1097:
+.L1075:
 	mov	d5,#12
 	call	memset
-.L1098:
+.L1076:
 	lea	a4,[a10]0
-.L1099:
+.L1077:
 	mov	d4,#32
-.L1100:
+.L1078:
 	add	d5,d12,#1
 	call	memset
-.L1101:
+.L1079:
 	jge.u	d12,#10,.L103
-.L1102:
+.L1080:
 	j	.L104
 .L105:
 	mul	d15,d15,#10
-.L1103:
+.L1081:
 	add	d12,#-1
 .L104:
 	jge.u	d12,#1,.L105
-.L1104:
+.L1082:
 	div	e8,d9,d15
 .L103:
 	lea	a4,[a10]0
-.L1105:
+.L1083:
 	mov	d4,d9
-.L702:
+.L696:
 	call	func_int_to_str
-.L703:
+.L697:
 	lea	a4,[a10]0
-.L704:
+.L698:
 	mov	e4,d11,d10
-.L705:
+.L699:
 	call	tft180_show_string
-.L1106:
+.L1084:
 	ret
 .L415:
 	
@@ -1507,42 +1507,42 @@ __tft180_show_int_function_end:
 .L211:
 tft180_show_uint:	.type	func
 	sub.a	a10,#16
-.L706:
+.L700:
 	mov	e10,d5,d4
 	mov	d9,d6
-.L710:
+.L704:
 	mov	d12,d7
-.L711:
+.L705:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d15,[a15]0
-.L712:
+.L706:
 	lt.u	d4,d10,d15
-.L708:
+.L702:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#616
-.L709:
+.L703:
 	call	debug_assert_handler
-.L707:
+.L701:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L713:
+.L707:
 	lt.u	d4,d11,d15
-.L714:
+.L708:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#617
 	call	debug_assert_handler
-.L1111:
+.L1089:
 	mov	d15,#0
 	lt.u	d4,d15,d12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#618
 	call	debug_assert_handler
-.L1112:
+.L1090:
 	mov	d15,#10
 	ge.u	d4,d15,d12
 	movh.a	a4,#@his(.1.str)
@@ -1551,46 +1551,46 @@ tft180_show_uint:	.type	func
 	call	debug_assert_handler
 .L433:
 	mov	d15,#1
-.L715:
+.L709:
 	lea	a4,[a10]0
-.L1113:
+.L1091:
 	mov	d4,#0
-.L1114:
+.L1092:
 	mov	d5,#12
 	call	memset
-.L1115:
+.L1093:
 	lea	a4,[a10]0
-.L1116:
+.L1094:
 	mov	d4,#32
-.L1117:
+.L1095:
 	mov	d5,d12
-.L716:
+.L710:
 	call	memset
-.L717:
+.L711:
 	jge.u	d12,#10,.L106
-.L1118:
+.L1096:
 	j	.L107
 .L108:
 	mul	d15,d15,#10
-.L1119:
+.L1097:
 	add	d12,#-1
 .L107:
 	jge.u	d12,#1,.L108
-.L1120:
+.L1098:
 	div.u	e8,d9,d15
 .L106:
 	lea	a4,[a10]0
-.L1121:
+.L1099:
 	mov	d4,d9
-.L718:
+.L712:
 	call	func_uint_to_str
-.L719:
+.L713:
 	lea	a4,[a10]0
-.L720:
+.L714:
 	mov	e4,d11,d10
-.L721:
+.L715:
 	call	tft180_show_string
-.L1122:
+.L1100:
 	ret
 .L427:
 	
@@ -1608,59 +1608,59 @@ __tft180_show_uint_function_end:
 .L213:
 tft180_show_float:	.type	func
 	sub.a	a10,#24
-.L722:
+.L716:
 	mov	e8,d5,d4
 	mov	e10,d7,d6
 	ld.bu	d12,[a10]24
-.L726:
+.L720:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L727:
+.L721:
 	lt.u	d4,d8,d0
-.L724:
+.L718:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#658
-.L725:
+.L719:
 	call	debug_assert_handler
-.L723:
+.L717:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L728:
+.L722:
 	lt.u	d4,d9,d0
-.L729:
+.L723:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#659
 	call	debug_assert_handler
-.L1127:
+.L1105:
 	mov	d0,#0
-.L730:
+.L724:
 	lt.u	d4,d0,d11
-.L731:
+.L725:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#660
 	call	debug_assert_handler
-.L1128:
+.L1106:
 	mov	d15,#8
-.L732:
+.L726:
 	ge.u	d4,d15,d11
-.L733:
+.L727:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#661
 	call	debug_assert_handler
-.L1129:
+.L1107:
 	mov	d15,#0
 	lt.u	d4,d15,d12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#662
 	call	debug_assert_handler
-.L1130:
+.L1108:
 	mov	d15,#6
 	ge.u	d4,d15,d12
 	movh.a	a4,#@his(.1.str)
@@ -1669,54 +1669,54 @@ tft180_show_float:	.type	func
 	call	debug_assert_handler
 .L445:
 	movh	d13,#16256
-.L734:
+.L728:
 	lea	a4,[a10]0
-.L1131:
+.L1109:
 	mov	d4,#0
-.L1132:
+.L1110:
 	mov	d5,#17
 	call	memset
-.L1133:
+.L1111:
 	lea	a4,[a10]0
-.L1134:
+.L1112:
 	mov	d4,#32
-.L735:
+.L729:
 	add	d15,d11,d12
-.L736:
+.L730:
 	add	d5,d15,#2
 	call	memset
-.L1135:
+.L1113:
 	j	.L109
 .L110:
 	movh	d15,#16672
-.L1136:
+.L1114:
 	mul.f	d13,d13,d15
-.L737:
+.L731:
 	add	d11,#-1
 .L109:
 	jge.u	d11,#1,.L110
-.L738:
+.L732:
 	ftoiz	d15,d10
-.L739:
+.L733:
 	ftoiz	d0,d13
-.L1137:
+.L1115:
 	div	e0,d15,d0
 	itof	d15,d0
-.L740:
+.L734:
 	msub.f	d4,d10,d15,d13
-.L741:
+.L735:
 	lea	a4,[a10]0
-.L1138:
+.L1116:
 	mov	d5,d12
-.L743:
+.L737:
 	call	func_double_to_str
-.L742:
+.L736:
 	lea	a4,[a10]0
-.L744:
+.L738:
 	mov	e4,d9,d8
-.L745:
+.L739:
 	call	tft180_show_string
-.L1139:
+.L1117:
 	ret
 .L438:
 	
@@ -1735,151 +1735,103 @@ __tft180_show_float_function_end:
 tft180_show_binary_image:	.type	func
 	mov	e8,d5,d4
 	mov.aa	a12,a4
-.L750:
+.L744:
 	mov	e10,d7,d6
-	ld.hu	d12,[a10]0
-.L751:
-	ld.hu	d13,[a10]4
-.L752:
+.L1122:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L753:
+.L745:
 	lt.u	d4,d8,d0
-.L748:
+.L742:
 	movh.a	a4,#@his(.1.str)
-.L747:
+.L741:
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#701
-.L749:
+.L743:
 	call	debug_assert_handler
-.L746:
+.L740:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L754:
+.L746:
 	lt.u	d4,d9,d0
-.L755:
+.L747:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#702
 	call	debug_assert_handler
-.L1144:
+.L1123:
 	mov.a	a15,#0
 	ne.a	d4,a15,a12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
 	mov	d5,#703
 	call	debug_assert_handler
-.L459:
-	mul	d4,d12,#2
-	call	malloc
-.L756:
-	mov.aa	a13,a2
-.L758:
+.L457:
 	mov	d15,#0
 	jeq	d15,#0,.L111
 	mov	d4,#482
 	call	get_port
-.L757:
 	add.a	a2,#4
-	mov	d15,#4
-	st.w	[a2],d15
+	mov	d0,#4
+	st.w	[a2],d0
 	j	.L112
 .L111:
 	mov	d4,#482
 	call	get_port
-.L759:
 	add.a	a2,#4
 	movh	d15,#4
 	st.w	[a2],d15
 .L112:
-	add	d15,d8,d12
-.L760:
+	add	d15,d8,d10
+.L748:
 	add	d15,#-1
 	extr.u	d6,d15,#0,#16
-.L761:
-	add	d15,d9,d13
-.L762:
+.L749:
+	add	d15,d9,d11
+.L750:
 	add	d15,#-1
 	extr.u	d7,d15,#0,#16
-.L763:
+.L751:
 	mov	e4,d9,d8
-.L764:
+.L752:
 	call	tft180_set_region
-.L1145:
+.L1124:
 	mov	d8,#0
-.L765:
+.L753:
 	j	.L113
 .L114:
-	mul	d15,d8,d11
-.L766:
-	div.u	e0,d15,d13
-.L767:
-	mul	d0,d10
-.L768:
-	mov	d15,#8
-.L1146:
-	div.u	e0,d0,d15
-.L1147:
-	addsc.a	a15,a12,d0,#0
-.L769:
-	mov	d4,#0
-.L770:
+	mov	d9,#0
+.L755:
 	j	.L115
 .L116:
-	mul	d15,d4,d10
-.L772:
-	div.u	e2,d15,d12
-.L773:
-	mov	d15,#8
-.L1148:
-	div.u	e0,d2,d15
-.L1149:
-	addsc.a	a2,a15,d0,#0
-.L1150:
-	ld.bu	d0,[a2]
-.L775:
-	mov	d15,#8
-.L1151:
-	div.u	e2,d2,d15
-.L774:
-	sha	d0,d0,d3
-.L776:
-	jz.t	d0:7,.L117
-.L1152:
-	mul	d15,d4,#2
-	addsc.a	a2,a13,d15,#0
-.L1153:
-	mov.u	d15,#65535
-.L1154:
-	st.h	[a2],d15
-.L1155:
+	mul	d15,d8,d10
+.L757:
+	addsc.a	a15,a12,d15,#0
+	addsc.a	a15,a15,d9,#0
+	ld.bu	d15,[a15]
+	jeq	d15,#0,.L117
+	mov.u	d5,#65535
 	j	.L118
 .L117:
-	mul	d15,d4,#2
-	addsc.a	a2,a13,d15,#0
-.L1156:
-	mov	d15,#0
-.L1157:
-	st.h	[a2],d15
+	mov	d5,#0
 .L118:
-	add	d4,#1
-.L115:
-	jlt.u	d4,d12,.L116
-.L1158:
 	mov	d4,#2
-.L771:
-	mov.aa	a4,a13
-.L777:
-	mov	d5,d12
-.L779:
-	call	spi_write_16bit_array
-.L778:
+	call	spi_write_16bit
+.L1125:
+	add	d9,#1
+.L756:
+	extr.u	d9,d9,#0,#16
+.L115:
+	jlt.u	d9,d10,.L116
+.L758:
 	add	d8,#1
+.L754:
+	extr.u	d8,d8,#0,#16
 .L113:
-	jlt.u	d8,d13,.L114
-.L1159:
+	jlt.u	d8,d11,.L114
+.L759:
 	mov	d15,#1
 	jeq	d15,#0,.L119
 	mov	d4,#482
@@ -1895,10 +1847,6 @@ tft180_show_binary_image:	.type	func
 	movh	d15,#4
 	st.w	[a2],d15
 .L120:
-	mov.aa	a4,a13
-.L780:
-	call	free
-.L781:
 	ret
 .L450:
 	
@@ -1917,55 +1865,55 @@ __tft180_show_binary_image_function_end:
 tft180_show_gray_image:	.type	func
 	mov	e8,d5,d4
 	mov.aa	a12,a4
-.L786:
+.L764:
 	mov	e10,d7,d6
 	ld.hu	d12,[a10]0
-.L787:
+.L765:
 	ld.hu	d13,[a10]4
-.L788:
+.L766:
 	ld.bu	d14,[a10]8
-.L789:
+.L767:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L790:
+.L768:
 	lt.u	d4,d8,d0
-.L784:
+.L762:
 	movh.a	a4,#@his(.1.str)
-.L783:
+.L761:
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#756
-.L785:
+	mov	d5,#739
+.L763:
 	call	debug_assert_handler
-.L782:
+.L760:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L791:
+.L769:
 	lt.u	d4,d9,d15
-.L792:
+.L770:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#757
+	mov	d5,#740
 	call	debug_assert_handler
-.L1164:
+.L1130:
 	mov.a	a15,#0
 	ne.a	d4,a15,a12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#758
+	mov	d5,#741
 	call	debug_assert_handler
-.L475:
+.L469:
 	mul	d4,d12,#2
 	call	malloc
-.L793:
+.L771:
 	mov.aa	a13,a2
-.L795:
+.L773:
 	mov	d15,#0
 	jeq	d15,#0,.L121
 	mov	d4,#482
 	call	get_port
-.L794:
+.L772:
 	add.a	a2,#4
 	mov	d15,#4
 	st.w	[a2],d15
@@ -1973,112 +1921,112 @@ tft180_show_gray_image:	.type	func
 .L121:
 	mov	d4,#482
 	call	get_port
-.L796:
+.L774:
 	add.a	a2,#4
 	movh	d15,#4
 	st.w	[a2],d15
 .L122:
 	add	d15,d8,d12
-.L797:
+.L775:
 	add	d15,#-1
 	extr.u	d6,d15,#0,#16
-.L798:
+.L776:
 	add	d15,d9,d13
-.L799:
+.L777:
 	add	d15,#-1
 	extr.u	d7,d15,#0,#16
-.L800:
+.L778:
 	mov	e4,d9,d8
-.L801:
+.L779:
 	call	tft180_set_region
-.L1165:
+.L1131:
 	mov	d8,#0
-.L802:
+.L780:
 	j	.L123
 .L124:
 	mul	d15,d8,d11
-.L803:
+.L781:
 	div.u	e0,d15,d13
-.L804:
+.L782:
 	mul	d15,d0,d10
-.L805:
+.L783:
 	addsc.a	a15,a12,d15,#0
-.L806:
+.L784:
 	mov	d2,#0
-.L807:
+.L785:
 	j	.L125
 .L126:
 	mul	d15,d2,d10
-.L809:
+.L787:
 	div.u	e0,d15,d12
-.L1166:
+.L1132:
 	addsc.a	a2,a15,d0,#0
-.L1167:
+.L1133:
 	ld.bu	d0,[a2]
-.L810:
+.L788:
 	jne	d14,#0,.L127
-.L1168:
+.L1134:
 	sha	d15,d0,#-3
-.L1169:
+.L1135:
 	and	d15,#31
-.L1170:
+.L1136:
 	sha	d1,d15,#11
-.L812:
+.L790:
 	sha	d15,d0,#-2
-.L1171:
+.L1137:
 	and	d15,#63
-.L1172:
+.L1138:
 	sha	d15,#5
-.L1173:
+.L1139:
 	or	d1,d15
-.L1174:
+.L1140:
 	sha	d0,#-3
-.L811:
+.L789:
 	and	d15,d0,#31
-.L1175:
+.L1141:
 	or	d1,d15
-.L1176:
+.L1142:
 	mul	d15,d2,#2
 	addsc.a	a2,a13,d15,#0
-.L1177:
+.L1143:
 	st.h	[a2],d1
-.L1178:
+.L1144:
 	j	.L128
 .L127:
 	jge.u	d0,d14,.L129
-.L1179:
+.L1145:
 	mul	d15,d2,#2
 	addsc.a	a2,a13,d15,#0
-.L1180:
+.L1146:
 	mov	d15,#0
-.L1181:
+.L1147:
 	st.h	[a2],d15
-.L1182:
+.L1148:
 	j	.L130
 .L129:
 	mul	d15,d2,#2
 	addsc.a	a2,a13,d15,#0
-.L1183:
+.L1149:
 	mov.u	d15,#65535
-.L1184:
+.L1150:
 	st.h	[a2],d15
 .L130:
 .L128:
 	add	d2,#1
 .L125:
 	jlt.u	d2,d12,.L126
-.L1185:
+.L1151:
 	mov	d4,#2
 	mov.aa	a4,a13
-.L813:
+.L791:
 	mov	d5,d12
-.L814:
+.L792:
 	call	spi_write_16bit_array
-.L808:
+.L786:
 	add	d8,#1
 .L123:
 	jlt.u	d8,d13,.L124
-.L1186:
+.L1152:
 	mov	d15,#1
 	jeq	d15,#0,.L131
 	mov	d4,#482
@@ -2095,11 +2043,11 @@ tft180_show_gray_image:	.type	func
 	st.w	[a2],d15
 .L132:
 	mov.aa	a4,a13
-.L815:
+.L793:
 	call	free
-.L816:
+.L794:
 	ret
-.L466:
+.L460:
 	
 __tft180_show_gray_image_function_end:
 	.size	tft180_show_gray_image,__tft180_show_gray_image_function_end-tft180_show_gray_image
@@ -2116,55 +2064,55 @@ __tft180_show_gray_image_function_end:
 tft180_show_rgb565_image:	.type	func
 	mov	e8,d5,d4
 	mov.aa	a12,a4
-.L821:
+.L799:
 	mov	e10,d7,d6
 	ld.hu	d12,[a10]0
-.L822:
+.L800:
 	ld.hu	d13,[a10]4
-.L823:
+.L801:
 	ld.bu	d14,[a10]8
-.L824:
+.L802:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L825:
+.L803:
 	lt.u	d4,d8,d0
-.L819:
+.L797:
 	movh.a	a4,#@his(.1.str)
-.L818:
+.L796:
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#816
-.L820:
+	mov	d5,#799
+.L798:
 	call	debug_assert_handler
-.L817:
+.L795:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d15,[a15]0
-.L826:
+.L804:
 	lt.u	d4,d9,d15
-.L827:
+.L805:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#817
+	mov	d5,#800
 	call	debug_assert_handler
-.L1191:
+.L1157:
 	mov.a	a15,#0
 	ne.a	d4,a15,a12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#818
+	mov	d5,#801
 	call	debug_assert_handler
-.L492:
+.L486:
 	mul	d4,d12,#2
 	call	malloc
-.L828:
+.L806:
 	mov.aa	a13,a2
-.L830:
+.L808:
 	mov	d15,#0
 	jeq	d15,#0,.L133
 	mov	d4,#482
 	call	get_port
-.L829:
+.L807:
 	add.a	a2,#4
 	mov	d15,#4
 	st.w	[a2],d15
@@ -2172,81 +2120,81 @@ tft180_show_rgb565_image:	.type	func
 .L133:
 	mov	d4,#482
 	call	get_port
-.L831:
+.L809:
 	add.a	a2,#4
 	movh	d15,#4
 	st.w	[a2],d15
 .L134:
 	add	d15,d8,d12
-.L832:
+.L810:
 	add	d15,#-1
 	extr.u	d6,d15,#0,#16
-.L833:
+.L811:
 	add	d15,d9,d13
-.L834:
+.L812:
 	add	d15,#-1
 	extr.u	d7,d15,#0,#16
-.L835:
+.L813:
 	mov	e4,d9,d8
-.L836:
+.L814:
 	call	tft180_set_region
-.L1192:
+.L1158:
 	mov	d8,#0
-.L837:
+.L815:
 	j	.L135
 .L136:
 	mul	d15,d8,d11
-.L838:
+.L816:
 	div.u	e0,d15,d13
-.L839:
+.L817:
 	mul	d15,d0,d10
-.L840:
+.L818:
 	mul	d15,d15,#2
 	addsc.a	a15,a12,d15,#0
-.L841:
+.L819:
 	mov	d0,#0
-.L842:
+.L820:
 	j	.L137
 .L138:
 	mul	d15,d0,#2
 	addsc.a	a2,a13,d15,#0
-.L844:
+.L822:
 	mul	d15,d0,d10
-.L845:
+.L823:
 	div.u	e2,d15,d12
-.L1193:
+.L1159:
 	mul	d15,d2,#2
 	addsc.a	a4,a15,d15,#0
-.L1194:
+.L1160:
 	ld.hu	d15,[a4]0
-.L1195:
+.L1161:
 	st.h	[a2],d15
-.L1196:
+.L1162:
 	add	d0,#1
 .L137:
 	jlt.u	d0,d12,.L138
-.L1197:
+.L1163:
 	jeq	d14,#0,.L139
-.L1198:
+.L1164:
 	mov	d4,#2
 	mul	d5,d12,#2
 	mov.aa	a4,a13
-.L846:
+.L824:
 	call	spi_write_8bit_array
-.L843:
+.L821:
 	j	.L140
 .L139:
 	mov	d4,#2
 	mov.aa	a4,a13
-.L847:
+.L825:
 	mov	d5,d12
-.L848:
+.L826:
 	call	spi_write_16bit_array
 .L140:
 	add	d8,#1
 .L135:
 	jlt.u	d8,d13,.L136
-.L1199:
+.L1165:
 	mov	d15,#1
 	jeq	d15,#0,.L141
 	mov	d4,#482
@@ -2263,11 +2211,11 @@ tft180_show_rgb565_image:	.type	func
 	st.w	[a2],d15
 .L142:
 	mov.aa	a4,a13
-.L849:
+.L827:
 	call	free
-.L850:
+.L828:
 	ret
-.L482:
+.L476:
 	
 __tft180_show_rgb565_image_function_end:
 	.size	tft180_show_rgb565_image,__tft180_show_rgb565_image_function_end-tft180_show_rgb565_image
@@ -2284,53 +2232,53 @@ __tft180_show_rgb565_image_function_end:
 tft180_show_wave:	.type	func
 	mov	e8,d5,d4
 	mov.aa	a12,a4
-.L855:
+.L833:
 	mov	e10,d7,d6
 	ld.hu	d12,[a10]0
-.L856:
+.L834:
 	ld.hu	d13,[a10]4
-.L857:
+.L835:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L858:
+.L836:
 	lt.u	d4,d8,d0
-.L853:
+.L831:
 	movh.a	a4,#@his(.1.str)
-.L852:
+.L830:
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#863
-.L854:
+	mov	d5,#846
+.L832:
 	call	debug_assert_handler
-.L851:
+.L829:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L859:
+.L837:
 	lt.u	d4,d9,d0
-.L860:
+.L838:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#864
+	mov	d5,#847
 	call	debug_assert_handler
-.L1204:
+.L1170:
 	mov.a	a15,#0
 	ne.a	d4,a15,a12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#865
+	mov	d5,#848
 	call	debug_assert_handler
-.L505:
+.L499:
 	mul	d4,d12,#2
 	call	malloc
-.L861:
+.L839:
 	mov.aa	a13,a2
-.L863:
+.L841:
 	mov	d15,#0
 	jeq	d15,#0,.L143
 	mov	d4,#482
 	call	get_port
-.L862:
+.L840:
 	add.a	a2,#4
 	mov	d15,#4
 	st.w	[a2],d15
@@ -2338,57 +2286,57 @@ tft180_show_wave:	.type	func
 .L143:
 	mov	d4,#482
 	call	get_port
-.L864:
+.L842:
 	add.a	a2,#4
 	movh	d15,#4
 	st.w	[a2],d15
 .L144:
 	add	d15,d8,d12
-.L865:
+.L843:
 	add	d15,#-1
 	extr.u	d6,d15,#0,#16
-.L866:
+.L844:
 	add	d15,d9,d13
-.L867:
+.L845:
 	add	d15,#-1
 	extr.u	d7,d15,#0,#16
-.L868:
+.L846:
 	mov	e4,d9,d8
-.L869:
+.L847:
 	call	tft180_set_region
-.L1205:
+.L1171:
 	mov	d14,#0
-.L870:
+.L848:
 	j	.L145
 .L146:
 	mov	d0,#0
-.L872:
+.L850:
 	j	.L147
 .L148:
 	mul	d15,d0,#2
 	addsc.a	a15,a13,d15,#0
-.L1206:
+.L1172:
 	movh.a	a2,#@his(tft180_bgcolor)
 	lea	a2,[a2]@los(tft180_bgcolor)
 	ld.hu	d15,[a2]0
-.L1207:
+.L1173:
 	st.h	[a15],d15
-.L1208:
+.L1174:
 	add	d0,#1
 .L147:
 	jlt.u	d0,d12,.L148
-.L1209:
+.L1175:
 	mov	d4,#2
 	mov.aa	a4,a13
-.L874:
+.L852:
 	mov	d5,d12
-.L875:
+.L853:
 	call	spi_write_16bit_array
-.L873:
+.L851:
 	add	d14,#1
 .L145:
 	jlt.u	d14,d13,.L146
-.L1210:
+.L1176:
 	mov	d15,#1
 	jeq	d15,#0,.L149
 	mov	d4,#482
@@ -2405,51 +2353,51 @@ tft180_show_wave:	.type	func
 	st.w	[a2],d15
 .L150:
 	mov	d14,#0
-.L871:
+.L849:
 	j	.L151
 .L152:
 	mul	d15,d14,d10
-.L876:
+.L854:
 	div.u	e0,d15,d12
-.L877:
+.L855:
 	mul	d15,d0,#2
 	addsc.a	a15,a12,d15,#0
-.L1211:
+.L1177:
 	ld.hu	d0,[a15]0
-.L878:
+.L856:
 	add	d15,d13,#-1
-.L1212:
+.L1178:
 	mul	d0,d15
-.L879:
+.L857:
 	div	e0,d0,d11
-.L880:
+.L858:
 	add	d15,d14,d8
-.L882:
+.L860:
 	extr.u	d4,d15,#0,#16
-.L1213:
+.L1179:
 	add	d15,d13,#-1
-.L1214:
+.L1180:
 	sub	d15,d0
-.L883:
+.L861:
 	add	d15,d9
-.L884:
+.L862:
 	extr.u	d5,d15,#0,#16
-.L1215:
+.L1181:
 	movh.a	a15,#@his(tft180_pencolor)
 	lea	a15,[a15]@los(tft180_pencolor)
 	ld.hu	d6,[a15]0
 	call	tft180_draw_point
-.L881:
+.L859:
 	add	d14,#1
 .L151:
 	jlt.u	d14,d12,.L152
-.L1216:
+.L1182:
 	mov.aa	a4,a13
-.L885:
+.L863:
 	call	free
-.L886:
+.L864:
 	ret
-.L497:
+.L491:
 	
 __tft180_show_wave_function_end:
 	.size	tft180_show_wave,__tft180_show_wave_function_end-tft180_show_wave
@@ -2465,51 +2413,51 @@ __tft180_show_wave_function_end:
 .L223:
 tft180_show_chinese:	.type	func
 	sub.a	a10,#8
-.L887:
+.L865:
 	mov	e8,d5,d4
 	mov	d10,d6
-.L892:
+.L870:
 	mov.aa	a12,a4
-.L893:
+.L871:
 	st.w	[a10]4,d7
-.L894:
+.L872:
 	ld.hu	d11,[a10]8
-.L895:
+.L873:
 	movh.a	a15,#@his(tft180_width_max)
 	lea	a15,[a15]@los(tft180_width_max)
 	ld.hu	d0,[a15]0
-.L896:
+.L874:
 	lt.u	d4,d8,d0
-.L890:
+.L868:
 	movh.a	a4,#@his(.1.str)
-.L888:
+.L866:
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#907
-.L891:
+	mov	d5,#890
+.L869:
 	call	debug_assert_handler
-.L889:
+.L867:
 	movh.a	a15,#@his(tft180_height_max)
 	lea	a15,[a15]@los(tft180_height_max)
 	ld.hu	d0,[a15]0
-.L897:
+.L875:
 	lt.u	d4,d9,d0
-.L898:
+.L876:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#908
+	mov	d5,#891
 	call	debug_assert_handler
-.L1221:
+.L1187:
 	mov.a	a15,#0
 	ne.a	d4,a15,a12
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-	mov	d5,#909
+	mov	d5,#892
 	call	debug_assert_handler
-.L519:
+.L513:
 	mov	d15,#8
-.L1222:
+.L1188:
 	div	e12,d10,d15
-.L899:
+.L877:
 	mov	d15,#0
 	jeq	d15,#0,.L153
 	mov	d4,#482
@@ -2526,62 +2474,62 @@ tft180_show_chinese:	.type	func
 	st.w	[a2],d15
 .L154:
 	ld.w	d15,[a10]4
-.L900:
+.L878:
 	mul	d15,d10
-.L901:
+.L879:
 	add	d15,#-1
-.L902:
+.L880:
 	add	d15,d8
-.L903:
+.L881:
 	extr.u	d6,d15,#0,#16
-.L904:
+.L882:
 	add	d15,d9,d10
-.L905:
+.L883:
 	add	d15,#-1
 	extr.u	d7,d15,#0,#16
-.L906:
+.L884:
 	mov	e4,d9,d8
-.L907:
+.L885:
 	call	tft180_set_region
-.L1223:
+.L1189:
 	mov	d8,#0
-.L908:
+.L886:
 	j	.L155
 .L156:
 	ld.w	d15,[a10]4
-.L909:
+.L887:
 	st.w	[a10],d15
-.L911:
+.L889:
 	mul	d15,d8,d12
-.L910:
+.L888:
 	addsc.a	a15,a12,d15,#0
-.L912:
+.L890:
 	j	.L157
 .L158:
 	mov	d9,#0
-.L914:
+.L892:
 	j	.L159
 .L160:
 	mov	d14,#8
-.L915:
+.L893:
 	j	.L161
 .L162:
 	ld.bu	d0,[a15]
-.L1224:
+.L1190:
 	add	d15,d14,#-1
-.L1225:
+.L1191:
 	rsub	d15,#0
 	sha	d0,d0,d15
-.L1226:
+.L1192:
 	and	d15,d0,#1
-.L916:
+.L894:
 	jeq	d15,#0,.L163
-.L1227:
+.L1193:
 	mov	d4,#2
 	mov	d5,d11
-.L917:
+.L895:
 	call	spi_write_16bit
-.L918:
+.L896:
 	j	.L164
 .L163:
 	mov	d4,#2
@@ -2593,36 +2541,36 @@ tft180_show_chinese:	.type	func
 	add	d14,#-1
 .L161:
 	jge	d14,#1,.L162
-.L1228:
+.L1194:
 	add.a	a15,#1
-.L1229:
+.L1195:
 	add	d9,#1
 .L159:
 	jlt	d9,d12,.L160
-.L1230:
+.L1196:
 	mul	d15,d12,d10
-.L1231:
+.L1197:
 	mov.d	d0,a15
-.L919:
+.L897:
 	sub	d0,d12
-.L920:
+.L898:
 	add	d15,d0
-.L913:
+.L891:
 	mov.a	a15,d15
 .L157:
 	ld.w	d15,[a10]
-.L921:
+.L899:
 	add	d0,d15,#-1
 	extr.u	d0,d0,#0,#8
-.L922:
+.L900:
 	st.w	[a10],d0
-.L923:
+.L901:
 	jne	d15,#0,.L158
-.L924:
+.L902:
 	add	d8,#1
 .L155:
 	jlt	d8,d10,.L156
-.L1232:
+.L1198:
 	mov	d15,#1
 	jeq	d15,#0,.L165
 	mov	d4,#482
@@ -2639,7 +2587,7 @@ tft180_show_chinese:	.type	func
 	st.w	[a2],d15
 .L166:
 	ret
-.L511:
+.L505:
 	
 __tft180_show_chinese_function_end:
 	.size	tft180_show_chinese,__tft180_show_chinese_function_end-tft180_show_chinese
@@ -2655,76 +2603,76 @@ __tft180_show_chinese_function_end:
 .L225:
 tft180_init:	.type	func
 	sub.a	a10,#16
-.L925:
+.L903:
 	mov	d15,#211
 	st.h	[a10],d15
-.L1237:
+.L1203:
 	mov	d15,#217
 	st.h	[a10]4,d15
-.L1238:
+.L1204:
 	mov	d15,#403
 	st.h	[a10]8,d15
-.L1239:
+.L1205:
 	mov	d4,#2
-.L1240:
+.L1206:
 	mov	d5,#0
-.L1241:
+.L1207:
 	mov.u	d6,#34560
 	addih	d6,d6,#915
-.L1242:
+.L1208:
 	mov	d7,#206
 	call	spi_init
-.L1243:
+.L1209:
 	mov	d4,#480
-.L1244:
+.L1210:
 	mov	d5,#1
-.L1245:
+.L1211:
 	mov	d6,#0
-.L1246:
+.L1212:
 	mov	d7,#3
 	call	gpio_init
-.L1247:
+.L1213:
 	mov	d4,#481
-.L1248:
+.L1214:
 	mov	d5,#1
-.L1249:
+.L1215:
 	mov	d6,#0
-.L1250:
+.L1216:
 	mov	d7,#3
 	call	gpio_init
-.L1251:
+.L1217:
 	mov	d4,#482
-.L1252:
+.L1218:
 	mov	d5,#1
-.L1253:
+.L1219:
 	mov	d6,#1
-.L1254:
+.L1220:
 	mov	d7,#3
 	call	gpio_init
-.L1255:
+.L1221:
 	mov	d4,#484
-.L1256:
+.L1222:
 	mov	d5,#1
-.L1257:
+.L1223:
 	mov	d6,#1
-.L1258:
+.L1224:
 	mov	d7,#3
 	call	gpio_init
-.L1259:
+.L1225:
 	movh.a	a15,#@his(tft180_display_dir)
 	lea	a15,[a15]@los(tft180_display_dir)
 	ld.bu	d4,[a15]
 	call	tft180_set_dir
-.L1260:
+.L1226:
 	movh.a	a15,#@his(tft180_pencolor)
 	lea	a15,[a15]@los(tft180_pencolor)
 	ld.hu	d4,[a15]0
-.L1261:
+.L1227:
 	movh.a	a15,#@his(tft180_bgcolor)
 	lea	a15,[a15]@los(tft180_bgcolor)
 	ld.hu	d5,[a15]0
 	call	tft180_set_color
-.L1262:
+.L1228:
 	mov	d15,#0
 	jeq	d15,#0,.L167
 	mov	d4,#481
@@ -2742,7 +2690,7 @@ tft180_init:	.type	func
 .L168:
 	mov	d4,#10
 	call	system_delay_ms
-.L1263:
+.L1229:
 	mov	d15,#1
 	jeq	d15,#0,.L169
 	mov	d4,#481
@@ -2760,7 +2708,7 @@ tft180_init:	.type	func
 .L170:
 	mov	d4,#120
 	call	system_delay_ms
-.L1264:
+.L1230:
 	mov	d15,#0
 	jeq	d15,#0,.L171
 	mov	d4,#482
@@ -2778,152 +2726,152 @@ tft180_init:	.type	func
 .L172:
 	mov	d4,#17
 	call	tft180_write_index
-.L1265:
+.L1231:
 	mov	d4,#120
 	call	system_delay_ms
-.L1266:
+.L1232:
 	mov	d4,#177
 	call	tft180_write_index
-.L1267:
+.L1233:
 	mov	d4,#2
 	mov	d5,#1
 	call	spi_write_8bit
-.L1268:
+.L1234:
 	mov	d4,#2
 	mov	d5,#44
 	call	spi_write_8bit
-.L1269:
+.L1235:
 	mov	d4,#2
 	mov	d5,#45
 	call	spi_write_8bit
-.L1270:
+.L1236:
 	mov	d4,#178
 	call	tft180_write_index
-.L1271:
+.L1237:
 	mov	d4,#2
 	mov	d5,#1
 	call	spi_write_8bit
-.L1272:
+.L1238:
 	mov	d4,#2
 	mov	d5,#44
 	call	spi_write_8bit
-.L1273:
+.L1239:
 	mov	d4,#2
 	mov	d5,#45
 	call	spi_write_8bit
-.L1274:
+.L1240:
 	mov	d4,#179
 	call	tft180_write_index
-.L1275:
+.L1241:
 	mov	d4,#2
 	mov	d5,#1
 	call	spi_write_8bit
-.L1276:
+.L1242:
 	mov	d4,#2
 	mov	d5,#44
 	call	spi_write_8bit
-.L1277:
+.L1243:
 	mov	d4,#2
 	mov	d5,#45
 	call	spi_write_8bit
-.L1278:
+.L1244:
 	mov	d4,#2
 	mov	d5,#1
 	call	spi_write_8bit
-.L1279:
+.L1245:
 	mov	d4,#2
 	mov	d5,#44
 	call	spi_write_8bit
-.L1280:
+.L1246:
 	mov	d4,#2
 	mov	d5,#45
 	call	spi_write_8bit
-.L1281:
+.L1247:
 	mov	d4,#180
 	call	tft180_write_index
-.L1282:
+.L1248:
 	mov	d4,#2
 	mov	d5,#7
 	call	spi_write_8bit
-.L1283:
+.L1249:
 	mov	d4,#192
 	call	tft180_write_index
-.L1284:
+.L1250:
 	mov	d4,#2
 	mov	d5,#162
 	call	spi_write_8bit
-.L1285:
+.L1251:
 	mov	d4,#2
 	mov	d5,#2
 	call	spi_write_8bit
-.L1286:
+.L1252:
 	mov	d4,#2
 	mov	d5,#132
 	call	spi_write_8bit
-.L1287:
+.L1253:
 	mov	d4,#193
 	call	tft180_write_index
-.L1288:
+.L1254:
 	mov	d4,#2
 	mov	d5,#197
 	call	spi_write_8bit
-.L1289:
+.L1255:
 	mov	d4,#194
 	call	tft180_write_index
-.L1290:
+.L1256:
 	mov	d4,#2
 	mov	d5,#10
 	call	spi_write_8bit
-.L1291:
+.L1257:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1292:
+.L1258:
 	mov	d4,#195
 	call	tft180_write_index
-.L1293:
+.L1259:
 	mov	d4,#2
 	mov	d5,#138
 	call	spi_write_8bit
-.L1294:
+.L1260:
 	mov	d4,#2
 	mov	d5,#42
 	call	spi_write_8bit
-.L1295:
+.L1261:
 	mov	d4,#196
 	call	tft180_write_index
-.L1296:
+.L1262:
 	mov	d4,#2
 	mov	d5,#138
 	call	spi_write_8bit
-.L1297:
+.L1263:
 	mov	d4,#2
 	mov	d5,#238
 	call	spi_write_8bit
-.L1298:
+.L1264:
 	mov	d4,#197
 	call	tft180_write_index
-.L1299:
+.L1265:
 	mov	d4,#2
 	mov	d5,#14
 	call	spi_write_8bit
-.L1300:
+.L1266:
 	mov	d4,#54
 	call	tft180_write_index
-.L1301:
+.L1267:
 	movh.a	a15,#@his(tft180_display_dir)
 	lea	a15,[a15]@los(tft180_display_dir)
 	ld.bu	d15,[a15]
-.L1302:
+.L1268:
 	mov	d0,#0
 	jeq	d15,d0,.L173
-.L1303:
+.L1269:
 	mov	d0,#1
 	jeq	d15,d0,.L174
-.L1304:
+.L1270:
 	mov	d0,#2
 	jeq	d15,d0,.L175
-.L1305:
+.L1271:
 	mov	d0,#3
 	jeq	d15,d0,.L176
 	j	.L177
@@ -2931,25 +2879,25 @@ tft180_init:	.type	func
 	mov	d4,#2
 	mov	d5,#192
 	call	spi_write_8bit
-.L1306:
+.L1272:
 	j	.L178
 .L174:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
-.L1307:
+.L1273:
 	j	.L179
 .L175:
 	mov	d4,#2
 	mov	d5,#160
 	call	spi_write_8bit
-.L1308:
+.L1274:
 	j	.L180
 .L176:
 	mov	d4,#2
 	mov	d5,#96
 	call	spi_write_8bit
-.L1309:
+.L1275:
 	j	.L181
 .L177:
 .L181:
@@ -2958,200 +2906,200 @@ tft180_init:	.type	func
 .L178:
 	mov	d4,#224
 	call	tft180_write_index
-.L1310:
+.L1276:
 	mov	d4,#2
 	mov	d5,#15
 	call	spi_write_8bit
-.L1311:
+.L1277:
 	mov	d4,#2
 	mov	d5,#26
 	call	spi_write_8bit
-.L1312:
+.L1278:
 	mov	d4,#2
 	mov	d5,#15
 	call	spi_write_8bit
-.L1313:
+.L1279:
 	mov	d4,#2
 	mov	d5,#24
 	call	spi_write_8bit
-.L1314:
+.L1280:
 	mov	d4,#2
 	mov	d5,#47
 	call	spi_write_8bit
-.L1315:
+.L1281:
 	mov	d4,#2
 	mov	d5,#40
 	call	spi_write_8bit
-.L1316:
+.L1282:
 	mov	d4,#2
 	mov	d5,#32
 	call	spi_write_8bit
-.L1317:
+.L1283:
 	mov	d4,#2
 	mov	d5,#34
 	call	spi_write_8bit
-.L1318:
+.L1284:
 	mov	d4,#2
 	mov	d5,#31
 	call	spi_write_8bit
-.L1319:
+.L1285:
 	mov	d4,#2
 	mov	d5,#27
 	call	spi_write_8bit
-.L1320:
+.L1286:
 	mov	d4,#2
 	mov	d5,#35
 	call	spi_write_8bit
-.L1321:
+.L1287:
 	mov	d4,#2
 	mov	d5,#55
 	call	spi_write_8bit
+.L1288:
+	mov	d4,#2
+	mov	d5,#0
+	call	spi_write_8bit
+.L1289:
+	mov	d4,#2
+	mov	d5,#7
+	call	spi_write_8bit
+.L1290:
+	mov	d4,#2
+	mov	d5,#2
+	call	spi_write_8bit
+.L1291:
+	mov	d4,#2
+	mov	d5,#16
+	call	spi_write_8bit
+.L1292:
+	mov	d4,#225
+	call	tft180_write_index
+.L1293:
+	mov	d4,#2
+	mov	d5,#15
+	call	spi_write_8bit
+.L1294:
+	mov	d4,#2
+	mov	d5,#27
+	call	spi_write_8bit
+.L1295:
+	mov	d4,#2
+	mov	d5,#15
+	call	spi_write_8bit
+.L1296:
+	mov	d4,#2
+	mov	d5,#23
+	call	spi_write_8bit
+.L1297:
+	mov	d4,#2
+	mov	d5,#51
+	call	spi_write_8bit
+.L1298:
+	mov	d4,#2
+	mov	d5,#44
+	call	spi_write_8bit
+.L1299:
+	mov	d4,#2
+	mov	d5,#41
+	call	spi_write_8bit
+.L1300:
+	mov	d4,#2
+	mov	d5,#46
+	call	spi_write_8bit
+.L1301:
+	mov	d4,#2
+	mov	d5,#48
+	call	spi_write_8bit
+.L1302:
+	mov	d4,#2
+	mov	d5,#48
+	call	spi_write_8bit
+.L1303:
+	mov	d4,#2
+	mov	d5,#57
+	call	spi_write_8bit
+.L1304:
+	mov	d4,#2
+	mov	d5,#63
+	call	spi_write_8bit
+.L1305:
+	mov	d4,#2
+	mov	d5,#0
+	call	spi_write_8bit
+.L1306:
+	mov	d4,#2
+	mov	d5,#7
+	call	spi_write_8bit
+.L1307:
+	mov	d4,#2
+	mov	d5,#3
+	call	spi_write_8bit
+.L1308:
+	mov	d4,#2
+	mov	d5,#16
+	call	spi_write_8bit
+.L1309:
+	mov	d4,#42
+	call	tft180_write_index
+.L1310:
+	mov	d4,#2
+	mov	d5,#0
+	call	spi_write_8bit
+.L1311:
+	mov	d4,#2
+	mov	d5,#2
+	call	spi_write_8bit
+.L1312:
+	mov	d4,#2
+	mov	d5,#0
+	call	spi_write_8bit
+.L1313:
+	mov	d4,#2
+	mov	d5,#130
+	call	spi_write_8bit
+.L1314:
+	mov	d4,#43
+	call	tft180_write_index
+.L1315:
+	mov	d4,#2
+	mov	d5,#0
+	call	spi_write_8bit
+.L1316:
+	mov	d4,#2
+	mov	d5,#3
+	call	spi_write_8bit
+.L1317:
+	mov	d4,#2
+	mov	d5,#0
+	call	spi_write_8bit
+.L1318:
+	mov	d4,#2
+	mov	d5,#131
+	call	spi_write_8bit
+.L1319:
+	mov	d4,#240
+	call	tft180_write_index
+.L1320:
+	mov	d4,#2
+	mov	d5,#1
+	call	spi_write_8bit
+.L1321:
+	mov	d4,#246
+	call	tft180_write_index
 .L1322:
 	mov	d4,#2
 	mov	d5,#0
 	call	spi_write_8bit
 .L1323:
-	mov	d4,#2
-	mov	d5,#7
-	call	spi_write_8bit
-.L1324:
-	mov	d4,#2
-	mov	d5,#2
-	call	spi_write_8bit
-.L1325:
-	mov	d4,#2
-	mov	d5,#16
-	call	spi_write_8bit
-.L1326:
-	mov	d4,#225
-	call	tft180_write_index
-.L1327:
-	mov	d4,#2
-	mov	d5,#15
-	call	spi_write_8bit
-.L1328:
-	mov	d4,#2
-	mov	d5,#27
-	call	spi_write_8bit
-.L1329:
-	mov	d4,#2
-	mov	d5,#15
-	call	spi_write_8bit
-.L1330:
-	mov	d4,#2
-	mov	d5,#23
-	call	spi_write_8bit
-.L1331:
-	mov	d4,#2
-	mov	d5,#51
-	call	spi_write_8bit
-.L1332:
-	mov	d4,#2
-	mov	d5,#44
-	call	spi_write_8bit
-.L1333:
-	mov	d4,#2
-	mov	d5,#41
-	call	spi_write_8bit
-.L1334:
-	mov	d4,#2
-	mov	d5,#46
-	call	spi_write_8bit
-.L1335:
-	mov	d4,#2
-	mov	d5,#48
-	call	spi_write_8bit
-.L1336:
-	mov	d4,#2
-	mov	d5,#48
-	call	spi_write_8bit
-.L1337:
-	mov	d4,#2
-	mov	d5,#57
-	call	spi_write_8bit
-.L1338:
-	mov	d4,#2
-	mov	d5,#63
-	call	spi_write_8bit
-.L1339:
-	mov	d4,#2
-	mov	d5,#0
-	call	spi_write_8bit
-.L1340:
-	mov	d4,#2
-	mov	d5,#7
-	call	spi_write_8bit
-.L1341:
-	mov	d4,#2
-	mov	d5,#3
-	call	spi_write_8bit
-.L1342:
-	mov	d4,#2
-	mov	d5,#16
-	call	spi_write_8bit
-.L1343:
-	mov	d4,#42
-	call	tft180_write_index
-.L1344:
-	mov	d4,#2
-	mov	d5,#0
-	call	spi_write_8bit
-.L1345:
-	mov	d4,#2
-	mov	d5,#2
-	call	spi_write_8bit
-.L1346:
-	mov	d4,#2
-	mov	d5,#0
-	call	spi_write_8bit
-.L1347:
-	mov	d4,#2
-	mov	d5,#130
-	call	spi_write_8bit
-.L1348:
-	mov	d4,#43
-	call	tft180_write_index
-.L1349:
-	mov	d4,#2
-	mov	d5,#0
-	call	spi_write_8bit
-.L1350:
-	mov	d4,#2
-	mov	d5,#3
-	call	spi_write_8bit
-.L1351:
-	mov	d4,#2
-	mov	d5,#0
-	call	spi_write_8bit
-.L1352:
-	mov	d4,#2
-	mov	d5,#131
-	call	spi_write_8bit
-.L1353:
-	mov	d4,#240
-	call	tft180_write_index
-.L1354:
-	mov	d4,#2
-	mov	d5,#1
-	call	spi_write_8bit
-.L1355:
-	mov	d4,#246
-	call	tft180_write_index
-.L1356:
-	mov	d4,#2
-	mov	d5,#0
-	call	spi_write_8bit
-.L1357:
 	mov	d4,#58
 	call	tft180_write_index
-.L1358:
+.L1324:
 	mov	d4,#2
 	mov	d5,#5
 	call	spi_write_8bit
-.L1359:
+.L1325:
 	mov	d4,#41
 	call	tft180_write_index
-.L1360:
+.L1326:
 	mov	d15,#1
 	jeq	d15,#0,.L182
 	mov	d4,#482
@@ -3168,11 +3116,11 @@ tft180_init:	.type	func
 	st.w	[a2],d15
 .L183:
 	call	tft180_clear
-.L1361:
+.L1327:
 	call	tft180_debug_init
-.L1362:
+.L1328:
 	ret
-.L527:
+.L521:
 	
 __tft180_init_function_end:
 	.size	tft180_init,__tft180_init_function_end-tft180_init
@@ -3269,7 +3217,7 @@ tft180_display_font:	.type	object
 	.calls	'tft180_show_binary_image','debug_assert_handler'
 	.calls	'tft180_show_binary_image','get_port'
 	.calls	'tft180_show_binary_image','tft180_set_region'
-	.calls	'tft180_show_binary_image','spi_write_16bit_array'
+	.calls	'tft180_show_binary_image','spi_write_16bit'
 	.calls	'tft180_show_gray_image','debug_assert_handler'
 	.calls	'tft180_show_gray_image','get_port'
 	.calls	'tft180_show_gray_image','tft180_set_region'
@@ -4806,7 +4754,7 @@ tft180_display_font:	.type	object
 	.word	8708
 	.byte	0,3
 	.word	8727
-.L537:
+.L531:
 	.byte	27,6,86,9,20,13
 	.byte	'type_index',0
 	.word	570
@@ -5171,7 +5119,7 @@ tft180_display_font:	.type	object
 	.word	11677
 	.byte	0,25
 	.word	570
-.L485:
+.L479:
 	.byte	3
 	.word	11737
 	.byte	24
@@ -5354,10 +5302,10 @@ tft180_display_font:	.type	object
 	.byte	14,17
 	.word	8621
 	.byte	15,16,0
-.L517:
+.L511:
 	.byte	25
 	.word	570
-.L529:
+.L523:
 	.byte	25
 	.word	553
 	.byte	30
@@ -9384,11 +9332,11 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L229:
-	.word	.L927-.L926
-.L926:
+	.word	.L905-.L904
+.L904:
 	.half	3
-	.word	.L929-.L928
-.L928:
+	.word	.L907-.L906
+.L906:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std',0
 	.byte	'C:\\\\Users\\\\buiml\\\\Desktop\\\\TC264_Library-master\\\\Seekfree_TC264_Opensource_Library\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg',0
@@ -9420,8 +9368,8 @@ tft180_display_font:	.type	object
 	.byte	0,0,0
 	.byte	'IfxScu_regdef.h',0,2,0,0
 	.byte	'zf_driver_soft_spi.h',0,5,0,0,0
-.L929:
-.L927:
+.L907:
+.L905:
 	.sdecl	'.debug_info',debug,cluster('tft180_clear')
 	.sect	'.debug_info'
 .L230:
@@ -9459,68 +9407,68 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_clear')
 	.sect	'.debug_line'
 .L232:
-	.word	.L931-.L930
-.L930:
+	.word	.L909-.L908
+.L908:
 	.half	3
-	.word	.L933-.L932
-.L932:
+	.word	.L911-.L910
+.L910:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L933:
+.L911:
 	.byte	5,25,7,0,5,2
 	.word	.L191
 	.byte	3,136,2,1,5,41,9
-	.half	.L934-.L191
+	.half	.L912-.L191
 	.byte	1,5,5,9
-	.half	.L557-.L934
+	.half	.L551-.L912
 	.byte	3,3,1,5,23,9
-	.half	.L21-.L557
+	.half	.L21-.L551
 	.byte	3,1,1,5,26,9
-	.half	.L935-.L21
+	.half	.L913-.L21
 	.byte	1,5,29,9
-	.half	.L936-.L935
+	.half	.L914-.L913
 	.byte	1,5,46,9
-	.half	.L937-.L936
+	.half	.L915-.L914
 	.byte	1,5,51,9
-	.half	.L938-.L937
+	.half	.L916-.L915
 	.byte	1,5,69,9
-	.half	.L939-.L938
+	.half	.L917-.L916
 	.byte	1,5,11,9
-	.half	.L940-.L939
+	.half	.L918-.L917
 	.byte	3,1,1,5,36,9
-	.half	.L559-.L940
+	.half	.L553-.L918
 	.byte	1,5,21,9
-	.half	.L23-.L559
+	.half	.L23-.L553
 	.byte	3,2,1,5,27,9
-	.half	.L941-.L23
+	.half	.L919-.L23
 	.byte	1,5,25,9
-	.half	.L942-.L941
+	.half	.L920-.L919
 	.byte	1,5,40,9
-	.half	.L943-.L942
+	.half	.L921-.L920
 	.byte	3,126,1,5,20,9
-	.half	.L22-.L943
+	.half	.L22-.L921
 	.byte	1,5,36,9
-	.half	.L944-.L22
+	.half	.L922-.L22
 	.byte	1,5,12,7,9
-	.half	.L945-.L944
+	.half	.L923-.L922
 	.byte	3,4,1,5,38,9
-	.half	.L561-.L945
+	.half	.L555-.L923
 	.byte	1,5,9,9
-	.half	.L25-.L561
+	.half	.L25-.L555
 	.byte	3,2,1,5,42,9
-	.half	.L564-.L25
+	.half	.L558-.L25
 	.byte	3,126,1,5,21,9
-	.half	.L24-.L564
+	.half	.L24-.L558
 	.byte	1,5,38,9
-	.half	.L946-.L24
+	.half	.L924-.L24
 	.byte	1,5,5,7,9
-	.half	.L947-.L946
+	.half	.L925-.L924
 	.byte	3,4,1,5,1,9
-	.half	.L27-.L947
+	.half	.L27-.L925
 	.byte	3,1,1,9
 	.half	.L234-.L27
 	.byte	0,1,1
-.L931:
+.L909:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_clear')
 	.sect	'.debug_ranges'
 .L233:
@@ -9566,68 +9514,68 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_full')
 	.sect	'.debug_line'
 .L237:
-	.word	.L949-.L948
-.L948:
+	.word	.L927-.L926
+.L926:
 	.half	3
-	.word	.L951-.L950
-.L950:
+	.word	.L929-.L928
+.L928:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L951:
+.L929:
 	.byte	5,6,7,0,5,2
 	.word	.L193
 	.byte	3,159,2,1,5,25,9
-	.half	.L569-.L193
+	.half	.L563-.L193
 	.byte	3,2,1,5,41,9
-	.half	.L952-.L569
+	.half	.L930-.L563
 	.byte	1,5,5,9
-	.half	.L572-.L952
+	.half	.L566-.L930
 	.byte	3,3,1,5,23,9
-	.half	.L29-.L572
+	.half	.L29-.L566
 	.byte	3,1,1,5,26,9
-	.half	.L953-.L29
+	.half	.L931-.L29
 	.byte	1,5,29,9
-	.half	.L954-.L953
+	.half	.L932-.L931
 	.byte	1,5,46,9
-	.half	.L955-.L954
+	.half	.L933-.L932
 	.byte	1,5,51,9
-	.half	.L956-.L955
+	.half	.L934-.L933
 	.byte	1,5,69,9
-	.half	.L957-.L956
+	.half	.L935-.L934
 	.byte	1,5,11,9
-	.half	.L958-.L957
+	.half	.L936-.L935
 	.byte	3,1,1,5,36,9
-	.half	.L574-.L958
+	.half	.L568-.L936
 	.byte	1,5,21,9
-	.half	.L31-.L574
+	.half	.L31-.L568
 	.byte	3,2,1,5,25,9
-	.half	.L959-.L31
+	.half	.L937-.L31
 	.byte	1,5,40,9
-	.half	.L960-.L959
+	.half	.L938-.L937
 	.byte	3,126,1,5,20,9
-	.half	.L30-.L960
+	.half	.L30-.L938
 	.byte	1,5,36,9
-	.half	.L961-.L30
+	.half	.L939-.L30
 	.byte	1,5,12,7,9
-	.half	.L962-.L961
+	.half	.L940-.L939
 	.byte	3,4,1,5,38,9
-	.half	.L576-.L962
+	.half	.L570-.L940
 	.byte	1,5,9,9
-	.half	.L33-.L576
+	.half	.L33-.L570
 	.byte	3,2,1,5,42,9
-	.half	.L579-.L33
+	.half	.L573-.L33
 	.byte	3,126,1,5,21,9
-	.half	.L32-.L579
+	.half	.L32-.L573
 	.byte	1,5,38,9
-	.half	.L963-.L32
+	.half	.L941-.L32
 	.byte	1,5,5,7,9
-	.half	.L964-.L963
+	.half	.L942-.L941
 	.byte	3,4,1,5,1,9
-	.half	.L35-.L964
+	.half	.L35-.L942
 	.byte	3,1,1,9
 	.half	.L239-.L35
 	.byte	0,1,1
-.L949:
+.L927:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_full')
 	.sect	'.debug_ranges'
 .L238:
@@ -9663,60 +9611,60 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_set_dir')
 	.sect	'.debug_line'
 .L242:
-	.word	.L966-.L965
-.L965:
+	.word	.L944-.L943
+.L943:
 	.half	3
-	.word	.L968-.L967
-.L967:
+	.word	.L946-.L945
+.L945:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L968:
+.L946:
 	.byte	5,5,7,0,5,2
 	.word	.L195
 	.byte	3,186,2,1,5,24,9
-	.half	.L969-.L195
+	.half	.L947-.L195
 	.byte	1,5,14,9
-	.half	.L970-.L969
+	.half	.L948-.L947
 	.byte	3,3,1,9
-	.half	.L971-.L970
+	.half	.L949-.L948
 	.byte	3,1,1,9
-	.half	.L972-.L971
+	.half	.L950-.L949
 	.byte	3,5,1,9
-	.half	.L973-.L972
+	.half	.L951-.L950
 	.byte	3,1,1,5,13,9
-	.half	.L37-.L973
+	.half	.L37-.L951
 	.byte	3,124,1,5,32,9
-	.half	.L974-.L37
+	.half	.L952-.L37
 	.byte	1,5,30,9
-	.half	.L975-.L974
+	.half	.L953-.L952
 	.byte	1,5,13,9
-	.half	.L976-.L975
+	.half	.L954-.L953
 	.byte	3,1,1,5,33,9
-	.half	.L977-.L976
+	.half	.L955-.L954
 	.byte	1,5,31,9
-	.half	.L978-.L977
+	.half	.L956-.L955
 	.byte	1,5,10,9
-	.half	.L979-.L978
+	.half	.L957-.L956
 	.byte	3,1,1,5,13,9
-	.half	.L39-.L979
+	.half	.L39-.L957
 	.byte	3,4,1,5,32,9
-	.half	.L980-.L39
+	.half	.L958-.L39
 	.byte	1,5,30,9
-	.half	.L981-.L980
+	.half	.L959-.L958
 	.byte	1,5,13,9
-	.half	.L982-.L981
+	.half	.L960-.L959
 	.byte	3,1,1,5,33,9
-	.half	.L983-.L982
+	.half	.L961-.L960
 	.byte	1,5,31,9
-	.half	.L984-.L983
+	.half	.L962-.L961
 	.byte	1,5,10,9
-	.half	.L985-.L984
+	.half	.L963-.L962
 	.byte	3,1,1,5,1,9
-	.half	.L41-.L985
+	.half	.L41-.L963
 	.byte	3,2,1,7,9
 	.half	.L244-.L41
 	.byte	0,1,1
-.L966:
+.L944:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_set_dir')
 	.sect	'.debug_ranges'
 .L243:
@@ -9752,24 +9700,24 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_set_font')
 	.sect	'.debug_line'
 .L247:
-	.word	.L987-.L986
-.L986:
+	.word	.L965-.L964
+.L964:
 	.half	3
-	.word	.L989-.L988
-.L988:
+	.word	.L967-.L966
+.L966:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L989:
+.L967:
 	.byte	5,5,7,0,5,2
 	.word	.L197
 	.byte	3,213,2,1,5,25,9
-	.half	.L990-.L197
+	.half	.L968-.L197
 	.byte	1,5,1,9
-	.half	.L991-.L990
+	.half	.L969-.L968
 	.byte	3,1,1,7,9
-	.half	.L249-.L991
+	.half	.L249-.L969
 	.byte	0,1,1
-.L987:
+.L965:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_set_font')
 	.sect	'.debug_ranges'
 .L248:
@@ -9808,28 +9756,28 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_set_color')
 	.sect	'.debug_line'
 .L252:
-	.word	.L993-.L992
-.L992:
+	.word	.L971-.L970
+.L970:
 	.half	3
-	.word	.L995-.L994
-.L994:
+	.word	.L973-.L972
+.L972:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L995:
+.L973:
 	.byte	5,5,7,0,5,2
 	.word	.L199
 	.byte	3,226,2,1,5,21,9
-	.half	.L996-.L199
+	.half	.L974-.L199
 	.byte	1,5,5,9
-	.half	.L997-.L996
+	.half	.L975-.L974
 	.byte	3,1,1,5,20,9
-	.half	.L998-.L997
+	.half	.L976-.L975
 	.byte	1,5,1,9
-	.half	.L999-.L998
+	.half	.L977-.L976
 	.byte	3,1,1,7,9
-	.half	.L254-.L999
+	.half	.L254-.L977
 	.byte	0,1,1
-.L993:
+.L971:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_set_color')
 	.sect	'.debug_ranges'
 .L253:
@@ -9871,34 +9819,34 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_draw_point')
 	.sect	'.debug_line'
 .L257:
-	.word	.L1001-.L1000
-.L1000:
+	.word	.L979-.L978
+.L978:
 	.half	3
-	.word	.L1003-.L1002
-.L1002:
+	.word	.L981-.L980
+.L980:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1003:
+.L981:
 	.byte	5,6,7,0,5,2
 	.word	.L201
 	.byte	3,239,2,1,5,5,9
-	.half	.L586-.L201
+	.half	.L580-.L201
 	.byte	3,4,1,9
-	.half	.L583-.L586
+	.half	.L577-.L580
 	.byte	3,1,1,9
-	.half	.L1004-.L583
+	.half	.L982-.L577
 	.byte	3,2,1,5,32,9
-	.half	.L44-.L1004
+	.half	.L44-.L982
 	.byte	3,1,1,5,5,9
-	.half	.L1005-.L44
+	.half	.L983-.L44
 	.byte	3,1,1,9
-	.half	.L592-.L1005
+	.half	.L586-.L983
 	.byte	3,1,1,5,1,9
-	.half	.L46-.L592
+	.half	.L46-.L586
 	.byte	3,1,1,7,9
 	.half	.L259-.L46
 	.byte	0,1,1
-.L1001:
+.L979:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_draw_point')
 	.sect	'.debug_ranges'
 .L258:
@@ -9961,120 +9909,120 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_draw_line')
 	.sect	'.debug_line'
 .L262:
-	.word	.L1007-.L1006
-.L1006:
+	.word	.L985-.L984
+.L984:
 	.half	3
-	.word	.L1009-.L1008
-.L1008:
+	.word	.L987-.L986
+.L986:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1009:
+.L987:
 	.byte	5,6,7,0,5,2
 	.word	.L203
 	.byte	3,135,3,1,5,5,9
-	.half	.L600-.L203
+	.half	.L594-.L203
 	.byte	3,4,1,9
-	.half	.L594-.L600
+	.half	.L588-.L594
 	.byte	3,1,1,9
-	.half	.L1010-.L594
+	.half	.L988-.L588
 	.byte	3,1,1,9
-	.half	.L1011-.L1010
+	.half	.L989-.L988
 	.byte	3,1,1,5,20,9
-	.half	.L381-.L1011
+	.half	.L381-.L989
 	.byte	3,2,1,5,36,7,9
-	.half	.L605-.L381
+	.half	.L599-.L381
 	.byte	1,5,40,9
-	.half	.L1012-.L605
+	.half	.L990-.L599
 	.byte	1,5,36,9
-	.half	.L47-.L1012
+	.half	.L47-.L990
 	.byte	1,5,20,9
 	.half	.L48-.L47
 	.byte	3,1,1,5,36,7,9
-	.half	.L606-.L48
+	.half	.L600-.L48
 	.byte	1,5,40,9
-	.half	.L607-.L606
+	.half	.L601-.L600
 	.byte	1,5,36,9
-	.half	.L49-.L607
+	.half	.L49-.L601
 	.byte	1,5,9,9
 	.half	.L51-.L49
 	.byte	3,6,1,5,41,7,9
-	.half	.L608-.L51
+	.half	.L602-.L51
 	.byte	3,2,1,5,25,9
-	.half	.L609-.L608
+	.half	.L603-.L602
 	.byte	1,5,68,9
-	.half	.L610-.L609
+	.half	.L604-.L603
 	.byte	1,5,52,9
-	.half	.L611-.L610
+	.half	.L605-.L604
 	.byte	1,5,50,9
-	.half	.L1013-.L611
+	.half	.L991-.L605
 	.byte	1,5,22,9
-	.half	.L612-.L1013
+	.half	.L606-.L991
 	.byte	3,1,1,5,39,9
-	.half	.L613-.L612
+	.half	.L607-.L606
 	.byte	1,5,37,9
-	.half	.L1014-.L613
+	.half	.L992-.L607
 	.byte	1,5,76,9
-	.half	.L614-.L1014
+	.half	.L608-.L992
 	.byte	3,127,1,5,35,9
-	.half	.L52-.L614
+	.half	.L52-.L608
 	.byte	3,5,1,5,53,9
 	.half	.L55-.L52
 	.byte	3,2,1,5,25,9
-	.half	.L617-.L55
+	.half	.L611-.L55
 	.byte	3,1,1,5,35,9
-	.half	.L54-.L617
+	.half	.L54-.L611
 	.byte	3,125,1,5,49,7,9
-	.half	.L618-.L54
+	.half	.L612-.L54
 	.byte	3,5,1,5,13,9
-	.half	.L621-.L618
+	.half	.L615-.L612
 	.byte	3,1,1,5,12,9
-	.half	.L53-.L621
+	.half	.L53-.L615
 	.byte	3,3,1,5,40,9
 	.half	.L58-.L53
 	.byte	1,5,9,9
 	.half	.L60-.L58
 	.byte	1,5,35,7,9
-	.half	.L1015-.L60
+	.half	.L993-.L60
 	.byte	3,2,1,5,53,9
-	.half	.L63-.L1015
+	.half	.L63-.L993
 	.byte	3,2,1,5,25,9
-	.half	.L632-.L63
+	.half	.L626-.L63
 	.byte	3,1,1,5,36,9
-	.half	.L633-.L632
+	.half	.L627-.L626
 	.byte	3,1,1,5,51,9
-	.half	.L598-.L633
+	.half	.L592-.L627
 	.byte	1,5,61,9
-	.half	.L1016-.L598
+	.half	.L994-.L592
 	.byte	1,5,27,9
-	.half	.L1017-.L1016
+	.half	.L995-.L994
 	.byte	1,5,35,9
-	.half	.L62-.L1017
+	.half	.L62-.L995
 	.byte	3,124,1,5,49,7,9
-	.half	.L634-.L62
+	.half	.L628-.L62
 	.byte	3,6,1,5,55,9
-	.half	.L637-.L634
+	.half	.L631-.L628
 	.byte	1,5,35,9
-	.half	.L61-.L637
+	.half	.L61-.L631
 	.byte	3,4,1,5,53,9
 	.half	.L66-.L61
 	.byte	3,2,1,5,25,9
-	.half	.L640-.L66
+	.half	.L634-.L66
 	.byte	3,1,1,5,35,9
-	.half	.L643-.L640
+	.half	.L637-.L634
 	.byte	3,1,1,5,62,9
-	.half	.L642-.L643
+	.half	.L636-.L637
 	.byte	1,5,27,9
-	.half	.L1018-.L642
+	.half	.L996-.L636
 	.byte	1,5,35,9
-	.half	.L65-.L1018
+	.half	.L65-.L996
 	.byte	3,124,1,5,49,7,9
-	.half	.L645-.L65
+	.half	.L639-.L65
 	.byte	3,6,1,5,1,9
-	.half	.L56-.L645
+	.half	.L56-.L639
 	.byte	3,3,1,7,9
 	.half	.L264-.L56
 	.byte	0,1,1
-.L1007:
+.L985:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_draw_line')
 	.sect	'.debug_ranges'
 .L263:
@@ -10148,198 +10096,198 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_char')
 	.sect	'.debug_line'
 .L267:
-	.word	.L1020-.L1019
-.L1019:
+	.word	.L998-.L997
+.L997:
 	.half	3
-	.word	.L1022-.L1021
-.L1021:
+	.word	.L1000-.L999
+.L999:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1022:
+.L1000:
 	.byte	5,6,7,0,5,2
 	.word	.L205
 	.byte	3,199,3,1,5,5,9
-	.half	.L651-.L205
+	.half	.L645-.L205
 	.byte	3,4,1,9
-	.half	.L648-.L651
+	.half	.L642-.L645
 	.byte	3,1,1,9
-	.half	.L393-.L648
+	.half	.L393-.L642
 	.byte	3,4,1,5,12,9
 	.half	.L68-.L393
 	.byte	3,1,1,5,14,9
-	.half	.L1023-.L68
+	.half	.L1001-.L68
 	.byte	3,2,1,9
-	.half	.L1024-.L1023
+	.half	.L1002-.L1001
 	.byte	3,23,1,9
-	.half	.L1025-.L1024
+	.half	.L1003-.L1002
 	.byte	3,35,1,5,39,9
-	.half	.L69-.L1025
+	.half	.L69-.L1003
 	.byte	3,73,1,5,46,9
-	.half	.L656-.L69
+	.half	.L650-.L69
 	.byte	1,5,19,9
-	.half	.L1026-.L656
+	.half	.L1004-.L650
 	.byte	3,1,1,5,29,9
-	.half	.L660-.L1026
+	.half	.L654-.L1004
 	.byte	1,5,53,9
-	.half	.L74-.L660
+	.half	.L74-.L654
 	.byte	3,3,1,5,48,9
-	.half	.L1027-.L74
+	.half	.L1005-.L74
 	.byte	1,5,34,9
-	.half	.L1028-.L1027
+	.half	.L1006-.L1005
 	.byte	1,5,48,9
-	.half	.L1029-.L1028
+	.half	.L1007-.L1006
 	.byte	1,5,58,9
-	.half	.L1030-.L1029
+	.half	.L1008-.L1007
 	.byte	1,5,23,9
-	.half	.L661-.L1030
+	.half	.L655-.L1008
 	.byte	3,1,1,5,33,9
-	.half	.L662-.L661
+	.half	.L656-.L655
 	.byte	1,5,21,9
-	.half	.L76-.L662
+	.half	.L76-.L656
 	.byte	3,2,1,5,48,7,9
-	.half	.L1031-.L76
+	.half	.L1009-.L76
 	.byte	3,2,1,5,42,9
-	.half	.L1032-.L1031
+	.half	.L1010-.L1009
 	.byte	1,5,39,9
-	.half	.L1033-.L1032
+	.half	.L1011-.L1010
 	.byte	1,5,54,9
-	.half	.L1034-.L1033
+	.half	.L1012-.L1011
 	.byte	1,5,51,9
-	.half	.L1035-.L1034
+	.half	.L1013-.L1012
 	.byte	1,5,70,9
-	.half	.L1036-.L1035
+	.half	.L1014-.L1013
 	.byte	1,5,48,9
-	.half	.L77-.L1036
+	.half	.L77-.L1014
 	.byte	3,4,1,5,42,9
-	.half	.L1037-.L77
+	.half	.L1015-.L77
 	.byte	1,5,39,9
-	.half	.L1038-.L1037
+	.half	.L1016-.L1015
 	.byte	1,5,54,9
-	.half	.L1039-.L1038
+	.half	.L1017-.L1016
 	.byte	1,5,51,9
-	.half	.L1040-.L1039
+	.half	.L1018-.L1017
 	.byte	1,5,30,9
-	.half	.L78-.L1040
+	.half	.L78-.L1018
 	.byte	3,2,1,5,37,9
-	.half	.L1041-.L78
+	.half	.L1019-.L78
 	.byte	3,118,1,5,33,9
-	.half	.L75-.L1041
+	.half	.L75-.L1019
 	.byte	1,7,9
 	.half	.L400-.L75
 	.byte	3,124,1,5,29,9
 	.half	.L73-.L400
 	.byte	1,5,13,7,9
-	.half	.L1042-.L73
+	.half	.L1020-.L73
 	.byte	3,17,1,5,10,9
-	.half	.L397-.L1042
+	.half	.L397-.L1020
 	.byte	3,1,1,5,39,9
 	.half	.L70-.L397
 	.byte	3,4,1,5,46,9
-	.half	.L664-.L70
+	.half	.L658-.L70
 	.byte	1,5,19,9
-	.half	.L1043-.L664
+	.half	.L1021-.L658
 	.byte	3,1,1,5,29,9
-	.half	.L668-.L1043
+	.half	.L662-.L1021
 	.byte	1,5,54,9
-	.half	.L81-.L668
+	.half	.L81-.L662
 	.byte	3,2,1,5,49,9
-	.half	.L1044-.L81
+	.half	.L1022-.L81
 	.byte	1,5,34,9
-	.half	.L1045-.L1044
+	.half	.L1023-.L1022
 	.byte	1,5,49,9
-	.half	.L1046-.L1045
+	.half	.L1024-.L1023
 	.byte	1,5,59,9
-	.half	.L1047-.L1046
+	.half	.L1025-.L1024
 	.byte	1,5,57,9
-	.half	.L669-.L1047
+	.half	.L663-.L1025
 	.byte	3,1,1,5,52,9
-	.half	.L1048-.L669
+	.half	.L1026-.L663
 	.byte	1,5,37,9
-	.half	.L1049-.L1048
+	.half	.L1027-.L1026
 	.byte	1,5,52,9
-	.half	.L1050-.L1049
+	.half	.L1028-.L1027
 	.byte	1,5,62,9
-	.half	.L1051-.L1050
+	.half	.L1029-.L1028
 	.byte	1,5,23,9
-	.half	.L671-.L1051
+	.half	.L665-.L1029
 	.byte	3,1,1,5,33,9
-	.half	.L672-.L671
+	.half	.L666-.L665
 	.byte	1,5,21,9
-	.half	.L83-.L672
+	.half	.L83-.L666
 	.byte	3,2,1,5,48,7,9
-	.half	.L1052-.L83
+	.half	.L1030-.L83
 	.byte	3,2,1,5,42,9
-	.half	.L1053-.L1052
+	.half	.L1031-.L1030
 	.byte	1,5,39,9
-	.half	.L1054-.L1053
+	.half	.L1032-.L1031
 	.byte	1,5,54,9
-	.half	.L1055-.L1054
+	.half	.L1033-.L1032
 	.byte	1,5,51,9
-	.half	.L1056-.L1055
+	.half	.L1034-.L1033
 	.byte	1,5,70,9
-	.half	.L1057-.L1056
+	.half	.L1035-.L1034
 	.byte	1,5,48,9
-	.half	.L84-.L1057
+	.half	.L84-.L1035
 	.byte	3,4,1,5,42,9
-	.half	.L1058-.L84
+	.half	.L1036-.L84
 	.byte	1,5,39,9
-	.half	.L1059-.L1058
+	.half	.L1037-.L1036
 	.byte	1,5,54,9
-	.half	.L1060-.L1059
+	.half	.L1038-.L1037
 	.byte	1,5,51,9
-	.half	.L1061-.L1060
+	.half	.L1039-.L1038
 	.byte	1,5,30,9
-	.half	.L85-.L1061
+	.half	.L85-.L1039
 	.byte	3,2,1,5,37,9
-	.half	.L1062-.L85
+	.half	.L1040-.L85
 	.byte	3,118,1,5,33,9
-	.half	.L82-.L1062
+	.half	.L82-.L1040
 	.byte	1,5,23,7,9
-	.half	.L1063-.L82
+	.half	.L1041-.L82
 	.byte	3,12,1,5,33,9
-	.half	.L670-.L1063
+	.half	.L664-.L1041
 	.byte	1,5,21,9
-	.half	.L87-.L670
+	.half	.L87-.L664
 	.byte	3,2,1,5,48,7,9
-	.half	.L1064-.L87
+	.half	.L1042-.L87
 	.byte	3,2,1,5,42,9
-	.half	.L1065-.L1064
+	.half	.L1043-.L1042
 	.byte	1,5,50,9
-	.half	.L1066-.L1065
+	.half	.L1044-.L1043
 	.byte	1,5,39,9
-	.half	.L1067-.L1066
+	.half	.L1045-.L1044
 	.byte	1,5,63,9
-	.half	.L1068-.L1067
+	.half	.L1046-.L1045
 	.byte	1,5,60,9
-	.half	.L1069-.L1068
+	.half	.L1047-.L1046
 	.byte	1,5,79,9
-	.half	.L1070-.L1069
+	.half	.L1048-.L1047
 	.byte	1,5,48,9
-	.half	.L88-.L1070
+	.half	.L88-.L1048
 	.byte	3,4,1,5,42,9
-	.half	.L1071-.L88
+	.half	.L1049-.L88
 	.byte	1,5,50,9
-	.half	.L1072-.L1071
+	.half	.L1050-.L1049
 	.byte	1,5,39,9
-	.half	.L1073-.L1072
+	.half	.L1051-.L1050
 	.byte	1,5,63,9
-	.half	.L1074-.L1073
+	.half	.L1052-.L1051
 	.byte	1,5,60,9
-	.half	.L1075-.L1074
+	.half	.L1053-.L1052
 	.byte	1,5,33,9
-	.half	.L89-.L1075
+	.half	.L89-.L1053
 	.byte	3,2,1,5,37,9
-	.half	.L1076-.L89
+	.half	.L1054-.L89
 	.byte	3,118,1,5,33,9
-	.half	.L86-.L1076
+	.half	.L86-.L1054
 	.byte	1,7,9
 	.half	.L405-.L86
 	.byte	3,112,1,5,29,9
 	.half	.L80-.L405
 	.byte	1,5,13,7,9
-	.half	.L1077-.L80
+	.half	.L1055-.L80
 	.byte	3,29,1,5,10,9
-	.half	.L402-.L1077
+	.half	.L402-.L1055
 	.byte	3,1,1,9
 	.half	.L71-.L402
 	.byte	3,4,1,5,5,9
@@ -10349,7 +10297,7 @@ tft180_display_font:	.type	object
 	.byte	3,1,1,7,9
 	.half	.L269-.L93
 	.byte	0,1,1
-.L1020:
+.L998:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_char')
 	.sect	'.debug_ranges'
 .L268:
@@ -10397,62 +10345,62 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_string')
 	.sect	'.debug_line'
 .L272:
-	.word	.L1079-.L1078
-.L1078:
+	.word	.L1057-.L1056
+.L1056:
 	.half	3
-	.word	.L1081-.L1080
-.L1080:
+	.word	.L1059-.L1058
+.L1058:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1081:
+.L1059:
 	.byte	5,6,7,0,5,2
 	.word	.L207
 	.byte	3,158,4,1,5,5,9
-	.half	.L676-.L207
+	.half	.L670-.L207
 	.byte	3,4,1,9
-	.half	.L1082-.L676
+	.half	.L1060-.L670
 	.byte	3,1,1,5,14,9
-	.half	.L413-.L1082
+	.half	.L413-.L1060
 	.byte	3,2,1,5,25,9
-	.half	.L680-.L413
+	.half	.L674-.L413
 	.byte	3,1,1,5,16,9
-	.half	.L95-.L680
+	.half	.L95-.L674
 	.byte	3,2,1,5,18,9
-	.half	.L1083-.L95
+	.half	.L1061-.L95
 	.byte	3,2,1,9
-	.half	.L1084-.L1083
+	.half	.L1062-.L1061
 	.byte	3,1,1,9
-	.half	.L1085-.L1084
+	.half	.L1063-.L1062
 	.byte	3,1,1,5,58,9
-	.half	.L96-.L1085
+	.half	.L96-.L1063
 	.byte	3,126,1,5,56,9
-	.half	.L682-.L96
+	.half	.L676-.L96
 	.byte	1,5,71,9
-	.half	.L1086-.L682
+	.half	.L1064-.L676
 	.byte	1,5,77,9
-	.half	.L686-.L1086
+	.half	.L680-.L1064
 	.byte	1,5,58,9
-	.half	.L97-.L686
+	.half	.L97-.L680
 	.byte	3,1,1,5,56,9
-	.half	.L687-.L97
+	.half	.L681-.L97
 	.byte	1,5,71,9
-	.half	.L1087-.L687
+	.half	.L1065-.L681
 	.byte	1,5,77,9
-	.half	.L691-.L1087
+	.half	.L685-.L1065
 	.byte	1,5,37,9
-	.half	.L98-.L691
+	.half	.L98-.L685
 	.byte	3,1,1,5,11,9
 	.half	.L100-.L98
 	.byte	3,2,1,5,22,9
 	.half	.L94-.L100
 	.byte	3,120,1,5,25,9
-	.half	.L1088-.L94
+	.half	.L1066-.L94
 	.byte	1,5,1,7,9
-	.half	.L1089-.L1088
+	.half	.L1067-.L1066
 	.byte	3,10,1,7,9
-	.half	.L274-.L1089
+	.half	.L274-.L1067
 	.byte	0,1,1
-.L1079:
+.L1057:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_string')
 	.sect	'.debug_ranges'
 .L273:
@@ -10509,64 +10457,64 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_int')
 	.sect	'.debug_line'
 .L277:
-	.word	.L1091-.L1090
-.L1090:
+	.word	.L1069-.L1068
+.L1068:
 	.half	3
-	.word	.L1093-.L1092
-.L1092:
+	.word	.L1071-.L1070
+.L1070:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1093:
+.L1071:
 	.byte	5,6,7,0,5,2
 	.word	.L209
 	.byte	3,188,4,1,5,5,9
-	.half	.L697-.L209
+	.half	.L691-.L209
 	.byte	3,4,1,9
-	.half	.L693-.L697
+	.half	.L687-.L691
 	.byte	3,1,1,9
-	.half	.L1094-.L693
+	.half	.L1072-.L687
 	.byte	3,1,1,9
-	.half	.L1095-.L1094
+	.half	.L1073-.L1072
 	.byte	3,1,1,5,18,9
-	.half	.L421-.L1095
+	.half	.L421-.L1073
 	.byte	3,3,1,5,12,9
-	.half	.L701-.L421
+	.half	.L695-.L421
 	.byte	3,3,1,5,25,9
-	.half	.L1096-.L701
+	.half	.L1074-.L695
 	.byte	1,5,28,9
-	.half	.L1097-.L1096
+	.half	.L1075-.L1074
 	.byte	1,5,12,9
-	.half	.L1098-.L1097
+	.half	.L1076-.L1075
 	.byte	3,1,1,5,25,9
-	.half	.L1099-.L1098
+	.half	.L1077-.L1076
 	.byte	1,5,34,9
-	.half	.L1100-.L1099
+	.half	.L1078-.L1077
 	.byte	1,5,5,9
-	.half	.L1101-.L1100
+	.half	.L1079-.L1078
 	.byte	3,3,1,5,22,7,9
-	.half	.L1102-.L1101
+	.half	.L1080-.L1079
 	.byte	3,2,1,5,20,9
-	.half	.L105-.L1102
+	.half	.L105-.L1080
 	.byte	3,2,1,5,28,9
-	.half	.L1103-.L105
+	.half	.L1081-.L105
 	.byte	3,126,1,5,22,9
-	.half	.L104-.L1103
+	.half	.L104-.L1081
 	.byte	1,5,18,7,9
-	.half	.L1104-.L104
+	.half	.L1082-.L104
 	.byte	3,4,1,5,21,9
-	.half	.L103-.L1104
+	.half	.L103-.L1082
 	.byte	3,2,1,5,34,9
-	.half	.L1105-.L103
+	.half	.L1083-.L103
 	.byte	1,5,45,9
-	.half	.L703-.L1105
+	.half	.L697-.L1083
 	.byte	3,1,1,5,30,9
-	.half	.L704-.L703
+	.half	.L698-.L697
 	.byte	1,5,1,9
-	.half	.L1106-.L704
+	.half	.L1084-.L698
 	.byte	3,1,1,7,9
-	.half	.L279-.L1106
+	.half	.L279-.L1084
 	.byte	0,1,1
-.L1091:
+.L1069:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_int')
 	.sect	'.debug_ranges'
 .L278:
@@ -10623,64 +10571,64 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_uint')
 	.sect	'.debug_line'
 .L282:
-	.word	.L1108-.L1107
-.L1107:
+	.word	.L1086-.L1085
+.L1085:
 	.half	3
-	.word	.L1110-.L1109
-.L1109:
+	.word	.L1088-.L1087
+.L1087:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1110:
+.L1088:
 	.byte	5,6,7,0,5,2
 	.word	.L211
 	.byte	3,227,4,1,5,5,9
-	.half	.L711-.L211
+	.half	.L705-.L211
 	.byte	3,4,1,9
-	.half	.L707-.L711
+	.half	.L701-.L705
 	.byte	3,1,1,9
-	.half	.L1111-.L707
+	.half	.L1089-.L701
 	.byte	3,1,1,9
-	.half	.L1112-.L1111
+	.half	.L1090-.L1089
 	.byte	3,1,1,5,18,9
-	.half	.L433-.L1112
+	.half	.L433-.L1090
 	.byte	3,3,1,5,12,9
-	.half	.L715-.L433
+	.half	.L709-.L433
 	.byte	3,2,1,5,25,9
-	.half	.L1113-.L715
+	.half	.L1091-.L709
 	.byte	1,5,28,9
-	.half	.L1114-.L1113
+	.half	.L1092-.L1091
 	.byte	1,5,12,9
-	.half	.L1115-.L1114
+	.half	.L1093-.L1092
 	.byte	3,1,1,5,25,9
-	.half	.L1116-.L1115
+	.half	.L1094-.L1093
 	.byte	1,5,30,9
-	.half	.L1117-.L1116
+	.half	.L1095-.L1094
 	.byte	1,5,5,9
-	.half	.L717-.L1117
+	.half	.L711-.L1095
 	.byte	3,3,1,5,22,7,9
-	.half	.L1118-.L717
+	.half	.L1096-.L711
 	.byte	3,2,1,5,20,9
-	.half	.L108-.L1118
+	.half	.L108-.L1096
 	.byte	3,2,1,5,28,9
-	.half	.L1119-.L108
+	.half	.L1097-.L108
 	.byte	3,126,1,5,22,9
-	.half	.L107-.L1119
+	.half	.L107-.L1097
 	.byte	1,5,18,7,9
-	.half	.L1120-.L107
+	.half	.L1098-.L107
 	.byte	3,4,1,5,22,9
-	.half	.L106-.L1120
+	.half	.L106-.L1098
 	.byte	3,2,1,5,35,9
-	.half	.L1121-.L106
+	.half	.L1099-.L106
 	.byte	1,5,45,9
-	.half	.L719-.L1121
+	.half	.L713-.L1099
 	.byte	3,1,1,5,30,9
-	.half	.L720-.L719
+	.half	.L714-.L713
 	.byte	1,5,1,9
-	.half	.L1122-.L720
+	.half	.L1100-.L714
 	.byte	3,1,1,7,9
-	.half	.L284-.L1122
+	.half	.L284-.L1100
 	.byte	0,1,1
-.L1108:
+.L1086:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_uint')
 	.sect	'.debug_ranges'
 .L283:
@@ -10740,74 +10688,74 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_float')
 	.sect	'.debug_line'
 .L287:
-	.word	.L1124-.L1123
-.L1123:
+	.word	.L1102-.L1101
+.L1101:
 	.half	3
-	.word	.L1126-.L1125
-.L1125:
+	.word	.L1104-.L1103
+.L1103:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1126:
+.L1104:
 	.byte	5,6,7,0,5,2
 	.word	.L213
 	.byte	3,141,5,1,5,5,9
-	.half	.L726-.L213
+	.half	.L720-.L213
 	.byte	3,4,1,9
-	.half	.L723-.L726
+	.half	.L717-.L720
 	.byte	3,1,1,9
-	.half	.L1127-.L723
+	.half	.L1105-.L717
 	.byte	3,1,1,9
-	.half	.L1128-.L1127
+	.half	.L1106-.L1105
 	.byte	3,1,1,9
-	.half	.L1129-.L1128
+	.half	.L1107-.L1106
 	.byte	3,1,1,9
-	.half	.L1130-.L1129
+	.half	.L1108-.L1107
 	.byte	3,1,1,5,21,9
-	.half	.L445-.L1130
+	.half	.L445-.L1108
 	.byte	3,3,1,5,12,9
-	.half	.L734-.L445
+	.half	.L728-.L445
 	.byte	3,2,1,5,25,9
-	.half	.L1131-.L734
+	.half	.L1109-.L728
 	.byte	1,5,28,9
-	.half	.L1132-.L1131
+	.half	.L1110-.L1109
 	.byte	1,5,12,9
-	.half	.L1133-.L1132
+	.half	.L1111-.L1110
 	.byte	3,1,1,5,25,9
-	.half	.L1134-.L1133
+	.half	.L1112-.L1111
 	.byte	1,5,34,9
-	.half	.L735-.L1134
+	.half	.L729-.L1112
 	.byte	1,5,45,9
-	.half	.L736-.L735
+	.half	.L730-.L729
 	.byte	1,5,18,9
-	.half	.L1135-.L736
+	.half	.L1113-.L730
 	.byte	3,3,1,5,19,9
-	.half	.L110-.L1135
+	.half	.L110-.L1113
 	.byte	3,2,1,5,16,9
-	.half	.L1136-.L110
+	.half	.L1114-.L110
 	.byte	1,5,24,9
-	.half	.L737-.L1136
+	.half	.L731-.L1114
 	.byte	3,126,1,5,18,9
-	.half	.L109-.L737
+	.half	.L109-.L731
 	.byte	1,5,28,7,9
-	.half	.L738-.L109
+	.half	.L732-.L109
 	.byte	3,4,1,5,44,9
-	.half	.L739-.L738
+	.half	.L733-.L732
 	.byte	1,5,42,9
-	.half	.L1137-.L739
+	.half	.L1115-.L733
 	.byte	1,5,25,9
-	.half	.L740-.L1137
+	.half	.L734-.L1115
 	.byte	1,5,24,9
-	.half	.L741-.L740
+	.half	.L735-.L734
 	.byte	3,1,1,5,47,9
-	.half	.L1138-.L741
+	.half	.L1116-.L735
 	.byte	1,5,30,9
-	.half	.L742-.L1138
+	.half	.L736-.L1116
 	.byte	3,1,1,5,1,9
-	.half	.L1139-.L742
+	.half	.L1117-.L736
 	.byte	3,1,1,7,9
-	.half	.L289-.L1139
+	.half	.L289-.L1117
 	.byte	0,1,1
-.L1124:
+.L1102:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_float')
 	.sect	'.debug_ranges'
 .L288:
@@ -10815,7 +10763,7 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_info',debug,cluster('tft180_show_binary_image')
 	.sect	'.debug_info'
 .L290:
-	.word	627
+	.word	488
 	.half	3
 	.word	.L291
 	.byte	4,1
@@ -10844,34 +10792,16 @@ tft180_display_font:	.type	object
 	.byte	4
 	.byte	'height',0,1,185,5,93
 	.word	.L350,.L456
-	.byte	4
-	.byte	'dis_width',0,1,185,5,108
-	.word	.L350,.L457
-	.byte	4
-	.byte	'dis_height',0,1,185,5,126
-	.word	.L350,.L458
 	.byte	5
 	.word	.L215,.L450
 	.byte	5
-	.word	.L459,.L450
+	.word	.L457,.L450
 	.byte	6
 	.byte	'i',0,1,193,5,12
-	.word	.L434,.L460
+	.word	.L350,.L458
 	.byte	6
-	.byte	'j',0,1,193,5,19
-	.word	.L434,.L461
-	.byte	6
-	.byte	'temp',0,1,194,5,11
-	.word	.L394,.L462
-	.byte	6
-	.byte	'width_index',0,1,195,5,12
-	.word	.L434,.L463
-	.byte	6
-	.byte	'data_buffer',0,1,196,5,12
-	.word	.L348,.L464
-	.byte	6
-	.byte	'image_temp',0,1,197,5,18
-	.word	.L453,.L465
+	.byte	'j',0,1,193,5,15
+	.word	.L350,.L459
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_show_binary_image')
 	.sect	'.debug_abbrev'
@@ -10882,106 +10812,58 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_binary_image')
 	.sect	'.debug_line'
 .L292:
-	.word	.L1141-.L1140
-.L1140:
+	.word	.L1119-.L1118
+.L1118:
 	.half	3
-	.word	.L1143-.L1142
-.L1142:
+	.word	.L1121-.L1120
+.L1120:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1143:
+.L1121:
 	.byte	5,6,7,0,5,2
 	.word	.L215
 	.byte	3,184,5,1,5,5,9
-	.half	.L752-.L215
+	.half	.L1122-.L215
 	.byte	3,4,1,9
-	.half	.L746-.L752
+	.half	.L740-.L1122
 	.byte	3,1,1,9
-	.half	.L1144-.L746
-	.byte	3,1,1,5,33,9
-	.half	.L459-.L1144
-	.byte	3,5,1,5,5,9
-	.half	.L758-.L459
-	.byte	3,3,1,5,31,9
-	.half	.L112-.L758
-	.byte	3,1,1,5,43,9
-	.half	.L760-.L112
-	.byte	1,5,50,9
-	.half	.L761-.L760
-	.byte	1,5,63,9
-	.half	.L762-.L761
-	.byte	1,5,11,9
-	.half	.L1145-.L762
-	.byte	3,2,1,5,30,9
-	.half	.L765-.L1145
-	.byte	1,5,32,9
-	.half	.L114-.L765
-	.byte	3,2,1,5,41,9
-	.half	.L766-.L114
-	.byte	1,5,54,9
-	.half	.L767-.L766
-	.byte	1,5,64,9
-	.half	.L768-.L767
-	.byte	1,5,62,9
-	.half	.L1146-.L768
-	.byte	1,5,28,9
-	.half	.L1147-.L1146
-	.byte	1,5,15,9
-	.half	.L769-.L1147
-	.byte	3,1,1,5,33,9
-	.half	.L770-.L769
-	.byte	1,5,29,9
-	.half	.L116-.L770
-	.byte	3,2,1,5,37,9
-	.half	.L772-.L116
-	.byte	1,5,49,9
-	.half	.L773-.L772
-	.byte	3,1,1,5,47,9
-	.half	.L1148-.L773
-	.byte	1,5,33,9
-	.half	.L1149-.L1148
-	.byte	1,5,20,9
-	.half	.L1150-.L1149
-	.byte	1,5,47,9
-	.half	.L775-.L1150
-	.byte	3,1,1,5,45,9
-	.half	.L1151-.L775
-	.byte	1,5,29,9
-	.half	.L774-.L1151
+	.half	.L1123-.L740
+	.byte	3,1,1,9
+	.half	.L457-.L1123
+	.byte	3,4,1,5,31,9
+	.half	.L112-.L457
+	.byte	3,1,1,5,39,9
+	.half	.L748-.L112
+	.byte	1,5,46,9
+	.half	.L749-.L748
+	.byte	1,5,55,9
+	.half	.L750-.L749
+	.byte	1,5,12,9
+	.half	.L1124-.L750
+	.byte	3,2,1,5,27,9
+	.half	.L753-.L1124
+	.byte	1,5,16,9
+	.half	.L114-.L753
+	.byte	3,1,1,5,30,9
+	.half	.L755-.L114
 	.byte	1,5,13,9
-	.half	.L776-.L774
-	.byte	1,5,28,7,9
-	.half	.L1152-.L776
-	.byte	3,2,1,5,35,9
-	.half	.L1153-.L1152
-	.byte	1,5,32,9
-	.half	.L1154-.L1153
-	.byte	1,5,48,9
-	.half	.L1155-.L1154
-	.byte	1,5,28,9
-	.half	.L117-.L1155
-	.byte	3,4,1,5,35,9
-	.half	.L1156-.L117
-	.byte	1,5,32,9
-	.half	.L1157-.L1156
-	.byte	1,5,37,9
-	.half	.L118-.L1157
-	.byte	3,118,1,5,33,9
-	.half	.L115-.L118
-	.byte	1,5,9,7,9
-	.half	.L1158-.L115
-	.byte	3,13,1,5,34,9
-	.half	.L778-.L1158
-	.byte	3,112,1,5,30,9
-	.half	.L113-.L778
+	.half	.L116-.L755
+	.byte	3,1,1,5,33,9
+	.half	.L1125-.L116
+	.byte	3,127,1,5,30,9
+	.half	.L115-.L1125
+	.byte	1,7,9
+	.half	.L758-.L115
+	.byte	3,127,1,5,27,9
+	.half	.L113-.L758
 	.byte	1,5,5,7,9
-	.half	.L1159-.L113
-	.byte	3,18,1,5,1,9
-	.half	.L120-.L1159
-	.byte	3,1,1,9
+	.half	.L759-.L113
+	.byte	3,5,1,5,1,9
+	.half	.L120-.L759
+	.byte	3,1,1,7,9
 	.half	.L294-.L120
 	.byte	0,1,1
-.L1141:
+.L1119:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_binary_image')
 	.sect	'.debug_ranges'
 .L293:
@@ -11001,54 +10883,54 @@ tft180_display_font:	.type	object
 	.byte	2
 	.word	.L226
 	.byte	3
-	.byte	'tft180_show_gray_image',0,1,240,5,6,1,1,1
-	.word	.L217,.L466,.L216
+	.byte	'tft180_show_gray_image',0,1,223,5,6,1,1,1
+	.word	.L217,.L460,.L216
 	.byte	4
-	.byte	'x',0,1,240,5,37
+	.byte	'x',0,1,223,5,37
+	.word	.L350,.L461
+	.byte	4
+	.byte	'y',0,1,223,5,47
+	.word	.L350,.L462
+	.byte	4
+	.byte	'image',0,1,223,5,63
+	.word	.L453,.L463
+	.byte	4
+	.byte	'width',0,1,223,5,77
+	.word	.L350,.L464
+	.byte	4
+	.byte	'height',0,1,223,5,91
+	.word	.L350,.L465
+	.byte	4
+	.byte	'dis_width',0,1,223,5,106
+	.word	.L350,.L466
+	.byte	4
+	.byte	'dis_height',0,1,223,5,124
 	.word	.L350,.L467
 	.byte	4
-	.byte	'y',0,1,240,5,47
-	.word	.L350,.L468
-	.byte	4
-	.byte	'image',0,1,240,5,63
-	.word	.L453,.L469
-	.byte	4
-	.byte	'width',0,1,240,5,77
-	.word	.L350,.L470
-	.byte	4
-	.byte	'height',0,1,240,5,91
-	.word	.L350,.L471
-	.byte	4
-	.byte	'dis_width',0,1,240,5,106
+	.byte	'threshold',0,1,223,5,142,1
+	.word	.L394,.L468
+	.byte	5
+	.word	.L217,.L460
+	.byte	5
+	.word	.L469,.L460
+	.byte	6
+	.byte	'i',0,1,231,5,12
+	.word	.L434,.L470
+	.byte	6
+	.byte	'j',0,1,231,5,19
+	.word	.L434,.L471
+	.byte	6
+	.byte	'color',0,1,232,5,12
 	.word	.L350,.L472
-	.byte	4
-	.byte	'dis_height',0,1,240,5,124
+	.byte	6
+	.byte	'temp',0,1,232,5,22
 	.word	.L350,.L473
-	.byte	4
-	.byte	'threshold',0,1,240,5,142,1
-	.word	.L394,.L474
-	.byte	5
-	.word	.L217,.L466
-	.byte	5
-	.word	.L475,.L466
 	.byte	6
-	.byte	'i',0,1,248,5,12
-	.word	.L434,.L476
+	.byte	'data_buffer',0,1,233,5,12
+	.word	.L348,.L474
 	.byte	6
-	.byte	'j',0,1,248,5,19
-	.word	.L434,.L477
-	.byte	6
-	.byte	'color',0,1,249,5,12
-	.word	.L350,.L478
-	.byte	6
-	.byte	'temp',0,1,249,5,22
-	.word	.L350,.L479
-	.byte	6
-	.byte	'data_buffer',0,1,250,5,12
-	.word	.L348,.L480
-	.byte	6
-	.byte	'image_temp',0,1,251,5,18
-	.word	.L453,.L481
+	.byte	'image_temp',0,1,234,5,18
+	.word	.L453,.L475
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_show_gray_image')
 	.sect	'.debug_abbrev'
@@ -11059,120 +10941,120 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_gray_image')
 	.sect	'.debug_line'
 .L297:
-	.word	.L1161-.L1160
-.L1160:
+	.word	.L1127-.L1126
+.L1126:
 	.half	3
-	.word	.L1163-.L1162
-.L1162:
+	.word	.L1129-.L1128
+.L1128:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1163:
+.L1129:
 	.byte	5,6,7,0,5,2
 	.word	.L217
-	.byte	3,239,5,1,5,5,9
-	.half	.L789-.L217
+	.byte	3,222,5,1,5,5,9
+	.half	.L767-.L217
 	.byte	3,4,1,9
-	.half	.L782-.L789
+	.half	.L760-.L767
 	.byte	3,1,1,9
-	.half	.L1164-.L782
+	.half	.L1130-.L760
 	.byte	3,1,1,5,33,9
-	.half	.L475-.L1164
+	.half	.L469-.L1130
 	.byte	3,4,1,5,5,9
-	.half	.L795-.L475
+	.half	.L773-.L469
 	.byte	3,3,1,5,31,9
-	.half	.L122-.L795
+	.half	.L122-.L773
 	.byte	3,1,1,5,43,9
-	.half	.L797-.L122
+	.half	.L775-.L122
 	.byte	1,5,50,9
-	.half	.L798-.L797
+	.half	.L776-.L775
 	.byte	1,5,63,9
-	.half	.L799-.L798
+	.half	.L777-.L776
 	.byte	1,5,11,9
-	.half	.L1165-.L799
+	.half	.L1131-.L777
 	.byte	3,2,1,5,30,9
-	.half	.L802-.L1165
+	.half	.L780-.L1131
 	.byte	1,5,32,9
-	.half	.L124-.L802
+	.half	.L124-.L780
 	.byte	3,2,1,5,41,9
-	.half	.L803-.L124
+	.half	.L781-.L124
 	.byte	1,5,54,9
-	.half	.L804-.L803
+	.half	.L782-.L781
 	.byte	1,5,28,9
-	.half	.L805-.L804
+	.half	.L783-.L782
 	.byte	1,5,15,9
-	.half	.L806-.L805
+	.half	.L784-.L783
 	.byte	3,1,1,5,33,9
-	.half	.L807-.L806
+	.half	.L785-.L784
 	.byte	1,5,37,9
-	.half	.L126-.L807
+	.half	.L126-.L785
 	.byte	3,2,1,5,45,9
-	.half	.L809-.L126
+	.half	.L787-.L126
 	.byte	1,5,33,9
-	.half	.L1166-.L809
+	.half	.L1132-.L787
 	.byte	1,5,20,9
-	.half	.L1167-.L1166
+	.half	.L1133-.L1132
 	.byte	1,5,13,9
-	.half	.L810-.L1167
+	.half	.L788-.L1133
 	.byte	3,1,1,5,43,7,9
-	.half	.L1168-.L810
+	.half	.L1134-.L788
 	.byte	3,2,1,5,33,9
-	.half	.L1169-.L1168
+	.half	.L1135-.L1134
 	.byte	1,5,50,9
-	.half	.L1170-.L1169
+	.half	.L1136-.L1135
 	.byte	1,5,54,9
-	.half	.L812-.L1170
+	.half	.L790-.L1136
 	.byte	3,1,1,5,44,9
-	.half	.L1171-.L812
+	.half	.L1137-.L790
 	.byte	1,5,61,9
-	.half	.L1172-.L1171
+	.half	.L1138-.L1137
 	.byte	1,5,31,9
-	.half	.L1173-.L1172
+	.half	.L1139-.L1138
 	.byte	1,5,51,9
-	.half	.L1174-.L1173
+	.half	.L1140-.L1139
 	.byte	3,1,1,5,41,9
-	.half	.L811-.L1174
+	.half	.L789-.L1140
 	.byte	1,5,31,9
-	.half	.L1175-.L811
+	.half	.L1141-.L789
 	.byte	1,5,28,9
-	.half	.L1176-.L1175
+	.half	.L1142-.L1141
 	.byte	3,1,1,5,32,9
-	.half	.L1177-.L1176
+	.half	.L1143-.L1142
 	.byte	1,5,55,9
-	.half	.L1178-.L1177
+	.half	.L1144-.L1143
 	.byte	3,125,1,5,18,9
-	.half	.L127-.L1178
+	.half	.L127-.L1144
 	.byte	3,5,1,5,28,7,9
-	.half	.L1179-.L127
+	.half	.L1145-.L127
 	.byte	3,2,1,5,35,9
-	.half	.L1180-.L1179
+	.half	.L1146-.L1145
 	.byte	1,5,32,9
-	.half	.L1181-.L1180
+	.half	.L1147-.L1146
 	.byte	1,5,48,9
-	.half	.L1182-.L1181
+	.half	.L1148-.L1147
 	.byte	1,5,28,9
-	.half	.L129-.L1182
+	.half	.L129-.L1148
 	.byte	3,4,1,5,35,9
-	.half	.L1183-.L129
+	.half	.L1149-.L129
 	.byte	1,5,32,9
-	.half	.L1184-.L1183
+	.half	.L1150-.L1149
 	.byte	1,5,37,9
-	.half	.L128-.L1184
+	.half	.L128-.L1150
 	.byte	3,112,1,5,33,9
 	.half	.L125-.L128
 	.byte	1,5,9,7,9
-	.half	.L1185-.L125
+	.half	.L1151-.L125
 	.byte	3,19,1,5,34,9
-	.half	.L808-.L1185
+	.half	.L786-.L1151
 	.byte	3,106,1,5,30,9
-	.half	.L123-.L808
+	.half	.L123-.L786
 	.byte	1,5,5,7,9
-	.half	.L1186-.L123
+	.half	.L1152-.L123
 	.byte	3,24,1,5,1,9
-	.half	.L132-.L1186
+	.half	.L132-.L1152
 	.byte	3,1,1,9
 	.half	.L299-.L132
 	.byte	0,1,1
-.L1161:
+.L1127:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_gray_image')
 	.sect	'.debug_ranges'
 .L298:
@@ -11192,48 +11074,48 @@ tft180_display_font:	.type	object
 	.byte	2
 	.word	.L226
 	.byte	3
-	.byte	'tft180_show_rgb565_image',0,1,172,6,6,1,1,1
-	.word	.L219,.L482,.L218
+	.byte	'tft180_show_rgb565_image',0,1,155,6,6,1,1,1
+	.word	.L219,.L476,.L218
 	.byte	4
-	.byte	'x',0,1,172,6,39
+	.byte	'x',0,1,155,6,39
+	.word	.L350,.L477
+	.byte	4
+	.byte	'y',0,1,155,6,49
+	.word	.L350,.L478
+	.byte	4
+	.byte	'image',0,1,155,6,66
+	.word	.L479,.L480
+	.byte	4
+	.byte	'width',0,1,155,6,80
+	.word	.L350,.L481
+	.byte	4
+	.byte	'height',0,1,155,6,94
+	.word	.L350,.L482
+	.byte	4
+	.byte	'dis_width',0,1,155,6,109
 	.word	.L350,.L483
 	.byte	4
-	.byte	'y',0,1,172,6,49
+	.byte	'dis_height',0,1,155,6,127
 	.word	.L350,.L484
 	.byte	4
-	.byte	'image',0,1,172,6,66
-	.word	.L485,.L486
-	.byte	4
-	.byte	'width',0,1,172,6,80
-	.word	.L350,.L487
-	.byte	4
-	.byte	'height',0,1,172,6,94
-	.word	.L350,.L488
-	.byte	4
-	.byte	'dis_width',0,1,172,6,109
-	.word	.L350,.L489
-	.byte	4
-	.byte	'dis_height',0,1,172,6,127
-	.word	.L350,.L490
-	.byte	4
-	.byte	'color_mode',0,1,172,6,145,1
-	.word	.L394,.L491
+	.byte	'color_mode',0,1,155,6,145,1
+	.word	.L394,.L485
 	.byte	5
-	.word	.L219,.L482
+	.word	.L219,.L476
 	.byte	5
-	.word	.L492,.L482
+	.word	.L486,.L476
 	.byte	6
-	.byte	'i',0,1,180,6,12
-	.word	.L434,.L493
+	.byte	'i',0,1,163,6,12
+	.word	.L434,.L487
 	.byte	6
-	.byte	'j',0,1,180,6,19
-	.word	.L434,.L494
+	.byte	'j',0,1,163,6,19
+	.word	.L434,.L488
 	.byte	6
-	.byte	'data_buffer',0,1,181,6,12
-	.word	.L348,.L495
+	.byte	'data_buffer',0,1,164,6,12
+	.word	.L348,.L489
 	.byte	6
-	.byte	'image_temp',0,1,182,6,19
-	.word	.L485,.L496
+	.byte	'image_temp',0,1,165,6,19
+	.word	.L479,.L490
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_show_rgb565_image')
 	.sect	'.debug_abbrev'
@@ -11244,86 +11126,86 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_rgb565_image')
 	.sect	'.debug_line'
 .L302:
-	.word	.L1188-.L1187
-.L1187:
+	.word	.L1154-.L1153
+.L1153:
 	.half	3
-	.word	.L1190-.L1189
-.L1189:
+	.word	.L1156-.L1155
+.L1155:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1190:
+.L1156:
 	.byte	5,6,7,0,5,2
 	.word	.L219
-	.byte	3,171,6,1,5,5,9
-	.half	.L824-.L219
+	.byte	3,154,6,1,5,5,9
+	.half	.L802-.L219
 	.byte	3,4,1,9
-	.half	.L817-.L824
+	.half	.L795-.L802
 	.byte	3,1,1,9
-	.half	.L1191-.L817
+	.half	.L1157-.L795
 	.byte	3,1,1,5,33,9
-	.half	.L492-.L1191
+	.half	.L486-.L1157
 	.byte	3,3,1,5,5,9
-	.half	.L830-.L492
+	.half	.L808-.L486
 	.byte	3,3,1,5,31,9
-	.half	.L134-.L830
+	.half	.L134-.L808
 	.byte	3,1,1,5,43,9
-	.half	.L832-.L134
+	.half	.L810-.L134
 	.byte	1,5,50,9
-	.half	.L833-.L832
+	.half	.L811-.L810
 	.byte	1,5,63,9
-	.half	.L834-.L833
+	.half	.L812-.L811
 	.byte	1,5,11,9
-	.half	.L1192-.L834
+	.half	.L1158-.L812
 	.byte	3,2,1,5,30,9
-	.half	.L837-.L1192
+	.half	.L815-.L1158
 	.byte	1,5,32,9
-	.half	.L136-.L837
+	.half	.L136-.L815
 	.byte	3,2,1,5,41,9
-	.half	.L838-.L136
+	.half	.L816-.L136
 	.byte	1,5,54,9
-	.half	.L839-.L838
+	.half	.L817-.L816
 	.byte	1,5,28,9
-	.half	.L840-.L839
+	.half	.L818-.L817
 	.byte	1,5,15,9
-	.half	.L841-.L840
+	.half	.L819-.L818
 	.byte	3,1,1,5,33,9
-	.half	.L842-.L841
+	.half	.L820-.L819
 	.byte	1,5,24,9
-	.half	.L138-.L842
+	.half	.L138-.L820
 	.byte	3,2,1,5,47,9
-	.half	.L844-.L138
+	.half	.L822-.L138
 	.byte	1,5,55,9
-	.half	.L845-.L844
+	.half	.L823-.L822
 	.byte	1,5,43,9
-	.half	.L1193-.L845
+	.half	.L1159-.L823
 	.byte	1,5,30,9
-	.half	.L1194-.L1193
+	.half	.L1160-.L1159
 	.byte	1,5,28,9
-	.half	.L1195-.L1194
+	.half	.L1161-.L1160
 	.byte	1,5,37,9
-	.half	.L1196-.L1195
+	.half	.L1162-.L1161
 	.byte	3,126,1,5,33,9
-	.half	.L137-.L1196
+	.half	.L137-.L1162
 	.byte	1,5,9,7,9
-	.half	.L1197-.L137
+	.half	.L1163-.L137
 	.byte	3,4,1,5,13,7,9
-	.half	.L1198-.L1197
+	.half	.L1164-.L1163
 	.byte	3,2,1,5,78,9
-	.half	.L843-.L1198
+	.half	.L821-.L1164
 	.byte	1,5,13,9
-	.half	.L139-.L843
+	.half	.L139-.L821
 	.byte	3,4,1,5,34,9
 	.half	.L140-.L139
 	.byte	3,115,1,5,30,9
 	.half	.L135-.L140
 	.byte	1,5,5,7,9
-	.half	.L1199-.L135
+	.half	.L1165-.L135
 	.byte	3,16,1,5,1,9
-	.half	.L142-.L1199
+	.half	.L142-.L1165
 	.byte	3,1,1,9
 	.half	.L304-.L142
 	.byte	0,1,1
-.L1188:
+.L1154:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_rgb565_image')
 	.sect	'.debug_ranges'
 .L303:
@@ -11343,48 +11225,48 @@ tft180_display_font:	.type	object
 	.byte	2
 	.word	.L226
 	.byte	3
-	.byte	'tft180_show_wave',0,1,219,6,6,1,1,1
-	.word	.L221,.L497,.L220
+	.byte	'tft180_show_wave',0,1,202,6,6,1,1,1
+	.word	.L221,.L491,.L220
 	.byte	4
-	.byte	'x',0,1,219,6,31
+	.byte	'x',0,1,202,6,31
+	.word	.L350,.L492
+	.byte	4
+	.byte	'y',0,1,202,6,41
+	.word	.L350,.L493
+	.byte	4
+	.byte	'wave',0,1,202,6,58
+	.word	.L479,.L494
+	.byte	4
+	.byte	'width',0,1,202,6,71
+	.word	.L350,.L495
+	.byte	4
+	.byte	'value_max',0,1,202,6,85
+	.word	.L350,.L496
+	.byte	4
+	.byte	'dis_width',0,1,202,6,103
+	.word	.L350,.L497
+	.byte	4
+	.byte	'dis_value_max',0,1,202,6,121
 	.word	.L350,.L498
-	.byte	4
-	.byte	'y',0,1,219,6,41
-	.word	.L350,.L499
-	.byte	4
-	.byte	'wave',0,1,219,6,58
-	.word	.L485,.L500
-	.byte	4
-	.byte	'width',0,1,219,6,71
-	.word	.L350,.L501
-	.byte	4
-	.byte	'value_max',0,1,219,6,85
-	.word	.L350,.L502
-	.byte	4
-	.byte	'dis_width',0,1,219,6,103
-	.word	.L350,.L503
-	.byte	4
-	.byte	'dis_value_max',0,1,219,6,121
-	.word	.L350,.L504
 	.byte	5
-	.word	.L221,.L497
+	.word	.L221,.L491
 	.byte	5
-	.word	.L505,.L497
+	.word	.L499,.L491
 	.byte	6
-	.byte	'i',0,1,227,6,12
-	.word	.L434,.L506
+	.byte	'i',0,1,210,6,12
+	.word	.L434,.L500
 	.byte	6
-	.byte	'j',0,1,227,6,19
-	.word	.L434,.L507
+	.byte	'j',0,1,210,6,19
+	.word	.L434,.L501
 	.byte	6
-	.byte	'width_index',0,1,228,6,12
-	.word	.L434,.L508
+	.byte	'width_index',0,1,211,6,12
+	.word	.L434,.L502
 	.byte	6
-	.byte	'value_max_index',0,1,228,6,29
-	.word	.L434,.L509
+	.byte	'value_max_index',0,1,211,6,29
+	.word	.L434,.L503
 	.byte	6
-	.byte	'data_buffer',0,1,229,6,12
-	.word	.L348,.L510
+	.byte	'data_buffer',0,1,212,6,12
+	.word	.L348,.L504
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_show_wave')
 	.sect	'.debug_abbrev'
@@ -11395,102 +11277,102 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_wave')
 	.sect	'.debug_line'
 .L307:
-	.word	.L1201-.L1200
-.L1200:
+	.word	.L1167-.L1166
+.L1166:
 	.half	3
-	.word	.L1203-.L1202
-.L1202:
+	.word	.L1169-.L1168
+.L1168:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1203:
+.L1169:
 	.byte	5,6,7,0,5,2
 	.word	.L221
-	.byte	3,218,6,1,5,5,9
-	.half	.L857-.L221
+	.byte	3,201,6,1,5,5,9
+	.half	.L835-.L221
 	.byte	3,4,1,9
-	.half	.L851-.L857
+	.half	.L829-.L835
 	.byte	3,1,1,9
-	.half	.L1204-.L851
+	.half	.L1170-.L829
 	.byte	3,1,1,5,33,9
-	.half	.L505-.L1204
+	.half	.L499-.L1170
 	.byte	3,4,1,5,5,9
-	.half	.L863-.L505
+	.half	.L841-.L499
 	.byte	3,2,1,5,31,9
-	.half	.L144-.L863
+	.half	.L144-.L841
 	.byte	3,1,1,5,43,9
-	.half	.L865-.L144
+	.half	.L843-.L144
 	.byte	1,5,50,9
-	.half	.L866-.L865
+	.half	.L844-.L843
 	.byte	1,5,66,9
-	.half	.L867-.L866
+	.half	.L845-.L844
 	.byte	1,5,11,9
-	.half	.L1205-.L867
+	.half	.L1171-.L845
 	.byte	3,1,1,5,33,9
-	.half	.L870-.L1205
+	.half	.L848-.L1171
 	.byte	1,5,15,9
-	.half	.L146-.L870
+	.half	.L146-.L848
 	.byte	3,2,1,5,33,9
-	.half	.L872-.L146
+	.half	.L850-.L146
 	.byte	1,5,24,9
-	.half	.L148-.L872
+	.half	.L148-.L850
 	.byte	3,2,1,5,31,9
-	.half	.L1206-.L148
+	.half	.L1172-.L148
 	.byte	1,5,28,9
-	.half	.L1207-.L1206
+	.half	.L1173-.L1172
 	.byte	1,5,37,9
-	.half	.L1208-.L1207
+	.half	.L1174-.L1173
 	.byte	3,126,1,5,33,9
-	.half	.L147-.L1208
+	.half	.L147-.L1174
 	.byte	1,5,9,7,9
-	.half	.L1209-.L147
+	.half	.L1175-.L147
 	.byte	3,4,1,5,37,9
-	.half	.L873-.L1209
+	.half	.L851-.L1175
 	.byte	3,122,1,5,33,9
-	.half	.L145-.L873
+	.half	.L145-.L851
 	.byte	1,5,5,7,9
-	.half	.L1210-.L145
+	.half	.L1176-.L145
 	.byte	3,8,1,5,11,9
-	.half	.L150-.L1210
+	.half	.L150-.L1176
 	.byte	3,2,1,5,29,9
-	.half	.L871-.L150
+	.half	.L849-.L150
 	.byte	1,5,25,9
-	.half	.L152-.L871
+	.half	.L152-.L849
 	.byte	3,2,1,5,33,9
-	.half	.L876-.L152
+	.half	.L854-.L152
 	.byte	1,5,34,9
-	.half	.L877-.L876
+	.half	.L855-.L854
 	.byte	3,1,1,5,27,9
-	.half	.L1211-.L877
+	.half	.L1177-.L855
 	.byte	1,5,66,9
-	.half	.L878-.L1211
+	.half	.L856-.L1177
 	.byte	1,5,49,9
-	.half	.L1212-.L878
+	.half	.L1178-.L856
 	.byte	1,5,71,9
-	.half	.L879-.L1212
+	.half	.L857-.L1178
 	.byte	1,5,38,9
-	.half	.L880-.L879
+	.half	.L858-.L857
 	.byte	3,1,1,5,27,9
-	.half	.L882-.L880
+	.half	.L860-.L858
 	.byte	1,5,68,9
-	.half	.L1213-.L882
+	.half	.L1179-.L860
 	.byte	1,5,73,9
-	.half	.L1214-.L1213
+	.half	.L1180-.L1179
 	.byte	1,5,91,9
-	.half	.L883-.L1214
+	.half	.L861-.L1180
 	.byte	1,5,44,9
-	.half	.L884-.L883
+	.half	.L862-.L861
 	.byte	1,5,97,9
-	.half	.L1215-.L884
+	.half	.L1181-.L862
 	.byte	1,5,33,9
-	.half	.L881-.L1215
+	.half	.L859-.L1181
 	.byte	3,124,1,5,29,9
-	.half	.L151-.L881
+	.half	.L151-.L859
 	.byte	1,5,1,7,9
-	.half	.L1216-.L151
+	.half	.L1182-.L151
 	.byte	3,6,1,9
-	.half	.L309-.L1216
+	.half	.L309-.L1182
 	.byte	0,1,1
-.L1201:
+.L1167:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_wave')
 	.sect	'.debug_ranges'
 .L308:
@@ -11510,51 +11392,51 @@ tft180_display_font:	.type	object
 	.byte	2
 	.word	.L226
 	.byte	3
-	.byte	'tft180_show_chinese',0,1,135,7,6,1,1,1
-	.word	.L223,.L511,.L222
+	.byte	'tft180_show_chinese',0,1,246,6,6,1,1,1
+	.word	.L223,.L505,.L222
 	.byte	4
-	.byte	'x',0,1,135,7,34
-	.word	.L350,.L512
+	.byte	'x',0,1,246,6,34
+	.word	.L350,.L506
 	.byte	4
-	.byte	'y',0,1,135,7,44
-	.word	.L350,.L513
+	.byte	'y',0,1,246,6,44
+	.word	.L350,.L507
 	.byte	4
-	.byte	'size',0,1,135,7,53
-	.word	.L394,.L514
+	.byte	'size',0,1,246,6,53
+	.word	.L394,.L508
 	.byte	4
-	.byte	'chinese_buffer',0,1,135,7,72
-	.word	.L453,.L515
+	.byte	'chinese_buffer',0,1,246,6,72
+	.word	.L453,.L509
 	.byte	4
-	.byte	'number',0,1,135,7,94
-	.word	.L394,.L516
+	.byte	'number',0,1,246,6,94
+	.word	.L394,.L510
 	.byte	4
-	.byte	'color',0,1,135,7,115
-	.word	.L517,.L518
+	.byte	'color',0,1,246,6,115
+	.word	.L511,.L512
 	.byte	5
-	.word	.L223,.L511
+	.word	.L223,.L505
 	.byte	5
-	.word	.L519,.L511
+	.word	.L513,.L505
 	.byte	6
-	.byte	'i',0,1,143,7,9
-	.word	.L422,.L520
+	.byte	'i',0,1,254,6,9
+	.word	.L422,.L514
 	.byte	6
-	.byte	'j',0,1,143,7,16
-	.word	.L422,.L521
+	.byte	'j',0,1,254,6,16
+	.word	.L422,.L515
 	.byte	6
-	.byte	'k',0,1,143,7,23
-	.word	.L422,.L522
+	.byte	'k',0,1,254,6,23
+	.word	.L422,.L516
 	.byte	6
-	.byte	'temp',0,1,144,7,11
-	.word	.L394,.L523
+	.byte	'temp',0,1,255,6,11
+	.word	.L394,.L517
 	.byte	6
-	.byte	'temp1',0,1,144,7,21
-	.word	.L394,.L524
+	.byte	'temp1',0,1,255,6,21
+	.word	.L394,.L518
 	.byte	6
-	.byte	'temp2',0,1,144,7,32
-	.word	.L394,.L525
+	.byte	'temp2',0,1,255,6,32
+	.word	.L394,.L519
 	.byte	6
-	.byte	'p_data',0,1,145,7,18
-	.word	.L453,.L526
+	.byte	'p_data',0,1,128,7,18
+	.word	.L453,.L520
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_show_chinese')
 	.sect	'.debug_abbrev'
@@ -11565,110 +11447,110 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_show_chinese')
 	.sect	'.debug_line'
 .L312:
-	.word	.L1218-.L1217
-.L1217:
+	.word	.L1184-.L1183
+.L1183:
 	.half	3
-	.word	.L1220-.L1219
-.L1219:
+	.word	.L1186-.L1185
+.L1185:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1220:
+.L1186:
 	.byte	5,6,7,0,5,2
 	.word	.L223
-	.byte	3,134,7,1,5,5,9
-	.half	.L895-.L223
+	.byte	3,245,6,1,5,5,9
+	.half	.L873-.L223
 	.byte	3,4,1,9
-	.half	.L889-.L895
+	.half	.L867-.L873
 	.byte	3,1,1,9
-	.half	.L1221-.L889
+	.half	.L1187-.L867
 	.byte	3,1,1,5,20,9
-	.half	.L519-.L1221
+	.half	.L513-.L1187
 	.byte	3,6,1,5,18,9
-	.half	.L1222-.L519
+	.half	.L1188-.L513
 	.byte	1,5,5,9
-	.half	.L899-.L1222
+	.half	.L877-.L1188
 	.byte	3,2,1,5,36,9
-	.half	.L154-.L899
+	.half	.L154-.L877
 	.byte	3,1,1,5,43,9
-	.half	.L901-.L154
+	.half	.L879-.L154
 	.byte	1,5,47,9
-	.half	.L902-.L901
+	.half	.L880-.L879
 	.byte	1,5,54,9
-	.half	.L904-.L902
+	.half	.L882-.L880
 	.byte	1,5,61,9
-	.half	.L905-.L904
+	.half	.L883-.L882
 	.byte	1,5,11,9
-	.half	.L1223-.L905
+	.half	.L1189-.L883
 	.byte	3,2,1,5,24,9
-	.half	.L908-.L1223
+	.half	.L886-.L1189
 	.byte	1,5,15,9
-	.half	.L156-.L908
+	.half	.L156-.L886
 	.byte	3,2,1,5,37,9
-	.half	.L911-.L156
+	.half	.L889-.L156
 	.byte	3,1,1,5,33,9
-	.half	.L910-.L911
+	.half	.L888-.L889
 	.byte	1,5,23,9
-	.half	.L912-.L910
+	.half	.L890-.L888
 	.byte	3,1,1,5,19,9
-	.half	.L158-.L912
+	.half	.L158-.L890
 	.byte	3,2,1,5,33,9
-	.half	.L914-.L158
+	.half	.L892-.L158
 	.byte	1,5,23,9
-	.half	.L160-.L914
+	.half	.L160-.L892
 	.byte	3,2,1,5,33,9
-	.half	.L915-.L160
+	.half	.L893-.L160
 	.byte	1,5,29,9
-	.half	.L162-.L915
+	.half	.L162-.L893
 	.byte	3,2,1,5,43,9
-	.half	.L1224-.L162
+	.half	.L1190-.L162
 	.byte	1,5,37,9
-	.half	.L1225-.L1224
+	.half	.L1191-.L1190
 	.byte	1,5,49,9
-	.half	.L1226-.L1225
+	.half	.L1192-.L1191
 	.byte	1,5,21,9
-	.half	.L916-.L1226
+	.half	.L894-.L1192
 	.byte	3,1,1,5,25,7,9
-	.half	.L1227-.L916
+	.half	.L1193-.L894
 	.byte	3,2,1,5,55,9
-	.half	.L918-.L1227
+	.half	.L896-.L1193
 	.byte	1,5,25,9
-	.half	.L163-.L918
+	.half	.L163-.L896
 	.byte	3,4,1,5,37,9
 	.half	.L164-.L163
 	.byte	3,119,1,5,33,9
 	.half	.L161-.L164
 	.byte	1,5,24,7,9
-	.half	.L1228-.L161
+	.half	.L1194-.L161
 	.byte	3,12,1,5,37,9
-	.half	.L1229-.L1228
+	.half	.L1195-.L1194
 	.byte	3,114,1,5,33,9
-	.half	.L159-.L1229
+	.half	.L159-.L1195
 	.byte	1,5,45,7,9
-	.half	.L1230-.L159
+	.half	.L1196-.L159
 	.byte	3,16,1,5,22,9
-	.half	.L1231-.L1230
+	.half	.L1197-.L1196
 	.byte	1,5,29,9
-	.half	.L919-.L1231
+	.half	.L897-.L1197
 	.byte	1,5,37,9
-	.half	.L920-.L919
+	.half	.L898-.L897
 	.byte	1,5,20,9
-	.half	.L913-.L920
+	.half	.L891-.L898
 	.byte	1,5,21,9
-	.half	.L157-.L913
+	.half	.L157-.L891
 	.byte	3,110,1,5,23,9
-	.half	.L923-.L157
+	.half	.L901-.L157
 	.byte	1,5,28,7,9
-	.half	.L924-.L923
+	.half	.L902-.L901
 	.byte	3,124,1,5,24,9
-	.half	.L155-.L924
+	.half	.L155-.L902
 	.byte	1,5,5,7,9
-	.half	.L1232-.L155
+	.half	.L1198-.L155
 	.byte	3,25,1,5,1,9
-	.half	.L166-.L1232
+	.half	.L166-.L1198
 	.byte	3,1,1,7,9
 	.half	.L314-.L166
 	.byte	0,1,1
-.L1218:
+.L1184:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_show_chinese')
 	.sect	'.debug_ranges'
 .L313:
@@ -11688,10 +11570,10 @@ tft180_display_font:	.type	object
 	.byte	2
 	.word	.L226
 	.byte	3
-	.byte	'tft180_init',0,1,187,7,6,1,1,1
-	.word	.L225,.L527,.L224
+	.byte	'tft180_init',0,1,170,7,6,1,1,1
+	.word	.L225,.L521,.L224
 	.byte	4
-	.word	.L225,.L527
+	.word	.L225,.L521
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_init')
 	.sect	'.debug_abbrev'
@@ -11701,104 +11583,182 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_init')
 	.sect	'.debug_line'
 .L317:
-	.word	.L1234-.L1233
-.L1233:
+	.word	.L1200-.L1199
+.L1199:
 	.half	3
-	.word	.L1236-.L1235
-.L1235:
+	.word	.L1202-.L1201
+.L1201:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1236:
+.L1202:
 	.byte	5,6,7,0,5,2
 	.word	.L225
-	.byte	3,186,7,1,5,71,9
-	.half	.L925-.L225
+	.byte	3,169,7,1,5,71,9
+	.half	.L903-.L225
 	.byte	3,5,1,5,87,9
-	.half	.L1237-.L925
+	.half	.L1203-.L903
 	.byte	1,5,106,9
-	.half	.L1238-.L1237
+	.half	.L1204-.L1203
 	.byte	1,5,14,9
-	.half	.L1239-.L1238
+	.half	.L1205-.L1204
 	.byte	1,5,26,9
-	.half	.L1240-.L1239
+	.half	.L1206-.L1205
 	.byte	1,5,37,9
-	.half	.L1241-.L1240
+	.half	.L1207-.L1206
 	.byte	1,5,55,9
-	.half	.L1242-.L1241
+	.half	.L1208-.L1207
 	.byte	1,5,15,9
-	.half	.L1243-.L1242
+	.half	.L1209-.L1208
 	.byte	3,3,1,5,30,9
-	.half	.L1244-.L1243
+	.half	.L1210-.L1209
 	.byte	1,5,35,9
-	.half	.L1245-.L1244
+	.half	.L1211-.L1210
 	.byte	1,5,45,9
-	.half	.L1246-.L1245
+	.half	.L1212-.L1211
 	.byte	1,5,15,9
-	.half	.L1247-.L1246
+	.half	.L1213-.L1212
 	.byte	3,1,1,5,31,9
-	.half	.L1248-.L1247
+	.half	.L1214-.L1213
 	.byte	1,5,36,9
-	.half	.L1249-.L1248
+	.half	.L1215-.L1214
 	.byte	1,5,46,9
-	.half	.L1250-.L1249
+	.half	.L1216-.L1215
 	.byte	1,5,15,9
-	.half	.L1251-.L1250
+	.half	.L1217-.L1216
 	.byte	3,1,1,5,30,9
-	.half	.L1252-.L1251
+	.half	.L1218-.L1217
 	.byte	1,5,35,9
-	.half	.L1253-.L1252
+	.half	.L1219-.L1218
 	.byte	1,5,46,9
-	.half	.L1254-.L1253
+	.half	.L1220-.L1219
 	.byte	1,5,15,9
-	.half	.L1255-.L1254
+	.half	.L1221-.L1220
 	.byte	3,1,1,5,30,9
-	.half	.L1256-.L1255
+	.half	.L1222-.L1221
 	.byte	1,5,35,9
-	.half	.L1257-.L1256
+	.half	.L1223-.L1222
 	.byte	1,5,46,9
-	.half	.L1258-.L1257
+	.half	.L1224-.L1223
 	.byte	1,5,20,9
-	.half	.L1259-.L1258
+	.half	.L1225-.L1224
 	.byte	3,2,1,5,22,9
-	.half	.L1260-.L1259
+	.half	.L1226-.L1225
 	.byte	3,1,1,5,39,9
-	.half	.L1261-.L1260
+	.half	.L1227-.L1226
 	.byte	1,5,5,9
-	.half	.L1262-.L1261
+	.half	.L1228-.L1227
 	.byte	3,2,1,5,21,9
-	.half	.L168-.L1262
+	.half	.L168-.L1228
 	.byte	3,1,1,5,5,9
-	.half	.L1263-.L168
+	.half	.L1229-.L168
 	.byte	3,2,1,5,21,9
-	.half	.L170-.L1263
+	.half	.L170-.L1229
 	.byte	3,1,1,5,5,9
-	.half	.L1264-.L170
+	.half	.L1230-.L170
 	.byte	3,1,1,5,24,9
-	.half	.L172-.L1264
+	.half	.L172-.L1230
 	.byte	3,2,1,5,21,9
-	.half	.L1265-.L172
+	.half	.L1231-.L172
+	.byte	3,1,1,5,24,9
+	.half	.L1232-.L1231
+	.byte	3,2,1,5,5,9
+	.half	.L1233-.L1232
+	.byte	3,1,1,9
+	.half	.L1234-.L1233
+	.byte	3,1,1,9
+	.half	.L1235-.L1234
+	.byte	3,1,1,5,24,9
+	.half	.L1236-.L1235
+	.byte	3,2,1,5,5,9
+	.half	.L1237-.L1236
+	.byte	3,1,1,9
+	.half	.L1238-.L1237
+	.byte	3,1,1,9
+	.half	.L1239-.L1238
+	.byte	3,1,1,5,24,9
+	.half	.L1240-.L1239
+	.byte	3,2,1,5,5,9
+	.half	.L1241-.L1240
+	.byte	3,1,1,9
+	.half	.L1242-.L1241
+	.byte	3,1,1,9
+	.half	.L1243-.L1242
+	.byte	3,1,1,9
+	.half	.L1244-.L1243
+	.byte	3,1,1,9
+	.half	.L1245-.L1244
+	.byte	3,1,1,9
+	.half	.L1246-.L1245
+	.byte	3,1,1,5,24,9
+	.half	.L1247-.L1246
+	.byte	3,2,1,5,5,9
+	.half	.L1248-.L1247
+	.byte	3,1,1,5,24,9
+	.half	.L1249-.L1248
+	.byte	3,2,1,5,5,9
+	.half	.L1250-.L1249
+	.byte	3,1,1,9
+	.half	.L1251-.L1250
+	.byte	3,1,1,9
+	.half	.L1252-.L1251
+	.byte	3,1,1,5,24,9
+	.half	.L1253-.L1252
+	.byte	3,1,1,5,5,9
+	.half	.L1254-.L1253
+	.byte	3,1,1,5,24,9
+	.half	.L1255-.L1254
+	.byte	3,2,1,5,5,9
+	.half	.L1256-.L1255
+	.byte	3,1,1,9
+	.half	.L1257-.L1256
+	.byte	3,1,1,5,24,9
+	.half	.L1258-.L1257
+	.byte	3,2,1,5,5,9
+	.half	.L1259-.L1258
+	.byte	3,1,1,9
+	.half	.L1260-.L1259
+	.byte	3,1,1,5,24,9
+	.half	.L1261-.L1260
+	.byte	3,1,1,5,5,9
+	.half	.L1262-.L1261
+	.byte	3,1,1,9
+	.half	.L1263-.L1262
+	.byte	3,1,1,5,24,9
+	.half	.L1264-.L1263
+	.byte	3,2,1,5,5,9
+	.half	.L1265-.L1264
 	.byte	3,1,1,5,24,9
 	.half	.L1266-.L1265
-	.byte	3,2,1,5,5,9
+	.byte	3,2,1,5,12,9
 	.half	.L1267-.L1266
-	.byte	3,1,1,9
+	.byte	3,1,1,5,14,9
 	.half	.L1268-.L1267
-	.byte	3,1,1,9
+	.byte	3,2,1,9
 	.half	.L1269-.L1268
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1270-.L1269
-	.byte	3,2,1,5,5,9
+	.byte	3,1,1,9
 	.half	.L1271-.L1270
-	.byte	3,1,1,9
-	.half	.L1272-.L1271
-	.byte	3,1,1,9
-	.half	.L1273-.L1272
-	.byte	3,1,1,5,24,9
-	.half	.L1274-.L1273
-	.byte	3,2,1,5,5,9
-	.half	.L1275-.L1274
-	.byte	3,1,1,9
-	.half	.L1276-.L1275
+	.byte	3,1,1,5,37,9
+	.half	.L173-.L1271
+	.byte	3,125,1,5,82,9
+	.half	.L1272-.L173
+	.byte	1,5,37,9
+	.half	.L174-.L1272
+	.byte	3,1,1,5,82,9
+	.half	.L1273-.L174
+	.byte	1,5,37,9
+	.half	.L175-.L1273
+	.byte	3,1,1,5,82,9
+	.half	.L1274-.L175
+	.byte	1,5,37,9
+	.half	.L176-.L1274
+	.byte	3,1,1,5,82,9
+	.half	.L1275-.L176
+	.byte	1,5,24,9
+	.half	.L178-.L1275
+	.byte	3,3,1,5,5,9
+	.half	.L1276-.L178
 	.byte	3,1,1,9
 	.half	.L1277-.L1276
 	.byte	3,1,1,9
@@ -11807,25 +11767,25 @@ tft180_display_font:	.type	object
 	.half	.L1279-.L1278
 	.byte	3,1,1,9
 	.half	.L1280-.L1279
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1281-.L1280
-	.byte	3,2,1,5,5,9
+	.byte	3,1,1,9
 	.half	.L1282-.L1281
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1283-.L1282
-	.byte	3,2,1,5,5,9
+	.byte	3,1,1,9
 	.half	.L1284-.L1283
 	.byte	3,1,1,9
 	.half	.L1285-.L1284
 	.byte	3,1,1,9
 	.half	.L1286-.L1285
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1287-.L1286
-	.byte	3,1,1,5,5,9
+	.byte	3,1,1,9
 	.half	.L1288-.L1287
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1289-.L1288
-	.byte	3,2,1,5,5,9
+	.byte	3,1,1,9
 	.half	.L1290-.L1289
 	.byte	3,1,1,9
 	.half	.L1291-.L1290
@@ -11835,57 +11795,47 @@ tft180_display_font:	.type	object
 	.half	.L1293-.L1292
 	.byte	3,1,1,9
 	.half	.L1294-.L1293
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1295-.L1294
-	.byte	3,1,1,5,5,9
+	.byte	3,1,1,9
 	.half	.L1296-.L1295
 	.byte	3,1,1,9
 	.half	.L1297-.L1296
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1298-.L1297
-	.byte	3,2,1,5,5,9
+	.byte	3,1,1,9
 	.half	.L1299-.L1298
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,9
 	.half	.L1300-.L1299
-	.byte	3,2,1,5,12,9
+	.byte	3,1,1,9
 	.half	.L1301-.L1300
-	.byte	3,1,1,5,14,9
+	.byte	3,1,1,9
 	.half	.L1302-.L1301
-	.byte	3,2,1,9
+	.byte	3,1,1,9
 	.half	.L1303-.L1302
 	.byte	3,1,1,9
 	.half	.L1304-.L1303
 	.byte	3,1,1,9
 	.half	.L1305-.L1304
-	.byte	3,1,1,5,37,9
-	.half	.L173-.L1305
-	.byte	3,125,1,5,82,9
-	.half	.L1306-.L173
-	.byte	1,5,37,9
-	.half	.L174-.L1306
-	.byte	3,1,1,5,82,9
-	.half	.L1307-.L174
-	.byte	1,5,37,9
-	.half	.L175-.L1307
-	.byte	3,1,1,5,82,9
-	.half	.L1308-.L175
-	.byte	1,5,37,9
-	.half	.L176-.L1308
-	.byte	3,1,1,5,82,9
-	.half	.L1309-.L176
-	.byte	1,5,24,9
-	.half	.L178-.L1309
-	.byte	3,3,1,5,5,9
-	.half	.L1310-.L178
+	.byte	3,1,1,9
+	.half	.L1306-.L1305
+	.byte	3,1,1,9
+	.half	.L1307-.L1306
+	.byte	3,1,1,9
+	.half	.L1308-.L1307
+	.byte	3,1,1,5,24,9
+	.half	.L1309-.L1308
+	.byte	3,2,1,5,5,9
+	.half	.L1310-.L1309
 	.byte	3,1,1,9
 	.half	.L1311-.L1310
 	.byte	3,1,1,9
 	.half	.L1312-.L1311
 	.byte	3,1,1,9
 	.half	.L1313-.L1312
-	.byte	3,1,1,9
+	.byte	3,1,1,5,24,9
 	.half	.L1314-.L1313
-	.byte	3,1,1,9
+	.byte	3,2,1,5,5,9
 	.half	.L1315-.L1314
 	.byte	3,1,1,9
 	.half	.L1316-.L1315
@@ -11893,100 +11843,32 @@ tft180_display_font:	.type	object
 	.half	.L1317-.L1316
 	.byte	3,1,1,9
 	.half	.L1318-.L1317
-	.byte	3,1,1,9
+	.byte	3,1,1,5,24,9
 	.half	.L1319-.L1318
-	.byte	3,1,1,9
+	.byte	3,2,1,5,5,9
 	.half	.L1320-.L1319
-	.byte	3,1,1,9
+	.byte	3,1,1,5,24,9
 	.half	.L1321-.L1320
-	.byte	3,1,1,9
+	.byte	3,1,1,5,5,9
 	.half	.L1322-.L1321
-	.byte	3,1,1,9
+	.byte	3,1,1,5,24,9
 	.half	.L1323-.L1322
-	.byte	3,1,1,9
+	.byte	3,2,1,5,5,9
 	.half	.L1324-.L1323
-	.byte	3,1,1,9
+	.byte	3,1,1,5,24,9
 	.half	.L1325-.L1324
-	.byte	3,1,1,5,24,9
+	.byte	3,1,1,5,5,9
 	.half	.L1326-.L1325
-	.byte	3,2,1,5,5,9
-	.half	.L1327-.L1326
-	.byte	3,1,1,9
-	.half	.L1328-.L1327
-	.byte	3,1,1,9
-	.half	.L1329-.L1328
-	.byte	3,1,1,9
-	.half	.L1330-.L1329
-	.byte	3,1,1,9
-	.half	.L1331-.L1330
-	.byte	3,1,1,9
-	.half	.L1332-.L1331
-	.byte	3,1,1,9
-	.half	.L1333-.L1332
-	.byte	3,1,1,9
-	.half	.L1334-.L1333
-	.byte	3,1,1,9
-	.half	.L1335-.L1334
-	.byte	3,1,1,9
-	.half	.L1336-.L1335
-	.byte	3,1,1,9
-	.half	.L1337-.L1336
-	.byte	3,1,1,9
-	.half	.L1338-.L1337
-	.byte	3,1,1,9
-	.half	.L1339-.L1338
-	.byte	3,1,1,9
-	.half	.L1340-.L1339
-	.byte	3,1,1,9
-	.half	.L1341-.L1340
-	.byte	3,1,1,9
-	.half	.L1342-.L1341
-	.byte	3,1,1,5,24,9
-	.half	.L1343-.L1342
-	.byte	3,2,1,5,5,9
-	.half	.L1344-.L1343
-	.byte	3,1,1,9
-	.half	.L1345-.L1344
-	.byte	3,1,1,9
-	.half	.L1346-.L1345
-	.byte	3,1,1,9
-	.half	.L1347-.L1346
-	.byte	3,1,1,5,24,9
-	.half	.L1348-.L1347
-	.byte	3,2,1,5,5,9
-	.half	.L1349-.L1348
-	.byte	3,1,1,9
-	.half	.L1350-.L1349
-	.byte	3,1,1,9
-	.half	.L1351-.L1350
-	.byte	3,1,1,9
-	.half	.L1352-.L1351
-	.byte	3,1,1,5,24,9
-	.half	.L1353-.L1352
-	.byte	3,2,1,5,5,9
-	.half	.L1354-.L1353
-	.byte	3,1,1,5,24,9
-	.half	.L1355-.L1354
-	.byte	3,1,1,5,5,9
-	.half	.L1356-.L1355
-	.byte	3,1,1,5,24,9
-	.half	.L1357-.L1356
-	.byte	3,2,1,5,5,9
-	.half	.L1358-.L1357
-	.byte	3,1,1,5,24,9
-	.half	.L1359-.L1358
-	.byte	3,1,1,5,5,9
-	.half	.L1360-.L1359
 	.byte	3,1,1,5,17,9
-	.half	.L183-.L1360
+	.half	.L183-.L1326
 	.byte	3,2,1,5,22,9
-	.half	.L1361-.L183
+	.half	.L1327-.L183
 	.byte	3,1,1,5,1,9
-	.half	.L1362-.L1361
+	.half	.L1328-.L1327
 	.byte	3,1,1,7,9
-	.half	.L319-.L1362
+	.half	.L319-.L1328
 	.byte	0,1,1
-.L1234:
+.L1200:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_init')
 	.sect	'.debug_ranges'
 .L318:
@@ -12007,12 +11889,12 @@ tft180_display_font:	.type	object
 	.word	.L226
 	.byte	3
 	.byte	'tft180_write_index',0,1,154,1,13,1,1
-	.word	.L185,.L528,.L184
+	.word	.L185,.L522,.L184
 	.byte	4
 	.byte	'dat',0,1,154,1,45
-	.word	.L529,.L530
+	.word	.L523,.L524
 	.byte	5
-	.word	.L185,.L528
+	.word	.L185,.L522
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_write_index')
 	.sect	'.debug_abbrev'
@@ -12022,28 +11904,28 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_write_index')
 	.sect	'.debug_line'
 .L322:
-	.word	.L1364-.L1363
-.L1363:
+	.word	.L1330-.L1329
+.L1329:
 	.half	3
-	.word	.L1366-.L1365
-.L1365:
+	.word	.L1332-.L1331
+.L1331:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1366:
+.L1332:
 	.byte	5,13,7,0,5,2
 	.word	.L185
 	.byte	3,153,1,1,5,5,9
-	.half	.L540-.L185
+	.half	.L534-.L185
 	.byte	3,2,1,9
-	.half	.L3-.L540
+	.half	.L3-.L534
 	.byte	3,1,1,9
-	.half	.L543-.L3
+	.half	.L537-.L3
 	.byte	3,1,1,5,1,9
-	.half	.L5-.L543
+	.half	.L5-.L537
 	.byte	3,1,1,7,9
 	.half	.L324-.L5
 	.byte	0,1,1
-.L1364:
+.L1330:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_write_index')
 	.sect	'.debug_ranges'
 .L323:
@@ -12064,21 +11946,21 @@ tft180_display_font:	.type	object
 	.word	.L226
 	.byte	3
 	.byte	'tft180_set_region',0,1,171,1,13,1,1
-	.word	.L187,.L531,.L186
+	.word	.L187,.L525,.L186
 	.byte	4
 	.byte	'x1',0,1,171,1,39
-	.word	.L350,.L532
+	.word	.L350,.L526
 	.byte	4
 	.byte	'y1',0,1,171,1,50
-	.word	.L350,.L533
+	.word	.L350,.L527
 	.byte	4
 	.byte	'x2',0,1,171,1,61
-	.word	.L350,.L534
+	.word	.L350,.L528
 	.byte	4
 	.byte	'y2',0,1,171,1,72
-	.word	.L350,.L535
+	.word	.L350,.L529
 	.byte	5
-	.word	.L187,.L531
+	.word	.L187,.L525
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_set_region')
 	.sect	'.debug_abbrev'
@@ -12088,86 +11970,86 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_set_region')
 	.sect	'.debug_line'
 .L327:
-	.word	.L1368-.L1367
-.L1367:
+	.word	.L1334-.L1333
+.L1333:
 	.half	3
-	.word	.L1370-.L1369
-.L1369:
+	.word	.L1336-.L1335
+.L1335:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1370:
+.L1336:
 	.byte	5,13,7,0,5,2
 	.word	.L187
 	.byte	3,170,1,1,5,5,9
-	.half	.L1371-.L187
+	.half	.L1337-.L187
 	.byte	3,5,1,9
-	.half	.L545-.L1371
+	.half	.L539-.L1337
 	.byte	3,1,1,9
-	.half	.L1372-.L545
+	.half	.L1338-.L539
 	.byte	3,1,1,9
-	.half	.L1373-.L1372
+	.half	.L1339-.L1338
 	.byte	3,1,1,5,12,9
-	.half	.L1374-.L1373
+	.half	.L1340-.L1339
 	.byte	3,2,1,5,14,9
-	.half	.L1375-.L1374
+	.half	.L1341-.L1340
 	.byte	3,2,1,9
-	.half	.L1376-.L1375
+	.half	.L1342-.L1341
 	.byte	3,1,1,9
-	.half	.L1377-.L1376
+	.half	.L1343-.L1342
 	.byte	3,14,1,9
-	.half	.L1378-.L1377
+	.half	.L1344-.L1343
 	.byte	3,1,1,5,32,9
-	.half	.L7-.L1378
+	.half	.L7-.L1344
 	.byte	3,115,1,5,13,9
-	.half	.L1379-.L7
+	.half	.L1345-.L7
 	.byte	3,1,1,9
-	.half	.L1380-.L1379
+	.half	.L1346-.L1345
 	.byte	3,1,1,9
-	.half	.L1381-.L1380
+	.half	.L1347-.L1346
 	.byte	3,1,1,9
-	.half	.L1382-.L1381
+	.half	.L1348-.L1347
 	.byte	3,1,1,5,32,9
-	.half	.L1383-.L1382
+	.half	.L1349-.L1348
 	.byte	3,2,1,5,13,9
-	.half	.L1384-.L1383
+	.half	.L1350-.L1349
 	.byte	3,1,1,9
-	.half	.L1385-.L1384
+	.half	.L1351-.L1350
 	.byte	3,1,1,9
-	.half	.L1386-.L1385
+	.half	.L1352-.L1351
 	.byte	3,1,1,9
-	.half	.L1387-.L1386
+	.half	.L1353-.L1352
 	.byte	3,1,1,5,10,9
-	.half	.L1388-.L1387
+	.half	.L1354-.L1353
 	.byte	3,1,1,5,32,9
-	.half	.L9-.L1388
+	.half	.L9-.L1354
 	.byte	3,4,1,5,13,9
-	.half	.L1389-.L9
+	.half	.L1355-.L9
 	.byte	3,1,1,9
-	.half	.L1390-.L1389
+	.half	.L1356-.L1355
 	.byte	3,1,1,9
-	.half	.L1391-.L1390
+	.half	.L1357-.L1356
 	.byte	3,1,1,9
-	.half	.L1392-.L1391
+	.half	.L1358-.L1357
 	.byte	3,1,1,5,32,9
-	.half	.L1393-.L1392
+	.half	.L1359-.L1358
 	.byte	3,2,1,5,13,9
-	.half	.L1394-.L1393
+	.half	.L1360-.L1359
 	.byte	3,1,1,9
-	.half	.L1395-.L1394
+	.half	.L1361-.L1360
 	.byte	3,1,1,9
-	.half	.L1396-.L1395
+	.half	.L1362-.L1361
 	.byte	3,1,1,9
-	.half	.L1397-.L1396
+	.half	.L1363-.L1362
 	.byte	3,1,1,5,10,9
-	.half	.L1398-.L1397
+	.half	.L1364-.L1363
 	.byte	3,1,1,5,24,9
-	.half	.L11-.L1398
+	.half	.L11-.L1364
 	.byte	3,2,1,5,1,9
-	.half	.L1399-.L11
+	.half	.L1365-.L11
 	.byte	3,1,1,7,9
-	.half	.L329-.L1399
+	.half	.L329-.L1365
 	.byte	0,1,1
-.L1368:
+.L1334:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_set_region')
 	.sect	'.debug_ranges'
 .L328:
@@ -12188,12 +12070,12 @@ tft180_display_font:	.type	object
 	.word	.L226
 	.byte	3
 	.byte	'tft180_debug_init',0,1,224,1,13,1,1
-	.word	.L189,.L536,.L188
+	.word	.L189,.L530,.L188
 	.byte	4
-	.word	.L189,.L536
+	.word	.L189,.L530
 	.byte	5
 	.byte	'info',0,1,226,1,25
-	.word	.L537,.L538
+	.word	.L531,.L532
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('tft180_debug_init')
 	.sect	'.debug_abbrev'
@@ -12203,76 +12085,76 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_line',debug,cluster('tft180_debug_init')
 	.sect	'.debug_line'
 .L332:
-	.word	.L1401-.L1400
-.L1400:
+	.word	.L1367-.L1366
+.L1366:
 	.half	3
-	.word	.L1403-.L1402
-.L1402:
+	.word	.L1369-.L1368
+.L1368:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../libraries/zf_device/zf_device_tft180.c',0,0,0,0,0
-.L1403:
+.L1369:
 	.byte	5,13,7,0,5,2
 	.word	.L189
 	.byte	3,223,1,1,5,31,9
-	.half	.L554-.L189
+	.half	.L548-.L189
 	.byte	3,3,1,5,23,9
-	.half	.L1404-.L554
+	.half	.L1370-.L548
 	.byte	3,2,1,5,21,9
-	.half	.L1405-.L1404
+	.half	.L1371-.L1370
 	.byte	1,5,26,9
-	.half	.L1406-.L1405
+	.half	.L1372-.L1371
 	.byte	3,1,1,5,24,9
-	.half	.L1407-.L1406
+	.half	.L1373-.L1372
 	.byte	1,5,26,9
-	.half	.L1408-.L1407
+	.half	.L1374-.L1373
 	.byte	3,1,1,5,24,9
-	.half	.L1409-.L1408
+	.half	.L1375-.L1374
 	.byte	1,5,12,9
-	.half	.L1410-.L1409
+	.half	.L1376-.L1375
 	.byte	3,2,1,5,14,9
-	.half	.L1411-.L1410
+	.half	.L1377-.L1376
 	.byte	3,2,1,9
-	.half	.L1412-.L1411
+	.half	.L1378-.L1377
 	.byte	3,5,1,9
-	.half	.L1413-.L1412
+	.half	.L1379-.L1378
 	.byte	3,5,1,5,32,9
-	.half	.L13-.L1413
+	.half	.L13-.L1379
 	.byte	3,120,1,5,30,9
-	.half	.L1414-.L13
+	.half	.L1380-.L13
 	.byte	1,5,32,9
-	.half	.L1415-.L1414
+	.half	.L1381-.L1380
 	.byte	3,1,1,5,30,9
-	.half	.L1416-.L1415
+	.half	.L1382-.L1381
 	.byte	1,5,10,9
-	.half	.L1417-.L1416
+	.half	.L1383-.L1382
 	.byte	3,1,1,5,32,9
-	.half	.L14-.L1417
+	.half	.L14-.L1383
 	.byte	3,3,1,5,30,9
-	.half	.L1418-.L14
+	.half	.L1384-.L14
 	.byte	1,5,32,9
-	.half	.L1419-.L1418
+	.half	.L1385-.L1384
 	.byte	3,1,1,5,30,9
-	.half	.L1420-.L1419
+	.half	.L1386-.L1385
 	.byte	1,5,10,9
-	.half	.L1421-.L1420
+	.half	.L1387-.L1386
 	.byte	3,1,1,9
-	.half	.L15-.L1421
+	.half	.L15-.L1387
 	.byte	3,4,1,5,26,9
 	.half	.L17-.L15
 	.byte	3,2,1,5,24,9
-	.half	.L1422-.L17
+	.half	.L1388-.L17
 	.byte	1,5,32,9
-	.half	.L1423-.L1422
+	.half	.L1389-.L1388
 	.byte	3,1,1,5,30,9
-	.half	.L1424-.L1423
+	.half	.L1390-.L1389
 	.byte	1,5,24,9
-	.half	.L1425-.L1424
+	.half	.L1391-.L1390
 	.byte	3,2,1,5,1,9
-	.half	.L1426-.L1425
+	.half	.L1392-.L1391
 	.byte	3,1,1,7,9
-	.half	.L334-.L1426
+	.half	.L334-.L1392
 	.byte	0,1,1
-.L1401:
+.L1367:
 	.sdecl	'.debug_ranges',debug,cluster('tft180_debug_init')
 	.sect	'.debug_ranges'
 .L333:
@@ -12414,24 +12296,24 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_loc',debug,cluster('tft180_clear')
 	.sect	'.debug_loc'
 .L349:
-	.word	-1,.L191,.L555-.L191,.L556-.L191
+	.word	-1,.L191,.L549-.L191,.L550-.L191
 	.half	1
 	.byte	98
-	.word	.L557-.L191,.L347-.L191
+	.word	.L551-.L191,.L347-.L191
 	.half	1
 	.byte	108
-	.word	.L20-.L191,.L558-.L191
+	.word	.L20-.L191,.L552-.L191
 	.half	1
 	.byte	98
-	.word	.L563-.L191,.L564-.L191
+	.word	.L557-.L191,.L558-.L191
 	.half	1
 	.byte	100
-	.word	.L566-.L191,.L567-.L191
+	.word	.L560-.L191,.L561-.L191
 	.half	1
 	.byte	100
 	.word	0,0
 .L351:
-	.word	-1,.L191,.L559-.L191,.L560-.L191
+	.word	-1,.L191,.L553-.L191,.L554-.L191
 	.half	5
 	.byte	144,32,157,32,0
 	.word	.L22-.L191,.L25-.L191
@@ -12439,10 +12321,10 @@ tft180_display_font:	.type	object
 	.byte	144,32,157,32,0
 	.word	0,0
 .L352:
-	.word	-1,.L191,.L561-.L191,.L562-.L191
+	.word	-1,.L191,.L555-.L191,.L556-.L191
 	.half	1
 	.byte	95
-	.word	.L24-.L191,.L565-.L191
+	.word	.L24-.L191,.L559-.L191
 	.half	1
 	.byte	95
 	.word	0,0
@@ -12453,19 +12335,19 @@ tft180_display_font:	.type	object
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_debug_init')
 	.sect	'.debug_loc'
-.L538:
-	.word	-1,.L189,0,.L536-.L189
+.L532:
+	.word	-1,.L189,0,.L530-.L189
 	.half	2
 	.byte	145,104
 	.word	0,0
 .L188:
-	.word	-1,.L189,0,.L554-.L189
+	.word	-1,.L189,0,.L548-.L189
 	.half	2
 	.byte	138,0
-	.word	.L554-.L189,.L536-.L189
+	.word	.L548-.L189,.L530-.L189
 	.half	2
 	.byte	138,24
-	.word	.L536-.L189,.L536-.L189
+	.word	.L530-.L189,.L530-.L189
 	.half	2
 	.byte	138,0
 	.word	0,0
@@ -12475,30 +12357,30 @@ tft180_display_font:	.type	object
 	.word	-1,.L203,0,.L374-.L203
 	.half	2
 	.byte	145,0
-	.word	.L600-.L203,.L374-.L203
+	.word	.L594-.L203,.L374-.L203
 	.half	1
 	.byte	91
-	.word	.L616-.L203,.L617-.L203
+	.word	.L610-.L203,.L611-.L203
 	.half	1
 	.byte	86
-	.word	.L620-.L203,.L621-.L203
+	.word	.L614-.L203,.L615-.L203
 	.half	1
 	.byte	86
-	.word	.L631-.L203,.L632-.L203
+	.word	.L625-.L203,.L626-.L203
 	.half	1
 	.byte	86
-	.word	.L636-.L203,.L637-.L203
+	.word	.L630-.L203,.L631-.L203
 	.half	1
 	.byte	86
-	.word	.L639-.L203,.L640-.L203
+	.word	.L633-.L203,.L634-.L203
 	.half	1
 	.byte	86
-	.word	.L646-.L203,.L56-.L203
+	.word	.L640-.L203,.L56-.L203
 	.half	1
 	.byte	86
 	.word	0,0
 .L387:
-	.word	-1,.L203,.L614-.L203,.L52-.L203
+	.word	-1,.L203,.L608-.L203,.L52-.L203
 	.half	1
 	.byte	92
 	.word	.L53-.L203,.L56-.L203
@@ -12506,7 +12388,7 @@ tft180_display_font:	.type	object
 	.byte	92
 	.word	0,0
 .L386:
-	.word	-1,.L203,.L612-.L203,.L52-.L203
+	.word	-1,.L203,.L606-.L203,.L52-.L203
 	.half	1
 	.byte	93
 	.word	.L53-.L203,.L56-.L203
@@ -12514,10 +12396,10 @@ tft180_display_font:	.type	object
 	.byte	93
 	.word	0,0
 .L202:
-	.word	-1,.L203,0,.L593-.L203
+	.word	-1,.L203,0,.L587-.L203
 	.half	2
 	.byte	138,0
-	.word	.L593-.L203,.L374-.L203
+	.word	.L587-.L203,.L374-.L203
 	.half	2
 	.byte	138,8
 	.word	.L374-.L203,.L374-.L203
@@ -12525,61 +12407,61 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L383:
-	.word	-1,.L203,.L641-.L203,.L642-.L203
+	.word	-1,.L203,.L635-.L203,.L636-.L203
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
 .L377:
-	.word	-1,.L203,0,.L594-.L203
+	.word	-1,.L203,0,.L588-.L203
 	.half	1
 	.byte	86
-	.word	.L603-.L203,.L604-.L203
+	.word	.L597-.L203,.L598-.L203
 	.half	1
 	.byte	89
-	.word	.L381-.L203,.L605-.L203
+	.word	.L381-.L203,.L599-.L203
 	.half	1
 	.byte	89
-	.word	.L51-.L203,.L608-.L203
+	.word	.L51-.L203,.L602-.L203
 	.half	1
 	.byte	89
-	.word	.L610-.L203,.L611-.L203
+	.word	.L604-.L203,.L605-.L203
 	.half	1
 	.byte	89
-	.word	.L55-.L203,.L615-.L203
+	.word	.L55-.L203,.L609-.L203
 	.half	1
 	.byte	89
-	.word	.L618-.L203,.L619-.L203
+	.word	.L612-.L203,.L613-.L203
 	.half	1
 	.byte	89
-	.word	.L58-.L203,.L626-.L203
+	.word	.L58-.L203,.L620-.L203
 	.half	1
 	.byte	89
-	.word	.L627-.L203,.L628-.L203
+	.word	.L621-.L203,.L622-.L203
 	.half	1
 	.byte	89
-	.word	.L59-.L203,.L629-.L203
+	.word	.L59-.L203,.L623-.L203
 	.half	1
 	.byte	89
-	.word	.L65-.L203,.L644-.L203
+	.word	.L65-.L203,.L638-.L203
 	.half	1
 	.byte	89
 	.word	0,0
 .L375:
-	.word	-1,.L203,0,.L595-.L203
+	.word	-1,.L203,0,.L589-.L203
 	.half	1
 	.byte	84
-	.word	.L597-.L203,.L598-.L203
+	.word	.L591-.L203,.L592-.L203
 	.half	1
 	.byte	95
-	.word	.L62-.L203,.L635-.L203
+	.word	.L62-.L203,.L629-.L203
 	.half	1
 	.byte	95
-	.word	.L643-.L203,.L374-.L203
+	.word	.L637-.L203,.L374-.L203
 	.half	1
 	.byte	95
 	.word	0,0
 .L384:
-	.word	-1,.L203,.L607-.L203,.L49-.L203
+	.word	-1,.L203,.L601-.L203,.L49-.L203
 	.half	1
 	.byte	94
 	.word	.L51-.L203,.L374-.L203
@@ -12587,67 +12469,67 @@ tft180_display_font:	.type	object
 	.byte	94
 	.word	0,0
 .L378:
-	.word	-1,.L203,0,.L594-.L203
+	.word	-1,.L203,0,.L588-.L203
 	.half	1
 	.byte	87
-	.word	.L599-.L203,.L374-.L203
+	.word	.L593-.L203,.L374-.L203
 	.half	1
 	.byte	90
 	.word	0,0
 .L376:
-	.word	-1,.L203,0,.L596-.L203
+	.word	-1,.L203,0,.L590-.L203
 	.half	1
 	.byte	85
-	.word	.L601-.L203,.L602-.L203
+	.word	.L595-.L203,.L596-.L203
 	.half	1
 	.byte	88
-	.word	.L48-.L203,.L606-.L203
+	.word	.L48-.L203,.L600-.L203
 	.half	1
 	.byte	88
-	.word	.L608-.L203,.L609-.L203
+	.word	.L602-.L203,.L603-.L203
 	.half	1
 	.byte	88
-	.word	.L612-.L203,.L613-.L203
+	.word	.L606-.L203,.L607-.L203
 	.half	1
 	.byte	88
-	.word	.L55-.L203,.L615-.L203
+	.word	.L55-.L203,.L609-.L203
 	.half	1
 	.byte	88
-	.word	.L54-.L203,.L618-.L203
+	.word	.L54-.L203,.L612-.L203
 	.half	1
 	.byte	88
-	.word	.L53-.L203,.L622-.L203
+	.word	.L53-.L203,.L616-.L203
 	.half	1
 	.byte	88
-	.word	.L623-.L203,.L624-.L203
+	.word	.L617-.L203,.L618-.L203
 	.half	1
 	.byte	88
-	.word	.L57-.L203,.L625-.L203
+	.word	.L57-.L203,.L619-.L203
 	.half	1
 	.byte	88
-	.word	.L63-.L203,.L630-.L203
+	.word	.L63-.L203,.L624-.L203
 	.half	1
 	.byte	88
-	.word	.L633-.L203,.L634-.L203
+	.word	.L627-.L203,.L628-.L203
 	.half	1
 	.byte	88
-	.word	.L66-.L203,.L638-.L203
+	.word	.L66-.L203,.L632-.L203
 	.half	1
 	.byte	88
-	.word	.L645-.L203,.L644-.L203
+	.word	.L639-.L203,.L638-.L203
 	.half	1
 	.byte	88
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_draw_point')
 	.sect	'.debug_loc'
 .L373:
-	.word	-1,.L201,0,.L583-.L201
+	.word	-1,.L201,0,.L577-.L201
 	.half	1
 	.byte	86
-	.word	.L586-.L201,.L369-.L201
+	.word	.L580-.L201,.L369-.L201
 	.half	1
 	.byte	90
-	.word	.L591-.L201,.L592-.L201
+	.word	.L585-.L201,.L586-.L201
 	.half	1
 	.byte	85
 	.word	0,0
@@ -12657,56 +12539,56 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L370:
-	.word	-1,.L201,0,.L584-.L201
+	.word	-1,.L201,0,.L578-.L201
 	.half	1
 	.byte	84
-	.word	.L587-.L201,.L584-.L201
+	.word	.L581-.L201,.L578-.L201
 	.half	1
 	.byte	88
-	.word	.L44-.L201,.L590-.L201
+	.word	.L44-.L201,.L584-.L201
 	.half	1
 	.byte	88
 	.word	0,0
 .L371:
-	.word	-1,.L201,0,.L585-.L201
+	.word	-1,.L201,0,.L579-.L201
 	.half	1
 	.byte	85
-	.word	.L588-.L201,.L589-.L201
+	.word	.L582-.L201,.L583-.L201
 	.half	1
 	.byte	89
-	.word	.L44-.L201,.L590-.L201
+	.word	.L44-.L201,.L584-.L201
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_full')
 	.sect	'.debug_loc'
 .L355:
-	.word	-1,.L193,0,.L568-.L193
+	.word	-1,.L193,0,.L562-.L193
 	.half	1
 	.byte	84
-	.word	.L569-.L193,.L353-.L193
+	.word	.L563-.L193,.L353-.L193
 	.half	1
 	.byte	88
 	.word	0,0
 .L356:
-	.word	-1,.L193,.L570-.L193,.L571-.L193
+	.word	-1,.L193,.L564-.L193,.L565-.L193
 	.half	1
 	.byte	98
-	.word	.L572-.L193,.L353-.L193
+	.word	.L566-.L193,.L353-.L193
 	.half	1
 	.byte	108
-	.word	.L28-.L193,.L573-.L193
+	.word	.L28-.L193,.L567-.L193
 	.half	1
 	.byte	98
-	.word	.L578-.L193,.L579-.L193
+	.word	.L572-.L193,.L573-.L193
 	.half	1
 	.byte	100
-	.word	.L581-.L193,.L582-.L193
+	.word	.L575-.L193,.L576-.L193
 	.half	1
 	.byte	100
 	.word	0,0
 .L357:
-	.word	-1,.L193,.L574-.L193,.L575-.L193
+	.word	-1,.L193,.L568-.L193,.L569-.L193
 	.half	5
 	.byte	144,32,157,32,0
 	.word	.L30-.L193,.L33-.L193
@@ -12714,10 +12596,10 @@ tft180_display_font:	.type	object
 	.byte	144,32,157,32,0
 	.word	0,0
 .L358:
-	.word	-1,.L193,.L576-.L193,.L577-.L193
+	.word	-1,.L193,.L570-.L193,.L571-.L193
 	.half	1
 	.byte	95
-	.word	.L32-.L193,.L580-.L193
+	.word	.L32-.L193,.L574-.L193
 	.half	1
 	.byte	95
 	.word	0,0
@@ -12729,13 +12611,13 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_loc',debug,cluster('tft180_init')
 	.sect	'.debug_loc'
 .L224:
-	.word	-1,.L225,0,.L925-.L225
+	.word	-1,.L225,0,.L903-.L225
 	.half	2
 	.byte	138,0
-	.word	.L925-.L225,.L527-.L225
+	.word	.L903-.L225,.L521-.L225
 	.half	2
 	.byte	138,16
-	.word	.L527-.L225,.L527-.L225
+	.word	.L521-.L225,.L521-.L225
 	.half	2
 	.byte	138,0
 	.word	0,0
@@ -12783,115 +12665,78 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_loc',debug,cluster('tft180_set_region')
 	.sect	'.debug_loc'
 .L186:
-	.word	-1,.L187,0,.L531-.L187
+	.word	-1,.L187,0,.L525-.L187
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L532:
-	.word	-1,.L187,0,.L544-.L187
+.L526:
+	.word	-1,.L187,0,.L538-.L187
 	.half	1
 	.byte	84
-	.word	.L547-.L187,.L544-.L187
+	.word	.L541-.L187,.L538-.L187
 	.half	1
 	.byte	88
 	.word	0,0
-.L534:
-	.word	-1,.L187,0,.L545-.L187
+.L528:
+	.word	-1,.L187,0,.L539-.L187
 	.half	1
 	.byte	86
-	.word	.L550-.L187,.L551-.L187
+	.word	.L544-.L187,.L545-.L187
 	.half	1
 	.byte	90
 	.word	0,0
-.L533:
-	.word	-1,.L187,0,.L546-.L187
+.L527:
+	.word	-1,.L187,0,.L540-.L187
 	.half	1
 	.byte	85
-	.word	.L548-.L187,.L549-.L187
+	.word	.L542-.L187,.L543-.L187
 	.half	1
 	.byte	89
 	.word	0,0
-.L535:
-	.word	-1,.L187,0,.L545-.L187
+.L529:
+	.word	-1,.L187,0,.L539-.L187
 	.half	1
 	.byte	87
-	.word	.L552-.L187,.L553-.L187
+	.word	.L546-.L187,.L547-.L187
 	.half	1
 	.byte	91
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_binary_image')
 	.sect	'.debug_loc'
-.L464:
-	.word	-1,.L215,.L756-.L215,.L757-.L215
-	.half	1
-	.byte	98
-	.word	.L758-.L215,.L450-.L215
-	.half	1
-	.byte	109
-	.word	.L111-.L215,.L759-.L215
-	.half	1
-	.byte	98
-	.word	.L777-.L215,.L778-.L215
-	.half	1
-	.byte	100
-	.word	.L780-.L215,.L781-.L215
-	.half	1
-	.byte	100
-	.word	0,0
-.L458:
-	.word	-1,.L215,0,.L450-.L215
-	.half	2
-	.byte	145,4
-	.word	.L752-.L215,.L450-.L215
-	.half	1
-	.byte	93
-	.word	0,0
-.L457:
-	.word	-1,.L215,0,.L450-.L215
-	.half	2
-	.byte	145,0
-	.word	.L751-.L215,.L450-.L215
-	.half	1
-	.byte	92
-	.word	.L779-.L215,.L778-.L215
-	.half	1
-	.byte	85
-	.word	0,0
 .L456:
-	.word	-1,.L215,0,.L746-.L215
+	.word	-1,.L215,0,.L740-.L215
 	.half	1
 	.byte	87
-	.word	.L114-.L215,.L766-.L215
+	.word	.L749-.L215,.L750-.L215
+	.half	1
+	.byte	91
+	.word	.L113-.L215,.L759-.L215
 	.half	1
 	.byte	91
 	.word	0,0
-.L460:
-	.word	-1,.L215,.L770-.L215,.L771-.L215
+.L458:
+	.word	-1,.L215,.L755-.L215,.L756-.L215
 	.half	1
-	.byte	84
+	.byte	89
+	.word	.L115-.L215,.L113-.L215
+	.half	1
+	.byte	89
 	.word	0,0
 .L454:
-	.word	-1,.L215,0,.L747-.L215
+	.word	-1,.L215,0,.L741-.L215
 	.half	1
 	.byte	100
-	.word	.L750-.L215,.L450-.L215
+	.word	.L744-.L215,.L450-.L215
 	.half	1
 	.byte	108
 	.word	0,0
-.L465:
-	.word	-1,.L215,.L769-.L215,.L113-.L215
-	.half	1
-	.byte	111
-	.word	0,0
-.L461:
-	.word	-1,.L215,.L765-.L215,.L450-.L215
+.L459:
+	.word	-1,.L215,.L753-.L215,.L754-.L215
 	.half	1
 	.byte	88
-	.word	0,0
-.L462:
-	.word	-1,.L215,.L775-.L215,.L776-.L215
-	.half	5
-	.byte	144,32,157,32,0
+	.word	.L113-.L215,.L450-.L215
+	.half	1
+	.byte	88
 	.word	0,0
 .L214:
 	.word	-1,.L215,0,.L450-.L215
@@ -12899,56 +12744,54 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L455:
-	.word	-1,.L215,0,.L746-.L215
+	.word	-1,.L215,0,.L740-.L215
 	.half	1
 	.byte	86
-	.word	.L767-.L215,.L768-.L215
+	.word	.L112-.L215,.L748-.L215
 	.half	1
 	.byte	90
-	.word	.L116-.L215,.L772-.L215
+	.word	.L116-.L215,.L757-.L215
 	.half	1
 	.byte	90
-	.word	0,0
-.L463:
-	.word	-1,.L215,.L773-.L215,.L774-.L215
+	.word	.L115-.L215,.L758-.L215
 	.half	1
-	.byte	82
+	.byte	90
 	.word	0,0
 .L451:
-	.word	-1,.L215,0,.L748-.L215
+	.word	-1,.L215,0,.L742-.L215
 	.half	1
 	.byte	84
-	.word	.L753-.L215,.L748-.L215
+	.word	.L745-.L215,.L742-.L215
 	.half	1
 	.byte	88
-	.word	.L112-.L215,.L760-.L215
+	.word	.L112-.L215,.L748-.L215
 	.half	1
 	.byte	88
-	.word	.L763-.L215,.L764-.L215
+	.word	.L751-.L215,.L752-.L215
 	.half	1
 	.byte	88
 	.word	0,0
 .L452:
-	.word	-1,.L215,0,.L749-.L215
+	.word	-1,.L215,0,.L743-.L215
 	.half	1
 	.byte	85
-	.word	.L754-.L215,.L755-.L215
+	.word	.L746-.L215,.L747-.L215
 	.half	1
 	.byte	89
-	.word	.L761-.L215,.L762-.L215
+	.word	.L749-.L215,.L750-.L215
 	.half	1
 	.byte	89
-	.word	.L763-.L215,.L764-.L215
+	.word	.L751-.L215,.L752-.L215
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_char')
 	.sect	'.debug_loc'
 .L392:
-	.word	-1,.L205,0,.L648-.L205
+	.word	-1,.L205,0,.L642-.L205
 	.half	1
 	.byte	86
-	.word	.L651-.L205,.L388-.L205
+	.word	.L645-.L205,.L388-.L205
 	.half	1
 	.byte	90
 	.word	0,0
@@ -12963,44 +12806,44 @@ tft180_display_font:	.type	object
 	.byte	145,128,126
 	.word	0,0
 .L395:
-	.word	-1,.L205,.L660-.L205,.L397-.L205
+	.word	-1,.L205,.L654-.L205,.L397-.L205
 	.half	5
 	.byte	144,32,157,32,0
-	.word	.L668-.L205,.L402-.L205
+	.word	.L662-.L205,.L402-.L205
 	.half	1
 	.byte	83
 	.word	0,0
 .L396:
-	.word	-1,.L205,.L662-.L205,.L73-.L205
+	.word	-1,.L205,.L656-.L205,.L73-.L205
 	.half	1
 	.byte	82
-	.word	.L672-.L205,.L670-.L205
+	.word	.L666-.L205,.L664-.L205
 	.half	1
 	.byte	81
-	.word	.L670-.L205,.L80-.L205
+	.word	.L664-.L205,.L80-.L205
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
 .L407:
-	.word	-1,.L205,.L671-.L205,.L80-.L205
+	.word	-1,.L205,.L665-.L205,.L80-.L205
 	.half	1
 	.byte	84
 	.word	0,0
 .L401:
-	.word	-1,.L205,.L661-.L205,.L73-.L205
+	.word	-1,.L205,.L655-.L205,.L73-.L205
 	.half	1
 	.byte	81
 	.word	0,0
 .L406:
-	.word	-1,.L205,.L669-.L205,.L670-.L205
+	.word	-1,.L205,.L663-.L205,.L664-.L205
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
 .L204:
-	.word	-1,.L205,0,.L647-.L205
+	.word	-1,.L205,0,.L641-.L205
 	.half	2
 	.byte	138,0
-	.word	.L647-.L205,.L388-.L205
+	.word	.L641-.L205,.L388-.L205
 	.half	3
 	.byte	138,128,2
 	.word	.L388-.L205,.L388-.L205
@@ -13008,198 +12851,198 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L389:
-	.word	-1,.L205,0,.L649-.L205
+	.word	-1,.L205,0,.L643-.L205
 	.half	1
 	.byte	84
-	.word	.L652-.L205,.L649-.L205
+	.word	.L646-.L205,.L643-.L205
 	.half	1
 	.byte	88
-	.word	.L69-.L205,.L655-.L205
+	.word	.L69-.L205,.L649-.L205
 	.half	1
 	.byte	88
-	.word	.L658-.L205,.L659-.L205
+	.word	.L652-.L205,.L653-.L205
 	.half	1
 	.byte	88
-	.word	.L70-.L205,.L663-.L205
+	.word	.L70-.L205,.L657-.L205
 	.half	1
 	.byte	88
-	.word	.L666-.L205,.L667-.L205
+	.word	.L660-.L205,.L661-.L205
 	.half	1
 	.byte	88
 	.word	0,0
 .L390:
-	.word	-1,.L205,0,.L650-.L205
+	.word	-1,.L205,0,.L644-.L205
 	.half	1
 	.byte	85
-	.word	.L653-.L205,.L654-.L205
+	.word	.L647-.L205,.L648-.L205
 	.half	1
 	.byte	89
-	.word	.L656-.L205,.L657-.L205
+	.word	.L650-.L205,.L651-.L205
+	.half	1
+	.byte	89
+	.word	.L652-.L205,.L653-.L205
 	.half	1
 	.byte	89
 	.word	.L658-.L205,.L659-.L205
 	.half	1
 	.byte	89
-	.word	.L664-.L205,.L665-.L205
-	.half	1
-	.byte	89
-	.word	.L666-.L205,.L667-.L205
+	.word	.L660-.L205,.L661-.L205
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_chinese')
 	.sect	'.debug_loc'
-.L515:
-	.word	-1,.L223,0,.L888-.L223
+.L509:
+	.word	-1,.L223,0,.L866-.L223
 	.half	1
 	.byte	100
-	.word	.L893-.L223,.L511-.L223
+	.word	.L871-.L223,.L505-.L223
 	.half	1
 	.byte	108
 	.word	0,0
-.L518:
-	.word	-1,.L223,0,.L511-.L223
+.L512:
+	.word	-1,.L223,0,.L505-.L223
 	.half	2
 	.byte	145,0
-	.word	.L895-.L223,.L511-.L223
+	.word	.L873-.L223,.L505-.L223
 	.half	1
 	.byte	91
-	.word	.L917-.L223,.L918-.L223
+	.word	.L895-.L223,.L896-.L223
 	.half	1
 	.byte	85
 	.word	0,0
-.L520:
-	.word	-1,.L223,.L908-.L223,.L511-.L223
+.L514:
+	.word	-1,.L223,.L886-.L223,.L505-.L223
 	.half	1
 	.byte	88
 	.word	0,0
-.L521:
-	.word	-1,.L223,.L915-.L223,.L159-.L223
+.L515:
+	.word	-1,.L223,.L893-.L223,.L159-.L223
 	.half	1
 	.byte	94
 	.word	0,0
-.L522:
-	.word	-1,.L223,.L914-.L223,.L157-.L223
+.L516:
+	.word	-1,.L223,.L892-.L223,.L157-.L223
 	.half	1
 	.byte	89
 	.word	0,0
-.L516:
-	.word	-1,.L223,0,.L889-.L223
+.L510:
+	.word	-1,.L223,0,.L867-.L223
 	.half	1
 	.byte	87
-	.word	.L894-.L223,.L511-.L223
+	.word	.L872-.L223,.L505-.L223
 	.half	2
 	.byte	145,124
-	.word	.L900-.L223,.L901-.L223
+	.word	.L878-.L223,.L879-.L223
 	.half	1
 	.byte	95
-	.word	.L909-.L223,.L910-.L223
+	.word	.L887-.L223,.L888-.L223
 	.half	1
 	.byte	95
 	.word	0,0
-.L526:
-	.word	-1,.L223,.L912-.L223,.L913-.L223
+.L520:
+	.word	-1,.L223,.L890-.L223,.L891-.L223
 	.half	1
 	.byte	111
-	.word	.L919-.L223,.L920-.L223
+	.word	.L897-.L223,.L898-.L223
 	.half	5
 	.byte	144,32,157,32,0
-	.word	.L920-.L223,.L157-.L223
+	.word	.L898-.L223,.L157-.L223
 	.half	1
 	.byte	95
 	.word	.L157-.L223,.L155-.L223
 	.half	1
 	.byte	111
 	.word	0,0
-.L514:
-	.word	-1,.L223,0,.L889-.L223
+.L508:
+	.word	-1,.L223,0,.L867-.L223
 	.half	1
 	.byte	86
-	.word	.L892-.L223,.L511-.L223
+	.word	.L870-.L223,.L505-.L223
 	.half	1
 	.byte	90
 	.word	0,0
-.L523:
-	.word	-1,.L223,.L916-.L223,.L161-.L223
+.L517:
+	.word	-1,.L223,.L894-.L223,.L161-.L223
 	.half	1
 	.byte	95
 	.word	0,0
-.L524:
-	.word	-1,.L223,.L911-.L223,.L155-.L223
+.L518:
+	.word	-1,.L223,.L889-.L223,.L155-.L223
 	.half	2
 	.byte	145,120
 	.word	.L158-.L223,.L160-.L223
 	.half	5
 	.byte	144,32,157,32,0
-	.word	.L921-.L223,.L922-.L223
+	.word	.L899-.L223,.L900-.L223
 	.half	1
 	.byte	95
-	.word	.L922-.L223,.L155-.L223
+	.word	.L900-.L223,.L155-.L223
 	.half	5
 	.byte	144,32,157,32,0
-	.word	.L923-.L223,.L924-.L223
+	.word	.L901-.L223,.L902-.L223
 	.half	1
 	.byte	95
 	.word	0,0
-.L525:
-	.word	-1,.L223,.L899-.L223,.L511-.L223
+.L519:
+	.word	-1,.L223,.L877-.L223,.L505-.L223
 	.half	1
 	.byte	92
 	.word	0,0
 .L222:
-	.word	-1,.L223,0,.L887-.L223
+	.word	-1,.L223,0,.L865-.L223
 	.half	2
 	.byte	138,0
-	.word	.L887-.L223,.L511-.L223
+	.word	.L865-.L223,.L505-.L223
 	.half	2
 	.byte	138,8
-	.word	.L511-.L223,.L511-.L223
+	.word	.L505-.L223,.L505-.L223
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L512:
-	.word	-1,.L223,0,.L890-.L223
+.L506:
+	.word	-1,.L223,0,.L868-.L223
 	.half	1
 	.byte	84
-	.word	.L896-.L223,.L890-.L223
+	.word	.L874-.L223,.L868-.L223
 	.half	1
 	.byte	88
-	.word	.L902-.L223,.L903-.L223
+	.word	.L880-.L223,.L881-.L223
 	.half	1
 	.byte	88
-	.word	.L906-.L223,.L907-.L223
+	.word	.L884-.L223,.L885-.L223
 	.half	1
 	.byte	88
 	.word	0,0
-.L513:
-	.word	-1,.L223,0,.L891-.L223
+.L507:
+	.word	-1,.L223,0,.L869-.L223
 	.half	1
 	.byte	85
-	.word	.L897-.L223,.L898-.L223
+	.word	.L875-.L223,.L876-.L223
 	.half	1
 	.byte	89
-	.word	.L904-.L223,.L905-.L223
+	.word	.L882-.L223,.L883-.L223
 	.half	1
 	.byte	89
-	.word	.L906-.L223,.L907-.L223
+	.word	.L884-.L223,.L885-.L223
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_float')
 	.sect	'.debug_loc'
 .L442:
-	.word	-1,.L213,0,.L723-.L213
+	.word	-1,.L213,0,.L717-.L213
 	.half	1
 	.byte	86
-	.word	.L738-.L213,.L739-.L213
+	.word	.L732-.L213,.L733-.L213
 	.half	1
 	.byte	90
-	.word	.L740-.L213,.L741-.L213
+	.word	.L734-.L213,.L735-.L213
 	.half	1
 	.byte	90
 	.word	0,0
 .L446:
-	.word	-1,.L213,.L741-.L213,.L742-.L213
+	.word	-1,.L213,.L735-.L213,.L736-.L213
 	.half	1
 	.byte	84
 	.word	0,0
@@ -13209,24 +13052,24 @@ tft180_display_font:	.type	object
 	.byte	145,104
 	.word	0,0
 .L443:
-	.word	-1,.L213,0,.L723-.L213
+	.word	-1,.L213,0,.L717-.L213
 	.half	1
 	.byte	87
-	.word	.L730-.L213,.L731-.L213
+	.word	.L724-.L213,.L725-.L213
 	.half	1
 	.byte	91
-	.word	.L732-.L213,.L733-.L213
+	.word	.L726-.L213,.L727-.L213
 	.half	1
 	.byte	91
-	.word	.L735-.L213,.L736-.L213
+	.word	.L729-.L213,.L730-.L213
 	.half	1
 	.byte	91
-	.word	.L737-.L213,.L738-.L213
+	.word	.L731-.L213,.L732-.L213
 	.half	1
 	.byte	91
 	.word	0,0
 .L447:
-	.word	-1,.L213,.L734-.L213,.L438-.L213
+	.word	-1,.L213,.L728-.L213,.L438-.L213
 	.half	1
 	.byte	93
 	.word	0,0
@@ -13234,18 +13077,18 @@ tft180_display_font:	.type	object
 	.word	-1,.L213,0,.L438-.L213
 	.half	2
 	.byte	145,0
-	.word	.L726-.L213,.L438-.L213
+	.word	.L720-.L213,.L438-.L213
 	.half	1
 	.byte	92
-	.word	.L743-.L213,.L742-.L213
+	.word	.L737-.L213,.L736-.L213
 	.half	1
 	.byte	85
 	.word	0,0
 .L212:
-	.word	-1,.L213,0,.L722-.L213
+	.word	-1,.L213,0,.L716-.L213
 	.half	2
 	.byte	138,0
-	.word	.L722-.L213,.L438-.L213
+	.word	.L716-.L213,.L438-.L213
 	.half	2
 	.byte	138,24
 	.word	.L438-.L213,.L438-.L213
@@ -13253,103 +13096,103 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L439:
-	.word	-1,.L213,0,.L724-.L213
+	.word	-1,.L213,0,.L718-.L213
 	.half	1
 	.byte	84
-	.word	.L727-.L213,.L724-.L213
+	.word	.L721-.L213,.L718-.L213
 	.half	1
 	.byte	88
-	.word	.L744-.L213,.L745-.L213
+	.word	.L738-.L213,.L739-.L213
 	.half	1
 	.byte	88
 	.word	0,0
 .L440:
-	.word	-1,.L213,0,.L725-.L213
+	.word	-1,.L213,0,.L719-.L213
 	.half	1
 	.byte	85
-	.word	.L728-.L213,.L729-.L213
+	.word	.L722-.L213,.L723-.L213
 	.half	1
 	.byte	89
-	.word	.L744-.L213,.L745-.L213
+	.word	.L738-.L213,.L739-.L213
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_gray_image')
 	.sect	'.debug_loc'
-.L478:
-	.word	-1,.L217,.L812-.L217,.L127-.L217
+.L472:
+	.word	-1,.L217,.L790-.L217,.L127-.L217
 	.half	1
 	.byte	81
 	.word	0,0
-.L480:
-	.word	-1,.L217,.L793-.L217,.L794-.L217
+.L474:
+	.word	-1,.L217,.L771-.L217,.L772-.L217
 	.half	1
 	.byte	98
-	.word	.L795-.L217,.L466-.L217
+	.word	.L773-.L217,.L460-.L217
 	.half	1
 	.byte	109
-	.word	.L121-.L217,.L796-.L217
+	.word	.L121-.L217,.L774-.L217
 	.half	1
 	.byte	98
-	.word	.L813-.L217,.L808-.L217
+	.word	.L791-.L217,.L786-.L217
 	.half	1
 	.byte	100
-	.word	.L815-.L217,.L816-.L217
+	.word	.L793-.L217,.L794-.L217
 	.half	1
 	.byte	100
 	.word	0,0
-.L473:
-	.word	-1,.L217,0,.L466-.L217
+.L467:
+	.word	-1,.L217,0,.L460-.L217
 	.half	2
 	.byte	145,4
-	.word	.L788-.L217,.L466-.L217
+	.word	.L766-.L217,.L460-.L217
 	.half	1
 	.byte	93
 	.word	0,0
-.L472:
-	.word	-1,.L217,0,.L466-.L217
+.L466:
+	.word	-1,.L217,0,.L460-.L217
 	.half	2
 	.byte	145,0
-	.word	.L787-.L217,.L466-.L217
+	.word	.L765-.L217,.L460-.L217
 	.half	1
 	.byte	92
-	.word	.L814-.L217,.L808-.L217
+	.word	.L792-.L217,.L786-.L217
 	.half	1
 	.byte	85
 	.word	0,0
-.L471:
-	.word	-1,.L217,0,.L782-.L217
+.L465:
+	.word	-1,.L217,0,.L760-.L217
 	.half	1
 	.byte	87
-	.word	.L124-.L217,.L803-.L217
+	.word	.L124-.L217,.L781-.L217
 	.half	1
 	.byte	91
 	.word	0,0
-.L476:
-	.word	-1,.L217,.L807-.L217,.L808-.L217
+.L470:
+	.word	-1,.L217,.L785-.L217,.L786-.L217
 	.half	1
 	.byte	82
 	.word	0,0
-.L469:
-	.word	-1,.L217,0,.L783-.L217
+.L463:
+	.word	-1,.L217,0,.L761-.L217
 	.half	1
 	.byte	100
-	.word	.L786-.L217,.L466-.L217
+	.word	.L764-.L217,.L460-.L217
 	.half	1
 	.byte	108
 	.word	0,0
-.L481:
-	.word	-1,.L217,.L806-.L217,.L123-.L217
+.L475:
+	.word	-1,.L217,.L784-.L217,.L123-.L217
 	.half	1
 	.byte	111
 	.word	0,0
-.L477:
-	.word	-1,.L217,.L802-.L217,.L466-.L217
+.L471:
+	.word	-1,.L217,.L780-.L217,.L460-.L217
 	.half	1
 	.byte	88
 	.word	0,0
-.L479:
-	.word	-1,.L217,.L810-.L217,.L811-.L217
+.L473:
+	.word	-1,.L217,.L788-.L217,.L789-.L217
 	.half	5
 	.byte	144,32,157,32,0
 	.word	.L127-.L217,.L128-.L217
@@ -13357,67 +13200,67 @@ tft180_display_font:	.type	object
 	.byte	144,32,157,32,0
 	.word	0,0
 .L216:
-	.word	-1,.L217,0,.L466-.L217
+	.word	-1,.L217,0,.L460-.L217
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L474:
-	.word	-1,.L217,0,.L466-.L217
+.L468:
+	.word	-1,.L217,0,.L460-.L217
 	.half	2
 	.byte	145,8
-	.word	.L789-.L217,.L466-.L217
+	.word	.L767-.L217,.L460-.L217
 	.half	1
 	.byte	94
 	.word	0,0
-.L470:
-	.word	-1,.L217,0,.L782-.L217
+.L464:
+	.word	-1,.L217,0,.L760-.L217
 	.half	1
 	.byte	86
-	.word	.L804-.L217,.L805-.L217
+	.word	.L782-.L217,.L783-.L217
 	.half	1
 	.byte	90
-	.word	.L126-.L217,.L809-.L217
+	.word	.L126-.L217,.L787-.L217
 	.half	1
 	.byte	90
 	.word	0,0
-.L467:
-	.word	-1,.L217,0,.L784-.L217
+.L461:
+	.word	-1,.L217,0,.L762-.L217
 	.half	1
 	.byte	84
-	.word	.L790-.L217,.L784-.L217
+	.word	.L768-.L217,.L762-.L217
 	.half	1
 	.byte	88
-	.word	.L122-.L217,.L797-.L217
+	.word	.L122-.L217,.L775-.L217
 	.half	1
 	.byte	88
-	.word	.L800-.L217,.L801-.L217
+	.word	.L778-.L217,.L779-.L217
 	.half	1
 	.byte	88
 	.word	0,0
-.L468:
-	.word	-1,.L217,0,.L785-.L217
+.L462:
+	.word	-1,.L217,0,.L763-.L217
 	.half	1
 	.byte	85
-	.word	.L791-.L217,.L792-.L217
+	.word	.L769-.L217,.L770-.L217
 	.half	1
 	.byte	89
-	.word	.L798-.L217,.L799-.L217
+	.word	.L776-.L217,.L777-.L217
 	.half	1
 	.byte	89
-	.word	.L800-.L217,.L801-.L217
+	.word	.L778-.L217,.L779-.L217
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_int')
 	.sect	'.debug_loc'
 .L419:
-	.word	-1,.L209,0,.L693-.L209
+	.word	-1,.L209,0,.L687-.L209
 	.half	1
 	.byte	86
-	.word	.L696-.L209,.L415-.L209
+	.word	.L690-.L209,.L415-.L209
 	.half	1
 	.byte	89
-	.word	.L702-.L209,.L703-.L209
+	.word	.L696-.L209,.L697-.L209
 	.half	1
 	.byte	84
 	.word	0,0
@@ -13429,23 +13272,23 @@ tft180_display_font:	.type	object
 	.byte	145,112
 	.word	0,0
 .L420:
-	.word	-1,.L209,0,.L693-.L209
+	.word	-1,.L209,0,.L687-.L209
 	.half	1
 	.byte	87
-	.word	.L697-.L209,.L415-.L209
+	.word	.L691-.L209,.L415-.L209
 	.half	1
 	.byte	92
 	.word	0,0
 .L424:
-	.word	-1,.L209,.L701-.L209,.L415-.L209
+	.word	-1,.L209,.L695-.L209,.L415-.L209
 	.half	1
 	.byte	95
 	.word	0,0
 .L208:
-	.word	-1,.L209,0,.L692-.L209
+	.word	-1,.L209,0,.L686-.L209
 	.half	2
 	.byte	138,0
-	.word	.L692-.L209,.L415-.L209
+	.word	.L686-.L209,.L415-.L209
 	.half	2
 	.byte	138,16
 	.word	.L415-.L209,.L415-.L209
@@ -13453,166 +13296,166 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L416:
-	.word	-1,.L209,0,.L694-.L209
+	.word	-1,.L209,0,.L688-.L209
 	.half	1
 	.byte	84
-	.word	.L698-.L209,.L694-.L209
+	.word	.L692-.L209,.L688-.L209
 	.half	1
 	.byte	90
-	.word	.L704-.L209,.L705-.L209
+	.word	.L698-.L209,.L699-.L209
 	.half	1
 	.byte	90
 	.word	0,0
 .L417:
-	.word	-1,.L209,0,.L695-.L209
+	.word	-1,.L209,0,.L689-.L209
 	.half	1
 	.byte	85
-	.word	.L699-.L209,.L700-.L209
+	.word	.L693-.L209,.L694-.L209
 	.half	1
 	.byte	91
-	.word	.L704-.L209,.L705-.L209
+	.word	.L698-.L209,.L699-.L209
 	.half	1
 	.byte	91
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_rgb565_image')
 	.sect	'.debug_loc'
-.L491:
-	.word	-1,.L219,0,.L482-.L219
+.L485:
+	.word	-1,.L219,0,.L476-.L219
 	.half	2
 	.byte	145,8
-	.word	.L824-.L219,.L482-.L219
+	.word	.L802-.L219,.L476-.L219
 	.half	1
 	.byte	94
 	.word	0,0
-.L495:
-	.word	-1,.L219,.L828-.L219,.L829-.L219
+.L489:
+	.word	-1,.L219,.L806-.L219,.L807-.L219
 	.half	1
 	.byte	98
-	.word	.L830-.L219,.L482-.L219
+	.word	.L808-.L219,.L476-.L219
 	.half	1
 	.byte	109
-	.word	.L133-.L219,.L831-.L219
+	.word	.L133-.L219,.L809-.L219
 	.half	1
 	.byte	98
-	.word	.L846-.L219,.L843-.L219
+	.word	.L824-.L219,.L821-.L219
 	.half	1
 	.byte	100
-	.word	.L847-.L219,.L140-.L219
+	.word	.L825-.L219,.L140-.L219
 	.half	1
 	.byte	100
-	.word	.L849-.L219,.L850-.L219
+	.word	.L827-.L219,.L828-.L219
 	.half	1
 	.byte	100
 	.word	0,0
-.L490:
-	.word	-1,.L219,0,.L482-.L219
+.L484:
+	.word	-1,.L219,0,.L476-.L219
 	.half	2
 	.byte	145,4
-	.word	.L823-.L219,.L482-.L219
+	.word	.L801-.L219,.L476-.L219
 	.half	1
 	.byte	93
 	.word	0,0
-.L489:
-	.word	-1,.L219,0,.L482-.L219
+.L483:
+	.word	-1,.L219,0,.L476-.L219
 	.half	2
 	.byte	145,0
-	.word	.L822-.L219,.L482-.L219
+	.word	.L800-.L219,.L476-.L219
 	.half	1
 	.byte	92
-	.word	.L848-.L219,.L140-.L219
+	.word	.L826-.L219,.L140-.L219
 	.half	1
 	.byte	85
 	.word	0,0
-.L488:
-	.word	-1,.L219,0,.L817-.L219
+.L482:
+	.word	-1,.L219,0,.L795-.L219
 	.half	1
 	.byte	87
-	.word	.L136-.L219,.L838-.L219
+	.word	.L136-.L219,.L816-.L219
 	.half	1
 	.byte	91
 	.word	0,0
-.L493:
-	.word	-1,.L219,.L842-.L219,.L843-.L219
+.L487:
+	.word	-1,.L219,.L820-.L219,.L821-.L219
 	.half	5
 	.byte	144,32,157,32,0
 	.word	.L139-.L219,.L140-.L219
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L486:
-	.word	-1,.L219,0,.L818-.L219
+.L480:
+	.word	-1,.L219,0,.L796-.L219
 	.half	1
 	.byte	100
-	.word	.L821-.L219,.L482-.L219
+	.word	.L799-.L219,.L476-.L219
 	.half	1
 	.byte	108
 	.word	0,0
-.L496:
-	.word	-1,.L219,.L841-.L219,.L135-.L219
+.L490:
+	.word	-1,.L219,.L819-.L219,.L135-.L219
 	.half	1
 	.byte	111
 	.word	0,0
-.L494:
-	.word	-1,.L219,.L837-.L219,.L482-.L219
+.L488:
+	.word	-1,.L219,.L815-.L219,.L476-.L219
 	.half	1
 	.byte	88
 	.word	0,0
 .L218:
-	.word	-1,.L219,0,.L482-.L219
+	.word	-1,.L219,0,.L476-.L219
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L487:
-	.word	-1,.L219,0,.L817-.L219
+.L481:
+	.word	-1,.L219,0,.L795-.L219
 	.half	1
 	.byte	86
-	.word	.L839-.L219,.L840-.L219
+	.word	.L817-.L219,.L818-.L219
 	.half	1
 	.byte	90
-	.word	.L844-.L219,.L845-.L219
+	.word	.L822-.L219,.L823-.L219
 	.half	1
 	.byte	90
 	.word	0,0
-.L483:
-	.word	-1,.L219,0,.L819-.L219
+.L477:
+	.word	-1,.L219,0,.L797-.L219
 	.half	1
 	.byte	84
-	.word	.L825-.L219,.L819-.L219
+	.word	.L803-.L219,.L797-.L219
 	.half	1
 	.byte	88
-	.word	.L134-.L219,.L832-.L219
+	.word	.L134-.L219,.L810-.L219
 	.half	1
 	.byte	88
-	.word	.L835-.L219,.L836-.L219
+	.word	.L813-.L219,.L814-.L219
 	.half	1
 	.byte	88
 	.word	0,0
-.L484:
-	.word	-1,.L219,0,.L820-.L219
+.L478:
+	.word	-1,.L219,0,.L798-.L219
 	.half	1
 	.byte	85
-	.word	.L826-.L219,.L827-.L219
+	.word	.L804-.L219,.L805-.L219
 	.half	1
 	.byte	89
-	.word	.L833-.L219,.L834-.L219
+	.word	.L811-.L219,.L812-.L219
 	.half	1
 	.byte	89
-	.word	.L835-.L219,.L836-.L219
+	.word	.L813-.L219,.L814-.L219
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_string')
 	.sect	'.debug_loc'
 .L412:
-	.word	-1,.L207,0,.L673-.L207
+	.word	-1,.L207,0,.L667-.L207
 	.half	1
 	.byte	100
-	.word	.L676-.L207,.L408-.L207
+	.word	.L670-.L207,.L408-.L207
 	.half	1
 	.byte	108
 	.word	0,0
 .L414:
-	.word	-1,.L207,.L680-.L207,.L681-.L207
+	.word	-1,.L207,.L674-.L207,.L675-.L207
 	.half	1
 	.byte	90
 	.word	.L94-.L207,.L408-.L207
@@ -13625,49 +13468,49 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L409:
-	.word	-1,.L207,0,.L674-.L207
+	.word	-1,.L207,0,.L668-.L207
 	.half	1
 	.byte	84
-	.word	.L677-.L207,.L674-.L207
+	.word	.L671-.L207,.L668-.L207
 	.half	1
 	.byte	88
-	.word	.L682-.L207,.L683-.L207
+	.word	.L676-.L207,.L677-.L207
 	.half	1
 	.byte	88
-	.word	.L687-.L207,.L688-.L207
+	.word	.L681-.L207,.L682-.L207
 	.half	1
 	.byte	88
 	.word	0,0
 .L410:
-	.word	-1,.L207,0,.L675-.L207
+	.word	-1,.L207,0,.L669-.L207
 	.half	1
 	.byte	85
+	.word	.L672-.L207,.L673-.L207
+	.half	1
+	.byte	89
 	.word	.L678-.L207,.L679-.L207
 	.half	1
 	.byte	89
-	.word	.L684-.L207,.L685-.L207
-	.half	1
-	.byte	89
-	.word	.L685-.L207,.L686-.L207
+	.word	.L679-.L207,.L680-.L207
 	.half	1
 	.byte	85
-	.word	.L689-.L207,.L690-.L207
+	.word	.L683-.L207,.L684-.L207
 	.half	1
 	.byte	89
-	.word	.L690-.L207,.L691-.L207
+	.word	.L684-.L207,.L685-.L207
 	.half	1
 	.byte	85
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_uint')
 	.sect	'.debug_loc'
 .L431:
-	.word	-1,.L211,0,.L707-.L211
+	.word	-1,.L211,0,.L701-.L211
 	.half	1
 	.byte	86
-	.word	.L710-.L211,.L427-.L211
+	.word	.L704-.L211,.L427-.L211
 	.half	1
 	.byte	89
-	.word	.L718-.L211,.L719-.L211
+	.word	.L712-.L211,.L713-.L211
 	.half	1
 	.byte	84
 	.word	0,0
@@ -13679,26 +13522,26 @@ tft180_display_font:	.type	object
 	.byte	145,112
 	.word	0,0
 .L432:
-	.word	-1,.L211,0,.L707-.L211
+	.word	-1,.L211,0,.L701-.L211
 	.half	1
 	.byte	87
-	.word	.L711-.L211,.L427-.L211
+	.word	.L705-.L211,.L427-.L211
 	.half	1
 	.byte	92
-	.word	.L716-.L211,.L717-.L211
+	.word	.L710-.L211,.L711-.L211
 	.half	1
 	.byte	85
 	.word	0,0
 .L436:
-	.word	-1,.L211,.L715-.L211,.L427-.L211
+	.word	-1,.L211,.L709-.L211,.L427-.L211
 	.half	1
 	.byte	95
 	.word	0,0
 .L210:
-	.word	-1,.L211,0,.L706-.L211
+	.word	-1,.L211,0,.L700-.L211
 	.half	2
 	.byte	138,0
-	.word	.L706-.L211,.L427-.L211
+	.word	.L700-.L211,.L427-.L211
 	.half	2
 	.byte	138,16
 	.word	.L427-.L211,.L427-.L211
@@ -13706,175 +13549,175 @@ tft180_display_font:	.type	object
 	.byte	138,0
 	.word	0,0
 .L428:
-	.word	-1,.L211,0,.L708-.L211
+	.word	-1,.L211,0,.L702-.L211
 	.half	1
 	.byte	84
-	.word	.L712-.L211,.L708-.L211
+	.word	.L706-.L211,.L702-.L211
 	.half	1
 	.byte	90
-	.word	.L720-.L211,.L721-.L211
+	.word	.L714-.L211,.L715-.L211
 	.half	1
 	.byte	90
 	.word	0,0
 .L429:
-	.word	-1,.L211,0,.L709-.L211
+	.word	-1,.L211,0,.L703-.L211
 	.half	1
 	.byte	85
-	.word	.L713-.L211,.L714-.L211
+	.word	.L707-.L211,.L708-.L211
 	.half	1
 	.byte	91
-	.word	.L720-.L211,.L721-.L211
+	.word	.L714-.L211,.L715-.L211
 	.half	1
 	.byte	91
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_show_wave')
 	.sect	'.debug_loc'
-.L510:
-	.word	-1,.L221,.L861-.L221,.L862-.L221
+.L504:
+	.word	-1,.L221,.L839-.L221,.L840-.L221
 	.half	1
 	.byte	98
-	.word	.L863-.L221,.L497-.L221
+	.word	.L841-.L221,.L491-.L221
 	.half	1
 	.byte	109
-	.word	.L143-.L221,.L864-.L221
+	.word	.L143-.L221,.L842-.L221
 	.half	1
 	.byte	98
-	.word	.L874-.L221,.L873-.L221
+	.word	.L852-.L221,.L851-.L221
 	.half	1
 	.byte	100
-	.word	.L885-.L221,.L886-.L221
+	.word	.L863-.L221,.L864-.L221
 	.half	1
 	.byte	100
 	.word	0,0
-.L504:
-	.word	-1,.L221,0,.L497-.L221
+.L498:
+	.word	-1,.L221,0,.L491-.L221
 	.half	2
 	.byte	145,4
-	.word	.L857-.L221,.L497-.L221
+	.word	.L835-.L221,.L491-.L221
 	.half	1
 	.byte	93
 	.word	0,0
-.L503:
-	.word	-1,.L221,0,.L497-.L221
+.L497:
+	.word	-1,.L221,0,.L491-.L221
 	.half	2
 	.byte	145,0
-	.word	.L856-.L221,.L497-.L221
+	.word	.L834-.L221,.L491-.L221
 	.half	1
 	.byte	92
-	.word	.L875-.L221,.L873-.L221
+	.word	.L853-.L221,.L851-.L221
 	.half	1
 	.byte	85
 	.word	0,0
-.L506:
-	.word	-1,.L221,.L872-.L221,.L873-.L221
+.L500:
+	.word	-1,.L221,.L850-.L221,.L851-.L221
 	.half	5
 	.byte	144,32,157,32,0
-	.word	.L871-.L221,.L497-.L221
+	.word	.L849-.L221,.L491-.L221
 	.half	1
 	.byte	94
 	.word	0,0
-.L507:
-	.word	-1,.L221,.L870-.L221,.L871-.L221
+.L501:
+	.word	-1,.L221,.L848-.L221,.L849-.L221
 	.half	1
 	.byte	94
 	.word	0,0
 .L220:
-	.word	-1,.L221,0,.L497-.L221
+	.word	-1,.L221,0,.L491-.L221
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L502:
-	.word	-1,.L221,0,.L851-.L221
+.L496:
+	.word	-1,.L221,0,.L829-.L221
 	.half	1
 	.byte	87
-	.word	.L879-.L221,.L880-.L221
+	.word	.L857-.L221,.L858-.L221
 	.half	1
 	.byte	91
 	.word	0,0
-.L509:
-	.word	-1,.L221,.L880-.L221,.L881-.L221
+.L503:
+	.word	-1,.L221,.L858-.L221,.L859-.L221
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L500:
-	.word	-1,.L221,0,.L852-.L221
+.L494:
+	.word	-1,.L221,0,.L830-.L221
 	.half	1
 	.byte	100
-	.word	.L855-.L221,.L497-.L221
+	.word	.L833-.L221,.L491-.L221
 	.half	1
 	.byte	108
 	.word	0,0
-.L501:
-	.word	-1,.L221,0,.L851-.L221
+.L495:
+	.word	-1,.L221,0,.L829-.L221
 	.half	1
 	.byte	86
-	.word	.L152-.L221,.L876-.L221
+	.word	.L152-.L221,.L854-.L221
 	.half	1
 	.byte	90
 	.word	0,0
-.L508:
-	.word	-1,.L221,.L877-.L221,.L878-.L221
+.L502:
+	.word	-1,.L221,.L855-.L221,.L856-.L221
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L498:
-	.word	-1,.L221,0,.L853-.L221
+.L492:
+	.word	-1,.L221,0,.L831-.L221
 	.half	1
 	.byte	84
-	.word	.L858-.L221,.L853-.L221
+	.word	.L836-.L221,.L831-.L221
 	.half	1
 	.byte	88
-	.word	.L144-.L221,.L865-.L221
+	.word	.L144-.L221,.L843-.L221
 	.half	1
 	.byte	88
-	.word	.L868-.L221,.L869-.L221
+	.word	.L846-.L221,.L847-.L221
 	.half	1
 	.byte	88
-	.word	.L880-.L221,.L882-.L221
+	.word	.L858-.L221,.L860-.L221
 	.half	1
 	.byte	88
 	.word	0,0
-.L499:
-	.word	-1,.L221,0,.L854-.L221
+.L493:
+	.word	-1,.L221,0,.L832-.L221
 	.half	1
 	.byte	85
-	.word	.L859-.L221,.L860-.L221
+	.word	.L837-.L221,.L838-.L221
 	.half	1
 	.byte	89
-	.word	.L866-.L221,.L867-.L221
+	.word	.L844-.L221,.L845-.L221
 	.half	1
 	.byte	89
-	.word	.L868-.L221,.L869-.L221
+	.word	.L846-.L221,.L847-.L221
 	.half	1
 	.byte	89
-	.word	.L883-.L221,.L884-.L221
+	.word	.L861-.L221,.L862-.L221
 	.half	1
 	.byte	89
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('tft180_write_index')
 	.sect	'.debug_loc'
-.L530:
-	.word	-1,.L185,0,.L539-.L185
+.L524:
+	.word	-1,.L185,0,.L533-.L185
 	.half	1
 	.byte	84
-	.word	.L540-.L185,.L528-.L185
+	.word	.L534-.L185,.L522-.L185
 	.half	1
 	.byte	88
-	.word	.L2-.L185,.L541-.L185
+	.word	.L2-.L185,.L535-.L185
 	.half	1
 	.byte	84
-	.word	.L542-.L185,.L543-.L185
+	.word	.L536-.L185,.L537-.L185
 	.half	1
 	.byte	85
 	.word	0,0
 .L184:
-	.word	-1,.L185,0,.L528-.L185
+	.word	-1,.L185,0,.L522-.L185
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L1427:
+.L1393:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -13882,128 +13725,128 @@ tft180_display_font:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('tft180_write_index')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L185,.L528-.L185
+	.word	.L1393,.L185,.L522-.L185
 	.sdecl	'.debug_frame',debug,cluster('tft180_set_region')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L187,.L531-.L187
+	.word	.L1393,.L187,.L525-.L187
 	.sdecl	'.debug_frame',debug,cluster('tft180_debug_init')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L189,.L536-.L189
+	.word	.L1393,.L189,.L530-.L189
 	.byte	4
-	.word	(.L554-.L189)/2
+	.word	(.L548-.L189)/2
 	.byte	19,24,22,26,3,19,138,24,4
-	.word	(.L536-.L554)/2
+	.word	(.L530-.L548)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('tft180_clear')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L191,.L347-.L191
+	.word	.L1393,.L191,.L347-.L191
 	.sdecl	'.debug_frame',debug,cluster('tft180_full')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L193,.L353-.L193
+	.word	.L1393,.L193,.L353-.L193
 	.sdecl	'.debug_frame',debug,cluster('tft180_set_dir')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L1427,.L195,.L359-.L195
+	.word	.L1393,.L195,.L359-.L195
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('tft180_set_font')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L1427,.L197,.L362-.L197
+	.word	.L1393,.L197,.L362-.L197
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('tft180_set_color')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L1427,.L199,.L365-.L199
+	.word	.L1393,.L199,.L365-.L199
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('tft180_draw_point')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L201,.L369-.L201
+	.word	.L1393,.L201,.L369-.L201
 	.sdecl	'.debug_frame',debug,cluster('tft180_draw_line')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L203,.L374-.L203
+	.word	.L1393,.L203,.L374-.L203
 	.byte	4
-	.word	(.L593-.L203)/2
+	.word	(.L587-.L203)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L374-.L593)/2
+	.word	(.L374-.L587)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_char')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L205,.L388-.L205
+	.word	.L1393,.L205,.L388-.L205
 	.byte	4
-	.word	(.L647-.L205)/2
+	.word	(.L641-.L205)/2
 	.byte	19,128,2,22,26,4,19,138,128,2,4
-	.word	(.L388-.L647)/2
+	.word	(.L388-.L641)/2
 	.byte	19,0,8,26
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_string')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L207,.L408-.L207
+	.word	.L1393,.L207,.L408-.L207
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_int')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L209,.L415-.L209
+	.word	.L1393,.L209,.L415-.L209
 	.byte	4
-	.word	(.L692-.L209)/2
+	.word	(.L686-.L209)/2
 	.byte	19,16,22,26,3,19,138,16,4
-	.word	(.L415-.L692)/2
+	.word	(.L415-.L686)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_uint')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L211,.L427-.L211
+	.word	.L1393,.L211,.L427-.L211
 	.byte	4
-	.word	(.L706-.L211)/2
+	.word	(.L700-.L211)/2
 	.byte	19,16,22,26,3,19,138,16,4
-	.word	(.L427-.L706)/2
+	.word	(.L427-.L700)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_float')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L213,.L438-.L213
+	.word	.L1393,.L213,.L438-.L213
 	.byte	4
-	.word	(.L722-.L213)/2
+	.word	(.L716-.L213)/2
 	.byte	19,24,22,26,3,19,138,24,4
-	.word	(.L438-.L722)/2
+	.word	(.L438-.L716)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_binary_image')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L215,.L450-.L215
+	.word	.L1393,.L215,.L450-.L215
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_gray_image')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L217,.L466-.L217
+	.word	.L1393,.L217,.L460-.L217
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_rgb565_image')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L219,.L482-.L219
+	.word	.L1393,.L219,.L476-.L219
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_wave')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L1427,.L221,.L497-.L221
+	.word	.L1393,.L221,.L491-.L221
 	.sdecl	'.debug_frame',debug,cluster('tft180_show_chinese')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L223,.L511-.L223
+	.word	.L1393,.L223,.L505-.L223
 	.byte	4
-	.word	(.L887-.L223)/2
+	.word	(.L865-.L223)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L511-.L887)/2
+	.word	(.L505-.L865)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('tft180_init')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L1427,.L225,.L527-.L225
+	.word	.L1393,.L225,.L521-.L225
 	.byte	4
-	.word	(.L925-.L225)/2
+	.word	(.L903-.L225)/2
 	.byte	19,16,22,26,3,19,138,16,4
-	.word	(.L527-.L925)/2
+	.word	(.L521-.L903)/2
 	.byte	19,0,8,26,0,0
 	; Module end
